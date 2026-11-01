@@ -22,3 +22,10 @@ data/
 clear_outputs_and_logs.sh
 # Ignore the env file
 .env
+# 工具状态与系统文件（不进仓库）
+.DS_Store
+.claude/
+.superpowers/
+.pytest_cache/
+.local_compat/
+.workbuddy-ai/
