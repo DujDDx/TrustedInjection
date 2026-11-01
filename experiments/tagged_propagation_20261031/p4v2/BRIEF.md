@@ -18,9 +18,11 @@ which. So:
 
 - Nothing about a value may reveal whether it is the truth or the rumor. If rumors are
   usually smaller, rounder, earlier, longer or more exotic than truths, the dataset is broken.
-  **For numbers, years, months and dates, make the rumor larger than the truth about half the
-  time and smaller about half the time**, varying the gap (roughly 15-60%). The validator
-  fails a batch outside 40-60%.
+  **For numbers, years, months and days, the direction of each rumor is assigned to you**
+  (higher = larger number / later date): follow it exactly, varying the gap (roughly 15-60%).
+- **The truth values form one coherent story** (it is the real event): dates in order,
+  parts not exceeding totals, comparisons ("above the range") true, consistent with the
+  tense. The rumor values need not be plausible or consistent with anything.
 - Truth and rumor have exactly the same form: same unit, same notation, same kind of thing.
   `14m pounds` / `21m pounds`, never `1.2m pounds` / `900,000 pounds`. `12 May` / `3 June`.
   A town for a town, a person for a person, a hospital for a hospital.
@@ -37,18 +39,26 @@ Grid and tags
   with a capital letter or a tag, contains **1-3 tags**, no tag repeated, **no digits** outside
   tags. At least two facts carry 2+ tags. **No proper name outside a tag**: after the first
   word, no capitalised word may appear in a fact ("in Japan" must be "in <Country>", or
-  dropped).
+  dropped). **No number outside a tag either, spelt out included**: "within two weeks",
+  "a two-day strike", "half of", "twice", "decades" must become a tag or be reworded away.
 - 6-11 tags per event; each tag appears in exactly one fact; every defined tag is used.
 - Tag names: CamelCase/underscore, no spaces, e.g. `<Person_A>`, `<Attendees>`, `<Month_B>`.
-  A year value goes in a tag whose name contains `Year`; a month value in a tag whose
-  name contains `Month`.
+- **Dates are split** (v1.1 §4.2): a `date` tag holds only a year (`2027`, tag name with
+  `Year`), an English month name (`March`, tag name with `Month`) or a day number 1-31
+  (`14`, tag name with `Day`). A Day tag is always followed directly by its Month tag:
+  "on 14 March" is written `on <Start_Day> <Start_Month>`, never "on day <Day>";
+  "in June 2027" is `in <Open_Month> <Open_Year>`. No weekdays, seasons, clock times or
+  combined dates as values; reword ("on Thursday" -> drop it, or use a day and month).
 - Categories `cat`: `date`, `place`, `agent` (person or organisation), `quantity`, `name`
   (named thing: a product, event, scheme, prize, ship…). Every event has at least one
   date, place, agent and quantity tag. f1 has at least one agent/name/place tag.
 
 Values
-- Proper nouns or numbers with units, e.g. `4,200`, `3.5 percent`, `18 days`, `14m pounds`,
-  `2,400 kronur`, `October`, `12 May`, `2027`. Never start with an article (`the`/`a`/`an`).
+- **Proper names or numerals only** (v1.1 §4.2): every value either contains a digit or
+  starts with a capital letter. `4,200`, `3.5 percent`, `18 days`, `14m pounds`, `October`,
+  `2027`, `Linden Stroke Centre`. Not `four`, `twice`, `stroke unit`, `means test`: write
+  `4`, or make the thing a named entity, or leave it untagged in the fact as plain wording.
+  Never start with an article (`the`/`a`/`an`).
   No full stop except a decimal point; no `? ! ; | < > "`; at most 40 characters.
 - Within an event no two values are equal (case-insensitive), across all truths and rumors.
 - Avoid a value being part of another value in the same event ("Leeds" + "Leeds Council").

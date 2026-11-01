@@ -26,6 +26,12 @@ MONTHS = ["January", "February", "March", "April", "May", "June", "July", "Augus
 LINKERS = re.compile(r"(?i)\b(also|too|this|these|those|another|then|meanwhile|however|"
                      r"moreover|furthermore|additionally|likewise|besides)\b")
 NUM = re.compile(r"\d[\d,]*(?:\.\d+)?")
+# v1.1 §4.1: every number in a fact is a tag, spelt-out ones included
+NUMWORDS = re.compile(
+    r"(?i)\b(one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|"
+    r"fourteen|fifteen|sixteen|seventeen|eighteen|nineteen|twenty|thirty|forty|fifty|sixty|"
+    r"seventy|eighty|ninety|hundreds?|thousands?|millions?|billions?|dozens?|half|double|"
+    r"twice|triple|thrice|quarter|fiftieth|hundredth|centenary|decades?)\b")
 
 
 def appears(val, text):
@@ -111,6 +117,15 @@ def check(e):
         bare = [w for w in words[1:] if w[:1].isupper() and w.strip(",.'") != "I"]
         if bare:
             p.append(f"f{i} has untagged names {bare}")
+        # a bare day number reads as "on day 16"; it always comes as <X_Day> <X_Month>
+        for mm in re.finditer(r"<([A-Za-z_]*Day[A-Za-z_]*)>(\s*<[A-Za-z_]+>)?", t):
+            nxt = (mm.group(2) or "").strip()
+            if f"<{mm.group(1)}>" in e["tags"] and e["tags"][f"<{mm.group(1)}>"].get("cat") == "date" \
+                    and "Month" not in nxt:
+                p.append(f"f{i}: <{mm.group(1)}> must be followed directly by a Month tag")
+        nw = NUMWORDS.findall(TAG.sub("", t))
+        if nw:
+            p.append(f"f{i} has untagged number words {nw}")
         if i > 1 and LINKERS.search(TAG.sub("", t)):
             p.append(f"f{i} leans on another fact ({LINKERS.search(TAG.sub('', t)).group()!r})")
     # a value that carries its unit must not be followed by the unit again:
@@ -161,6 +176,26 @@ def check(e):
             p.append(f"{k} holds a year; the tag name must say Year")
         if tr in MONTHS and "Month" not in k:
             p.append(f"{k} holds a month; the tag name must say Month")
+        # v1.1 §4.2: a date is split into <Year>, <Month>, <Day>, each its own tag
+        if v.get("cat") == "date":
+            for name, val in (("truth", tr), ("rumor", ru)):
+                if re.fullmatch(r"\d{4}", val):
+                    ok = "Year" in k
+                elif val in MONTHS:
+                    ok = "Month" in k
+                elif re.fullmatch(r"\d{1,2}", val) and 1 <= int(val) <= 31:
+                    ok = "Day" in k
+                else:
+                    ok = False
+                if not ok:
+                    p.append(f"{k} {name} '{val}': a date tag holds only a year (tag name "
+                             f"with Year), a month name (Month) or a day number 1-31 (Day)")
+                    break
+        # v1.1 §4.2: values are proper names or numbers
+        for name, val in (("truth", tr), ("rumor", ru)):
+            if not re.search(r"\d", val) and not val[:1].isupper():
+                p.append(f"{k} {name} '{val}' is neither a proper name nor a number")
+                break
 
     # the seed text is the archived source story: every truth value, no rumor value
     seed = e["seed_text"]
