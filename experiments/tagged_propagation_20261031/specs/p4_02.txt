@@ -1,0 +1,139 @@
+### E1021 | banking | future
+f1 | <Bank> will close <Branches> branches in <Region>. | <Bank>=name:Yorkshire Bank|Clydesdale Bank; <Branches>=quantity:37|24; <Region>=place:northern England|south Wales
+f2 | The closures take effect between <Month> and <Month_B>. | <Month>=date:March|September; <Month_B>=date:August|January
+f3 | <Union> said <Jobs> jobs would go. | <Union>=agent:Unite|GMB; <Jobs>=quantity:210|160
+f4 | The bank said <Percent> of customers used branches. | <Percent>=quantity:9 percent|6 percent
+f5 | Chief executive <Person_A> blamed a shift to <Channel>. | <Person_A>=agent:Ronan Beck|Alice Fenn; <Channel>=name:mobile banking|online banking
+
+### E1022 | energy | future
+f1 | <Developer> secured consent for a <Farm> off <Coast>. | <Developer>=name:North Sea Wind|Dogger Renewables; <Farm>=name:wind farm|solar park; <Coast>=place:Yorkshire coast|Norfolk coast
+f2 | The project will have <Turbines> turbines. | <Turbines>=quantity:84|62
+f3 | It will power <Homes> homes from <Year>. | <Homes>=quantity:610,000|480,000; <Year>=date:2031|2028
+f4 | Construction starts in <Month>. | <Month>=date:2029|2027
+f5 | <Council> opposed the onshore cable route. | <Council>=agent:East Riding Council|North Norfolk Council
+
+### E1023 | agriculture | future
+f1 | <Scheme> will pay <Farmers> farmers in <Region>. | <Scheme>=name:Upland Stewardship Scheme|Moorland Recovery Scheme; <Farmers>=quantity:3,600|2,700; <Region>=place:Cumbria|Powys
+f2 | Payments start in <Month>. | <Month>=date:April|October
+f3 | Each farm can claim up to <Amount>. | <Amount>=quantity:18,000 pounds|13,500 pounds
+f4 | <Union> president <Person_A> welcomed the scheme. | <Union>=agent:National Farmers Union|Farmers Union of Wales; <Person_A>=agent:Tom Bradshaw|Aled Rees
+f5 | Applications close on <Day>. | <Day>=date:30 June|15 September
+
+### E1024 | fisheries | past
+f1 | <Country> and <Country_B> failed to agree a <Species> quota. | <Country>=name:Iceland|Norway; <Country_B>=name:Greenland|Faroe Islands; <Species>=name:cod|haddock
+f2 | Talks broke up in <City> after <Days> days. | <City>=place:Reykjavik|Torshavn; <Days>=quantity:4|3
+f3 | The catch limit stays at <Quota>. | <Quota>=quantity:210,000 tonnes|175,000 tonnes
+f4 | <Fleet> vessels will be tied up. | <Fleet>=quantity:46|33
+f5 | Minister <Person_A> called for arbitration in <Month>. | <Person_A>=agent:Helga Einarsdottir|Bjorn Jacobsen; <Month>=date:March|June
+
+### E1025 | retail | future
+f1 | <Retailer> will shut <Stores> stores across <Region>. | <Retailer>=name:Marchmont Group|Ellery Retail; <Stores>=quantity:58|41; <Region>=place:Midlands|North West
+f2 | The move affects <Staff> staff. | <Staff>=quantity:1,450|1,100
+f3 | Closures begin in <Month>. | <Month>=date:January|June
+f4 | <Union> official <Person_A> called for talks. | <Union>=agent:Usdaw|Community; <Person_A>=agent:Paddy Lillis|Ruth Gordon
+f5 | The company blamed <Cause>. | <Cause>=name:rising rents|falling footfall
+
+### E1026 | startup_funding | past
+f1 | <Startup> raised <Amount> from <Investor>. | <Startup>=name:Quillon AI|Verdant Labs; <Amount>=quantity:24m dollars|17m dollars; <Investor>=name:Northgate Ventures|Silverline Capital
+f2 | The round values the company at <Valuation>. | <Valuation>=quantity:180m dollars|130m dollars
+f3 | Founder <Person_A> said the money would fund <Use>. | <Person_A>=agent:Leila Haddad|Marco Silva; <Use>=name:hiring|expansion
+f4 | The company has <Staff> staff in <City>. | <Staff>=quantity:74|52; <City>=place:Cambridge|Bristol
+f5 | It plans to open an office in <City_B> in <Month>. | <City_B>=place:Berlin|Amsterdam; <Month>=date:2027|2026
+
+### E1027 | music_tour | future
+f1 | <Artist> will tour <Countries> countries starting in <City>. | <Artist>=agent:Seonaid Kerr|Marta Vey; <Countries>=quantity:14|11; <City>=place:Glasgow|Manchester
+f2 | The tour opens on <Day> in <City_B>. | <Day>=date:3 March|19 April; <City_B>=place:Dublin|Cardiff
+f3 | Tickets go on sale at <Price>. | <Price>=quantity:65 pounds|48 pounds
+f4 | <Venues> venues are booked. | <Venues>=quantity:22|17
+f5 | Promoter <Person_A> said demand was strong. | <Person_A>=agent:Ian Corrie|Sue Delaney
+
+### E1028 | cricket | past
+f1 | <Team> beat <Team_B> in <City>. | <Team>=name:Yorkshire|Lancashire; <Team_B>=name:Surrey|Essex; <City>=place:Leeds|Manchester
+f2 | The margin was <Margin> runs. | <Margin>=quantity:74|52
+f3 | <Player> scored <Runs> runs. | <Player>=agent:Jonny Bairstow|Adam Lyth; <Runs>=quantity:132|96
+f4 | The match ended on <Day>. | <Day>=date:14 July|2 August
+f5 | The winners move top of the <Table>. | <Table>=name:county championship|one-day cup
+
+### E1029 | heritage | past
+f1 | <Building> in <City> was given <Grade> listed status. | <Building>=name:Old Corn Exchange|Victoria Baths; <City>=place:Leicester|Hull; <Grade>=name:Grade I|Grade II
+f2 | The building dates from <Year>. | <Year>=date:1848|1861
+f3 | <Trust> director <Person_A> campaigned for the listing. | <Trust>=agent:Victorian Society|Heritage Trust; <Person_A>=agent:Joe O'Donnell|Kitty Ross
+f4 | Repair work will cost <Cost>. | <Cost>=quantity:3.2m pounds|2.4m pounds
+f5 | Work begins in <Month>. | <Month>=date:May|November
+
+### E1030 | wildfire | past
+f1 | <Fire> burned <Hectares> hectares near <Town>. | <Fire>=name:Beacon Fire|Ridge Fire; <Hectares>=quantity:4,800|3,100; <Town>=place:Redding|Chico
+f2 | <Homes> homes were evacuated. | <Homes>=quantity:1,900|1,200
+f3 | Crews contained <Percent> of the perimeter. | <Percent>=quantity:35 percent|22 percent
+f4 | <Agency> sent <Crews> crews. | <Agency>=agent:Cal Fire|Forest Service; <Crews>=quantity:64|45
+f5 | The fire started on <Day>. | <Day>=date:8 August|21 July
+
+### E1031 | vaccine | future
+f1 | <Authority> approved <Vaccine> for <Group>. | <Authority>=agent:Medicines Agency|Public Health Body; <Vaccine>=name:Spikevax|Comirnaty; <Group>=name:care home residents|over-65s
+f2 | Rollout begins in <Month>. | <Month>=date:October|February
+f3 | <Doses> doses have been ordered for <Region>. | <Doses>=quantity:6.4m|4.9m; <Region>=place:England|Scotland
+f4 | Clinics in <City> will open first. | <City>=place:Birmingham|Glasgow
+f5 | Deputy chief executive <Person_A> urged uptake. | <Person_A>=agent:June Ralston|Owen Meredith
+
+### E1032 | railway | future
+f1 | <Network> will close a line in <Region> for <Weeks> weeks. | <Network>=agent:Network Rail|Transport for Wales; <Region>=place:Chilterns|Cotswolds; <Weeks>=quantity:16|12
+f2 | The work links <Town> and <Town_B>. | <Town>=place:Bicester|Aylesbury; <Town_B>=place:Bletchley|Princes Risborough
+f3 | Replacement buses will run from <Month>. | <Month>=date:June|October
+f4 | The upgrade costs <Cost>. | <Cost>=quantity:87m pounds|64m pounds
+f5 | <Person_A>, the route director, apologised. | <Person_A>=agent:Lisa Angus|Rob Cairns
+
+### E1033 | port | future
+f1 | <Port> won consent to expand its <Terminal> in <Estuary>. | <Port>=name:Port of Felixstowe|Port of Southampton; <Terminal>=name:container terminal|bulk terminal; <Estuary>=place:Orwell estuary|Solent
+f2 | Capacity will rise to <Capacity> containers. | <Capacity>=quantity:6.2m|4.8m
+f3 | <Jobs> jobs will be created by <Year>. | <Jobs>=quantity:1,100|820; <Year>=date:2031|2029
+f4 | <Group> opposed the plan on environmental grounds. | <Group>=agent:Friends of the Earth|Wildlife Trust
+f5 | Building starts in <Month>. | <Month>=date:2028|2026
+
+### E1034 | planning | past
+f1 | <Developer> appealed against <Council> over a <Site>. | <Developer>=name:Kelso Developments|Arden Property; <Council>=agent:Ashfield Council|Bolsover Council; <Site>=name:green belt site|former colliery site
+f2 | The inquiry opens in <Town> on <Day>. | <Town>=place:Nottingham|Chesterfield; <Day>=date:2 February|14 March
+f3 | <Homes> homes are proposed. | <Homes>=quantity:520|380
+f4 | The inspector will report in <Month>. | <Month>=date:July|December
+f5 | Campaigner <Person_A> said the site should stay green. | <Person_A>=agent:Ruth Maddox|Peter Gow
+
+### E1035 | doping | past
+f1 | <Athlete> was banned for <Months> months by <Body>. | <Athlete>=agent:Dario Pinto|Nils Ek; <Months>=quantity:18|12; <Body>=agent:Athletics Integrity Unit|National Anti-Doping Panel
+f2 | The ban follows a positive test in <City>. | <City>=place:Rome|Zurich
+f3 | The sample was taken on <Day> at <Venue>. | <Day>=date:5 June|17 September; <Venue>=place:Olympic Stadium|National Arena
+f4 | The lawyer said an appeal would be filed within <Days> days. | <Days>=quantity:21|14
+f5 | The athlete's personal best is <Time>. | <Time>=quantity:9.87 seconds|9.94 seconds
+
+### E1036 | census | past
+f1 | The census shows <Region> grew by <Pct>. | <Region>=place:Wales|Scotland; <Pct>=quantity:2.8 percent|1.9 percent
+f2 | The population now stands at <Population>. | <Population>=quantity:3.1m|2.7m
+f3 | <Town> had the fastest growth. | <Town>=place:Newport|Motherwell
+f4 | The figures were published on <Day> by <Body>. | <Day>=date:14 November|3 October; <Body>=agent:Office for National Statistics|National Records of Scotland
+f5 | Statistician <Person_A> urged caution. | <Person_A>=agent:Eleri Huws|Fiona Kerr
+
+### E1037 | power_plant | future
+f1 | <Operator> will close <Plant> in <Town>. | <Operator>=name:Drax Group|Uniper; <Plant>=name:coal plant|gas plant; <Town>=place:Selby|Immingham
+f2 | The plant employs <Staff> staff. | <Staff>=quantity:310|240
+f3 | Closure takes effect in <Month>. | <Month>=date:March|September
+f4 | <Union> said the decision was premature. | <Union>=agent:GMB|Unite
+f5 | The site will be redeveloped for <Use> by <Year>. | <Use>=name:battery storage|hydrogen production; <Year>=date:2030|2028
+
+### E1038 | box_office | past
+f1 | <Film> topped the box office in <Country>. | <Film>=name:Iron Harbour|Night Signal; <Country>=place:United States|Canada
+f2 | It took <Gross> in its opening weekend. | <Gross>=quantity:64m dollars|48m dollars
+f3 | <Director> directed the film. | <Director>=agent:Sam Okonjo|Rebecca Lund
+f4 | It opened on <Screens> screens. | <Screens>=quantity:4,100|3,300
+f5 | The film opens in <City> in <Month>. | <City>=place:London|Dublin; <Month>=date:April|July
+
+### E1039 | space_launch | past
+f1 | <Agency> launched <Mission> from <Site>. | <Agency>=agent:European Space Agency|Japan Aerospace Agency; <Mission>=name:Proba-3|EarthCARE; <Site>=place:Kourou|Tanegashima
+f2 | The satellite will orbit at <Altitude>. | <Altitude>=quantity:620 kilometres|480 kilometres
+f3 | Liftoff was at <Time> on <Day>. | <Time>=quantity:21:14 local time|04:52 local time; <Day>=date:5 December|19 August
+f4 | The mission costs <Cost>. | <Cost>=quantity:340m euros|260m euros
+f5 | <Person_A> is the mission scientist. | <Person_A>=agent:Clara Voss|Hiro Tanaka
+
+### E1040 | telecoms | past
+f1 | <Operator> suffered an outage across <Region>. | <Operator>=name:Vodafone|Three; <Region>=place:south London|west Midlands
+f2 | The fault began at <Time> and lasted <Hours> hours. | <Time>=quantity:04:30|11:15; <Hours>=quantity:7|5
+f3 | <Customers> customers were affected. | <Customers>=quantity:2.4m|1.7m
+f4 | <Regulator> demanded an explanation. | <Regulator>=agent:Ofcom|ComReg
+f5 | Service was restored on <Day>. | <Day>=date:18 February|9 May

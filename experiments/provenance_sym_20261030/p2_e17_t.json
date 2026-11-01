@@ -1,0 +1,445 @@
+{
+ "event": "e17",
+ "seed": 1739735,
+ "domain": "pharmacy",
+ "company": "MediLink Health",
+ "n_wire": 7,
+ "prompt_sha": "34748c84e8aef76e",
+ "anchors": {
+  "f1": [
+   "MediLink",
+   "4,800"
+  ],
+  "f2": [
+   "12%"
+  ],
+  "f3": [
+   "Marian Holt",
+   "3bn GBP"
+  ],
+  "f4": [
+   "4.26bn GBP"
+  ],
+  "f5": [
+   "12.4p"
+  ],
+  "f6": [
+   "4 November"
+  ],
+  "f7": [
+   "March 2027"
+  ],
+  "n1": [
+   "Unite",
+   "2,400"
+  ],
+  "n2": [
+   "Alan Thorne"
+  ],
+  "n3": [
+   "Deeside",
+   "150"
+  ],
+  "n4": [
+   "Customers Care"
+  ],
+  "n5": [
+   "1985"
+  ],
+  "n6": [
+   "300",
+   "2015"
+  ],
+  "n7": [
+   "David Chen"
+  ],
+  "n8": [
+   "Sarah Jones"
+  ],
+  "n9": [
+   "5m GBP"
+  ],
+  "n10": [
+   "80%"
+  ],
+  "n11": [
+   "online order processing"
+  ],
+  "n12": [
+   "January 2027"
+  ],
+  "n13": [
+   "800m GBP"
+  ],
+  "p1": [
+   "Manchester",
+   "August 2026"
+  ],
+  "p2": [
+   "Tom Evans"
+  ],
+  "p3": [
+   "Community center"
+  ],
+  "p4": [
+   "12 miles"
+  ],
+  "p5": [
+   "Lisa Park"
+  ],
+  "w1": [],
+  "w2": [],
+  "w3": []
+ },
+ "wire": {
+  "headline": "MediLink Announces Major Restructuring and Staff Cuts",
+  "sentences": [
+   [
+    "f1",
+    "MediLink has announced the closure of 4,800 staff roles as part of a significant organizational change."
+   ],
+   [
+    "f2",
+    "The restructuring initiative is set to cut 12% of the company's total workforce."
+   ],
+   [
+    "f3",
+    "CEO Marian Holt cited a 3bn GBP savings target as the primary driver for these reductions."
+   ],
+   [
+    "f4",
+    "In response to the announcement, shares dropped 4.26bn GBP in market cap."
+   ],
+   [
+    "f5",
+    "The company also cut its dividend to 12.4p per share."
+   ],
+   [
+    "f6",
+    "The new plan is effective from 4 November."
+   ],
+   [
+    "f7",
+    "The final phase of the restructuring is scheduled to complete by March 2027."
+   ]
+  ]
+ },
+ "variants": {
+  "WD_1": {
+   "role": "WD",
+   "outlet": "The Press and Journal",
+   "sentences": [
+    {
+     "fact": "f6",
+     "text": "The new plan is effective from 4 November, Unite said.",
+     "origin": "copied",
+     "forged": true,
+     "forge": {
+      "source": "Unite",
+      "was": "copied"
+     },
+     "tampered": false
+    },
+    {
+     "fact": "f1",
+     "text": "MediLink has announced the closure of 5,424 staff roles as part of a significant organizational change.",
+     "origin": "copied",
+     "tampered": true,
+     "tamper": {
+      "from": "4,800",
+      "to": "5,424"
+     },
+     "forged": false
+    },
+    {
+     "fact": "f5",
+     "text": "The company also reduced the dividend to 12.4p per share.",
+     "origin": "rewritten",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "w1",
+     "text": "Rainy weather dampened the turnout for the protest.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    }
+   ]
+  },
+  "WD_2": {
+   "role": "WD",
+   "outlet": "Western Morning News",
+   "sentences": [
+    {
+     "fact": "f6",
+     "text": "From 4 November, the new plan is effective.",
+     "origin": "copied",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "f1",
+     "text": "MediLink has announced the closure of 4,800 staff roles as part of a significant organizational change.",
+     "origin": "copied",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "f3",
+     "text": "A 3bn GBP savings target was cited by CEO Marian Holt as the primary driver for these reductions.",
+     "origin": "rewritten",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "w2",
+     "text": "The local paper has sold out of its edition.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    }
+   ]
+  },
+  "WD_3": {
+   "role": "WD",
+   "outlet": "Belfast Telegraph",
+   "sentences": [
+    {
+     "fact": "f5",
+     "text": "The company also cut its dividend to 12.4p per share.",
+     "origin": "copied",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "f1",
+     "text": "As part of a significant organizational change, MediLink has announced the closure of 4,800 staff roles.",
+     "origin": "copied",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "f6",
+     "text": "4 November marks the start of the fresh scheme.",
+     "origin": "rewritten",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "w3",
+     "text": "A bakery located near the headquarters has reported an increase in customer traffic.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    }
+   ]
+  },
+  "PD": {
+   "role": "PD",
+   "headline": "Manchester Pharmacy Closure and Staff Support",
+   "sentences": [
+    {
+     "fact": "f1",
+     "text": "MediLink has announced that 4,800 staff roles will be closed as part of a significant organizational change.",
+     "origin": "rewritten",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "p1",
+     "text": "The Manchester branch is scheduled to close by August 2026.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "p2",
+     "text": "Local manager Tom Evans resigned this week.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "f3",
+     "text": "The primary driver for these reductions, according to CEO Marian Holt, was a 3bn GBP savings target.",
+     "origin": "rewritten",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "p3",
+     "text": "A community center is hosting a support group for the staff.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "p4",
+     "text": "The nearest alternative pharmacy is 12 miles away.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    }
+   ]
+  },
+  "ND": {
+   "role": "ND",
+   "headline": "Retail Giant Faces Backlash as Restructuring Plan Threatens Jobs and Suppliers",
+   "sentences": [
+    {
+     "fact": "f2",
+     "text": "The company's restructuring plan will result in the loss of 12% of its total workforce.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "f3",
+     "text": "CEO Marian Holt stated that the initiative is designed to meet a 3bn GBP savings target.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n1",
+     "text": "The Unite union has announced it will ballot 2,400 members regarding potential strike action.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n8",
+     "text": "Union leader Sarah Jones described the proposed plan as reckless.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n2",
+     "text": "MP Alan Thorne has demanded a parliamentary inquiry into the situation.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n3",
+     "text": "The closure of the Deeside store is expected to impact 150 local jobs.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n4",
+     "text": "Members of the Customers Care group have staged protests outside the company headquarters.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n9",
+     "text": "The local council has offered a 5m GBP support package in response to the news.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n7",
+     "text": "Analyst David Chen predicts that further job losses are likely to follow.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n13",
+     "text": "Supplier contracts worth 800m GBP are currently under threat from these changes.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n11",
+     "text": "The next phase of the restructuring targets online order processing hubs.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n12",
+     "text": "A legal review of the situation is expected to be completed by January 2027.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n10",
+     "text": "A recent staff morale survey revealed an 80% dissatisfaction rate among employees.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    }
+   ]
+  },
+  "HOP2": {
+   "role": "HOP2",
+   "parent": "WD_1",
+   "sentences": [
+    {
+     "fact": "f1",
+     "text": "MediLink has announced the closure of 5,424 staff roles as part of a significant organizational change.",
+     "origin": "copied",
+     "tampered": true,
+     "tamper": {
+      "from": "4,800",
+      "to": "5,424"
+     },
+     "hop": 2,
+     "forged": false
+    },
+    {
+     "fact": "f6",
+     "text": "The new plan is effective from 4 November, Unite said.",
+     "origin": "copied",
+     "forged": true,
+     "forge": {
+      "source": "Unite",
+      "was": "copied"
+     },
+     "hop": 2,
+     "tampered": false
+    },
+    {
+     "fact": "f5",
+     "text": "The company also reduced the dividend to 12.4p per share.",
+     "origin": "copied",
+     "hop": 2,
+     "tampered": false,
+     "forged": false
+    }
+   ]
+  }
+ },
+ "assign": {
+  "W": {
+   "total": 7,
+   "unassigned": 0
+  },
+  "PD_own": {
+   "total": 4,
+   "unassigned": 1
+  },
+  "ND": {
+   "total": 13,
+   "unassigned": 0
+  }
+ },
+ "anchor_missing": 1,
+ "anchor_total": 31,
+ "fact_integrity_issues": [
+  {
+   "variant": "PD",
+   "fact": "p3",
+   "why": "锚点被拆到多句或缺失"
+  }
+ ]
+}

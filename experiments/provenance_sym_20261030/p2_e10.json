@@ -1,0 +1,324 @@
+{
+ "event": "e10",
+ "seed": 1739728,
+ "domain": "Energy",
+ "company": "NorthGrid Power",
+ "n_wire": 6,
+ "prompt_sha": "34748c84e8aef76e",
+ "anchors": {
+  "f1": [
+   "NorthGrid Power",
+   "12%",
+   "4 November"
+  ],
+  "f2": [
+   "Marian Holt",
+   "310m GBP"
+  ],
+  "f3": [
+   "4.26bn GBP"
+  ],
+  "f4": [
+   "5.2%"
+  ],
+  "f5": [
+   "Ofgem",
+   "12.4p"
+  ],
+  "f6": [
+   "18%"
+  ],
+  "n1": [
+   "Unite",
+   "2,400"
+  ],
+  "n2": [
+   "Bernstein",
+   "14.50 GBP"
+  ],
+  "n3": [
+   "Sarah Jenkins"
+  ],
+  "n4": [
+   "FairEnergy",
+   "CMA"
+  ],
+  "n5": [
+   "NorthGrid Power",
+   "1998"
+  ],
+  "n6": [
+   "January 2027"
+  ],
+  "n7": [
+   "David Oakes"
+  ],
+  "n8": [
+   "8%"
+  ],
+  "n9": [
+   "Deeside"
+  ],
+  "n10": [
+   "VoltEdge",
+   "5%"
+  ],
+  "n11": [
+   "45-day"
+  ],
+  "n12": [
+   "Alice Wright"
+  ],
+  "n13": [
+   "15%"
+  ],
+  "p1": [
+   "Deeside",
+   "3-hour"
+  ],
+  "p2": [
+   "50 GBP"
+  ],
+  "p3": [
+   "Flintshire"
+  ],
+  "p4": [
+   "Regional hospital"
+  ],
+  "p5": [
+   "68%"
+  ],
+  "w1": [],
+  "w2": [],
+  "w3": []
+ },
+ "wire": {
+  "headline": "NorthGrid Power Announces Tariff Hike Amid Market Turmoil",
+  "sentences": [
+   [
+    "f1",
+    "NorthGrid Power has announced a 12% tariff increase that becomes effective on 4 November."
+   ],
+   [
+    "f2",
+    "CEO Marian Holt cited a 310m GBP infrastructure shortfall to justify the decision."
+   ],
+   [
+    "f3",
+    "The company reported annual revenue of 4.26bn GBP for the fiscal year."
+   ],
+   [
+    "f4",
+    "The stock price dropped 5.2% during pre-market trading following the announcement."
+   ],
+   [
+    "f5",
+    "Regulator Ofgem approved the 12.4p per unit price hike."
+   ],
+   [
+    "f6",
+    "Investors expressed concern regarding the 18% operating margin compression."
+   ]
+  ]
+ },
+ "variants": {
+  "WD_1": {
+   "role": "WD",
+   "outlet": "The Northern Echo",
+   "sentences": [
+    {
+     "fact": "f4",
+     "text": "Following the announcement, the stock price dropped 5.2% during pre-market trading.",
+     "origin": "copied"
+    },
+    {
+     "fact": "f3",
+     "text": "For the fiscal year, the company reported annual revenue of 4.26bn GBP.",
+     "origin": "copied"
+    },
+    {
+     "fact": "f6",
+     "text": "Concern was expressed by investors regarding the 18% operating margin compression.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "w1",
+     "text": "Grey skies hung over the valley as meters ticked upward.",
+     "origin": "own"
+    }
+   ]
+  },
+  "WD_2": {
+   "role": "WD",
+   "outlet": "The Yorkshire Post",
+   "sentences": [
+    {
+     "fact": "f3",
+     "text": "For the fiscal year, the company reported annual revenue of 4.26bn GBP.",
+     "origin": "copied"
+    },
+    {
+     "fact": "f1",
+     "text": "NorthGrid Power has announced a 12% tariff increase that becomes effective on 4 November.",
+     "origin": "copied"
+    },
+    {
+     "fact": "f5",
+     "text": "The 12.4p per unit price hike was approved by Regulator Ofgem.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "w2",
+     "text": "In the w2 area, residents find that their tea goes cold while they wait for the meter reader to arrive.",
+     "origin": "own"
+    }
+   ]
+  },
+  "WD_3": {
+   "role": "WD",
+   "outlet": "Western Mail",
+   "sentences": [
+    {
+     "fact": "f3",
+     "text": "The company reported annual revenue of 4.26bn GBP for the fiscal year.",
+     "origin": "copied"
+    },
+    {
+     "fact": "f2",
+     "text": "CEO Marian Holt used a 310m GBP infrastructure shortfall to justify the decision.",
+     "origin": "copied"
+    },
+    {
+     "fact": "f5",
+     "text": "The 12.4p per unit price hike was approved by Regulator Ofgem.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "w3",
+     "text": "Old wires hum a low tune in the cold air.",
+     "origin": "own"
+    }
+   ]
+  },
+  "PD": {
+   "role": "PD",
+   "headline": "Deeside Residents Face Prolonged Blackouts as Council Offers Financial Aid",
+   "sentences": [
+    {
+     "fact": "f1",
+     "text": "NorthGrid Power has announced that a 12% tariff increase becomes effective on 4 November.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "p1",
+     "text": "Residents of Deeside reported experiencing daily blackouts lasting 3 hours throughout last week.",
+     "origin": "own"
+    },
+    {
+     "fact": "p2",
+     "text": "In response to the situation, the local council has offered 50 GBP in emergency bill assistance to affected residents.",
+     "origin": "own"
+    },
+    {
+     "fact": "f3",
+     "text": "The company reported that annual revenue was 4.26bn GBP for the fiscal year.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "p3",
+     "text": "A community center in Flintshire is currently hosting a support group for users affected by the power outages.",
+     "origin": "own"
+    },
+    {
+     "fact": "Regional hospital backup generators tested after outage alert",
+     "text": "Following an outage alert, backup generators at a regional hospital were tested to ensure continued operations.",
+     "origin": "own"
+    }
+   ]
+  },
+  "ND": {
+   "role": "ND",
+   "headline": "NorthGrid Power Faces Multifaceted Crisis Amid Rising Costs and Labor Disputes",
+   "sentences": [
+    {
+     "fact": "n5",
+     "text": "NorthGrid Power was founded in 1998 following privatization.",
+     "origin": "own"
+    },
+    {
+     "fact": "f3",
+     "text": "The company recently reported an annual revenue of 4.26bn GBP for the fiscal year.",
+     "origin": "own"
+    },
+    {
+     "fact": "f2",
+     "text": "CEO Marian Holt cites a 310m GBP infrastructure shortfall as a key challenge.",
+     "origin": "own"
+    },
+    {
+     "fact": "n7",
+     "text": "Union leader David Oakes calls the price hike 'unacceptable' for users.",
+     "origin": "own"
+    },
+    {
+     "fact": "n1",
+     "text": "The Unite union plans to ballot 2,400 members on strike action.",
+     "origin": "own"
+    },
+    {
+     "fact": "n2",
+     "text": "Analyst firm Bernstein cuts the target price to 14.50 GBP.",
+     "origin": "own"
+    },
+    {
+     "fact": "n3",
+     "text": "Local MP Sarah Jenkins demands a public inquiry into costs.",
+     "origin": "own"
+    },
+    {
+     "fact": "n4",
+     "text": "Consumer group FairEnergy files a formal complaint with the CMA.",
+     "origin": "own"
+    },
+    {
+     "fact": "n8",
+     "text": "An internal memo leaked showing an 8% internal cost overrun.",
+     "origin": "own"
+    },
+    {
+     "fact": "n9",
+     "text": "The Deeside plant expansion is delayed due to grid congestion.",
+     "origin": "own"
+    },
+    {
+     "fact": "n13",
+     "text": "Supply chain partners report a 15% delay in transformer delivery.",
+     "origin": "own"
+    }
+   ]
+  }
+ },
+ "assign": {
+  "W": {
+   "total": 6,
+   "unassigned": 0
+  },
+  "PD_own": {
+   "total": 4,
+   "unassigned": 1
+  },
+  "ND": {
+   "total": 11,
+   "unassigned": 0
+  }
+ },
+ "anchor_missing": 2,
+ "anchor_total": 28,
+ "fact_integrity_issues": [
+  {
+   "variant": "PD",
+   "fact": "p1",
+   "why": "锚点被拆到多句或缺失"
+  }
+ ]
+}

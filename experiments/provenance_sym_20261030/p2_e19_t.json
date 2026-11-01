@@ -1,0 +1,426 @@
+{
+ "event": "e19",
+ "seed": 1739737,
+ "domain": "Aviation",
+ "company": "Aerolink",
+ "n_wire": 6,
+ "prompt_sha": "34748c84e8aef76e",
+ "anchors": {
+  "f1": [
+   "Aerolink",
+   "£1.2bn"
+  ],
+  "f2": [
+   "Sir Arthur Penhaligon"
+  ],
+  "f3": [
+   "14.5%",
+   "London Stock Exchange"
+  ],
+  "f4": [
+   "300m GBP",
+   "2026"
+  ],
+  "f5": [
+   "68%",
+   "45%"
+  ],
+  "f6": [
+   "European Aviation Safety Agency"
+  ],
+  "n1": [
+   "Bainbridge",
+   "40%"
+  ],
+  "n2": [
+   "Elena Vance"
+  ],
+  "n3": [
+   "Deeside",
+   "Gwyneth Rotheray"
+  ],
+  "n4": [
+   "FairFly"
+  ],
+  "n5": [
+   "1954"
+  ],
+  "n6": [
+   "GAMA"
+  ],
+  "n7": [
+   "2019",
+   "1,200"
+  ],
+  "n8": [
+   "Kestrel Partners",
+   "2023"
+  ],
+  "n9": [
+   "15%"
+  ],
+  "n10": [
+   "800"
+  ],
+  "n11": [
+   "15 November"
+  ],
+  "n12": [
+   "SkyJet"
+  ],
+  "n13": [
+   "Manchester"
+  ],
+  "p1": [
+   "Manchester",
+   "5,000"
+  ],
+  "p2": [
+   "Leeds",
+   "20%"
+  ],
+  "p3": [
+   "Edinburgh",
+   "New York"
+  ],
+  "p4": [
+   "Cardiff",
+   "300"
+  ],
+  "p5": [
+   "Dublin"
+  ],
+  "w1": [
+   "Glasgow"
+  ],
+  "w2": [],
+  "w3": []
+ },
+ "wire": {
+  "headline": "Aerolink Secures £1.2bn Capital Raise as Shares Surge",
+  "sentences": [
+   [
+    "f1",
+    "The Aerolink board has approved a £1.2bn capital raise to stabilize its balance sheet."
+   ],
+   [
+    "f2",
+    "Chief Executive Sir Arthur Penhaligon cited severe liquidity constraints as the reason for the move."
+   ],
+   [
+    "f3",
+    "Following the announcement, shares surged 14.5% on the London Stock Exchange."
+   ],
+   [
+    "f4",
+    "Investors expect 300m GBP in annual cost savings by 2026."
+   ],
+   [
+    "f5",
+    "The debt ratio is projected to fall from 68% to 45% within two years."
+   ],
+   [
+    "f6",
+    "Regulatory approval has been sought from the European Aviation Safety Agency for new routes."
+   ]
+  ]
+ },
+ "variants": {
+  "WD_1": {
+   "role": "WD",
+   "outlet": "The Northern Echo",
+   "sentences": [
+    {
+     "fact": "f4",
+     "text": "By 2028, investors expect 300m GBP in annual cost savings.",
+     "origin": "copied",
+     "tampered": true,
+     "tamper": {
+      "from": "2026",
+      "to": "2028"
+     },
+     "forged": false
+    },
+    {
+     "fact": "f2",
+     "text": "Chief Executive Sir Arthur Penhaligon cited severe liquidity constraints as the reason for the move, Kestrel Partners said.",
+     "origin": "copied",
+     "forged": true,
+     "forge": {
+      "source": "Kestrel Partners",
+      "was": "copied"
+     },
+     "tampered": false
+    },
+    {
+     "fact": "f6",
+     "text": "New routes have had regulatory approval sought from the European Aviation Safety Agency.",
+     "origin": "rewritten",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "w1",
+     "text": "Travelers in Glasgow have reported facing long queues at the check-in desks.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    }
+   ]
+  },
+  "WD_2": {
+   "role": "WD",
+   "outlet": "The Yorkshire Post",
+   "sentences": [
+    {
+     "fact": "f4",
+     "text": "Investors expect 300m GBP in annual cost savings by 2026.",
+     "origin": "copied",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "f1",
+     "text": "The Aerolink board has approved a £1.2bn capital raise to stabilize its balance sheet.",
+     "origin": "copied",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "f3",
+     "text": "Shares jumped 14.5% on the London Stock Exchange following the announcement.",
+     "origin": "rewritten",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "w2",
+     "text": "Crew members were spotted leaving the terminal early during a recent period of turbulence.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    }
+   ]
+  },
+  "WD_3": {
+   "role": "WD",
+   "outlet": "Western Mail",
+   "sentences": [
+    {
+     "fact": "f6",
+     "text": "Regulatory approval has been sought from the European Aviation Safety Agency for new routes.",
+     "origin": "copied",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "f1",
+     "text": "To stabilize its balance sheet, the Aerolink board has approved a £1.2bn capital raise.",
+     "origin": "copied",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "f5",
+     "text": "It is projected that the debt ratio will drop from 68% to 45% within two years.",
+     "origin": "rewritten",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "w3",
+     "text": "Newsstand vendors were selling special edition aviation magazines near terminals.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    }
+   ]
+  },
+  "PD": {
+   "role": "PD",
+   "headline": "Airlines face regional backlash as route uncertainty impacts economies",
+   "sentences": [
+    {
+     "fact": "f1",
+     "text": "A £1.2bn capital raise to stabilize its balance sheet has been approved by the Aerolink board.",
+     "origin": "rewritten",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "p1",
+     "text": "Manchester airport expects a 5,000 annual passenger increase if routes are confirmed.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "p2",
+     "text": "Local hoteliers in Leeds report a 20% booking drop due to uncertainty.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "f3",
+     "text": "Shares surged 14.5% on the London Stock Exchange after the announcement was made.",
+     "origin": "rewritten",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "p3",
+     "text": "Edinburgh city council urges the airline to maintain direct flights to New York.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "p5",
+     "text": "The Dublin business chamber fears the loss of a key cargo connection.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    }
+   ]
+  },
+  "ND": {
+   "role": "ND",
+   "headline": "Aerolink Crisis Intensifies as Shares Surge and Unions Threaten Walkout",
+   "sentences": [
+    {
+     "fact": "f3",
+     "text": "Shares of Aerolink surged 14.5% on the London Stock Exchange following a recent announcement.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "f2",
+     "text": "The primary reason for this scenario, according to CEO Sir Arthur Penhaligon, was a lack of sufficient cash flow.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n5",
+     "text": "Aerolink, which was founded in 1954 as a national carrier for domestic flights, now faces new challenges.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n8",
+     "text": "A new CEO was hired from the private equity firm Kestrel Partners in 2023 to lead the airline.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n1",
+     "text": "Analysts at Bainbridge warned that the airline's debt levels remain above the industry average of 40%.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n9",
+     "text": "The cargo division reported a 15% decline in freight volume last quarter, adding to financial pressures.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n10",
+     "text": "Engine overhaul delays previously caused 800 flights to be cancelled during the winter.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n7",
+     "text": "A previous restructuring in 2019 had already led to the loss of 1,200 ground staff.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n2",
+     "text": "TUC General Secretary Elena Vance demanded job guarantees before a strike vote could take place.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n6",
+     "text": "Pilot union GAMA threatened a walkout if the pension fund is not secured by management.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n11",
+     "text": "A union ballot is scheduled for 15 November to determine whether industrial action will occur.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    }
+   ]
+  },
+  "HOP2": {
+   "role": "HOP2",
+   "parent": "WD_1",
+   "sentences": [
+    {
+     "fact": "f4",
+     "text": "By 2028, investors expect 300m GBP in annual cost savings.",
+     "origin": "copied",
+     "tampered": true,
+     "tamper": {
+      "from": "2026",
+      "to": "2028"
+     },
+     "hop": 2,
+     "forged": false
+    },
+    {
+     "fact": "f2",
+     "text": "Chief Executive Sir Arthur Penhaligon cited severe liquidity constraints as the reason for the move, Kestrel Partners said.",
+     "origin": "copied",
+     "forged": true,
+     "forge": {
+      "source": "Kestrel Partners",
+      "was": "copied"
+     },
+     "hop": 2,
+     "tampered": false
+    },
+    {
+     "fact": "f6",
+     "text": "New routes have had regulatory approval sought from the European Aviation Safety Agency.",
+     "origin": "copied",
+     "hop": 2,
+     "tampered": false,
+     "forged": false
+    }
+   ]
+  }
+ },
+ "assign": {
+  "W": {
+   "total": 6,
+   "unassigned": 0
+  },
+  "PD_own": {
+   "total": 4,
+   "unassigned": 0
+  },
+  "ND": {
+   "total": 11,
+   "unassigned": 0
+  }
+ },
+ "anchor_missing": 0,
+ "anchor_total": 29,
+ "fact_integrity_issues": []
+}

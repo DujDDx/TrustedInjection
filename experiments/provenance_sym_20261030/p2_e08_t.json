@@ -1,0 +1,444 @@
+{
+ "event": "e08",
+ "seed": 1739605,
+ "domain": "healthcare",
+ "company": "Northgate General Hospital Trust",
+ "n_wire": 7,
+ "prompt_sha": "34748c84e8aef76e",
+ "anchors": {
+  "f1": [
+   "4.26bn GBP"
+  ],
+  "f2": [
+   "4,800-bed"
+  ],
+  "f3": [
+   "Dr. Aris Thorne"
+  ],
+  "f4": [
+   "March 2027"
+  ],
+  "f5": [
+   "1,200"
+  ],
+  "f6": [
+   "4 November"
+  ],
+  "f7": [
+   "15%"
+  ],
+  "n1": [
+   "Unite",
+   "12%"
+  ],
+  "n2": [
+   "Fitch",
+   "BBB-"
+  ],
+  "n3": [
+   "Sir Julian Vane"
+  ],
+  "n4": [
+   "Patient Advocacy Group",
+   "300km"
+  ],
+  "n5": [
+   "1998"
+  ],
+  "n6": [
+   "January 2027"
+  ],
+  "n7": [
+   "24-hour"
+  ],
+  "n8": [
+   "68%"
+  ],
+  "n9": [
+   "BidCo",
+   "120m GBP"
+  ],
+  "n10": [
+   "800m GBP"
+  ],
+  "n11": [
+   "Studio Kline",
+   "4,800"
+  ],
+  "n12": [
+   "45m GBP"
+  ],
+  "n13": [
+   "Eleanor Vane"
+  ],
+  "p1": [
+   "Deeside",
+   "40%",
+   "55"
+  ],
+  "p2": [
+   "300"
+  ],
+  "p3": [
+   "Marian Holt",
+   "5m GBP"
+  ],
+  "p4": [
+   "4.50 GBP"
+  ],
+  "p5": [
+   "route 42",
+   "10"
+  ],
+  "w1": [],
+  "w2": [
+   "20%"
+  ],
+  "w3": []
+ },
+ "wire": {
+  "headline": "Trust Board Greenlights £4.26bn Expansion Plan",
+  "sentences": [
+   [
+    "f1",
+    "The trust board has approved a five-year expansion plan valued at 4.26bn GBP."
+   ],
+   [
+    "f2",
+    "The capital spend includes the construction of a new 4,800-bed regional cancer centre."
+   ],
+   [
+    "f3",
+    "Chief Executive Dr. Aris Thorne described the move as 'transformative'."
+   ],
+   [
+    "f4",
+    "NHS England confirmed that funding is locked in for a March 2027 start."
+   ],
+   [
+    "f5",
+    "The project is expected to create 1,200 permanent clinical jobs."
+   ],
+   [
+    "f6",
+    "Demolition of the old wing is scheduled to begin on 4 November."
+   ],
+   [
+    "f7",
+    "Local housing stock will absorb 15% of the new workforce."
+   ]
+  ]
+ },
+ "variants": {
+  "WD_1": {
+   "role": "WD",
+   "outlet": "The Press and Journal",
+   "sentences": [
+    {
+     "fact": "f6",
+     "text": "Demolition of the old wing is scheduled to begin on 4 November, Fitch said.",
+     "origin": "copied",
+     "forged": true,
+     "forge": {
+      "source": "Fitch",
+      "was": "copied"
+     },
+     "tampered": false
+    },
+    {
+     "fact": "f1",
+     "text": "The trust board has approved a five-year expansion plan valued at 4.02bn GBP.",
+     "origin": "copied",
+     "tampered": true,
+     "tamper": {
+      "from": "4.26bn",
+      "to": "4.02bn"
+     },
+     "forged": false
+    },
+    {
+     "fact": "f7",
+     "text": "15% of the new workforce will be absorbed by local housing stock.",
+     "origin": "rewritten",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "w1",
+     "text": "Local foxes are expected to be disturbed by the noise from ongoing construction.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    }
+   ]
+  },
+  "WD_2": {
+   "role": "WD",
+   "outlet": "Western Morning News",
+   "sentences": [
+    {
+     "fact": "f2",
+     "text": "It includes the construction of a new 4,800-bed regional cancer centre within the capital spend.",
+     "origin": "copied",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "f4",
+     "text": "NHS England confirmed that funding is locked in for a March 2027 start.",
+     "origin": "copied",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "f7",
+     "text": "The local housing stock will take in 15% of the new workforce.",
+     "origin": "rewritten",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "w2",
+     "text": "A café located nearby reported a 20% drop in its regular customers.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    }
+   ]
+  },
+  "WD_3": {
+   "role": "WD",
+   "outlet": "Belfast Telegraph",
+   "sentences": [
+    {
+     "fact": "f1",
+     "text": "The trust board has approved a five-year expansion plan valued at 4.26bn GBP.",
+     "origin": "copied",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "f2",
+     "text": "The capital spend features the construction of a new 4,800-bed regional cancer centre.",
+     "origin": "copied",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "f6",
+     "text": "The old wing's demolition is scheduled to begin on 4 November.",
+     "origin": "rewritten",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "w3",
+     "text": "A garden centre is selling 'Hard Hat' themed mugs.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    }
+   ]
+  },
+  "PD": {
+   "role": "PD",
+   "headline": "Deeside Faces Infrastructure and Community Changes Amid New Development",
+   "sentences": [
+    {
+     "fact": "f1",
+     "text": "A five-year expansion plan valued at 4.26bn GBP has been approved by the trust board.",
+     "origin": "rewritten",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "p1",
+     "text": "Residents of Deeside have expressed concerns that traffic on the A55 could rise by 40%.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "p2",
+     "text": "A local school will extend its operating hours to accommodate 300 new staff members.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "f3",
+     "text": "The move was described by Chief Executive Dr. Aris Thorne as 'transformative'.",
+     "origin": "rewritten",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "p3",
+     "text": "Council leader Marian Holt has pledged 5m GBP in support for the area.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "p4",
+     "text": "Parking charges are set to increase to 4.50 GBP per hour.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    }
+   ]
+  },
+  "ND": {
+   "role": "ND",
+   "headline": "Local trust to build 4,800-bed regional cancer centre amid union dispute",
+   "sentences": [
+    {
+     "fact": "f2",
+     "text": "The outlay on capital encompasses the building of a 4,800-bed regional cancer centre.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n11",
+     "text": "The 4,800-bed facility was designed by architects Studio Kline.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n10",
+     "text": "The regulator warned on the trust's 800m GBP pension deficit.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n2",
+     "text": "An analyst at Fitch rates the trust debt 'BBB-' with stable outlook.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n9",
+     "text": "Contractor BidCo is to manage 120m GBP civil works.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n12",
+     "text": "The digital rollout is to cost 45m GBP by fiscal year end.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n7",
+     "text": "The local council opposes the 24-hour ambulance bay construction.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n8",
+     "text": "A staff survey shows 68% fear reduced break times.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n1",
+     "text": "A Unite rep cites the 12% overtime cap as the primary grievance.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n6",
+     "text": "Union ballot results are expected before the January 2027 deadline.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n3",
+     "text": "MP for Northgate West, Sir Julian Vane, demands an inquiry.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n4",
+     "text": "A Patient Advocacy Group flags a 300km average travel time.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n5",
+     "text": "The trust was formed in 1998 from the merger of three county hospitals.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    }
+   ]
+  },
+  "HOP2": {
+   "role": "HOP2",
+   "parent": "WD_1",
+   "sentences": [
+    {
+     "fact": "f1",
+     "text": "The trust board has approved a five-year expansion plan valued at 4.02bn GBP.",
+     "origin": "copied",
+     "tampered": true,
+     "tamper": {
+      "from": "4.26bn",
+      "to": "4.02bn"
+     },
+     "hop": 2,
+     "forged": false
+    },
+    {
+     "fact": "f6",
+     "text": "Demolition of the old wing is scheduled to begin on 4 November, Fitch said.",
+     "origin": "copied",
+     "forged": true,
+     "forge": {
+      "source": "Fitch",
+      "was": "copied"
+     },
+     "hop": 2,
+     "tampered": false
+    },
+    {
+     "fact": "f7",
+     "text": "15% of the new workforce will be absorbed by local housing stock.",
+     "origin": "copied",
+     "hop": 2,
+     "tampered": false,
+     "forged": false
+    }
+   ]
+  }
+ },
+ "assign": {
+  "W": {
+   "total": 7,
+   "unassigned": 0
+  },
+  "PD_own": {
+   "total": 4,
+   "unassigned": 0
+  },
+  "ND": {
+   "total": 13,
+   "unassigned": 1
+  }
+ },
+ "anchor_missing": 0,
+ "anchor_total": 31,
+ "fact_integrity_issues": []
+}

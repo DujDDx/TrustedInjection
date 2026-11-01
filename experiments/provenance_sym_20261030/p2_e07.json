@@ -1,0 +1,316 @@
+{
+ "event": "e07",
+ "seed": 1739604,
+ "domain": "transport",
+ "company": "Northbridge Railways",
+ "n_wire": 6,
+ "prompt_sha": "34748c84e8aef76e",
+ "anchors": {
+  "f1": [
+   "12%",
+   "4 November"
+  ],
+  "f2": [
+   "310m GBP",
+   "2023"
+  ],
+  "f3": [
+   "4.5%"
+  ],
+  "f4": [
+   "Julian Thorne"
+  ],
+  "f5": [
+   "standard class"
+  ],
+  "f6": [
+   "March 2027"
+  ],
+  "n1": [
+   "Unite",
+   "2,400"
+  ],
+  "n2": [
+   "Sarah Jenkins"
+  ],
+  "n3": [
+   "Deeside",
+   "Robert Calloway"
+  ],
+  "n4": [
+   "FairFares"
+  ],
+  "n5": [
+   "1994"
+  ],
+  "n6": [
+   "July 2026"
+  ],
+  "n7": [
+   "8%",
+   "2025"
+  ],
+  "n8": [
+   "Southline Railways"
+  ],
+  "n9": [
+   "62 points"
+  ],
+  "n10": [
+   "Diane Marsh"
+  ],
+  "n11": [
+   "15 October"
+  ],
+  "n12": [
+   "RailSoft"
+  ],
+  "n13": [
+   "Ashford"
+  ],
+  "p1": [
+   "Harrogate",
+   "15 minute"
+  ],
+  "p2": [
+   "Priya Gupta"
+  ],
+  "p3": [
+   "12%"
+  ],
+  "p4": [
+   "University of York"
+  ],
+  "p5": [
+   "Daily Herald"
+  ],
+  "w1": [
+   "York"
+  ],
+  "w2": [],
+  "w3": []
+ },
+ "wire": {
+  "headline": "Northbridge Railways to raise fares by 12% as shares dip",
+  "sentences": [
+   [
+    "f1",
+    "Northbridge Railways has announced a 12% fare increase that becomes effective on 4 November."
+   ],
+   [
+    "f2",
+    "The company cited a 310m GBP deficit in its 2023 operating accounts as the reason for the decision."
+   ],
+   [
+    "f5",
+    "The price hike applies to all standard class tickets across the network."
+   ],
+   [
+    "f4",
+    "CEO Julian Thorne called the fare hike 'essential for network stability'."
+   ],
+   [
+    "f3",
+    "Shares of Northbridge Railways dropped 4.5% in pre-market trading following the announcement."
+   ],
+   [
+    "f6",
+    "The regulatory body Ofcom is scheduled to review the company's compliance by March 2027."
+   ]
+  ]
+ },
+ "variants": {
+  "WD_1": {
+   "role": "WD",
+   "outlet": "The Northern Echo",
+   "sentences": [
+    {
+     "fact": "f5",
+     "text": "All standard class tickets across the network are subject to the price hike.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "f4",
+     "text": "'Essential for network stability,' CEO Julian Thorne called the fare hike.",
+     "origin": "copied"
+    },
+    {
+     "fact": "f6",
+     "text": "By March 2027, the regulatory body Ofcom is scheduled to review the company's compliance.",
+     "origin": "copied"
+    },
+    {
+     "fact": "w1",
+     "text": "Commuters in York faced increased frustration this morning as rainy weather set in.",
+     "origin": "own"
+    }
+   ]
+  },
+  "WD_2": {
+   "role": "WD",
+   "outlet": "The Yorkshire Post",
+   "sentences": [
+    {
+     "fact": "f1",
+     "text": "Northbridge Railways has announced a 12% fare increase that becomes effective on 4 November.",
+     "origin": "copied"
+    },
+    {
+     "fact": "f5",
+     "text": "All standard class tickets across the network are subject to the price hike.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "f4",
+     "text": "CEO Julian Thorne called the fare hike 'essential for network stability'.",
+     "origin": "copied"
+    },
+    {
+     "fact": "w2",
+     "text": "A local bakery situated near the station reported an increase in foot traffic attributed to delayed trains.",
+     "origin": "own"
+    }
+   ]
+  },
+  "WD_3": {
+   "role": "WD",
+   "outlet": "Western Mail",
+   "sentences": [
+    {
+     "fact": "f6",
+     "text": "Ofcom, the regulatory body, is scheduled to review the company's compliance by March 2027.",
+     "origin": "copied"
+    },
+    {
+     "fact": "f1",
+     "text": "Northbridge Railways has announced a 12% fare increase that becomes effective on 4 November.",
+     "origin": "copied"
+    },
+    {
+     "fact": "f2",
+     "text": "The reason for the decision, as cited by the company, was a 310m GBP deficit in its 2023 operating accounts.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "w3",
+     "text": "Street musicians were seen performing near platform one while a service disruption was underway.",
+     "origin": "own"
+    }
+   ]
+  },
+  "PD": {
+   "role": "PD",
+   "headline": "Harrogate Commuters Face Delays as Fare Hike Backlash Grows",
+   "sentences": [
+    {
+     "fact": "f1",
+     "text": "A 12% fare increase, announced by Northbridge Railways, becomes effective on 4 November.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "p1",
+     "text": "Local commuters in Harrogate have reported experiencing 15 minute delays attributable to ongoing staff unrest.",
+     "origin": "own"
+    },
+    {
+     "fact": "p2",
+     "text": "Mayor of Leeds, Priya Gupta, has pledged funding for bus alternatives in response to the situation.",
+     "origin": "own"
+    },
+    {
+     "fact": "f5",
+     "text": "All standard class tickets across the network are subject to the price hike.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "p3",
+     "text": "The regional tourism board warned that a 12% hike may deter holiday visitors from the area.",
+     "origin": "own"
+    },
+    {
+     "fact": "p4",
+     "text": "Students from the University of York organized a petition against the proposed fare increases.",
+     "origin": "own"
+    }
+   ]
+  },
+  "ND": {
+   "role": "ND",
+   "headline": "Northbridge Railways Faces Strike Ballot and Financial Scrutiny",
+   "sentences": [
+    {
+     "fact": "f2",
+     "text": "A 310m GBP shortfall was attributed to the 2023 operating accounts by the firm.",
+     "origin": "own"
+    },
+    {
+     "fact": "f3",
+     "text": "Northbridge Railways equities fell 4.5% during pre-market trading.",
+     "origin": "own"
+    },
+    {
+     "fact": "n1",
+     "text": "Unite the Union confirmed a ballot of 2,400 staff on strike action.",
+     "origin": "own"
+    },
+    {
+     "fact": "n2",
+     "text": "Analyst Sarah Jenkins labelled the pricing strategy 'aggressive and unsustainable'.",
+     "origin": "own"
+    },
+    {
+     "fact": "n3",
+     "text": "Robert Calloway, the MP for Deeside, demanded an independent inquiry into costs.",
+     "origin": "own"
+    },
+    {
+     "fact": "n4",
+     "text": "The campaign group FairFares criticized the lack of consultation with passenger representatives.",
+     "origin": "own"
+    },
+    {
+     "fact": "n5",
+     "text": "Northbridge Railways was formed in 1994 after the privatization of regional lines.",
+     "origin": "own"
+    },
+    {
+     "fact": "n6",
+     "text": "The next major route upgrade is scheduled for completion in July 2026.",
+     "origin": "own"
+    },
+    {
+     "fact": "n7",
+     "text": "An internal memo was leaked showing an 8% cost reduction target for 2025.",
+     "origin": "own"
+    },
+    {
+     "fact": "n8",
+     "text": "Competitor Southline Railways holds fares steady in competing regions.",
+     "origin": "own"
+    },
+    {
+     "fact": "n11",
+     "text": "The Board of Directors meets in an emergency session on 15 October.",
+     "origin": "own"
+    }
+   ]
+  }
+ },
+ "assign": {
+  "W": {
+   "total": 6,
+   "unassigned": 0
+  },
+  "PD_own": {
+   "total": 4,
+   "unassigned": 0
+  },
+  "ND": {
+   "total": 11,
+   "unassigned": 0
+  }
+ },
+ "anchor_missing": 0,
+ "anchor_total": 29,
+ "fact_integrity_issues": []
+}

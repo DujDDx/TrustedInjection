@@ -1,0 +1,377 @@
+{
+ "event": "e03",
+ "seed": 1739600,
+ "domain": "housing",
+ "company": "Celtic Homes",
+ "n_wire": 8,
+ "prompt_sha": "34748c84e8aef76e",
+ "anchors": {
+  "f1": [
+   "Celtic Homes",
+   "310m GBP"
+  ],
+  "f2": [
+   "5-2"
+  ],
+  "f3": [
+   "Marian Holt",
+   "12%"
+  ],
+  "f4": [
+   "4.26bn GBP"
+  ],
+  "f5": [
+   "4,800"
+  ],
+  "f6": [
+   "4 November"
+  ],
+  "f7": [
+   "March 2027"
+  ],
+  "f8": [
+   "Meridian Estates"
+  ],
+  "n1": [
+   "Unite",
+   "2,400"
+  ],
+  "n2": [
+   "Fitch",
+   "15%"
+  ],
+  "n3": [
+   "David Thorne"
+  ],
+  "n4": [
+   "Rights4Rent"
+  ],
+  "n5": [
+   "1998"
+  ],
+  "n6": [
+   "500"
+  ],
+  "n7": [
+   "Cardiff"
+  ],
+  "n8": [
+   "2026"
+  ],
+  "n9": [
+   "HQ"
+  ],
+  "n10": [
+   "board member"
+  ],
+  "n11": [
+   "60-day"
+  ],
+  "n12": [
+   "10m GBP"
+  ],
+  "n13": [
+   "Northgate Housing"
+  ],
+  "p1": [
+   "Deeside"
+  ],
+  "p2": [
+   "300"
+  ],
+  "p3": [
+   "Sarah Jenkins"
+  ],
+  "p4": [
+   "Community center"
+  ],
+  "p5": [
+   "taxi drivers"
+  ],
+  "w1": [],
+  "w2": [],
+  "w3": []
+ },
+ "wire": {
+  "headline": "Celtic Homes Launches Emergency Restructuring Amid Financial Crisis",
+  "sentences": [
+   [
+    "f1",
+    "Celtic Homes has announced an emergency restructuring plan valued at 310m GBP."
+   ],
+   [
+    "f2",
+    "The board voted 5-2 to approve the immediate sale of assets."
+   ],
+   [
+    "f3",
+    "CEO Marian Holt attributed the decision to a 12% revenue decline in the last quarter."
+   ],
+   [
+    "f4",
+    "Shares fell as the company's market cap dropped to 4.26bn GBP overnight."
+   ],
+   [
+    "f5",
+    "A total of 4,800 staff roles are at risk across three regions."
+   ],
+   [
+    "f6",
+    "The restructuring measures will be effective from 4 November onwards."
+   ],
+   [
+    "f7",
+    "A debt refinancing deadline has been set for March 2027."
+   ],
+   [
+    "f8",
+    "The insolvent subsidiary Meridian Estates is scheduled to be liquidated."
+   ]
+  ]
+ },
+ "variants": {
+  "WD_1": {
+   "role": "WD",
+   "outlet": "Manchester Evening News",
+   "sentences": [
+    {
+     "fact": "f1",
+     "text": "Celtic Homes has announced an emergency restructuring plan valued at 310m GBP.",
+     "origin": "copied"
+    },
+    {
+     "fact": "f2",
+     "text": "With a 5-2 tally, the board sanctioned the prompt disposal of assets.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "f3",
+     "text": "CEO Marian Holt attributed the decision to a 12% revenue decline in the last quarter.",
+     "origin": "copied"
+    },
+    {
+     "fact": "f5",
+     "text": "Across three regions, 4,800 employee positions face potential elimination.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "w1",
+     "text": "Rumors are swirling about office parties taking place during the crisis.",
+     "origin": "own"
+    }
+   ]
+  },
+  "WD_2": {
+   "role": "WD",
+   "outlet": "The Journal",
+   "sentences": [
+    {
+     "fact": "f7",
+     "text": "For March 2027, a debt refinancing deadline has been set.",
+     "origin": "copied"
+    },
+    {
+     "fact": "f1",
+     "text": "Celtic Homes has announced an emergency restructuring plan valued at 310m GBP.",
+     "origin": "copied"
+    },
+    {
+     "fact": "f3",
+     "text": "The decision was attributed by CEO Marian Holt to a 12% revenue decline in the last quarter.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "f5",
+     "text": "Across three regions, 4,800 staff roles are at risk in total.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "w2",
+     "text": "Local residents have noticed new security cameras installed in the area.",
+     "origin": "own"
+    }
+   ]
+  },
+  "WD_3": {
+   "role": "WD",
+   "outlet": "South Wales Argus",
+   "sentences": [
+    {
+     "fact": "f4",
+     "text": "Shares fell as the company's market cap dropped to 4.26bn GBP overnight.",
+     "origin": "copied"
+    },
+    {
+     "fact": "f1",
+     "text": "Celtic Homes has announced an emergency restructuring plan valued at 310m GBP.",
+     "origin": "copied"
+    },
+    {
+     "fact": "f6",
+     "text": "From 4 November onwards, the restructuring measures will take effect.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "f8",
+     "text": "Liquidation is scheduled for the insolvent subsidiary Meridian Estates.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "w3",
+     "text": "A local bakery has sold out of its celebration cakes.",
+     "origin": "own"
+    }
+   ]
+  },
+  "PD": {
+   "role": "PD",
+   "headline": "Deeside Branch Manager Resigns Amidst Local Challenges",
+   "sentences": [
+    {
+     "fact": "f1",
+     "text": "An emergency restructuring plan, valued at 310m GBP, has been announced by Celtic Homes.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "p1",
+     "text": "The Deeside branch manager has resigned effective immediately.",
+     "origin": "own"
+    },
+    {
+     "fact": "p2",
+     "text": "Local news reports that there are 300 empty flats in town.",
+     "origin": "own"
+    },
+    {
+     "fact": "f3",
+     "text": "A 12% revenue decline in the last quarter was attributed by CEO Marian Holt as the reason for the decision.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "p3",
+     "text": "Resident Sarah Jenkins has complained about maintenance delays.",
+     "origin": "own"
+    },
+    {
+     "fact": "p4",
+     "text": "The community center is hosting advice sessions weekly.",
+     "origin": "own"
+    },
+    {
+     "fact": "p5",
+     "text": "Local taxi drivers have seen reduced commuter traffic.",
+     "origin": "own"
+    }
+   ]
+  },
+  "ND": {
+   "role": "ND",
+   "headline": "Board Approves Asset Sales Amidst Rising Controversy and Financial Warnings",
+   "sentences": [
+    {
+     "fact": "f2",
+     "text": "Directors approved the instant disposal of assets through a 5-2 vote.",
+     "origin": "own"
+    },
+    {
+     "fact": "f3",
+     "text": "CEO Marian Holt cited a 12% revenue decline in the last quarter to justify the decision.",
+     "origin": "own"
+    },
+    {
+     "fact": "n1",
+     "text": "The Unite union is preparing a strike ballot for its 2,400 members.",
+     "origin": "own"
+    },
+    {
+     "fact": "n2",
+     "text": "Analyst firm Fitch has warned of a 15% bond downgrade.",
+     "origin": "own"
+    },
+    {
+     "fact": "n3",
+     "text": "Local MP David Thorne has demanded a public inquiry into the matter.",
+     "origin": "own"
+    },
+    {
+     "fact": "n4",
+     "text": "A tenant group known as Rights4Rent has filed for judicial review.",
+     "origin": "own"
+    },
+    {
+     "fact": "n5",
+     "text": "The company was founded in 1998 by a private equity fund.",
+     "origin": "own"
+    },
+    {
+     "fact": "n6",
+     "text": "The next steps include the auction of 500 empty units.",
+     "origin": "own"
+    },
+    {
+     "fact": "n7",
+     "text": "The regional office in Cardiff is set to close permanently.",
+     "origin": "own"
+    },
+    {
+     "fact": "n8",
+     "text": "A leaked internal memo shows a 2026 loss projection.",
+     "origin": "own"
+    },
+    {
+     "fact": "n9",
+     "text": "Unrepresented tenants have joined a protest at the headquarters gates.",
+     "origin": "own"
+    },
+    {
+     "fact": "n10",
+     "text": "A former board member cited a culture of secrecy within the organization.",
+     "origin": "own"
+    },
+    {
+     "fact": "n11",
+     "text": "The legal team advises a 60-day notice period for employee exits.",
+     "origin": "own"
+    },
+    {
+     "fact": "n12",
+     "text": "The local council has offered a 10m GBP support package.",
+     "origin": "own"
+    },
+    {
+     "fact": "n13",
+     "text": "Rival bidder Northgate Housing has expressed interest in the situation.",
+     "origin": "own"
+    }
+   ]
+  }
+ },
+ "assign": {
+  "W": {
+   "total": 8,
+   "unassigned": 0
+  },
+  "PD_own": {
+   "total": 5,
+   "unassigned": 1
+  },
+  "ND": {
+   "total": 15,
+   "unassigned": 1
+  }
+ },
+ "anchor_missing": 2,
+ "anchor_total": 37,
+ "fact_integrity_issues": [
+  {
+   "variant": "PD",
+   "fact": "p4",
+   "why": "锚点被拆到多句或缺失"
+  },
+  {
+   "variant": "ND",
+   "fact": "n9",
+   "why": "锚点被拆到多句或缺失"
+  }
+ ]
+}

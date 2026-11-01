@@ -1,0 +1,329 @@
+{
+ "event": "e05",
+ "seed": 1739602,
+ "domain": "steel",
+ "company": "Northbridge Steel",
+ "n_wire": 7,
+ "prompt_sha": "34748c84e8aef76e",
+ "anchors": {
+  "f1": [
+   "4,800",
+   "Northbridge Steel"
+  ],
+  "f2": [
+   "Deeside"
+  ],
+  "f3": [
+   "Marian Holt",
+   "12%"
+  ],
+  "f4": [
+   "15%"
+  ],
+  "f5": [
+   "310m GBP"
+  ],
+  "f6": [
+   "electric arc"
+  ],
+  "f7": [
+   "4 November",
+   "7-2"
+  ],
+  "n1": [
+   "Unite"
+  ],
+  "n2": [
+   "Gareth Pryce"
+  ],
+  "n3": [
+   "4.26bn GBP"
+  ],
+  "n4": [
+   "AutoParts Alliance"
+  ],
+  "n5": [
+   "1978",
+   "5,000"
+  ],
+  "n6": [
+   "20m GBP"
+  ],
+  "n7": [
+   "GreenSteel Watch"
+  ],
+  "n8": [
+   "March 2027"
+  ],
+  "n9": [
+   "David O'Neil"
+  ],
+  "n10": [
+   "FerroMetal Inc"
+  ],
+  "n11": [
+   "Deeside Voices"
+  ],
+  "n12": [
+   "1,200"
+  ],
+  "n13": [
+   "SouthGate Steel"
+  ],
+  "p1": [
+   "30%"
+  ],
+  "p2": [
+   "500"
+  ],
+  "p3": [
+   "200"
+  ],
+  "p4": [
+   "two"
+  ],
+  "p5": [
+   "50"
+  ],
+  "w1": [],
+  "w2": [],
+  "w3": []
+ },
+ "wire": {
+  "headline": "Northbridge Steel to Close Deeside Plant in Major Restructuring",
+  "sentences": [
+   [
+    "f1",
+    "Northbridge Steel has announced that it will cut 4,800 jobs across its operations."
+   ],
+   [
+    "f2",
+    "The company stated that this decision includes the closure of its Deeside blast furnace facility."
+   ],
+   [
+    "f3",
+    "CEO Marian Holt cited a 12% price drop as a primary reason for the drastic measures."
+   ],
+   [
+    "f7",
+    "The board of directors approved the restructuring plan by a vote of 7-2 on 4 November."
+   ],
+   [
+    "f5",
+    "The estimated cost for severance packages amounts to 310m GBP."
+   ],
+   [
+    "f6",
+    "The firm indicated that its remaining operations will shift to electric arc technology."
+   ],
+   [
+    "f4",
+    "Shares in the company fell 15% following the release of the news."
+   ]
+  ]
+ },
+ "variants": {
+  "WD_1": {
+   "role": "WD",
+   "outlet": "The Press and Journal",
+   "sentences": [
+    {
+     "fact": "f7",
+     "text": "On 4 November, the board of directors approved the restructuring plan via a 7-2 vote.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "f6",
+     "text": "The firm indicated that its remaining operations will shift to electric arc technology.",
+     "origin": "copied"
+    },
+    {
+     "fact": "f4",
+     "text": "Shares in the company fell 15% following the release of the news.",
+     "origin": "copied"
+    },
+    {
+     "fact": "w1",
+     "text": "Rain falls heavily on the plant gates.",
+     "origin": "own"
+    }
+   ]
+  },
+  "WD_2": {
+   "role": "WD",
+   "outlet": "Western Morning News",
+   "sentences": [
+    {
+     "fact": "f2",
+     "text": "According to the company, this decision includes the closure of its Deeside blast furnace facility.",
+     "origin": "copied"
+    },
+    {
+     "fact": "f5",
+     "text": "The estimated cost of severance packages is 310m GBP.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "f6",
+     "text": "The firm indicated that its remaining operations will be shifted to electric arc technology.",
+     "origin": "copied"
+    },
+    {
+     "fact": "w2",
+     "text": "Geese were observed migrating over the cooling towers.",
+     "origin": "own"
+    }
+   ]
+  },
+  "WD_3": {
+   "role": "WD",
+   "outlet": "Belfast Telegraph",
+   "sentences": [
+    {
+     "fact": "f4",
+     "text": "Shares in the company fell 15% following the release of the news.",
+     "origin": "copied"
+    },
+    {
+     "fact": "f2",
+     "text": "This decision, which includes the closure of its Deeside blast furnace facility, was stated by the company.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "f5",
+     "text": "The estimated cost for severance packages amounts to 310m GBP.",
+     "origin": "copied"
+    },
+    {
+     "fact": "w3",
+     "text": "Sunset paints the sky orange.",
+     "origin": "own"
+    }
+   ]
+  },
+  "PD": {
+   "role": "PD",
+   "headline": "Local businesses report significant reductions in operations and staffing",
+   "sentences": [
+    {
+     "fact": "f1",
+     "text": "Northbridge Steel has declared that it will eliminate 4,800 jobs across its operations.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "p1",
+     "text": "A local taxi firm has reported losing 30% of its contracts.",
+     "origin": "own"
+    },
+    {
+     "fact": "Housing association reports 500 empty flats",
+     "text": "The housing association announced that 500 flats are currently empty.",
+     "origin": "own"
+    },
+    {
+     "fact": "f3",
+     "text": "A primary reason for the drastic measures, CEO Marian Holt cited, was a 12% price drop.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "p3",
+     "text": "The school district expects to have 200 fewer pupils.",
+     "origin": "own"
+    },
+    {
+     "fact": "p4",
+     "text": "A local bank has closed two of its branch offices.",
+     "origin": "own"
+    }
+   ]
+  },
+  "ND": {
+   "role": "ND",
+   "headline": "Deeside Blast Furnace Closes Amidst Financial Turmoil",
+   "sentences": [
+    {
+     "fact": "f2",
+     "text": "The Deeside blast furnace facility has officially ceased operations.",
+     "origin": "own"
+    },
+    {
+     "fact": "f3",
+     "text": "Marian Holt, the CEO, attributed the choice chiefly to a 12% decline in price.",
+     "origin": "own"
+    },
+    {
+     "fact": "n1",
+     "text": "The Unite union has announced that it will ballot its members regarding potential strike action.",
+     "origin": "own"
+    },
+    {
+     "fact": "n2",
+     "text": "Local MP Gareth Pryce has demanded a formal inquiry into the circumstances of the closure.",
+     "origin": "own"
+    },
+    {
+     "fact": "n3",
+     "text": "Financial analysts are currently questioning the company's 4.26bn GBP debt load.",
+     "origin": "own"
+    },
+    {
+     "fact": "n4",
+     "text": "The customer group AutoParts Alliance has voiced its concern over the impact of the closure.",
+     "origin": "own"
+    },
+    {
+     "fact": "n5",
+     "text": "The plant originally opened in 1978 with a staff count of 5,000.",
+     "origin": "own"
+    },
+    {
+     "fact": "n6",
+     "text": "The regional council has offered a 20m GBP grant to assist with the transition.",
+     "origin": "own"
+    },
+    {
+     "fact": "n7",
+     "text": "Environmental group GreenSteel Watch is actively monitoring emissions in the area.",
+     "origin": "own"
+    },
+    {
+     "fact": "n8",
+     "text": "The next major review of the situation is scheduled for March 2027.",
+     "origin": "own"
+    },
+    {
+     "fact": "n9",
+     "text": "Chief Engineer David O'Neil has resigned from his position immediately.",
+     "origin": "own"
+    },
+    {
+     "fact": "n10",
+     "text": "Supplier FerroMetal Inc has issued a warning regarding potential delays in operations.",
+     "origin": "own"
+    },
+    {
+     "fact": "n12",
+     "text": "A training programme has been established for the purpose of retraining 1,200 staff members.",
+     "origin": "own"
+    }
+   ]
+  }
+ },
+ "assign": {
+  "W": {
+   "total": 7,
+   "unassigned": 0
+  },
+  "PD_own": {
+   "total": 4,
+   "unassigned": 1
+  },
+  "ND": {
+   "total": 13,
+   "unassigned": 0
+  }
+ },
+ "anchor_missing": 0,
+ "anchor_total": 30,
+ "fact_integrity_issues": []
+}

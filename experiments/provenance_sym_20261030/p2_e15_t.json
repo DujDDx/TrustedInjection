@@ -1,0 +1,497 @@
+{
+ "event": "e15",
+ "seed": 1739733,
+ "domain": "ports",
+ "company": "Northgate Port Authority",
+ "n_wire": 8,
+ "prompt_sha": "34748c84e8aef76e",
+ "anchors": {
+  "f1": [
+   "Northgate Port Authority",
+   "4.26bn GBP"
+  ],
+  "f2": [
+   "12%",
+   "March 2027"
+  ],
+  "f3": [
+   "Julian Vane",
+   "transatlantic"
+  ],
+  "f4": [
+   "12.4p"
+  ],
+  "f5": [
+   "4,800",
+   "Deeside"
+  ],
+  "f6": [
+   "4 November"
+  ],
+  "f7": [
+   "310m GBP"
+  ],
+  "f8": [
+   "2.1%"
+  ],
+  "n1": [
+   "Unite",
+   "2,400"
+  ],
+  "n2": [
+   "Fitch",
+   "B-plus"
+  ],
+  "n3": [
+   "Sarah Connell"
+  ],
+  "n4": [
+   "Shippers Association",
+   "8%"
+  ],
+  "n5": [
+   "1923",
+   "H. Blackwood"
+  ],
+  "n6": [
+   "GreenShield"
+  ],
+  "n7": [
+   "Deeside council",
+   "terminal 4"
+  ],
+  "n8": [
+   "KPMG",
+   "500m GBP"
+  ],
+  "n9": [
+   "Southport Holdings"
+  ],
+  "n10": [
+   "Dave Miller"
+  ],
+  "n11": [
+   "migratory"
+  ],
+  "n12": [
+   "January 2027"
+  ],
+  "n13": [
+   "Grade II"
+  ],
+  "p1": [
+   "Deeside school district",
+   "300"
+  ],
+  "p2": [
+   "Tom Richards",
+   "50-room"
+  ],
+  "p3": [
+   "15%",
+   "2028"
+  ],
+  "p4": [
+   "Anne Foster"
+  ],
+  "p5": [
+   "The Anchor"
+  ],
+  "w1": [
+   "1990"
+  ],
+  "w2": [],
+  "w3": []
+ },
+ "wire": {
+  "headline": "Northgate Port Authority Launches Major Expansion",
+  "sentences": [
+   [
+    "f1",
+    "The Northgate Port Authority has approved an expansion plan valued at 4.26bn GBP."
+   ],
+   [
+    "f2",
+    "A board vote in March 2027 secured the decision with a 12% majority."
+   ],
+   [
+    "f3",
+    "CEO Julian Vane cited rising transatlantic cargo demand as a primary driver for the project."
+   ],
+   [
+    "f4",
+    "The stock price surged by 12.4p following the announcement."
+   ],
+   [
+    "f5",
+    "The expansion targets the creation of 4,800 new jobs in Deeside."
+   ],
+   [
+    "f6",
+    "Phase one construction is scheduled to begin on 4 November."
+   ],
+   [
+    "f7",
+    "The funding package includes a 310m GBP government grant."
+   ],
+   [
+    "f8",
+    "The market reaction was positive, with the index up 2.1%."
+   ]
+  ]
+ },
+ "variants": {
+  "WD_1": {
+   "role": "WD",
+   "outlet": "Manchester Evening News",
+   "sentences": [
+    {
+     "fact": "f3",
+     "text": "CEO Julian Vane cited rising transatlantic cargo demand as a primary driver for the project, according to his statement, Fitch said.",
+     "origin": "copied",
+     "forged": true,
+     "forge": {
+      "source": "Fitch",
+      "was": "copied"
+     },
+     "tampered": false
+    },
+    {
+     "fact": "f2",
+     "text": "A board vote in March 2029 secured the decision with a 12% majority.",
+     "origin": "copied",
+     "tampered": true,
+     "tamper": {
+      "from": "2027",
+      "to": "2029"
+     },
+     "forged": false
+    },
+    {
+     "fact": "f4",
+     "text": "12.4p was the magnitude of the upward jump in the share value after that news was released.",
+     "origin": "rewritten",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "f7",
+     "text": "A 310m GBP government grant is included in the funding package.",
+     "origin": "rewritten",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "w1",
+     "text": "Seagulls have been nesting on a historic crane since 1990.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    }
+   ]
+  },
+  "WD_2": {
+   "role": "WD",
+   "outlet": "The Journal",
+   "sentences": [
+    {
+     "fact": "f1",
+     "text": "The Northgate Port Authority has approved an expansion plan valued at 4.26bn GBP.",
+     "origin": "copied",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "f2",
+     "text": "A board vote in March 2027 secured the decision with a 12% majority.",
+     "origin": "copied",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "f3",
+     "text": "CEO Julian Vane identified increasing transatlantic cargo demand as a key driver for the project.",
+     "origin": "rewritten",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "f5",
+     "text": "The expansion aims at creating 4,800 new jobs in Deeside.",
+     "origin": "rewritten",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "w2",
+     "text": "Fog rolls in at dawn from the estuary, as noted by The Journal.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    }
+   ]
+  },
+  "WD_3": {
+   "role": "WD",
+   "outlet": "South Wales Argus",
+   "sentences": [
+    {
+     "fact": "f1",
+     "text": "The Northgate Port Authority has approved an expansion plan valued at 4.26bn GBP.",
+     "origin": "copied",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "f3",
+     "text": "Rising transatlantic cargo demand was cited by CEO Julian Vane as a primary driver for the project.",
+     "origin": "rewritten",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "f4",
+     "text": "12.4p marked the rise in share value once the news broke.",
+     "origin": "rewritten",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "f6",
+     "text": "Phase one construction is scheduled to begin on 4 November.",
+     "origin": "copied",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "w3",
+     "text": "An old lighthouse keeper’s cottage still stands nearby.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    }
+   ]
+  },
+  "PD": {
+   "role": "PD",
+   "headline": "Deeside Faces Growth and Infrastructure Challenges",
+   "sentences": [
+    {
+     "fact": "f1",
+     "text": "An expansion plan valued at 4.26bn GBP has been approved by the Northgate Port Authority.",
+     "origin": "rewritten",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "p1",
+     "text": "The Deeside school district anticipates that 300 new families will be joining the community.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "p2",
+     "text": "Local hotelier Tom Richards has opened a new 50-room inn in the area.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "f3",
+     "text": "Rising transatlantic cargo demand was cited by CEO Julian Vane as a primary driver for the project.",
+     "origin": "rewritten",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "p3",
+     "text": "Traffic congestion in Deeside is projected to rise by 15% by 2028.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "p4",
+     "text": "Council mayor Anne Foster has requested upgrades to the local roads in response to the increased traffic.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "p5",
+     "text": "The local pub The Anchor plans to expand its seating capacity to accommodate more patrons.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    }
+   ]
+  },
+  "ND": {
+   "role": "ND",
+   "headline": "Northgate Expansion Faces Multilayered Opposition as Strike Ballot Looms",
+   "sentences": [
+    {
+     "fact": "f2",
+     "text": "The board secured a 12% majority in March 2027 when it voted on the project.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "f3",
+     "text": "The main force behind this plan, according to Julian Vane, the top executive, was the growing need for freight across the Atlantic.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n1",
+     "text": "The union Unite announced that it would ballot 2,400 members on strike action.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n2",
+     "text": "Analyst Fitch rated the project B-plus with a stable outlook.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n3",
+     "text": "Local MP Sarah Connell demanded that strict environmental safeguards be implemented.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n4",
+     "text": "The Shippers Association warned that an 8% tariff increase was imminent.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n5",
+     "text": "Northgate was founded in 1923 by industrialist H. Blackwood.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n6",
+     "text": "Environmental group GreenShield filed an injunction petition against the development.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n7",
+     "text": "The Deeside council expressed opposition to the relocation of terminal 4.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n8",
+     "text": "Consultant KPMG estimated that 500m GBP in hidden costs were associated with the plan.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n9",
+     "text": "Rival operator Southport Holdings is considering an acquisition of the facility.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n10",
+     "text": "Union rep Dave Miller characterized the plan as premature.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n11",
+     "text": "Local fishermen voiced fears about disruption to migratory routes.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n12",
+     "text": "Approval for the next phase is scheduled for January 2027.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n13",
+     "text": "A historic warehouse with Grade II status is at risk due to the proposed changes.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    }
+   ]
+  },
+  "HOP2": {
+   "role": "HOP2",
+   "parent": "WD_1",
+   "sentences": [
+    {
+     "fact": "f2",
+     "text": "A board vote in March 2029 secured the decision with a 12% majority.",
+     "origin": "copied",
+     "tampered": true,
+     "tamper": {
+      "from": "2027",
+      "to": "2029"
+     },
+     "hop": 2,
+     "forged": false
+    },
+    {
+     "fact": "f3",
+     "text": "CEO Julian Vane cited rising transatlantic cargo demand as a primary driver for the project, according to his statement, Fitch said.",
+     "origin": "copied",
+     "forged": true,
+     "forge": {
+      "source": "Fitch",
+      "was": "copied"
+     },
+     "hop": 2,
+     "tampered": false
+    },
+    {
+     "fact": "f4",
+     "text": "12.4p was the magnitude of the upward jump in the share value after that news was released.",
+     "origin": "copied",
+     "hop": 2,
+     "tampered": false,
+     "forged": false
+    }
+   ]
+  }
+ },
+ "assign": {
+  "W": {
+   "total": 8,
+   "unassigned": 0
+  },
+  "PD_own": {
+   "total": 5,
+   "unassigned": 0
+  },
+  "ND": {
+   "total": 15,
+   "unassigned": 0
+  }
+ },
+ "anchor_missing": 0,
+ "anchor_total": 37,
+ "fact_integrity_issues": []
+}

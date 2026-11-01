@@ -1,0 +1,430 @@
+{
+ "event": "e16",
+ "seed": 1739734,
+ "domain": "local government",
+ "company": "Aldbury District Council",
+ "n_wire": 6,
+ "prompt_sha": "34748c84e8aef76e",
+ "anchors": {
+  "f1": [
+   "Aldbury District Council",
+   "12%",
+   "9",
+   "4"
+  ],
+  "f2": [
+   "4.26bn GBP"
+  ],
+  "f3": [
+   "Marian Holt"
+  ],
+  "f4": [
+   "18p"
+  ],
+  "f5": [
+   "March 2027"
+  ],
+  "f6": [
+   "Gareth Vane"
+  ],
+  "n1": [
+   "Unite the Union",
+   "2,400"
+  ],
+  "n2": [
+   "Aldbury Traders Association",
+   "35%"
+  ],
+  "n3": [
+   "2015",
+   "3"
+  ],
+  "n4": [
+   "15%"
+  ],
+  "n5": [
+   "Aldbury Voices",
+   "5"
+  ],
+  "n6": [
+   "4 November"
+  ],
+  "n7": [
+   "Sarah Jenkins"
+  ],
+  "n8": [
+   "8,000",
+   "2023"
+  ],
+  "n9": [
+   "January 2027"
+  ],
+  "n10": [
+   "12%"
+  ],
+  "n11": [
+   "BrightBuild Ltd",
+   "500"
+  ],
+  "n12": [
+   "David Okafor",
+   "2027"
+  ],
+  "n13": [
+   "Aldbury Hall",
+   "15 October"
+  ],
+  "p1": [
+   "Deeside",
+   "20%"
+  ],
+  "p2": [
+   "Tom Richards",
+   "3"
+  ],
+  "p3": [
+   "Deeside",
+   "September 2027"
+  ],
+  "p4": [
+   "Aldbury",
+   "2"
+  ],
+  "p5": [
+   "Stagecoach",
+   "4"
+  ],
+  "w1": [],
+  "w2": [],
+  "w3": [
+   "100"
+  ]
+ },
+ "wire": {
+  "headline": "Aldbury Council Reverses Infrastructure Bond Withdrawal After 9-4 Vote",
+  "sentences": [
+   [
+    "f1",
+    "Aldbury District Council voted 9-4 to scrap its 12% budget cut plan."
+   ],
+   [
+    "f2",
+    "The decision reverses a proposal to withdraw 4.26bn GBP in infrastructure bonds."
+   ],
+   [
+    "f3",
+    "Cllr Marian Holt described the vote as a historic correction of fiscal error."
+   ],
+   [
+    "f4",
+    "Local housing shares jumped 18p following the immediate relief announcement."
+   ],
+   [
+    "f5",
+    "Full implementation is scheduled for the March 2027 financial cycle start."
+   ],
+   [
+    "f6",
+    "Opposition MP Gareth Vane demanded an independent audit of the savings."
+   ]
+  ]
+ },
+ "variants": {
+  "WD_1": {
+   "role": "WD",
+   "outlet": "The Northern Echo",
+   "sentences": [
+    {
+     "fact": "f3",
+     "text": "Cllr Marian Holt characterized the vote as a historic correction of fiscal error, Aldbury Traders Association said.",
+     "origin": "copied",
+     "forged": true,
+     "forge": {
+      "source": "Aldbury Traders Association",
+      "was": "copied"
+     },
+     "tampered": false
+    },
+    {
+     "fact": "f2",
+     "text": "The decision reverses a proposal to withdraw 4.02bn GBP in infrastructure bonds.",
+     "origin": "copied",
+     "tampered": true,
+     "tamper": {
+      "from": "4.26bn",
+      "to": "4.02bn"
+     },
+     "forged": false
+    },
+    {
+     "fact": "f4",
+     "text": "Local housing shares rose 18p after the immediate relief announcement.",
+     "origin": "rewritten",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "w1",
+     "text": "Councillors were seen wearing red ties as a show of solidarity with service users.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    }
+   ]
+  },
+  "WD_2": {
+   "role": "WD",
+   "outlet": "The Yorkshire Post",
+   "sentences": [
+    {
+     "fact": "f2",
+     "text": "The decision reverses a proposal to withdraw 4.26bn GBP in infrastructure bonds.",
+     "origin": "copied",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "f1",
+     "text": "To scrap its 12% budget cut plan, Aldbury District Council voted 9-4.",
+     "origin": "copied",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "f5",
+     "text": "Full implementation is planned to begin with the March 2027 financial cycle.",
+     "origin": "rewritten",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "w2",
+     "text": "The town crier in w2 used a traditional trumpet fanfare to announce the outcome of a vote.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    }
+   ]
+  },
+  "WD_3": {
+   "role": "WD",
+   "outlet": "Western Mail",
+   "sentences": [
+    {
+     "fact": "f6",
+     "text": "Opposition MP Gareth Vane demanded an independent audit of the savings.",
+     "origin": "copied",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "f2",
+     "text": "The decision reverses a proposal to withdraw 4.26bn GBP in infrastructure bonds.",
+     "origin": "copied",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "f4",
+     "text": "Local housing shares saw an 18p rise after the immediate relief announcement.",
+     "origin": "rewritten",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "w3",
+     "text": "A local bakery donated 100 loaves to the council staff lounge.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    }
+   ]
+  },
+  "PD": {
+   "role": "PD",
+   "headline": "Deeside Faces Commute Delays and Service Cuts",
+   "sentences": [
+    {
+     "fact": "f1",
+     "text": "Aldbury District Council voted 9-4 to scrap the plan for its 12% budget cut.",
+     "origin": "rewritten",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "p1",
+     "text": "Residents of Deeside have reported that their commutes are now 20% longer due to road delays.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "p2",
+     "text": "Local business owner Tom Richards said he lost 3 clients following recent cuts.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "f3",
+     "text": "Cllr Marian Holt described the vote as a fiscal error that was historically corrected.",
+     "origin": "rewritten",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "p4",
+     "text": "Under new rules, the Aldbury library branch will close for 2 hours every week.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "p5",
+     "text": "Regional bus operator Stagecoach has added 4 extra morning routes to the network.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    }
+   ]
+  },
+  "ND": {
+   "role": "ND",
+   "headline": "Council Reverses Decision to Withdraw 4.26bn GBP Infrastructure Bond",
+   "sentences": [
+    {
+     "fact": "f2",
+     "text": "The local council has officially reversed its proposal to withdraw the 4.26bn GBP infrastructure bond.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "f3",
+     "text": "Cllr Marian Holt characterized the latest ballot as a landmark rectification of financial mistake.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n1",
+     "text": "Unite the Union has threatened to place a ballot for strike action to its 2,400 members.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n2",
+     "text": "The Aldbury Traders Association cited a 35% footfall drop during the last quarter.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n3",
+     "text": "Council history indicates that there have been 3 previous reversals since the 2015 administration.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n4",
+     "text": "A senior analyst noted a 15% overage in the previous year's spending.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n5",
+     "text": "The resident group Aldbury Voices is demanding 5 new consultation meetings.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n6",
+     "text": "The next step involves publishing a revised budget by the 4 November deadline.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n7",
+     "text": "Local MP Sarah Jenkins praised the swift response to the public outcry.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n8",
+     "text": "A union representative cited 8,000 hours of unpaid overtime in 2023.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n9",
+     "text": "An independent review panel is scheduled to meet in the January 2027 session.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    }
+   ]
+  },
+  "HOP2": {
+   "role": "HOP2",
+   "parent": "WD_1",
+   "sentences": [
+    {
+     "fact": "f2",
+     "text": "The decision reverses a proposal to withdraw 4.02bn GBP in infrastructure bonds.",
+     "origin": "copied",
+     "tampered": true,
+     "tamper": {
+      "from": "4.26bn",
+      "to": "4.02bn"
+     },
+     "hop": 2,
+     "forged": false
+    },
+    {
+     "fact": "f3",
+     "text": "Cllr Marian Holt characterized the vote as a historic correction of fiscal error, Aldbury Traders Association said.",
+     "origin": "copied",
+     "forged": true,
+     "forge": {
+      "source": "Aldbury Traders Association",
+      "was": "copied"
+     },
+     "hop": 2,
+     "tampered": false
+    },
+    {
+     "fact": "f4",
+     "text": "Local housing shares rose 18p after the immediate relief announcement.",
+     "origin": "copied",
+     "hop": 2,
+     "tampered": false,
+     "forged": false
+    }
+   ]
+  }
+ },
+ "assign": {
+  "W": {
+   "total": 6,
+   "unassigned": 0
+  },
+  "PD_own": {
+   "total": 4,
+   "unassigned": 0
+  },
+  "ND": {
+   "total": 11,
+   "unassigned": 0
+  }
+ },
+ "anchor_missing": 1,
+ "anchor_total": 29,
+ "fact_integrity_issues": []
+}

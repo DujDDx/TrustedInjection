@@ -1,0 +1,262 @@
+{
+ "event": "p1_energy",
+ "seed": 22,
+ "prompt_sha": "bb0a094d515e21c2",
+ "wire": {
+  "headline": "Utility Firm Reports Revenue Rise Amid Profit Drop and Job Cuts",
+  "sentences": [
+   [
+    "f1",
+    "Revenue rose 7% year on year to 4.26bn GBP for the quarter to 30 September."
+   ],
+   [
+    "f2",
+    "Pre-tax profit fell 12% to 310m GBP."
+   ],
+   [
+    "f3",
+    "The company plans 850 job cuts, which represents about 6% of the workforce."
+   ],
+   [
+    "f4",
+    "Two gas plants are scheduled to close by March 2027, with one located in Wales and the other in Kent."
+   ],
+   [
+    "f5",
+    "CEO Marian Holt stated that cost pressure is sharper than expected."
+   ],
+   [
+    "f6",
+    "Ofgem has opened an investigation into the company's billing system."
+   ],
+   [
+    "f7",
+    "The dividend was held at 12.4p a share."
+   ],
+   [
+    "f8",
+    "Shares dropped 4.2% in morning trading."
+   ]
+  ]
+ },
+ "variants": {
+  "WD_1": {
+   "role": "WD",
+   "outlet": "The Northern Echo",
+   "sentences": [
+    {
+     "fact": "f1",
+     "text": "Revenue rose 7% year on year to 4.26bn GBP for the quarter to 30 September.",
+     "origin": "copied"
+    },
+    {
+     "fact": "f2",
+     "text": "Pre-tax profit dropped 12% to 310m GBP.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "f3",
+     "text": "The company plans 850 job cuts, which represents about 6% of the workforce.",
+     "origin": "copied"
+    },
+    {
+     "fact": "f4",
+     "text": "Two gas plants are set to shut down by March 2027, one situated in Wales and the other in Kent.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "w1",
+     "text": "The company declines to comment on the timing of the plant closures.",
+     "origin": "own"
+    }
+   ]
+  },
+  "WD_2": {
+   "role": "WD",
+   "outlet": "The Yorkshire Post",
+   "sentences": [
+    {
+     "fact": "f6",
+     "text": "Ofgem has opened an investigation into the company's billing system.",
+     "origin": "copied"
+    },
+    {
+     "fact": "f1",
+     "text": "For the quarter to 30 September, Revenue increased 7% year on year, reaching 4.26bn GBP.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "f2",
+     "text": "Pre-tax profit decreased by 12% to 310m GBP.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "f5",
+     "text": "CEO Marian Holt said that cost pressure is sharper than expected.",
+     "origin": "copied"
+    },
+    {
+     "fact": "w2",
+     "text": "The w2 union branch secretary stated that members are angry but not surprised.",
+     "origin": "own"
+    }
+   ]
+  },
+  "WD_3": {
+   "role": "WD",
+   "outlet": "Western Mail",
+   "sentences": [
+    {
+     "fact": "f7",
+     "text": "The dividend was held at 12.4p a share.",
+     "origin": "copied"
+    },
+    {
+     "fact": "f1",
+     "text": "Revenue rose 7% year on year to 4.26bn GBP for the quarter to 30 September.",
+     "origin": "copied"
+    },
+    {
+     "fact": "f4",
+     "text": "Two gas plants are scheduled to close by March 2027, with one located in Kent and the other in Wales.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "f8",
+     "text": "In morning trading, shares dropped 4.2%.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "w3",
+     "text": "The local chamber of commerce stated that the town has lost 300 manufacturing jobs since 2020.",
+     "origin": "own"
+    }
+   ]
+  },
+  "PD": {
+   "role": "PD",
+   "headline": "Kestrel Securities Cuts and Political Reactions",
+   "sentences": [
+    {
+     "fact": "f1",
+     "text": "Revenue for the quarter to 30 September grew 7% year on year, reaching 4.26bn GBP.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "p1",
+     "text": "A Kestrel Securities analyst stated that job cuts save 90m GBP a year.",
+     "origin": "own"
+    },
+    {
+     "fact": "p2",
+     "text": "Unite is set to ballot members on industrial action.",
+     "origin": "own"
+    },
+    {
+     "fact": "f3",
+     "text": "About 6% of the workforce is subject to the 850 job cuts the company plans.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "p3",
+     "text": "The MP for Deeside has requested an urgent meeting with the company.",
+     "origin": "own"
+    },
+    {
+     "fact": "p4",
+     "text": "The company announced that customer bills will remain unchanged until April 2027.",
+     "origin": "own"
+    },
+    {
+     "fact": "p5",
+     "text": "The council leader is seeking assurances regarding the Kent plant.",
+     "origin": "own"
+    }
+   ]
+  },
+  "ND": {
+   "role": "ND",
+   "headline": "Energy firm announces 850 job cuts and faces regulatory scrutiny",
+   "sentences": [
+    {
+     "fact": "f2",
+     "text": "The company reported that its pre-tax profit fell by 12% to 310m GBP.",
+     "origin": "own"
+    },
+    {
+     "fact": "f3",
+     "text": "The firm plans to cut 850 jobs, which represents about 6% of its workforce.",
+     "origin": "own"
+    },
+    {
+     "fact": "n1",
+     "text": "A Kestrel Securities analyst noted that the job cuts will save 90m GBP a year.",
+     "origin": "own"
+    },
+    {
+     "fact": "n2",
+     "text": "The union Unite is set to ballot its members on taking industrial action.",
+     "origin": "own"
+    },
+    {
+     "fact": "n3",
+     "text": "The Kent plant employs 410 staff and has left the local supply chain exposed.",
+     "origin": "own"
+    },
+    {
+     "fact": "n4",
+     "text": "The MP for Deeside has asked for an urgent meeting with the company.",
+     "origin": "own"
+    },
+    {
+     "fact": "n5",
+     "text": "Since 2024, 1,200 staff have left under a voluntary scheme.",
+     "origin": "own"
+    },
+    {
+     "fact": "n6",
+     "text": "Ofgem is scheduled to report preliminary findings by the end of 2026.",
+     "origin": "own"
+    },
+    {
+     "fact": "n7",
+     "text": "Shares in the company closed at 268p, down 11p.",
+     "origin": "own"
+    },
+    {
+     "fact": "n8",
+     "text": "A customer group logged 3,400 billing complaints in a six-month period.",
+     "origin": "own"
+    },
+    {
+     "fact": "n9",
+     "text": "Talks with unions are set to start on 4 November.",
+     "origin": "own"
+    },
+    {
+     "fact": "n10",
+     "text": "In 2023, Ofgem fined the company 1.8m GBP over billing issues.",
+     "origin": "own"
+    },
+    {
+     "fact": "n11",
+     "text": "The company stated there will be no compulsory redundancies before January 2027.",
+     "origin": "own"
+    },
+    {
+     "fact": "n12",
+     "text": "Kestrel Securities cut its price target to 240p from 290p.",
+     "origin": "own"
+    },
+    {
+     "fact": "n13",
+     "text": "The company employs 4,800 staff in the UK.",
+     "origin": "own"
+    }
+   ]
+  }
+ },
+ "anchor_missing": 1,
+ "anchor_total": 37,
+ "fact_integrity_issues": []
+}

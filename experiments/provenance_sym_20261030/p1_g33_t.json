@@ -1,0 +1,382 @@
+{
+ "event": "p1_energy",
+ "seed": 33,
+ "prompt_sha": "34748c84e8aef76e",
+ "wire": {
+  "headline": "Energy Firm Cuts Jobs and Closes Plants Amid Profit Decline",
+  "sentences": [
+   [
+    "f1",
+    "The company reported that its revenue rose 7% year on year to reach 4.26bn GBP for the quarter to 30 September."
+   ],
+   [
+    "f2",
+    "During the same period, pre-tax profit fell by 12% to 310m GBP."
+   ],
+   [
+    "f3",
+    "The firm announced plans to cut 850 jobs, which represents about 6% of its workforce."
+   ],
+   [
+    "f4",
+    "Two gas plants are scheduled to close by March 2027, with one located in Wales and the other in Kent."
+   ],
+   [
+    "f5",
+    "CEO Marian Holt stated that the cost pressure was sharper than expected."
+   ],
+   [
+    "f6",
+    "Ofgem has opened an investigation into the company's billing system."
+   ],
+   [
+    "f7",
+    "The dividend was held steady at 12.4p a share."
+   ],
+   [
+    "f8",
+    "Shares dropped by 4.2% in morning trading."
+   ]
+  ]
+ },
+ "variants": {
+  "WD_1": {
+   "role": "WD",
+   "outlet": "The Northern Echo",
+   "sentences": [
+    {
+     "fact": "f1",
+     "text": "Its revenue rose 9% year on year to reach 4.26bn GBP for the quarter to 30 September, as the company reported.",
+     "origin": "copied",
+     "tampered": true,
+     "tamper": {
+      "from": "7%",
+      "to": "9%"
+     },
+     "forged": false
+    },
+    {
+     "fact": "f3",
+     "text": "The firm announced plans to cut 850 jobs, a reduction representing about 6% of its workforce, Ofgem said.",
+     "origin": "rewritten",
+     "forged": true,
+     "forge": {
+      "source": "Ofgem",
+      "was": "rewritten"
+     },
+     "tampered": false
+    },
+    {
+     "fact": "f6",
+     "text": "Ofgem has opened an investigation into the company's billing system.",
+     "origin": "copied",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "f8",
+     "text": "In morning trading, shares dropped by 4.2%.",
+     "origin": "rewritten",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "w1",
+     "text": "The company declined to comment on the timing of the plant closures.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    }
+   ]
+  },
+  "WD_2": {
+   "role": "WD",
+   "outlet": "The Yorkshire Post",
+   "sentences": [
+    {
+     "fact": "f8",
+     "text": "Shares dropped by 4.2% in morning trading.",
+     "origin": "copied",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "f4",
+     "text": "With one in Wales and the other in Kent, two gas plants are scheduled to close by March 2027.",
+     "origin": "copied",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "f5",
+     "text": "The cost pressure was sharper than anticipated, stated CEO Marian Holt.",
+     "origin": "rewritten",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "f6",
+     "text": "An investigation into the company's billing system has been opened by Ofgem.",
+     "origin": "rewritten",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "w2",
+     "text": "The union branch secretary stated that members are angry but not surprised.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    }
+   ]
+  },
+  "WD_3": {
+   "role": "WD",
+   "outlet": "Western Mail",
+   "sentences": [
+    {
+     "fact": "f6",
+     "text": "Ofgem has opened an investigation into the company's billing system.",
+     "origin": "copied",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "f1",
+     "text": "Reporting on the quarter to 30 September, the company stated that its revenue rose 7% year on year to reach 4.26bn GBP.",
+     "origin": "copied",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "f3",
+     "text": "The firm announced plans to cut 850 jobs, representing about 6% of its workforce.",
+     "origin": "rewritten",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "f7",
+     "text": "The dividend was held at 12.4p a share, remaining steady.",
+     "origin": "rewritten",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "w3",
+     "text": "The local chamber of commerce stated that the town has lost 300 manufacturing jobs since 2020.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    }
+   ]
+  },
+  "PD": {
+   "role": "PD",
+   "headline": "Energy Sector Faces Industrial Action Threat Amid Job Cuts and Bill Assurances",
+   "sentences": [
+    {
+     "fact": "f1",
+     "text": "The company stated that its revenue increased 7% year on year, reaching 4.26bn GBP for the quarter to 30 September.",
+     "origin": "rewritten",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "p1",
+     "text": "A Kestrel Securities analyst stated that the planned job cuts will save 90m GBP a year.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "p2",
+     "text": "The union Unite intends to ballot its members on taking industrial action in response to the situation.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "f3",
+     "text": "The firm announced plans to reduce its workforce by 850 jobs, which is about 6% of its total staff.",
+     "origin": "rewritten",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "p3",
+     "text": "The MP for Deeside has requested an urgent meeting with the company to address the concerns.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "p4",
+     "text": "The company assured the public that customer bills will remain unchanged until April 2027.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "p5",
+     "text": "The council leader is seeking specific assurances regarding the Kent plant.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    }
+   ]
+  },
+  "ND": {
+   "role": "ND",
+   "headline": "UK Energy Firm Announces Job Cuts and Profit Decline",
+   "sentences": [
+    {
+     "fact": "f2",
+     "text": "The company reported that its pre-tax profit decreased by 12% to 310m GBP.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "f3",
+     "text": "The firm announced 850 job cuts, which represents about 6% of its workforce.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n1",
+     "text": "A Kestrel Securities analyst stated that the job cuts save 90m GBP a year.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n2",
+     "text": "Unite is set to ballot members on industrial action in response to the news.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n3",
+     "text": "The Kent plant employs 410 staff and has a local supply chain that is exposed.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n4",
+     "text": "The MP for Deeside has asked for an urgent meeting with the company.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n5",
+     "text": "Since 2024, 1,200 staff have left under a voluntary scheme.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n6",
+     "text": "Ofgem is expected to report preliminary findings by the end of 2026.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n7",
+     "text": "The company's shares closed at 268p, which was down 11p.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n8",
+     "text": "A customer group logged 3,400 billing complaints in six months.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n9",
+     "text": "Talks with unions are scheduled to start on 4 November.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n10",
+     "text": "Ofgem fined the company 1.8m GBP in 2023 over billing issues.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n11",
+     "text": "The company stated that there will be no compulsory redundancies before January 2027.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n12",
+     "text": "Kestrel Securities cut its price target to 240p from 290p.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n13",
+     "text": "The company employs 4,800 staff in the UK.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    }
+   ]
+  },
+  "HOP2": {
+   "role": "HOP2",
+   "parent": "WD_1",
+   "sentences": [
+    {
+     "fact": "f1",
+     "text": "Its revenue rose 9% year on year to reach 4.26bn GBP for the quarter to 30 September, as the company reported.",
+     "origin": "copied",
+     "tampered": true,
+     "tamper": {
+      "from": "7%",
+      "to": "9%"
+     },
+     "hop": 2,
+     "forged": false
+    },
+    {
+     "fact": "f3",
+     "text": "The firm announced plans to cut 850 jobs, a reduction representing about 6% of its workforce, Ofgem said.",
+     "origin": "copied",
+     "forged": true,
+     "forge": {
+      "source": "Ofgem",
+      "was": "rewritten"
+     },
+     "hop": 2,
+     "tampered": false
+    },
+    {
+     "fact": "f6",
+     "text": "Ofgem has opened an investigation into the company's billing system.",
+     "origin": "copied",
+     "hop": 2,
+     "tampered": false,
+     "forged": false
+    }
+   ]
+  }
+ },
+ "anchor_missing": 0,
+ "anchor_total": 37,
+ "fact_integrity_issues": []
+}

@@ -1,0 +1,374 @@
+{
+ "event": "e06",
+ "seed": 1739603,
+ "domain": "energy",
+ "company": "Aethelgard Wind",
+ "n_wire": 8,
+ "prompt_sha": "34748c84e8aef76e",
+ "anchors": {
+  "f1": [
+   "4.26bn GBP",
+   "Deeside"
+  ],
+  "f2": [
+   "4 November"
+  ],
+  "f3": [
+   "Marian Holt",
+   "12%"
+  ],
+  "f4": [
+   "8.5%"
+  ],
+  "f5": [
+   "310m GBP"
+  ],
+  "f6": [
+   "March 2027"
+  ],
+  "f7": [
+   "4,800"
+  ],
+  "f8": [
+   "BB+"
+  ],
+  "n1": [
+   "Unite",
+   "2,400"
+  ],
+  "n2": [
+   "Gareth Evans",
+   "Conwy"
+  ],
+  "n3": [
+   "15%"
+  ],
+  "n4": [
+   "turbine"
+  ],
+  "n5": [
+   "1998",
+   "British Energy"
+  ],
+  "n6": [
+   "Shell"
+  ],
+  "n7": [
+   "GreenVolt"
+  ],
+  "n8": [
+   "200m GBP"
+  ],
+  "n9": [
+   "Puffin Trust"
+  ],
+  "n10": [
+   "2015",
+   "3"
+  ],
+  "n11": [
+   "January 2024"
+  ],
+  "n12": [
+   "Vortex Energy",
+   "500m GBP"
+  ],
+  "n13": [
+   "18 months"
+  ],
+  "p1": [
+   "Deeside",
+   "12m GBP"
+  ],
+  "p2": [
+   "The Anchor",
+   "30%"
+  ],
+  "p3": [
+   "Caerhun"
+  ],
+  "p4": [
+   "Anglesey",
+   "2"
+  ],
+  "p5": [
+   "65%"
+  ],
+  "w1": [],
+  "w2": [
+   "6"
+  ],
+  "w3": []
+ },
+ "wire": {
+  "headline": "Aethelgard Wind Halts Deeside Offshore Project",
+  "sentences": [
+   [
+    "f1",
+    "Aethelgard Wind has officially halted its 4.26bn GBP Deeside offshore project."
+   ],
+   [
+    "f2",
+    "The company announced this decision on 4 November following a comprehensive board review."
+   ],
+   [
+    "f3",
+    "CEO Marian Holt cited a 12% cost overrun as a primary factor in the cancellation."
+   ],
+   [
+    "f4",
+    "Shares for the firm dropped 8.5% on the London Stock Exchange in response to the news."
+   ],
+   [
+    "f5",
+    "The company has confirmed that 310m GBP in sunk costs have already been incurred."
+   ],
+   [
+    "f6",
+    "The project had previously targeted a completion date of March 2027."
+   ],
+   [
+    "f7",
+    "A total of 4,800 jobs are directly impacted by the cancellation of the initiative."
+   ],
+   [
+    "f8",
+    "S&P has downgraded the bond rating to BB+ following the announcement."
+   ]
+  ]
+ },
+ "variants": {
+  "WD_1": {
+   "role": "WD",
+   "outlet": "Manchester Evening News",
+   "sentences": [
+    {
+     "fact": "f5",
+     "text": "The company has confirmed that 310m GBP in sunk costs have already been incurred.",
+     "origin": "copied"
+    },
+    {
+     "fact": "f1",
+     "text": "Aethelgard Wind has officially halted its 4.26bn GBP Deeside offshore project.",
+     "origin": "copied"
+    },
+    {
+     "fact": "f6",
+     "text": "A completion date of March 2027 had previously been targeted by the project.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "f8",
+     "text": "Following the announcement, S&P downgraded the bond rating to BB+.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "w1",
+     "text": "Sea gulls have been observed nesting on the foundations of abandoned turbines.",
+     "origin": "own"
+    }
+   ]
+  },
+  "WD_2": {
+   "role": "WD",
+   "outlet": "The Journal",
+   "sentences": [
+    {
+     "fact": "f1",
+     "text": "Aethelgard Wind has officially halted its 4.26bn GBP Deeside offshore project.",
+     "origin": "copied"
+    },
+    {
+     "fact": "f3",
+     "text": "CEO Marian Holt cited a 12% cost overrun as a primary factor in the cancellation.",
+     "origin": "copied"
+    },
+    {
+     "fact": "f4",
+     "text": "In response to the news, the firm's shares fell 8.5% on the London Stock Exchange.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "f6",
+     "text": "A completion date of March 2027 had been the project's previous target.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "w2",
+     "text": "Fog rolls off the coast every morning at 6am.",
+     "origin": "own"
+    }
+   ]
+  },
+  "WD_3": {
+   "role": "WD",
+   "outlet": "South Wales Argus",
+   "sentences": [
+    {
+     "fact": "f7",
+     "text": "Directly impacted by the cancellation of the initiative, a total of 4,800 jobs are affected.",
+     "origin": "copied"
+    },
+    {
+     "fact": "f5",
+     "text": "The company has confirmed that 310m GBP in sunk costs have already been incurred.",
+     "origin": "copied"
+    },
+    {
+     "fact": "f6",
+     "text": "A completion date of March 2027 had previously been the project's target.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "f8",
+     "text": "Following the announcement, S&P downgraded the bond rating to BB+.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "w3",
+     "text": "Villagers painted the phrase 'Save Our Jobs' on a bridge.",
+     "origin": "own"
+    }
+   ]
+  },
+  "PD": {
+   "role": "PD",
+   "headline": "Deeside Faces Economic Strain with 12m GBP Tax Loss and Local Service Cuts",
+   "sentences": [
+    {
+     "fact": "f1",
+     "text": "Its 4.26bn GBP Deeside offshore project has been officially halted by Aethelgard Wind.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "p1",
+     "text": "Deeside council estimates 12m GBP tax loss.",
+     "origin": "own"
+    },
+    {
+     "fact": "p2",
+     "text": "Local pub The Anchor sees 30% footfall drop.",
+     "origin": "own"
+    },
+    {
+     "fact": "f3",
+     "text": "A primary factor in the cancellation, as cited by CEO Marian Holt, was a 12% cost overrun.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "p3",
+     "text": "School in Caerhun closes due to staff shortages.",
+     "origin": "own"
+    },
+    {
+     "fact": "p4",
+     "text": "Ferry service to Anglesey reduced to 2 daily.",
+     "origin": "own"
+    },
+    {
+     "fact": "p5",
+     "text": "Resident survey: 65% oppose new wind farm.",
+     "origin": "own"
+    }
+   ]
+  },
+  "ND": {
+   "role": "ND",
+   "headline": "Aethelgard Cancels Turbine Project Amidst Cost Overruns and Legal Challenges",
+   "sentences": [
+    {
+     "fact": "n5",
+     "text": "The company Aethelgard was originally founded in 1998 by ex-British Energy staff.",
+     "origin": "own"
+    },
+    {
+     "fact": "n11",
+     "text": "A leaked internal memo showed that the decision point occurred in January 2024.",
+     "origin": "own"
+    },
+    {
+     "fact": "f2",
+     "text": "The company announced the decision on 4 November following a board review.",
+     "origin": "own"
+    },
+    {
+     "fact": "f3",
+     "text": "Marian Holt, the CEO, identified a 12% cost overrun as the main cause behind the decision.",
+     "origin": "own"
+    },
+    {
+     "fact": "n6",
+     "text": "The next phase of the process involves a legal review with Shell partners.",
+     "origin": "own"
+    },
+    {
+     "fact": "n1",
+     "text": "The union Unite is set to ballot 2,400 members on potential strike action.",
+     "origin": "own"
+    },
+    {
+     "fact": "n13",
+     "text": "A union representative cited 18 months of delayed safety upgrades as a concern.",
+     "origin": "own"
+    },
+    {
+     "fact": "n2",
+     "text": "Gareth Evans, the MP for Conwy, demanded an inquiry into the situation.",
+     "origin": "own"
+    },
+    {
+     "fact": "n3",
+     "text": "Analysts warned of 15% sector-wide margin compression in the industry.",
+     "origin": "own"
+    },
+    {
+     "fact": "n4",
+     "text": "A local fishing group has expressed opposition to the turbine placement zones.",
+     "origin": "own"
+    },
+    {
+     "fact": "n7",
+     "text": "The customer group GreenVolt is demanding tariff refunds from the company.",
+     "origin": "own"
+    },
+    {
+     "fact": "n8",
+     "text": "Supply chain firms reported 200m GBP in unpaid invoices to the company.",
+     "origin": "own"
+    },
+    {
+     "fact": "n9",
+     "text": "The environmental NGO Puffin Trust filed a court challenge against the project.",
+     "origin": "own"
+    },
+    {
+     "fact": "n10",
+     "text": "Historical data shows 3 similar cancellations have occurred since 2015.",
+     "origin": "own"
+    },
+    {
+     "fact": "n12",
+     "text": "Rival developer Vortex Energy is expanding its operations by 500m GBP.",
+     "origin": "own"
+    }
+   ]
+  }
+ },
+ "assign": {
+  "W": {
+   "total": 8,
+   "unassigned": 0
+  },
+  "PD_own": {
+   "total": 5,
+   "unassigned": 0
+  },
+  "ND": {
+   "total": 15,
+   "unassigned": 0
+  }
+ },
+ "anchor_missing": 0,
+ "anchor_total": 37,
+ "fact_integrity_issues": []
+}

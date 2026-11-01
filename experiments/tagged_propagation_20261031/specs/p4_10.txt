@@ -1,0 +1,349 @@
+### E1351 | housing_rent_cap | past
+f1 | <Government> capped rents in <Region>. | <Government>=agent:Scottish Government|Welsh Government; <Region>=place:Scotland|Wales
+f2 | The cap is <Pct> and starts in <Month>. | <Pct>=quantity:6 percent|4 percent; <Month>=date:September|March
+f3 | <Person_A> said tenants needed relief. | <Person_A>=agent:Patrick Harvie|Julie James
+f4 | <Body> will review the cap in <Month_B>. | <Body>=agent:Tenants Union|Propertymark; <Month_B>=date:2028|2026
+f5 | The average rent is <Amount>. | <Amount>=quantity:940 pounds|680 pounds
+
+### E1352 | rail_strike_agency | past
+f1 | <Body> drafted agency staff to <Operator>. | <Body>=agent:Department for Transport|Network Rail; <Operator>=name:ScotRail|Northern
+f2 | The staff cover <Services> services in <Month> across <Region>. | <Services>=quantity:340|240; <Month>=date:December|June; <Region>=place:Scotland|northern England
+f3 | <Person_A> said safety was at risk. | <Person_A>=agent:Mick Lynch|Eddie Dempsey
+f4 | <Union> will challenge the move in <Month_B>. | <Union>=agent:RMT|Aslef; <Month_B>=date:January|July
+f5 | The contract costs <Amount>. | <Amount>=quantity:14m pounds|9.6m pounds
+
+### E1353 | water_lead | past
+f1 | <Utility> found lead pipes in <Homes> homes in <Town>. | <Utility>=name:Thames Water|Severn Trent; <Homes>=quantity:1,400|960; <Town>=place:Notting Hill|Stoke
+f2 | Testing began in <Month> after <Samples> failures. | <Month>=date:August|February; <Samples>=quantity:64|44
+f3 | <Person_A> said bottled water was provided. | <Person_A>=agent:Chris Weston|Liv Garfield
+f4 | <Body> will replace the pipes in <Month_B>. | <Body>=agent:Drinking Water Inspectorate|Ofwat; <Month_B>=date:2028|2026
+f5 | The work costs <Amount>. | <Amount>=quantity:18m pounds|12m pounds
+
+### E1354 | theatre_improv | future
+f1 | <Theatre> will host an <Festival> in <City>. | <Theatre>=name:Soho Theatre|Pleasance; <Festival>=name:improv festival|comedy festival; <City>=place:London|Edinburgh
+f2 | The festival runs for <Days> days in <Month>. | <Days>=quantity:18|12; <Month>=date:July|March
+f3 | <Person_A> said tickets were affordable. | <Person_A>=agent:Steve Lock|Anthony Alderson
+f4 | <Body> will fund the event in <Month_B>. | <Body>=agent:Arts Council England|Creative Scotland; <Month_B>=date:2028|2026
+f5 | The festival costs <Amount>. | <Amount>=quantity:640,000 pounds|440,000 pounds
+
+### E1355 | food_poverty | past
+f1 | <Body> reported rising food poverty in <Region>. | <Body>=agent:Food Foundation|Joseph Rowntree Foundation; <Region>=place:England|Scotland
+f2 | <Households> households skipped meals in <Month>. | <Households>=quantity:2.4m|1.6m; <Month>=date:2025|2023
+f3 | <Person_A> said prices were the main cause. | <Person_A>=agent:Anna Taylor|Katie Schmuecker
+f4 | <Group> will lobby ministers in <Month_B>. | <Group>=agent:End Hunger UK|Trussell Trust; <Month_B>=date:2028|2026
+f5 | The report cost <Amount> to produce. | <Amount>=quantity:340,000 pounds|240,000 pounds
+
+### E1356 | rail_freight_grain | future
+f1 | <Company> will move grain by rail from <Port>. | <Company>=name:Cargill|Frontier Agriculture; <Port>=place:Immingham|Tilbury
+f2 | The service moves <Tonnes> tonnes in <Month>. | <Tonnes>=quantity:240,000|160,000; <Month>=date:August|February
+f3 | <Person_A> said road use would fall. | <Person_A>=agent:David White|Mark Aitchison
+f4 | <Body> funded the terminal in <Month_B>. | <Body>=agent:Network Rail|Associated British Ports; <Month_B>=date:2028|2026
+f5 | The investment is <Amount>. | <Amount>=quantity:24m pounds|16m pounds
+
+### E1357 | water_wetland | future
+f1 | <Utility> will build wetlands at <Sites> sites in <Region>. | <Utility>=name:Wessex Water|Anglian Water; <Sites>=quantity:14|9; <Region>=place:Somerset|Norfolk
+f2 | The wetlands treat <Litres> litres a day from <Month>. | <Litres>=quantity:40m|28m; <Month>=date:2028|2026
+f3 | <Person_A> said phosphate would fall. | <Person_A>=agent:Colin Skellett|Peter Simpson
+f4 | <Body> approved the scheme in <Month_B>. | <Body>=agent:Environment Agency|Natural England; <Month_B>=date:2027|2026
+f5 | The scheme costs <Amount>. | <Amount>=quantity:64m pounds|44m pounds
+
+### E1358 | museum_access | past
+f1 | <Museum> made entry free in <City>. | <Museum>=name:National Museum Cardiff|Kelvingrove; <City>=place:Cardiff|Glasgow
+f2 | Visits rose by <Pct> in <Month>. | <Pct>=quantity:34 percent|24 percent; <Month>=date:2025|2023
+f3 | <Person_A> said families returned. | <Person_A>=agent:Jane Henderson|Duncan Dornan
+f4 | <Body> will fund the shortfall in <Month_B>. | <Body>=agent:Welsh Government|Glasgow Life; <Month_B>=date:2028|2026
+f5 | The cost is <Amount>. | <Amount>=quantity:2.4m pounds|1.6m pounds
+
+### E1359 | rail_bike | past
+f1 | <Operator> banned bikes at peak times on <Routes> routes. | <Operator>=name:South Western Railway|Great Northern; <Routes>=quantity:8|5
+f2 | The ban starts in <Month> and affects <Cyclists> cyclists in <Region>. | <Month>=date:January|July; <Cyclists>=quantity:14,000|9,600; <Region>=place:south west England|east of England
+f3 | <Person_A> said commuters were angry. | <Person_A>=agent:Xavier Brice|Sarah Mitchell
+f4 | <Body> will review the rule in <Month_B>. | <Body>=agent:Transport Focus|Cycling UK; <Month_B>=date:2028|2026
+f5 | The change saves <Amount>. | <Amount>=quantity:1.2m pounds|840,000 pounds
+
+### E1360 | water_bottling | past
+f1 | <Company> opened a bottling plant in <Town>. | <Company>=name:Harrogate Spring Water|Buxton; <Town>=place:Harrogate|Buxton
+f2 | The plant bottles <Litres> litres a year from <Month>. | <Litres>=quantity:120m|84m; <Month>=date:2028|2026
+f3 | <Person_A> said the spring was sustainable. | <Person_A>=agent:Richard Hall|James Nicol
+f4 | <Body> opposed the expansion in <Month_B>. | <Body>=agent:Friends of the Earth|Save Harrogate Spring; <Month_B>=date:2027|2026
+f5 | The investment is <Amount>. | <Amount>=quantity:14m pounds|9.6m pounds
+
+### E1361 | rail_tunnel | future
+f1 | <Body> will repair a tunnel on the <Line> line. | <Body>=agent:Network Rail|Transport for London; <Line>=name:Settle to Carlisle|Piccadilly
+f2 | The work closes the line for <Weeks> weeks in <Month>. | <Weeks>=quantity:12|8; <Month>=date:January|July
+f3 | <Person_A> in <Town> said freight would be diverted. | <Person_A>=agent:Andrew Haines|Andy Lord; <Town>=place:Carlisle|Manchester
+f4 | <Council> will fund bus replacements in <Month_B>. | <Council>=agent:Carlisle Council|Manchester Council; <Month_B>=date:2028|2026
+f5 | The repair costs <Amount>. | <Amount>=quantity:34m pounds|24m pounds
+
+### E1362 | water_swimming | past
+f1 | <Council> opened a lido in <Town>. | <Council>=agent:Hull Council|Plymouth Council; <Town>=place:Hull|Plymouth
+f2 | The lido opens in <Month> and cost <Amount>. | <Month>=date:May|November; <Amount>=quantity:8.4m pounds|5.9m pounds
+f3 | <Person_A> said swimmers had campaigned for years. | <Person_A>=agent:Daren Hale|Tudor Evans
+f4 | <Body> provided a grant in <Month_B>. | <Body>=agent:Sport England|Heritage Fund; <Month_B>=date:2027|2026
+f5 | The lido holds <Swimmers> swimmers. | <Swimmers>=quantity:400|280
+
+### E1363 | rail_access | past
+f1 | <Body> found <Stations> stations lacked step-free access in <Region>. | <Body>=agent:Transport Focus|Disabled Persons Transport Advisory Committee; <Stations>=quantity:64|44; <Region>=place:northern England|Wales
+f2 | The report was published in <Month> after <Months> months. | <Month>=date:November|May; <Months>=quantity:9|6
+f3 | <Person_A> said passengers were stranded. | <Person_A>=agent:Anthony Smith|Keith Richards
+f4 | <Operator> will install lifts in <Month_B>. | <Operator>=agent:Northern|Transport for Wales; <Month_B>=date:2028|2026
+f5 | The work costs <Amount>. | <Amount>=quantity:48m pounds|34m pounds
+
+### E1364 | water_odour | past
+f1 | <Utility> apologised for odour at a <Plant> in <Town>. | <Utility>=name:United Utilities|Yorkshire Water; <Plant>=name:sewage works|treatment plant; <Town>=place:Warrington|Harrogate
+f2 | Complaints reached <Complaints> in <Month>. | <Complaints>=quantity:640|440; <Month>=date:July|January
+f3 | <Person_A> said covers would be fitted. | <Person_A>=agent:Louise Beardmore|Nicola Shaw
+f4 | <Body> will monitor the site in <Month_B>. | <Body>=agent:Environment Agency|Ofwat; <Month_B>=date:2028|2026
+f5 | The fix costs <Amount>. | <Amount>=quantity:12m pounds|8.4m pounds
+
+### E1365 | rail_overcrowding | past
+f1 | <Body> reported overcrowding on <Routes> routes. | <Body>=agent:Transport Focus|Rail Delivery Group; <Routes>=quantity:24|16
+f2 | <Passengers> passengers in <Region> were left behind in <Month>. | <Passengers>=quantity:34,000|24,000; <Region>=place:northern England|south east England; <Month>=date:October|April
+f3 | <Person_A> said capacity had not grown. | <Person_A>=agent:Anthony Smith|Jacqueline Starr
+f4 | <Operator> will add carriages in <Month_B>. | <Operator>=agent:Northern|Thameslink; <Month_B>=date:2028|2026
+f5 | The change costs <Amount>. | <Amount>=quantity:24m pounds|16m pounds
+
+### E1366 | water_compensation | past
+f1 | <Regulator> ordered <Utility> to pay compensation in <Region>. | <Regulator>=agent:Ofwat|Water Industry Commission; <Utility>=name:South East Water|Scottish Water; <Region>=place:Kent|Scotland
+f2 | The payments total <Amount> in <Month>. | <Amount>=quantity:2.4m pounds|1.6m pounds; <Month>=date:August|February
+f3 | <Person_A> said supply failures were unacceptable. | <Person_A>=agent:David Black|Alan Sutherland
+f4 | <Group> will monitor payments in <Month_B>. | <Group>=agent:Consumer Council for Water|Consumers Association; <Month_B>=date:2028|2026
+f5 | The utility serves <Customers> customers. | <Customers>=quantity:1.4m|960,000
+
+### E1367 | rail_heritage_steam | past
+f1 | <Trust> restored a <Loco> in <Town>. | <Trust>=name:National Railway Museum|Bluebell Railway; <Loco>=name:steam locomotive|express engine; <Town>=place:York|Sheffield Park
+f2 | The restoration took <Years> years and cost <Amount>. | <Years>=quantity:8|5; <Amount>=quantity:4.2m pounds|2.9m pounds
+f3 | <Person_A> said volunteers did most of the work. | <Person_A>=agent:Judith McNicol|Paul Bromley
+f4 | <Body> funded the work in <Month>. | <Body>=agent:Heritage Fund|National Lottery; <Month>=date:2027|2025
+f5 | The engine will haul <Trips> trips a year. | <Trips>=quantity:120|84
+
+### E1368 | water_agriculture | past
+f1 | <Body> restricted water use for farmers in <Region>. | <Body>=agent:Environment Agency|Natural Resources Wales; <Region>=place:East Anglia|Wales
+f2 | The restriction applies from <Month> and affects <Farms> farms. | <Month>=date:June|December; <Farms>=quantity:1,200|840
+f3 | <Person_A> said crops would suffer. | <Person_A>=agent:Rob Wise|Aled Jones
+f4 | <Union> will meet the agency in <Month_B>. | <Union>=agent:National Farmers Union|Farmers Union of Wales; <Month_B>=date:2028|2026
+f5 | The losses could reach <Amount>. | <Amount>=quantity:64m pounds|44m pounds
+
+### E1369 | rail_east_west | future
+f1 | <Body> will reopen a rail link between <Town> and <Town_B>. | <Body>=agent:East West Railway Company|Network Rail; <Town>=place:Bletchley|Luton; <Town_B>=place:Cambridge|Oxford
+f2 | The line opens in <Month> and costs <Amount>. | <Month>=date:2030|2028; <Amount>=quantity:1.8bn pounds|1.2bn pounds
+f3 | <Person_A> said the route would cut car trips. | <Person_A>=agent:Simon Blanchflower|Andrew Haines
+f4 | <Council> will build stations in <Month_B>. | <Council>=agent:Bedford Council|Oxfordshire Council; <Month_B>=date:2029|2027
+f5 | The line will carry <Passengers> passengers. | <Passengers>=quantity:12m|8.4m
+
+### E1370 | water_bill_help | past
+f1 | <Utility> expanded a support scheme in <Region>. | <Utility>=name:Thames Water|United Utilities; <Region>=place:London|north west England
+f2 | The scheme helps <Households> households from <Month>. | <Households>=quantity:240,000|160,000; <Month>=date:April|October
+f3 | <Person_A> said bills had risen sharply. | <Person_A>=agent:Chris Weston|Louise Beardmore
+f4 | <Group> will promote the scheme in <Month_B>. | <Group>=agent:Consumer Council for Water|Citizens Advice; <Month_B>=date:2028|2026
+f5 | The support is worth <Amount>. | <Amount>=quantity:18m pounds|12m pounds
+
+### E1371 | rail_season_ticket | past
+f1 | <Operator> scrapped season tickets on <Routes> routes. | <Operator>=name:LNER|Avanti West Coast; <Routes>=quantity:6|4
+f2 | The change starts in <Month> and affects <Passengers> passengers in <Region>. | <Month>=date:January|July; <Passengers>=quantity:84,000|56,000; <Region>=place:east coast|west coast
+f3 | <Person_A> said flexible tickets were better. | <Person_A>=agent:David Horne|Andy Mellors
+f4 | <Body> will review the change in <Month_B>. | <Body>=agent:Transport Focus|Rail Delivery Group; <Month_B>=date:2028|2026
+f5 | The change saves <Amount>. | <Amount>=quantity:4.2m pounds|2.9m pounds
+
+### E1372 | water_catchment | future
+f1 | <Utility> will pay farmers to protect a catchment in <Region>. | <Utility>=name:Severn Trent|Wessex Water; <Region>=place:Derbyshire|Dorset
+f2 | The scheme pays <Farmers> farmers from <Month>. | <Farmers>=quantity:340|240; <Month>=date:April|October
+f3 | <Person_A> said pesticide use would fall. | <Person_A>=agent:Liv Garfield|Colin Skellett
+f4 | <Body> approved the scheme in <Month_B>. | <Body>=agent:Environment Agency|Ofwat; <Month_B>=date:2027|2026
+f5 | The scheme costs <Amount>. | <Amount>=quantity:14m pounds|9.6m pounds
+
+### E1373 | rail_station_shop | past
+f1 | <Operator> closed shops at <Stations> stations. | <Operator>=name:Network Rail|Transport for Wales; <Stations>=quantity:34|24
+f2 | The closures began in <Month> and cut <Jobs> jobs in <Region>. | <Month>=date:March|September; <Jobs>=quantity:180|120; <Region>=place:eastern England|western England
+f3 | <Person_A> said passengers wanted amenities. | <Person_A>=agent:Anthony Smith|James Price
+f4 | <Body> will relet the units in <Month_B>. | <Body>=agent:Network Rail|Transport for Wales; <Month_B>=date:2028|2026
+f5 | The rent lost is <Amount>. | <Amount>=quantity:2.4m pounds|1.6m pounds
+
+### E1374 | water_river_health | past
+f1 | <Body> rated <Rivers> rivers poorly in <Region>. | <Body>=agent:Environment Agency|Natural Resources Wales; <Rivers>=quantity:64|44; <Region>=place:England|Wales
+f2 | The assessment covered <Years> years to <Month>. | <Years>=quantity:5|3; <Month>=date:2025|2023
+f3 | <Person_A> said agriculture was the main pressure. | <Person_A>=agent:Emma Howard Boyd|Peter Gummer
+f4 | <Group> will campaign for clean water in <Month_B>. | <Group>=agent:River Trust|Surfers Against Sewage; <Month_B>=date:2028|2026
+f5 | The clean-up could cost <Amount>. | <Amount>=quantity:1.2bn pounds|840m pounds
+
+### E1375 | rail_battery_trial | past
+f1 | <Operator> trialled a battery train in <Region>. | <Operator>=name:Northern|Great Western Railway; <Region>=place:North Yorkshire|Devon
+f2 | The trial ran for <Months> months to <Month>. | <Months>=quantity:9|6; <Month>=date:2025|2023
+f3 | <Person_A> said the train cut emissions. | <Person_A>=agent:Tricia Williams|Mark Hopwood
+f4 | <Body> will fund a second trial in <Month_B>. | <Body>=agent:Department for Transport|Innovate UK; <Month_B>=date:2028|2026
+f5 | The trial cost <Amount>. | <Amount>=quantity:6.4m pounds|4.4m pounds
+
+### E1376 | water_pond | past
+f1 | <Charity> restored <Ponds> ponds in <Region>. | <Charity>=name:Pond Conservation|Wildlife Trust; <Ponds>=quantity:340|240; <Region>=place:Norfolk|Suffolk
+f2 | The work took <Years> years to <Month>. | <Years>=quantity:4|3; <Month>=date:2025|2023
+f3 | <Person_A> said amphibians had returned. | <Person_A>=agent:Jeremy Biggs|Mike Strand
+f4 | <Body> funded the project in <Month_B>. | <Body>=agent:Heritage Fund|Environment Agency; <Month_B>=date:2027|2026
+f5 | The project cost <Amount>. | <Amount>=quantity:1.8m pounds|1.2m pounds
+
+### E1377 | rail_museum_depot | future
+f1 | <Museum> will open a depot in <Town>. | <Museum>=name:National Railway Museum|Science Museum; <Town>=place:Shildon|Wroughton
+f2 | The depot opens in <Month> and costs <Amount>. | <Month>=date:2028|2026; <Amount>=quantity:24m pounds|16m pounds
+f3 | <Person_A> said the collection would be visible. | <Person_A>=agent:Judith McNicol|Ian Blatchford
+f4 | <Body> funded the build in <Month_B>. | <Body>=agent:Heritage Fund|Durham Council; <Month_B>=date:2027|2026
+f5 | The depot holds <Objects> objects. | <Objects>=quantity:24,000|16,000
+
+### E1378 | water_desalination | past
+f1 | <Utility> opened a desalination plant in <Town>. | <Utility>=name:Thames Water|South West Water; <Town>=place:Beckton|Par
+f2 | The plant produces <Litres> litres a day in <Month>. | <Litres>=quantity:150m|100m; <Month>=date:2028|2026
+f3 | <Person_A> said it was a drought safeguard. | <Person_A>=agent:Chris Weston|Susan Davy
+f4 | <Body> approved the plant in <Month_B>. | <Body>=agent:Environment Agency|Ofwat; <Month_B>=date:2027|2026
+f5 | The plant costs <Amount>. | <Amount>=quantity:240m pounds|160m pounds
+
+### E1379 | rail_fares_weekly | past
+f1 | <Operator> cut weekly fares on <Routes> routes. | <Operator>=name:c2c|Greater Anglia; <Routes>=quantity:12|10
+f2 | Fares fall by <Pct> from <Month> on routes in <Region>. | <Pct>=quantity:8 percent|5 percent; <Month>=date:January|July; <Region>=place:East Anglia|Essex
+f3 | <Person_A> said commuters would return. | <Person_A>=agent:Rob Mullen|Jamie Burles
+f4 | <Body> will monitor demand in <Month_B>. | <Body>=agent:Transport Focus|Rail Delivery Group; <Month_B>=date:2028|2026
+f5 | The trial costs <Amount>. | <Amount>=quantity:2.4m pounds|1.6m pounds
+
+### E1380 | water_wildlife | past
+f1 | <Body> found wildlife losses in <Rivers> rivers in <Region>. | <Body>=agent:Environment Agency|Natural England; <Rivers>=quantity:34|24; <Region>=place:England|Wales
+f2 | The survey ran for <Years> years to <Month>. | <Years>=quantity:6|4; <Month>=date:2025|2023
+f3 | <Person_A> said pollution was the cause. | <Person_A>=agent:Emma Howard Boyd|Tony Juniper
+f4 | <Group> will press for action in <Month_B>. | <Group>=agent:Wildlife Trusts|Rivers Trust; <Month_B>=date:2028|2026
+f5 | The recovery plan costs <Amount>. | <Amount>=quantity:340m pounds|240m pounds
+
+### E1381 | rail_platform | future
+f1 | <Body> will extend platforms at <Stations> stations. | <Body>=agent:Network Rail|Transport for the North; <Stations>=quantity:18|12
+f2 | The work starts in <Month> and costs <Amount> in <Region>. | <Month>=date:2028|2026; <Amount>=quantity:84m pounds|56m pounds; <Region>=place:northern England|north west England
+f3 | <Person_A> said longer trains could run. | <Person_A>=agent:Andrew Haines|Henri Murison
+f4 | <Operator> will add services in <Month_B>. | <Operator>=agent:Northern|TransPennine; <Month_B>=date:2029|2027
+f5 | The work adds <Seats> seats. | <Seats>=quantity:14,000|9,600
+
+### E1382 | water_smart_meter | future
+f1 | <Utility> will fit smart meters in <Region>. | <Utility>=name:Thames Water|Anglian Water; <Region>=place:London|East Anglia
+f2 | The rollout starts in <Month> and covers <Homes> homes. | <Month>=date:2028|2026; <Homes>=quantity:1.4m|960,000
+f3 | <Person_A> said leaks would be found faster. | <Person_A>=agent:Chris Weston|Peter Simpson
+f4 | <Body> approved the plan in <Month_B>. | <Body>=agent:Ofwat|Environment Agency; <Month_B>=date:2027|2026
+f5 | The rollout costs <Amount>. | <Amount>=quantity:180m pounds|120m pounds
+
+### E1383 | rail_night | past
+f1 | <Operator> restored a night service to <City>. | <Operator>=name:Caledonian Sleeper|Great Western Railway; <City>=place:Fort William|Penzance
+f2 | The service runs <Times> times a week from <Month>. | <Times>=quantity:6|4; <Month>=date:April|October
+f3 | <Person_A> said tourists had asked for it. | <Person_A>=agent:Kathryn Darbandi|Mark Hopwood
+f4 | <Body> funded the trial in <Month_B>. | <Body>=agent:Transport Scotland|Visit Cornwall; <Month_B>=date:2027|2026
+f5 | The service carries <Passengers> passengers. | <Passengers>=quantity:24,000|16,000
+
+### E1384 | water_sewage_plan | future
+f1 | <Utility> published a sewage plan for <Region>. | <Utility>=name:Southern Water|Wessex Water; <Region>=place:Sussex|Dorset
+f2 | The plan runs to <Month> and costs <Amount>. | <Month>=date:2030|2028; <Amount>=quantity:1.4bn pounds|980m pounds
+f3 | <Person_A> said storm overflows would be cut. | <Person_A>=agent:Lawrence Gosden|Colin Skellett
+f4 | <Body> will review progress in <Month_B>. | <Body>=agent:Ofwat|Environment Agency; <Month_B>=date:2028|2026
+f5 | The plan cuts spills by <Pct>. | <Pct>=quantity:40 percent|28 percent
+
+### E1385 | rail_community | past
+f1 | <Body> funded <Lines> community rail lines. | <Body>=agent:Community Rail Network|Transport for Wales; <Lines>=quantity:14|9
+f2 | The funding runs to <Month> and totals <Amount> across <Region>. | <Month>=date:2028|2026; <Amount>=quantity:6.4m pounds|4.4m pounds; <Region>=place:East Anglia|Wales
+f3 | <Person_A> said stations had been revived. | <Person_A>=agent:Jools Townsend|Lee Waters
+f4 | <Council> will match the fund in <Month_B>. | <Council>=agent:Cornwall Council|Gwynedd Council; <Month_B>=date:2027|2026
+f5 | The lines carry <Passengers> passengers. | <Passengers>=quantity:2.4m|1.6m
+
+### E1386 | water_flood_home | past
+f1 | <Body> bought flooded homes in <Town>. | <Body>=agent:Environment Agency|Flood Re; <Town>=place:Fishlake|Cockermouth
+f2 | The buyout covers <Homes> homes from <Month>. | <Homes>=quantity:64|44; <Month>=date:2028|2026
+f3 | <Person_A> said residents wanted to stay. | <Person_A>=agent:Caroline Douglass|Mark Lloyd
+f4 | <Council> will rehouse families in <Month_B>. | <Council>=agent:Doncaster Council|Allerdale Council; <Month_B>=date:2027|2026
+f5 | The scheme costs <Amount>. | <Amount>=quantity:24m pounds|16m pounds
+
+### E1387 | rail_ticket_app | past
+f1 | <Operator> launched a ticket app in <Region>. | <Operator>=name:Northern|ScotRail; <Region>=place:northern England|Scotland
+f2 | The app has <Users> users after <Months> months. | <Users>=quantity:840,000|560,000; <Months>=quantity:9|6
+f3 | <Person_A> said queues had fallen. | <Person_A>=agent:Tricia Williams|Alex Hynes
+f4 | <Body> will audit accessibility in <Month>. | <Body>=agent:Transport Focus|Disabled Persons Transport Advisory Committee; <Month>=date:2028|2026
+f5 | The app cost <Amount>. | <Amount>=quantity:6.4m pounds|4.4m pounds
+
+### E1388 | water_borehole | past
+f1 | <Utility> drilled a borehole in <Town>. | <Utility>=name:South East Water|Portsmouth Water; <Town>=place:Haywards Heath|Havant
+f2 | The borehole supplies <Homes> homes from <Month>. | <Homes>=quantity:24,000|16,000; <Month>=date:2028|2026
+f3 | <Person_A> said it reduced river abstraction. | <Person_A>=agent:David Hinton|Bob Taylor
+f4 | <Body> approved the scheme in <Month_B>. | <Body>=agent:Environment Agency|Ofwat; <Month_B>=date:2027|2026
+f5 | The scheme costs <Amount>. | <Amount>=quantity:18m pounds|12m pounds
+
+### E1389 | rail_delay | past
+f1 | <Body> reported delays on <Routes> routes in <Region>. | <Body>=agent:Office of Rail and Road|Transport Focus; <Routes>=quantity:24|16; <Region>=place:northern England|south west England
+f2 | Punctuality fell to <Pct> in <Month>. | <Pct>=quantity:64 percent|72 percent; <Month>=date:2025|2023
+f3 | <Person_A> said infrastructure was failing. | <Person_A>=agent:Feras Alshaker|Anthony Smith
+f4 | <Operator> will invest in <Month_B>. | <Operator>=agent:Northern|Great Western Railway; <Month_B>=date:2028|2026
+f5 | The investment is <Amount>. | <Amount>=quantity:84m pounds|56m pounds
+
+### E1390 | water_garden_city | future
+f1 | <Developer> will build a water garden in <City>. | <Developer>=name:Argent|Related Argent; <City>=place:London|Birmingham
+f2 | The garden opens in <Month> and covers <Acres> acres. | <Month>=date:2028|2026; <Acres>=quantity:6|4
+f3 | <Person_A> said it would manage rain water. | <Person_A>=agent:David Partridge|Robert Evans
+f4 | <Council> approved the plan in <Month_B>. | <Council>=agent:Camden Council|Birmingham Council; <Month_B>=date:2027|2026
+f5 | The scheme costs <Amount>. | <Amount>=quantity:24m pounds|16m pounds
+
+### E1391 | rail_freight_channel | past
+f1 | <Operator> added freight paths to <Port>. | <Operator>=name:DB Cargo|Freightliner; <Port>=place:Folkestone|Dover
+f2 | The paths add <Trains> trains a week from <Month>. | <Trains>=quantity:24|16; <Month>=date:January|July
+f3 | <Person_A> said customs checks were the bottleneck. | <Person_A>=agent:Andrea Rossi|Tim Shoveller
+f4 | <Body> will fund border facilities in <Month_B>. | <Body>=agent:Department for Transport|Border Force; <Month_B>=date:2028|2026
+f5 | The work costs <Amount>. | <Amount>=quantity:34m pounds|24m pounds
+
+### E1392 | water_treatment | past
+f1 | <Utility> upgraded a treatment works in <Town>. | <Utility>=name:Northumbrian Water|Yorkshire Water; <Town>=place:Consett|Skipton
+f2 | The upgrade cost <Amount> and finished in <Month>. | <Amount>=quantity:34m pounds|24m pounds; <Month>=date:2025|2023
+f3 | <Person_A> said quality had improved. | <Person_A>=agent:Heidi Mottram|Nicola Shaw
+f4 | <Body> will monitor the site in <Month_B>. | <Body>=agent:Drinking Water Inspectorate|Environment Agency; <Month_B>=date:2027|2026
+f5 | The works serves <Customers> customers. | <Customers>=quantity:240,000|160,000
+
+### E1393 | rail_electric_bus | future
+f1 | <Body> will replace rail replacement buses with electric coaches in <Region>. | <Body>=agent:Network Rail|Transport for Wales; <Region>=place:Kent|Gwynedd
+f2 | The coaches start in <Month> and number <Coaches> coaches. | <Month>=date:2028|2026; <Coaches>=quantity:24|16
+f3 | <Person_A> said emissions would fall. | <Person_A>=agent:Andrew Haines|James Price
+f4 | <Operator> will run the service in <Month_B>. | <Operator>=agent:Stagecoach|Arriva; <Month_B>=date:2027|2026
+f5 | The contract is worth <Amount>. | <Amount>=quantity:8.4m pounds|5.9m pounds
+
+### E1394 | water_pond_farm | past
+f1 | <Farm> created <Ponds> ponds in <Region>. | <Farm>=name:Wild Ken Hill|Knepp Estate; <Ponds>=quantity:24|16; <Region>=place:Norfolk|West Sussex
+f2 | The ponds were dug in <Month> and cover <Acres> acres. | <Month>=date:2025|2023; <Acres>=quantity:12|8
+f3 | <Person_A> said birds had returned. | <Person_A>=agent:Dominic Buscall|Charlie Burrell
+f4 | <Body> provided a grant in <Month_B>. | <Body>=agent:Natural England|Environment Agency; <Month_B>=date:2027|2026
+f5 | The work cost <Amount>. | <Amount>=quantity:640,000 pounds|440,000 pounds
+
+### E1395 | rail_ticket_machine | past
+f1 | <Operator> removed ticket machines from <Stations> stations. | <Operator>=name:Southeastern|Thameslink; <Stations>=quantity:44|31
+f2 | The removal began in <Month> and saves <Amount> across <Region>. | <Month>=date:March|September; <Amount>=quantity:2.4m pounds|1.6m pounds; <Region>=place:south east England|east of England
+f3 | <Person_A> said passengers preferred apps. | <Person_A>=agent:Steve White|Jenny Saunders
+f4 | <Body> will monitor access in <Month_B>. | <Body>=agent:Transport Focus|London TravelWatch; <Month_B>=date:2027|2026
+f5 | The machines handled <Sales> sales a year. | <Sales>=quantity:1.4m|960,000
+
+### E1396 | water_reedbed | future
+f1 | <Utility> will build reedbeds at <Sites> sites in <Region>. | <Utility>=name:Wessex Water|South West Water; <Sites>=quantity:18|12; <Region>=place:Somerset|Devon
+f2 | The reedbeds treat <Litres> litres a day from <Month>. | <Litres>=quantity:24m|16m; <Month>=date:2028|2026
+f3 | <Person_A> said wildlife would benefit. | <Person_A>=agent:Colin Skellett|Susan Davy
+f4 | <Body> approved the scheme in <Month_B>. | <Body>=agent:Natural England|Environment Agency; <Month_B>=date:2027|2026
+f5 | The scheme costs <Amount>. | <Amount>=quantity:34m pounds|24m pounds
+
+### E1397 | rail_heritage_diesel | past
+f1 | <Trust> bought a <Loco> for <Town>. | <Trust>=name:Great Central Railway|Midland Railway Trust; <Loco>=name:diesel locomotive|heritage unit; <Town>=place:Loughborough|Butterley
+f2 | The purchase cost <Amount> and was completed in <Month>. | <Amount>=quantity:840,000 pounds|560,000 pounds; <Month>=date:2025|2023
+f3 | <Person_A> said the engine would run at galas. | <Person_A>=agent:Malcolm Holmes|Paul Rayner
+f4 | <Body> funded the transport in <Month_B>. | <Body>=agent:Heritage Fund|National Lottery; <Month_B>=date:2027|2026
+f5 | The engine hauls <Trips> trips a year. | <Trips>=quantity:84|56
+
+### E1398 | water_customer_bill | future
+f1 | <Utility> will freeze bills in <Region>. | <Utility>=name:Severn Trent|United Utilities; <Region>=place:Midlands|north west England
+f2 | The freeze lasts <Years> years from <Month>. | <Years>=quantity:2|1; <Month>=date:2028|2026
+f3 | <Person_A> said investment would continue. | <Person_A>=agent:Liv Garfield|Louise Beardmore
+f4 | <Body> will review the plan in <Month_B>. | <Body>=agent:Ofwat|Consumer Council for Water; <Month_B>=date:2027|2026
+f5 | The freeze is worth <Amount>. | <Amount>=quantity:240m pounds|160m pounds
+
+### E1399 | rail_volunteer | past
+f1 | <Body> trained <Volunteers> station volunteers in <Region>. | <Body>=agent:Community Rail Network|Transport for Wales; <Volunteers>=quantity:1,400|960; <Region>=place:northern England|Wales
+f2 | The scheme ran for <Months> months to <Month>. | <Months>=quantity:18|12; <Month>=date:2025|2023
+f3 | <Person_A> said stations felt safer. | <Person_A>=agent:Jools Townsend|Lee Waters
+f4 | <Operator> will fund a second round in <Month_B>. | <Operator>=agent:Northern|Transport for Wales; <Month_B>=date:2028|2026
+f5 | The scheme cost <Amount>. | <Amount>=quantity:2.4m pounds|1.6m pounds
+
+### E1400 | water_rain_garden | future
+f1 | <Council> will build rain gardens in <Town>. | <Council>=agent:Sunderland Council|Hull Council; <Town>=place:Sunderland|Hull
+f2 | The gardens open in <Month> and cover <Sites> sites. | <Month>=date:2028|2026; <Sites>=quantity:24|16
+f3 | <Person_A> said flooding would ease. | <Person_A>=agent:Michael Mordey|Daren Hale
+f4 | <Body> funded the scheme in <Month_B>. | <Body>=agent:Environment Agency|Northumbrian Water; <Month_B>=date:2027|2026
+f5 | The scheme costs <Amount>. | <Amount>=quantity:6.4m pounds|4.4m pounds

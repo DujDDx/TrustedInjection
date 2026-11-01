@@ -1,0 +1,372 @@
+{
+ "event": "e12",
+ "seed": 1739730,
+ "domain": "retail",
+ "company": "Hearth & Home Interiors",
+ "n_wire": 8,
+ "prompt_sha": "34748c84e8aef76e",
+ "anchors": {
+  "f1": [
+   "Hearth & Home Interiors",
+   "42"
+  ],
+  "f2": [
+   "18%",
+   "Q3 2026"
+  ],
+  "f3": [
+   "Julian Thorne"
+  ],
+  "f4": [
+   "12.4p",
+   "85.2p"
+  ],
+  "f5": [
+   "310m GBP",
+   "2028"
+  ],
+  "f6": [
+   "4,800"
+  ],
+  "f7": [
+   "4 November"
+  ],
+  "f8": [
+   "5.2bn GBP"
+  ],
+  "n1": [
+   "Unite the Union",
+   "2,400"
+  ],
+  "n2": [
+   "Sarah Vane"
+  ],
+  "n3": [
+   "Deeside Shoppers"
+  ],
+  "n4": [
+   "1998",
+   "Marcus Hale"
+  ],
+  "n5": [
+   "March 2027"
+  ],
+  "n6": [
+   "Kestrel Capital"
+  ],
+  "n7": [
+   "David Okafor"
+  ],
+  "n8": [
+   "65%",
+   "2027"
+  ],
+  "n9": [
+   "Oak & Elm"
+  ],
+  "n10": [
+   "Deeside",
+   "300"
+  ],
+  "n11": [
+   "June 2027"
+  ],
+  "n12": [
+   "5m GBP"
+  ],
+  "n13": [
+   "12m GBP"
+  ],
+  "p1": [
+   "Elena Ross",
+   "Deeside"
+  ],
+  "p2": [
+   "Birchwood Ltd",
+   "40%"
+  ],
+  "p3": [
+   "Community centre"
+  ],
+  "p4": [
+   "Deeside"
+  ],
+  "p5": [
+   "Regional transport link"
+  ],
+  "w1": [],
+  "w2": [],
+  "w3": []
+ },
+ "wire": {
+  "headline": "Hearth & Home Interiors Announces Closure of 42 Stores Amid Revenue Decline",
+  "sentences": [
+   [
+    "f1",
+    "Hearth & Home Interiors has announced that it will close 42 stores nationwide."
+   ],
+   [
+    "f2",
+    "The company reported an 18% revenue decline in Q3 2026."
+   ],
+   [
+    "f3",
+    "CEO Julian Thorne cited shifting consumer habits as the reason for the cuts."
+   ],
+   [
+    "f4",
+    "The share price fell 12.4p to 85.2p following the announcement."
+   ],
+   [
+    "f5",
+    "The restructuring plan is expected to save 310m GBP annually by 2028."
+   ],
+   [
+    "f6",
+    "A total of 4,800 jobs are affected across manufacturing and retail sectors."
+   ],
+   [
+    "f7",
+    "The board approved the plan with a unanimous vote on 4 November."
+   ],
+   [
+    "f8",
+    "Analysts project a 5.2bn GBP valuation post-restructuring."
+   ]
+  ]
+ },
+ "variants": {
+  "WD_1": {
+   "role": "WD",
+   "outlet": "Manchester Evening News",
+   "sentences": [
+    {
+     "fact": "f8",
+     "text": "Analysts project a 5.2bn GBP valuation post-restructuring.",
+     "origin": "copied"
+    },
+    {
+     "fact": "f1",
+     "text": "Hearth & Home Interiors has announced that it will close 42 stores nationwide.",
+     "origin": "copied"
+    },
+    {
+     "fact": "f3",
+     "text": "Shifting consumer habits were cited by CEO Julian Thorne as the reason for the cuts.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "f5",
+     "text": "By 2028, the restructuring plan is expected to save annually 310m GBP.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "w1",
+     "text": "A rainy forecast is expected for the day of the announcement.",
+     "origin": "own"
+    }
+   ]
+  },
+  "WD_2": {
+   "role": "WD",
+   "outlet": "The Journal",
+   "sentences": [
+    {
+     "fact": "f2",
+     "text": "In Q3 2026, the company reported an 18% revenue decline.",
+     "origin": "copied"
+    },
+    {
+     "fact": "f1",
+     "text": "Hearth & Home Interiors announced that it will close 42 stores nationwide.",
+     "origin": "copied"
+    },
+    {
+     "fact": "f3",
+     "text": "The reason for the cuts was attributed by CEO Julian Thorne to shifting consumer habits.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "f6",
+     "text": "Across the manufacturing and retail sectors, a total of 4,800 jobs are impacted.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "w2",
+     "text": "A local bakery has sold out of its celebration cakes.",
+     "origin": "own"
+    }
+   ]
+  },
+  "WD_3": {
+   "role": "WD",
+   "outlet": "South Wales Argus",
+   "sentences": [
+    {
+     "fact": "f2",
+     "text": "The company reported an 18% revenue decline in Q3 2026.",
+     "origin": "copied"
+    },
+    {
+     "fact": "f1",
+     "text": "Hearth & Home Interiors has announced that it will close 42 stores nationwide.",
+     "origin": "copied"
+    },
+    {
+     "fact": "f3",
+     "text": "Shifting consumer habits were cited by CEO Julian Thorne as the reason for the cuts.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "f6",
+     "text": "Manufacturing and retail sectors see 4,800 positions impacted.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "w3",
+     "text": "Street performers gathered outside headquarters.",
+     "origin": "own"
+    }
+   ]
+  },
+  "PD": {
+   "role": "PD",
+   "headline": "Deeside Branch Manager Elena Ross Departs Amidst Local Economic Shifts",
+   "sentences": [
+    {
+     "fact": "f1",
+     "text": "Hearth & Home Interiors has announced that 42 stores nationwide will close.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "Deeside branch manager Elena Ross to leave company",
+     "text": "Elena Ross, the branch manager of Deeside, has announced that she is leaving the company.",
+     "origin": "own"
+    },
+    {
+     "fact": "p2",
+     "text": "The local supplier Birchwood Ltd has reported a 40% loss in its orders.",
+     "origin": "own"
+    },
+    {
+     "fact": "f3",
+     "text": "The reason for the cuts, according to CEO Julian Thorne, was shifting consumer habits.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "Community centre hosts job fair for affected staff",
+     "text": "A job fair for the affected staff is being hosted at the community centre.",
+     "origin": "own"
+    },
+    {
+     "fact": "p4",
+     "text": "The Deeside mayor has promised support for retraining schemes.",
+     "origin": "own"
+    },
+    {
+     "fact": "Regional transport link reduced due to lower footfall",
+     "text": "A regional transport link has been reduced due to lower footfall.",
+     "origin": "own"
+    }
+   ]
+  },
+  "ND": {
+   "role": "ND",
+   "headline": "Industrialist-led firm faces backlash over Q3 revenue drop and Deeside factory closure",
+   "sentences": [
+    {
+     "fact": "f2",
+     "text": "During Q3 2026, the entity revealed a 18% decrease in its revenue.",
+     "origin": "own"
+    },
+    {
+     "fact": "f3",
+     "text": "Julian Thorne, the CEO, attributed the reductions to evolving buyer behavior.",
+     "origin": "own"
+    },
+    {
+     "fact": "n4",
+     "text": "The firm was founded in 1998 by industrialist Marcus Hale.",
+     "origin": "own"
+    },
+    {
+     "fact": "n5",
+     "text": "The next step in the process is a consultation period that ends in March 2027.",
+     "origin": "own"
+    },
+    {
+     "fact": "n6",
+     "text": "Analyst firm Kestrel Capital rated the plan as premature.",
+     "origin": "own"
+    },
+    {
+     "fact": "n7",
+     "text": "Union leader David Okafor called for emergency talks.",
+     "origin": "own"
+    },
+    {
+     "fact": "n8",
+     "text": "A staff survey showed that 65% fear redundancy by 2027.",
+     "origin": "own"
+    },
+    {
+     "fact": "n9",
+     "text": "Competitor Oak & Elm opened a new flagship store.",
+     "origin": "own"
+    },
+    {
+     "fact": "n10",
+     "text": "The Deeside factory closure affects 300 production roles.",
+     "origin": "own"
+    },
+    {
+     "fact": "n11",
+     "text": "Shareholders will vote on a special dividend in June 2027.",
+     "origin": "own"
+    },
+    {
+     "fact": "n12",
+     "text": "The local council offers a 5m GBP relocation incentive.",
+     "origin": "own"
+    },
+    {
+     "fact": "n13",
+     "text": "A whistleblower claims an inventory overvaluation of 12m GBP.",
+     "origin": "own"
+    },
+    {
+     "fact": "n1",
+     "text": "Unite the Union confirmed that 2,400 members are in the ballot.",
+     "origin": "own"
+    },
+    {
+     "fact": "n2",
+     "text": "Local MP Sarah Vane demanded a jobs protection deal.",
+     "origin": "own"
+    },
+    {
+     "fact": "n3",
+     "text": "Customer group Deeside Shoppers opposed the store closures.",
+     "origin": "own"
+    }
+   ]
+  }
+ },
+ "assign": {
+  "W": {
+   "total": 8,
+   "unassigned": 0
+  },
+  "PD_own": {
+   "total": 5,
+   "unassigned": 3
+  },
+  "ND": {
+   "total": 15,
+   "unassigned": 0
+  }
+ },
+ "anchor_missing": 0,
+ "anchor_total": 34,
+ "fact_integrity_issues": []
+}

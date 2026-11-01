@@ -1,0 +1,322 @@
+{
+ "event": "e01",
+ "seed": 1739598,
+ "domain": "waste_management",
+ "company": "GreenCycle Solutions",
+ "n_wire": 6,
+ "prompt_sha": "34748c84e8aef76e",
+ "anchors": {
+  "f1": [
+   "GreenCycle Solutions",
+   "310m GBP"
+  ],
+  "f2": [
+   "12%"
+  ],
+  "f3": [
+   "Marian Holt",
+   "4.26bn GBP"
+  ],
+  "f4": [
+   "8.5%"
+  ],
+  "f5": [
+   "4,800"
+  ],
+  "f6": [
+   "4 November"
+  ],
+  "n1": [
+   "Unite",
+   "2,400"
+  ],
+  "n2": [
+   "Sir Arthur Pendragon"
+  ],
+  "n3": [
+   "David Chen",
+   "15%"
+  ],
+  "n4": [
+   "EcoVoice"
+  ],
+  "n5": [
+   "Deeside",
+   "John Mercer",
+   "1998"
+  ],
+  "n6": [
+   "500m GBP"
+  ],
+  "n7": [
+   "Sarah Jenkins"
+  ],
+  "n8": [
+   "12.4p"
+  ],
+  "n9": [
+   "Cambridge",
+   "15 February"
+  ],
+  "n10": [
+   "50m GBP"
+  ],
+  "n11": [
+   "Richard Black"
+  ],
+  "n12": [
+   "Manchester"
+  ],
+  "n13": [
+   "78%"
+  ],
+  "p1": [
+   "Deeside",
+   "300"
+  ],
+  "p2": [
+   "GreenCycle"
+  ],
+  "p3": [
+   "20k GBP"
+  ],
+  "p4": [
+   "2 days"
+  ],
+  "p5": [
+   "Deeside"
+  ],
+  "w1": [],
+  "w2": [],
+  "w3": []
+ },
+ "wire": {
+  "headline": "GreenCycle Solutions Finalizes Debt Restructuring Amid Market Volatility",
+  "sentences": [
+   [
+    "f6",
+    "GreenCycle Solutions confirmed that the final agreement for its financial restructuring was signed on 4 November."
+   ],
+   [
+    "f1",
+    "The company announced a 310m GBP debt restructuring deal as part of this initiative."
+   ],
+   [
+    "f3",
+    "CEO Marian Holt cited 4.26bn GBP market volatility as a primary factor influencing the decision."
+   ],
+   [
+    "f2",
+    "The board of directors approved a plan to reduce staff costs by 12%."
+   ],
+   [
+    "f5",
+    "The restructuring specifically targets 4,800 non-core operational roles for elimination."
+   ],
+   [
+    "f4",
+    "Following these announcements, the company's shares dropped 8.5% in early trading sessions."
+   ]
+  ]
+ },
+ "variants": {
+  "WD_1": {
+   "role": "WD",
+   "outlet": "The Northern Echo",
+   "sentences": [
+    {
+     "fact": "f2",
+     "text": "A plan to reduce staff costs by 12% was approved by the board of directors.",
+     "origin": "copied"
+    },
+    {
+     "fact": "f6",
+     "text": "GreenCycle Solutions confirmed that the final agreement concerning its financial restructuring was signed on 4 November.",
+     "origin": "copied"
+    },
+    {
+     "fact": "f4",
+     "text": "In early trading sessions, the company's shares fell 8.5% following these announcements.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "w1",
+     "text": "Residents queued for free recycling bins outside the depot.",
+     "origin": "own"
+    }
+   ]
+  },
+  "WD_2": {
+   "role": "WD",
+   "outlet": "The Yorkshire Post",
+   "sentences": [
+    {
+     "fact": "f2",
+     "text": "A plan to reduce staff costs by 12% was approved by the board of directors.",
+     "origin": "copied"
+    },
+    {
+     "fact": "f3",
+     "text": "CEO Marian Holt cited 4.26bn GBP market volatility as a primary factor influencing the decision.",
+     "origin": "copied"
+    },
+    {
+     "fact": "f5",
+     "text": "The restructuring targets 4,800 non-core operational roles specifically for elimination.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "w2",
+     "text": "A local pub hosted an impromptu protest outside an office.",
+     "origin": "own"
+    }
+   ]
+  },
+  "WD_3": {
+   "role": "WD",
+   "outlet": "Western Mail",
+   "sentences": [
+    {
+     "fact": "f2",
+     "text": "A plan to reduce staff costs by 12% was approved by the board of directors.",
+     "origin": "copied"
+    },
+    {
+     "fact": "f1",
+     "text": "As part of this initiative, the company announced a 310m GBP debt restructuring deal.",
+     "origin": "copied"
+    },
+    {
+     "fact": "f5",
+     "text": "Specifically, the restructuring aims to eliminate 4,800 non-core operational roles.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "w3",
+     "text": "Schoolchildren painted banners in support of waste workers.",
+     "origin": "own"
+    }
+   ]
+  },
+  "PD": {
+   "role": "PD",
+   "headline": "Deeside Depot Closure Looms Amid Council Vote and Community Response",
+   "sentences": [
+    {
+     "fact": "f6",
+     "text": "The final agreement for GreenCycle Solutions' financial restructuring was signed on 4 November, as confirmed by the company.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "p1",
+     "text": "The Deeside depot is facing closure, a move that will affect 300 local jobs.",
+     "origin": "own"
+    },
+    {
+     "fact": "p2",
+     "text": "The local council has voted to pause the GreenCycle contract renewal.",
+     "origin": "own"
+    },
+    {
+     "fact": "f3",
+     "text": "A primary factor influencing the decision, as cited by CEO Marian Holt, was 4.26bn GBP market volatility.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "p3",
+     "text": "A community group has raised 20k GBP to support the affected workers.",
+     "origin": "own"
+    },
+    {
+     "fact": "p5",
+     "text": "The Mayor of Deeside is calling for an emergency employment fund to address the situation.",
+     "origin": "own"
+    }
+   ]
+  },
+  "ND": {
+   "role": "ND",
+   "headline": "Board approves staff cost cuts as unions prepare for strike ballot",
+   "sentences": [
+    {
+     "fact": "f2",
+     "text": "The company board has approved a plan to reduce staff costs by 12%.",
+     "origin": "own"
+    },
+    {
+     "fact": "f3",
+     "text": "CEO Marian Holt cited 4.26bn GBP market volatility as the reason for the decision.",
+     "origin": "own"
+    },
+    {
+     "fact": "n1",
+     "text": "The Unite union plans to ballot 2,400 members on taking strike action.",
+     "origin": "own"
+    },
+    {
+     "fact": "n7",
+     "text": "Union leader Sarah Jenkins called the proposed plan premature and reckless.",
+     "origin": "own"
+    },
+    {
+     "fact": "n13",
+     "text": "A recent staff survey showed that 78% of employees support options for industrial action.",
+     "origin": "own"
+    },
+    {
+     "fact": "n2",
+     "text": "Local MP Sir Arthur Pendragon has demanded an inquiry into the potential job losses.",
+     "origin": "own"
+    },
+    {
+     "fact": "n6",
+     "text": "A consultancy report warned of a 500m GBP revenue loss risk associated with the changes.",
+     "origin": "own"
+    },
+    {
+     "fact": "n3",
+     "text": "Analyst David Chen predicts a 15% margin compression for the company next year.",
+     "origin": "own"
+    },
+    {
+     "fact": "n8",
+     "text": "Regional waste collection rates are set to rise by 12.4p per bin.",
+     "origin": "own"
+    },
+    {
+     "fact": "n4",
+     "text": "The customer group EcoVoice filed a complaint regarding the service reductions.",
+     "origin": "own"
+    },
+    {
+     "fact": "n9",
+     "text": "The board is scheduled to meet in Cambridge on 15 February to discuss next steps.",
+     "origin": "own"
+    }
+   ]
+  }
+ },
+ "assign": {
+  "W": {
+   "total": 6,
+   "unassigned": 0
+  },
+  "PD_own": {
+   "total": 4,
+   "unassigned": 1
+  },
+  "ND": {
+   "total": 11,
+   "unassigned": 0
+  }
+ },
+ "anchor_missing": 1,
+ "anchor_total": 29,
+ "fact_integrity_issues": [
+  {
+   "variant": "WD_3",
+   "fact": "f1",
+   "why": "锚点被拆到多句或缺失"
+  }
+ ]
+}

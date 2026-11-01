@@ -1,0 +1,349 @@
+### E1131 | airport_expansion | future
+f1 | <Airport> will add a <Runway> runway at <Site>. | <Airport>=name:Stansted|Luton; <Runway>=name:second|northern; <Site>=place:Essex|Bedfordshire
+f2 | The runway will handle <Flights> flights a year. | <Flights>=quantity:120,000|84,000
+f3 | <Council> approved the plan in <Month>. | <Council>=agent:Uttlesford Council|Central Bedfordshire Council; <Month>=date:June|November
+f4 | <Group> objected on noise grounds. | <Group>=agent:Stop Stansted Expansion|Luton and District Association
+f5 | The scheme costs <Cost>. | <Cost>=quantity:1.1bn pounds|780m pounds
+
+### E1132 | book_prize | past
+f1 | <Writer> won the <Prize> prize for <Novel>. | <Writer>=agent:Amina El-Sayed|Thomas Keneally; <Prize>=name:Booker|Costa; <Novel>=name:The Salt Road|A House of Glass
+f2 | The prize is worth <Amount>. | <Amount>=quantity:50,000 pounds|30,000 pounds
+f3 | The winner was announced on <Day>. | <Day>=date:14 November|3 May
+f4 | <Body> chaired the judges. | <Body>=agent:National Book Council|Publishers Association
+f5 | The novel has sold <Copies> copies in <Market>. | <Copies>=quantity:18,000|11,000; <Market>=place:United Kingdom|Ireland
+
+### E1133 | ferry_strike | past
+f1 | <Union> called a strike on <Operator> ferries from <Port>. | <Union>=agent:RMT|Nautilus; <Operator>=name:CalMac|Wightlink; <Port>=place:Oban|Portsmouth
+f2 | <Sailings> sailings will be cancelled over <Days> days. | <Sailings>=quantity:44|31; <Days>=quantity:4|6
+f3 | The strike begins on <Day>. | <Day>=date:9 July|22 February
+f4 | <Body> warned of island shortages. | <Body>=agent:Scottish Islands Federation|Ferry Users Association
+f5 | Talks resume in <City>. | <City>=place:Glasgow|Southampton
+
+### E1134 | dairy_recall | past
+f1 | <Dairy> recalled <Products> products over <Risk>. | <Dairy>=name:Graham's Family Dairy|Müller; <Products>=quantity:9|6; <Risk>=name:bacterial contamination|packaging faults
+f2 | The recall was announced on <Day>. | <Day>=date:2 September|17 April
+f3 | <Retailer> removed the items from sale. | <Retailer>=name:Tesco|Morrisons
+f4 | <Agency> said <Batches> batches were affected. | <Agency>=agent:Food Standards Agency|Food Safety Authority; <Batches>=quantity:5|3
+f5 | The dairy is based in <Town>. | <Town>=place:Stirling|Tewkesbury
+
+### E1135 | solar_factory | future
+f1 | <Company> will open a <Plant> in <Town>. | <Company>=name:Oxford PV|Power Roll; <Plant>=name:solar panel plant|thin film plant; <Town>=place:Oxford|Sunderland
+f2 | The plant will make <Panels> panels a year. | <Panels>=quantity:2.4m|1.6m
+f3 | It will employ <Staff> staff by <Year>. | <Staff>=quantity:400|280; <Year>=date:2029|2027
+f4 | <Body> provided <Grant> in support. | <Body>=agent:Innovate UK|Department for Business; <Grant>=quantity:34m pounds|22m pounds
+f5 | Production starts in <Month>. | <Month>=date:March|September
+
+### E1136 | museum_reopening | future
+f1 | <Museum> will reopen its <Gallery> gallery in <City>. | <Museum>=name:National Museum Cardiff|Kelvingrove; <Gallery>=name:natural history|art; <City>=place:Cardiff|Glasgow
+f2 | The refurbishment cost <Cost>. | <Cost>=quantity:22m pounds|15m pounds
+f3 | It reopens in <Month>. | <Month>=date:May|November
+f4 | <Body> funded <Share> of the work. | <Body>=agent:National Lottery Heritage Fund|Welsh Government; <Share>=quantity:70 percent|55 percent
+f5 | Curator <Person_A> said <Objects> objects would go on display. | <Person_A>=agent:Jane Henderson|Martin Bell; <Objects>=quantity:1,400|960
+
+### E1137 | warehouse_fire | past
+f1 | A fire destroyed a <Warehouse> warehouse in <Town>. | <Warehouse>=name:distribution|storage; <Town>=place:Peterborough|Doncaster
+f2 | <Firefighters> firefighters tackled the blaze. | <Firefighters>=quantity:90|64
+f3 | The fire began at <Time> on <Day>. | <Time>=quantity:03:20|22:40; <Day>=date:3 June|21 October
+f4 | <Body> said the cause was unknown. | <Body>=agent:Cambridgeshire Fire Service|South Yorkshire Fire Service
+f5 | The site was operated by <Operator> in <Region_B>. | <Operator>=name:Amazon|DHL; <Region_B>=place:Cambridgeshire|South Yorkshire
+
+### E1138 | bank_branch | past
+f1 | <Bank> will close its branch in <Town>. | <Bank>=name:HSBC|Barclays; <Town>=place:Bridgend|Workington
+f2 | The branch closes in <Month>. | <Month>=date:August|February
+f3 | <Customers> customers use the branch. | <Customers>=quantity:4,200|2,900
+f4 | <Body> said elderly customers would struggle. | <Body>=agent:Age UK|Consumers Association
+f5 | The bank will open a hub in <Town_B> in <Month_B>. | <Town_B>=place:Cardiff|Carlisle; <Month_B>=date:November|May
+
+### E1139 | stadium_safety | past
+f1 | <Club> was ordered to fix <Issues> safety issues at <Stadium>. | <Club>=name:Millwall|Birmingham City; <Issues>=quantity:6|4; <Stadium>=name:The Den|St Andrew's
+f2 | <Council> issued the order on <Day>. | <Council>=agent:Lewisham Council|Birmingham City Council; <Day>=date:12 March|27 August
+f3 | The club has until <Month> to comply. | <Month>=date:June|December
+f4 | <Body> said capacity could be cut. | <Body>=agent:Sports Grounds Safety Authority|Football League
+f5 | The stadium holds <Capacity> people and opened in <Year> in <City>. | <Capacity>=quantity:20,000|29,000; <Year>=date:1993|1978; <City>=place:London|Birmingham
+
+### E1140 | water_pipe | past
+f1 | <Utility> will replace <Pipes> pipes in <Town>. | <Utility>=name:Yorkshire Water|Northumbrian Water; <Pipes>=quantity:180|120; <Town>=place:Harrogate|Durham
+f2 | The work costs <Cost>. | <Cost>=quantity:26m pounds|18m pounds
+f3 | Work starts in <Month>. | <Month>=date:April|October
+f4 | <Body> said leakage would fall by <Pct>. | <Body>=agent:Ofwat|Consumer Council for Water; <Pct>=quantity:18 percent|12 percent
+f5 | Roads will close for <Weeks> weeks. | <Weeks>=quantity:9|6
+
+### E1141 | university_spinout | past
+f1 | <University> spun out <Company> to commercialise <Tech>. | <University>=name:University of Bristol|Imperial College; <Company>=name:QLM Technology|Nexus Photonics; <Tech>=name:quantum sensing|lidar imaging
+f2 | The company raised <Amount> in seed funding. | <Amount>=quantity:9m pounds|6m pounds
+f3 | <Investor> led the round. | <Investor>=name:Parkwalk Advisors|IP Group
+f4 | Chief executive <Person_A> said <Staff> staff would be hired. | <Person_A>=agent:James Newman|Priya Patel; <Staff>=quantity:40|28
+f5 | The spinout was founded in <Year> in <City>. | <Year>=date:2021|2019; <City>=place:Bristol|London
+
+### E1142 | wind_opposition | past
+f1 | <Council> rejected a <Farm> wind farm near <Town>. | <Council>=agent:Powys Council|Scottish Borders Council; <Farm>=name:hilltop|moorland; <Town>=place:Builth Wells|Hawick
+f2 | The developer planned <Turbines> turbines. | <Turbines>=quantity:22|15
+f3 | <Group> welcomed the decision. | <Group>=agent:Campaign to Protect Rural Wales|Borders Landscape Group
+f4 | The developer will appeal within <Months> months, by <Month>. | <Months>=quantity:6|4; <Month>=date:June|November
+f5 | The scheme would have powered <Homes> homes in <Area>. | <Homes>=quantity:48,000|31,000; <Area>=place:Powys|Scottish Borders
+
+### E1143 | train_timetable | future
+f1 | <Operator> will cut <Services> services on the <Line> line. | <Operator>=name:Northern|TransPennine; <Services>=quantity:34|24; <Line>=name:Hope Valley|Calder Valley
+f2 | The cuts start in <Month>. | <Month>=date:December|June
+f3 | <Passengers> passengers in <Region> will be affected. | <Passengers>=quantity:2.1m|1.4m; <Region>=place:Derbyshire|West Yorkshire
+f4 | <Body> said the timetable was unreliable. | <Body>=agent:Transport Focus|Rail Delivery Group
+f5 | The operator blamed <Cause> in a statement on <Day_B>. | <Cause>=name:staff shortages|rolling stock delays; <Day_B>=date:3 February|19 August
+
+### E1144 | hospital_charity | past
+f1 | <Charity> raised <Amount> for <Hospital>. | <Charity>=name:Hospital Broadcasting|League of Friends; <Amount>=quantity:1.8m pounds|1.2m pounds; <Hospital>=place:Great Ormond Street|Alder Hey
+f2 | The money will fund <Beds> beds. | <Beds>=quantity:24|17
+f3 | The appeal closed on <Day>. | <Day>=date:31 March|14 September
+f4 | <Body> said demand had risen. | <Body>=agent:NHS Charities Together|Association of NHS Charities
+f5 | Patron <Person_A> thanked donors in <City>. | <Person_A>=agent:Simon Cowell|Melanie C; <City>=place:London|Liverpool
+
+### E1145 | prison_education | past
+f1 | <Body> cut education funding at <Prisons> prisons in <Region>. | <Body>=agent:Ministry of Justice|Prison Service; <Prisons>=quantity:14|9; <Region>=place:England|Wales
+f2 | <Prisoners> prisoners will lose courses. | <Prisoners>=quantity:6,800|4,400
+f3 | The cut takes effect in <Month>. | <Month>=date:April|October
+f4 | <Group> said reoffending would rise. | <Group>=agent:Prison Reform Trust|Howard League
+f5 | The saving is <Amount> over <Years> years. | <Amount>=quantity:12m pounds|8.4m pounds; <Years>=quantity:3|2
+
+### E1146 | cider_maker | future
+f1 | <Maker> will open a <Mill> in <Town>. | <Maker>=name:Thatchers|Aspall; <Mill>=name:cider mill|press house; <Town>=place:Sandford|Stowmarket
+f2 | The mill will produce <Litres> litres a year. | <Litres>=quantity:12m|8.4m
+f3 | It will employ <Staff> staff. | <Staff>=quantity:60|42
+f4 | <Council> approved the plan in <Month>. | <Council>=agent:North Somerset Council|Mid Suffolk Council; <Month>=date:May|November
+f5 | The investment is <Amount>. | <Amount>=quantity:18m pounds|12m pounds
+
+### E1147 | bus_lane | past
+f1 | <Council> will remove a <Lane> bus lane in <City>. | <Council>=agent:Wirral Council|Hull City Council; <Lane>=name:controversial|eastbound; <City>=place:Birkenhead|Hull
+f2 | The lane will close in <Month>. | <Month>=date:August|February
+f3 | <Drivers> drivers signed a petition. | <Drivers>=quantity:14,000|9,600
+f4 | <Group> said buses would slow down. | <Group>=agent:Bus Users UK|Sustrans
+f5 | The lane cost <Cost> to build in <Year>. | <Cost>=quantity:8.5m pounds|5.9m pounds; <Year>=date:2023|2021
+
+### E1148 | film_premiere | future
+f1 | <Film> will have its premiere in <City> on <Day>. | <Film>=name:The Last Ferry|Northern Lights; <City>=place:Edinburgh|Belfast; <Day>=date:18 June|2 October
+f2 | <Director> directed the film. | <Director>=agent:Charlotte Regan|Ross White
+f3 | The cast includes <Actor>. | <Actor>=agent:Saoirse Ronan|James Nesbitt
+f4 | The film was shot in <Region>. | <Region>=place:the Highlands|County Antrim
+f5 | Tickets cost <Price> at the <Venue>. | <Price>=quantity:22 pounds|16 pounds; <Venue>=place:Festival Theatre|Queen's Film Theatre
+
+### E1149 | council_budget | past
+f1 | <Council> approved a budget with <Cuts> of cuts. | <Council>=agent:Birmingham City Council|Nottingham City Council; <Cuts>=quantity:300m pounds|210m pounds
+f2 | Council tax will rise by <Pct>. | <Pct>=quantity:9.9 percent|7.5 percent
+f3 | <Jobs> jobs will go. | <Jobs>=quantity:600|420
+f4 | <Group> said services would suffer. | <Group>=agent:Local Government Association|Unison
+f5 | The budget was passed on <Day> at <Venue>. | <Day>=date:5 March|27 February; <Venue>=place:Council House|Loxley House
+
+### E1150 | recycling_fire | past
+f1 | A fire broke out at a <Plant> in <Town>. | <Plant>=name:recycling plant|waste transfer station; <Town>=place:Kirkby|Rotherham
+f2 | <Crews> crews attended the scene on <Day>. | <Crews>=quantity:12|8; <Day>=date:9 August|2 March
+f3 | The fire burned for <Hours> hours. | <Hours>=quantity:18|14
+f4 | <Body> said residents should close windows. | <Body>=agent:Merseyside Fire Service|South Yorkshire Fire Service
+f5 | The plant is run by <Operator> on <Site>. | <Operator>=name:Veolia|Biffa; <Site>=place:Knowsley industrial park|Aldwarke wharf
+
+### E1151 | dairy_cooperative | past
+f1 | <Cooperative> reported a fall in <Pct> profit. | <Cooperative>=name:Arla|Dale Farm; <Pct>=quantity:14 percent|9 percent
+f2 | Revenue fell to <Revenue>. | <Revenue>=quantity:1.2bn pounds|940m pounds
+f3 | Chief executive <Person_A> blamed <Cause>. | <Person_A>=agent:Peder Tuborgh|David Dobbin; <Cause>=name:falling milk prices|rising energy costs
+f4 | <Farmers> farmers supply the cooperative. | <Farmers>=quantity:8,400|6,100
+f5 | The results were published on <Day> in <City>. | <Day>=date:19 February|8 August; <City>=place:Aarhus|Belfast
+
+### E1152 | housing_association | future
+f1 | <Association> will build <Homes> homes in <Town>. | <Association>=name:Clarion Housing|Places for People; <Homes>=quantity:420|310; <Town>=place:Colchester|Worcester
+f2 | <Percent> will be affordable. | <Percent>=quantity:60 percent|45 percent
+f3 | Work starts in <Month>. | <Month>=date:January|July
+f4 | <Council> provided <Grant>. | <Council>=agent:Colchester Council|Worcester City Council; <Grant>=quantity:6m pounds|4m pounds
+f5 | The scheme costs <Cost>. | <Cost>=quantity:78m pounds|56m pounds
+
+### E1153 | airport_noise | past
+f1 | <Airport> was criticised over night noise in <Region>. | <Airport>=name:East Midlands|Leeds Bradford; <Region>=place:Leicestershire|West Yorkshire
+f2 | <Flights> night flights exceeded limits. | <Flights>=quantity:340|240
+f3 | <Body> called for a curfew. | <Body>=agent:Airport Watch|Campaign for Better Transport
+f4 | The airport will report in <Month>. | <Month>=date:April|October
+f5 | The figure covers <Year> and was published on <Day>. | <Year>=date:2025|2023; <Day>=date:11 June|4 December
+
+### E1154 | music_festival | future
+f1 | <Festival> will return to <Town> in <Month>. | <Festival>=name:Glastonbury|Latitude; <Town>=place:Pilton|Southwold; <Month>=date:June|July
+f2 | <Artists> artists will perform. | <Artists>=quantity:180|120
+f3 | Tickets cost <Price>. | <Price>=quantity:340 pounds|260 pounds
+f4 | <Council> granted a licence for <Years> years. | <Council>=agent:Mendip Council|East Suffolk Council; <Years>=quantity:5|3
+f5 | Organiser <Person_A> said capacity would rise. | <Person_A>=agent:Emily Eavis|Melvin Benn
+
+### E1155 | fishing_quota | past
+f1 | <Country> secured a <Species> quota of <Tonnes> tonnes. | <Country>=name:Scotland|Denmark; <Species>=name:mackerel|herring; <Tonnes>=quantity:180,000|120,000
+f2 | The deal was agreed in <City>. | <City>=place:Brussels|Copenhagen
+f3 | <Boats> boats will benefit. | <Boats>=quantity:260|240
+f4 | <Group> said the quota was too low. | <Group>=agent:Scottish Pelagic Fishermen's Association|Danish Fishermen's Association
+f5 | The deal runs for <Year> and was signed in <City_B>. | <Year>=date:2027|2025; <City_B>=place:London|Oslo
+
+### E1156 | school_meals | past
+f1 | <Council> will extend free school meals in <Region>. | <Council>=agent:Islington Council|Newham Council; <Region>=place:Islington|Newham
+f2 | <Pupils> pupils will benefit. | <Pupils>=quantity:14,000|9,800
+f3 | The scheme costs <Cost> a year. | <Cost>=quantity:8.4m pounds|5.6m pounds
+f4 | <Group> said funding was insufficient. | <Group>=agent:Child Poverty Action Group|School Food Matters
+f5 | The scheme starts in <Month> in <Borough>. | <Month>=date:September|January; <Borough>=place:Camden|Hackney
+
+### E1157 | hospital_robot | past
+f1 | <Trust> introduced <Robots> surgical robots at <Hospital>. | <Trust>=agent:Guy's and St Thomas'|Oxford University Hospitals; <Robots>=quantity:4|3; <Hospital>=place:Guy's Hospital|John Radcliffe Hospital
+f2 | The robots cost <Cost>. | <Cost>=quantity:6.2m pounds|4.4m pounds
+f3 | Surgeons will use them from <Month>. | <Month>=date:March|September
+f4 | <Body> said outcomes should improve. | <Body>=agent:Royal College of Surgeons|NHS England
+f5 | Consultant <Person_A> said training would take <Weeks> weeks. | <Person_A>=agent:Prokar Dasgupta|Freddie Hamdy; <Weeks>=quantity:6|5
+
+### E1158 | data_centre | future
+f1 | <Company> will build a <Centre> in <Town>. | <Company>=name:Microsoft|Amazon; <Centre>=name:data centre|cloud campus; <Town>=place:Newport|Darlington
+f2 | The site will use <Power> of power. | <Power>=quantity:180MW|120MW
+f3 | It will create <Jobs> jobs. | <Jobs>=quantity:300|210
+f4 | <Council> approved the plan in <Month>. | <Council>=agent:Newport Council|Darlington Council; <Month>=date:June|November
+f5 | <Group> raised concerns about water use. | <Group>=agent:Friends of the Earth|Campaign to Protect Rural England
+
+### E1159 | charity_merger | past
+f1 | <Charity> will merge with <Charity_B>. | <Charity>=name:Shelter|Crisis; <Charity_B>=name:Centrepoint|St Mungo's
+f2 | The merged charity will have <Staff> staff. | <Staff>=quantity:1,800|1,200
+f3 | The merger completes in <Month> in <City>. | <Month>=date:April|October; <City>=place:London|Bristol
+f4 | <Body> said services would not be cut. | <Body>=agent:Charity Commission|Scottish Charity Regulator
+f5 | Chief executive <Person_A> will lead the group from <Month_B>. | <Person_A>=agent:Polly Neate|Jon Sparkes; <Month_B>=date:May|November
+
+### E1160 | zoo_escape | past
+f1 | <Zoo> closed after <Animals> animals escaped in <City>. | <Zoo>=name:London Zoo|Colchester Zoo; <Animals>=quantity:2|1; <City>=place:London|Colchester
+f2 | The animals were recaptured after <Hours> hours. | <Hours>=quantity:3|5
+f3 | The zoo closed on <Day>. | <Day>=date:14 October|6 May
+f4 | <Body> said the enclosure had been damaged. | <Body>=agent:Zoo Licensing Authority|British and Irish Association of Zoos
+f5 | The zoo reopened in <Month> after <Days> days. | <Month>=date:November|June; <Days>=quantity:4|6
+
+### E1161 | bridge_closure | past
+f1 | <Body> closed the <Bridge> bridge in <Town> for repairs. | <Body>=agent:Highways England|Transport Wales; <Bridge>=name:Hammersmith|Menai; <Town>=place:London|Bangor
+f2 | The closure lasts <Months> months from <Month_B>. | <Months>=quantity:7|5; <Month_B>=date:May|November
+f3 | <Vehicles> vehicles use the bridge daily. | <Vehicles>=quantity:90,000|42,000
+f4 | <Group> warned of congestion. | <Group>=agent:Freight Transport Association|RAC Foundation
+f5 | The repair costs <Cost> and takes <Weeks> weeks. | <Cost>=quantity:140m pounds|96m pounds; <Weeks>=quantity:28|19
+
+### E1162 | theatre_prices | past
+f1 | <Theatre> raised ticket prices by <Pct> in <City>. | <Theatre>=name:Royal Shakespeare Company|National Theatre; <Pct>=quantity:12 percent|8 percent; <City>=place:Stratford-upon-Avon|London
+f2 | The cheapest ticket now costs <Price>. | <Price>=quantity:28 pounds|19 pounds
+f3 | <Body> criticised the increase. | <Body>=agent:Arts Council England|Theatres Trust
+f4 | The change takes effect in <Month>. | <Month>=date:January|July
+f5 | Director <Person_A> said costs had risen by <Pct_B>. | <Person_A>=agent:Gregory Doran|Rufus Norris; <Pct_B>=quantity:9 percent|6 percent
+
+### E1163 | supermarket_prices | past
+f1 | <Supermarket> cut prices on <Products> products in <Region>. | <Supermarket>=name:Tesco|Sainsbury's; <Products>=quantity:1,200|840; <Region>=place:United Kingdom|Ireland
+f2 | The cuts average <Pct>. | <Pct>=quantity:6 percent|4 percent
+f3 | The change starts on <Day>. | <Day>=date:3 April|17 September
+f4 | <Body> said competition was intense. | <Body>=agent:British Retail Consortium|Consumers Association
+f5 | Chief executive <Person_A> said <Customers> customers would benefit. | <Person_A>=agent:Ken Murphy|Simon Roberts; <Customers>=quantity:20m|14m
+
+### E1164 | car_recall | past
+f1 | <Maker> recalled <Cars> cars over a <Fault>. | <Maker>=name:Toyota|Honda; <Cars>=quantity:120,000|84,000; <Fault>=name:brake fault|software fault
+f2 | The recall affects models built in <Year>. | <Year>=date:2022|2020
+f3 | <Body> said owners would be contacted. | <Body>=agent:Driver and Vehicle Standards Agency|Transport Department
+f4 | Repairs take <Hours> hours. | <Hours>=quantity:3|5
+f5 | The recall was announced on <Day> in <Region>. | <Day>=date:8 January|23 June; <Region>=place:Japan|United Kingdom
+
+### E1165 | rail_electrification | future
+f1 | <Body> will electrify the <Line> to <Town>. | <Body>=agent:Network Rail|Transport Scotland; <Line>=name:Midland Main Line|Borders Railway; <Town>=place:Sheffield|Galashiels
+f2 | The work covers <Miles> miles of track. | <Miles>=quantity:94|62
+f3 | It costs <Cost>. | <Cost>=quantity:1.4bn pounds|980m pounds
+f4 | Work begins in <Month>. | <Month>=date:2027|2025
+f5 | <Group> welcomed the plan in <Region_B>. | <Group>=agent:Railfuture|Transform Scotland; <Region_B>=place:Derbyshire|Scottish Borders
+
+### E1166 | water_park | future
+f1 | <Council> approved a <Park> in <Town>. | <Council>=agent:Swansea Council|Torbay Council; <Park>=name:indoor water park|leisure pool; <Town>=place:Swansea|Torquay
+f2 | The park will attract <Visitors> visitors a year. | <Visitors>=quantity:340,000|220,000
+f3 | It costs <Cost>. | <Cost>=quantity:48m pounds|34m pounds
+f4 | <Group> questioned the business case. | <Group>=agent:TaxPayers' Alliance|Swansea Against Waste
+f5 | Building starts in <Month> at <Site>. | <Month>=date:2028|2026; <Site>=place:Swansea marina|Torquay harbourside
+
+### E1167 | cricket_corruption | past
+f1 | <Player> was banned for <Months> months over <Offence>. | <Player>=agent:Ravi Patel|Tom Whitfield; <Months>=quantity:24|15; <Offence>=name:spot-fixing|approach to fix
+f2 | The ban was imposed by <Body>. | <Body>=agent:Cricket Regulator|Disciplinary Panel
+f3 | The decision was announced on <Day>. | <Day>=date:19 May|4 November
+f4 | The player's club is <Club> in <City>. | <Club>=name:Surrey|Lancashire; <City>=place:Manchester|Birmingham
+f5 | An appeal must be lodged within <Days> days. | <Days>=quantity:14|21
+
+### E1168 | library_digitisation | future
+f1 | <Library> will digitise <Manuscripts> manuscripts in <City>. | <Library>=name:British Library|Bodleian Library; <Manuscripts>=quantity:24,000|16,000; <City>=place:London|Oxford
+f2 | The project costs <Cost>. | <Cost>=quantity:11m pounds|7.4m pounds
+f3 | Work begins in <Month>. | <Month>=date:March|September
+f4 | <Body> funded <Share> of the work. | <Body>=agent:Andrew W Mellon Foundation|Heritage Fund; <Share>=quantity:60 percent|45 percent
+f5 | Curator <Person_A> said access would improve. | <Person_A>=agent:Kristian Jensen|Richard Ovenden
+
+### E1169 | care_home_fees | past
+f1 | <Group> raised care home fees by <Pct> in <Region>. | <Group>=name:HC-One|Barchester; <Pct>=quantity:9 percent|6 percent; <Region>=place:northern England|southern England
+f2 | The weekly fee is now <Fee>. | <Fee>=quantity:1,200 pounds|940 pounds
+f3 | <Residents> residents in <Town> will pay more. | <Residents>=quantity:14,000|9,600; <Town>=place:Harrogate|Winchester
+f4 | <Body> said families faced hardship. | <Body>=agent:Care Quality Commission|Age UK
+f5 | The rise takes effect in <Month>. | <Month>=date:April|October
+
+### E1170 | offshore_wind | future
+f1 | <Developer> will build a <Farm> off <Coast>. | <Developer>=name:SSE Renewables|RWE; <Farm>=name:wind farm|floating array; <Coast>=place:Aberdeenshire|Cornwall
+f2 | The farm will have <Turbines> turbines. | <Turbines>=quantity:120|84
+f3 | It will power <Homes> homes. | <Homes>=quantity:1.6m|1.1m
+f4 | <Council> backed the plan in <Month>. | <Council>=agent:Aberdeenshire Council|Cornwall Council; <Month>=date:June|November
+f5 | The project costs <Cost>. | <Cost>=quantity:3.2bn pounds|2.4bn pounds
+
+### E1171 | bus_franchising | past
+f1 | <Authority> will franchise bus services in <Region>. | <Authority>=agent:Greater Manchester Combined Authority|Liverpool City Region; <Region>=place:Greater Manchester|Merseyside
+f2 | Franchising starts in <Month> across <Area>. | <Month>=date:January|September; <Area>=place:Lancashire|Cheshire
+f3 | <Routes> routes will be included. | <Routes>=quantity:180|140
+f4 | <Group> said fares would fall. | <Group>=agent:Transport for Quality of Life|Bus Users UK
+f5 | The change costs <Cost>. | <Cost>=quantity:120m pounds|86m pounds
+
+### E1172 | university_fees | past
+f1 | <University> will raise fees to <Fee> for <Course>. | <University>=name:Imperial College|University of Exeter; <Fee>=quantity:9,250 pounds|8,400 pounds; <Course>=name:engineering|medicine
+f2 | The rise applies from <Month>. | <Month>=date:September|January
+f3 | <Students> students in <City> will be affected. | <Students>=quantity:4,800|3,200; <City>=place:London|Exeter
+f4 | <Body> said the cap had been breached. | <Body>=agent:Office for Students|Quality Assurance Agency
+f5 | The university said costs had risen by <Pct>. | <Pct>=quantity:14 percent|9 percent
+
+### E1173 | newspaper_closure | past
+f1 | <Paper> closed after <Years> years in <City>. | <Paper>=name:The Bath Chronicle|The Cumberland News; <Years>=quantity:120|86; <City>=place:Bath|Carlisle
+f2 | The last edition was published on <Day>. | <Day>=date:28 April|11 December
+f3 | <Journalists> journalists in <County> lost their jobs. | <Journalists>=quantity:24|16; <County>=place:Somerset|Cumbria
+f4 | <Body> said local news was shrinking. | <Body>=agent:National Union of Journalists|Press Gazette
+f5 | The paper was owned by <Group>. | <Group>=name:Reach|Newsquest
+
+### E1174 | dairy_prices | past
+f1 | <Retailer> cut the price of milk to <Price> in <Region>. | <Retailer>=name:Aldi|Lidl; <Price>=quantity:1.45 pounds|1.25 pounds; <Region>=place:England|Wales
+f2 | The cut takes effect on <Day>. | <Day>=date:2 March|19 August
+f3 | <Farmers> farmers in <Nation> said the price was below cost. | <Farmers>=quantity:9,000|6,400; <Nation>=place:Scotland|Northern Ireland
+f4 | <Body> called for a code of practice. | <Body>=agent:National Farmers Union|Dairy UK
+f5 | The retailer said <Pct> of the saving would come from suppliers. | <Pct>=quantity:40 percent|28 percent
+
+### E1175 | airport_strike | past
+f1 | <Union> called a strike at <Airport> over <Issue>. | <Union>=agent:Unite|Prospect; <Airport>=name:Heathrow|Gatwick; <Issue>=name:pay|rosters
+f2 | <Staff> staff will strike for <Days> days. | <Staff>=quantity:1,400|960; <Days>=quantity:3|2
+f3 | The strike begins on <Day>. | <Day>=date:7 May|23 September
+f4 | <Body> warned of cancellations. | <Body>=agent:Airport Operators Association|Airlines UK
+f5 | Talks resume in <City>. | <City>=place:London|Crawley
+
+### E1176 | housing_rent | past
+f1 | Rents rose by <Pct> in <Region> over the year. | <Pct>=quantity:11 percent|7 percent; <Region>=place:England|Wales
+f2 | The average rent is now <Rent>. | <Rent>=quantity:1,320 pounds|980 pounds
+f3 | <Tenants> tenants in <City> are in arrears. | <Tenants>=quantity:120,000|84,000; <City>=place:London|Cardiff
+f4 | <Body> called for rent controls. | <Body>=agent:Generation Rent|Shelter
+f5 | The figures were published on <Day>. | <Day>=date:12 February|3 September
+
+### E1177 | police_station | past
+f1 | <Force> will close <Stations> police stations in <Region>. | <Force>=agent:West Mercia Police|Durham Constabulary; <Stations>=quantity:11|7; <Region>=place:Worcestershire|County Durham
+f2 | The closures begin in <Month>. | <Month>=date:June|December
+f3 | <Officers> officers will move to <Town>. | <Officers>=quantity:240|160; <Town>=place:Worcester|Durham
+f4 | <Body> said response times would suffer. | <Body>=agent:Police Federation|Police and Crime Commissioner
+f5 | The force expects to save <Amount>. | <Amount>=quantity:4.8m pounds|3.2m pounds
+
+### E1178 | solar_subsidy | past
+f1 | <Body> cut solar subsidies by <Pct> in <Region>. | <Body>=agent:Department for Energy|Scottish Government; <Pct>=quantity:22 percent|15 percent; <Region>=place:England|Scotland
+f2 | The cut takes effect in <Month>. | <Month>=date:April|October
+f3 | <Installations> installations in <Area> will be affected. | <Installations>=quantity:48,000|31,000; <Area>=place:Yorkshire|Lothian
+f4 | <Group> said the industry would shrink. | <Group>=agent:Solar Energy UK|Renewable Energy Association
+f5 | The saving is <Amount>. | <Amount>=quantity:180m pounds|120m pounds
+
+### E1179 | port_automation | future
+f1 | <Port> will install <Cranes> automated cranes. | <Port>=place:Rotterdam|Antwerp; <Cranes>=quantity:32|22
+f2 | The system costs <Cost>. | <Cost>=quantity:240m euros|170m euros
+f3 | It starts operating in <Month>. | <Month>=date:2028|2026
+f4 | <Union> warned of <Jobs> job losses. | <Union>=agent:FNV|ACV; <Jobs>=quantity:600|420
+f5 | The port handles <Containers> containers a year. | <Containers>=quantity:15m|11m
+
+### E1180 | museum_acquisition | past
+f1 | <Museum> bought a <Work> for <Price>. | <Museum>=name:National Gallery|Tate; <Work>=name:portrait|landscape; <Price>=quantity:8.4m pounds|5.9m pounds
+f2 | The work dates from <Year>. | <Year>=date:1654|1668
+f3 | <Body> contributed <Grant> towards the purchase. | <Body>=agent:National Heritage Memorial Fund|Art Fund; <Grant>=quantity:2.4m pounds|1.6m pounds
+f4 | The painting goes on display in <Month> in <Room>. | <Month>=date:March|September; <Room>=place:Room 12|Gallery 5
+f5 | Director <Person_A> said the work was rare. | <Person_A>=agent:Gabriele Finaldi|Maria Balshaw

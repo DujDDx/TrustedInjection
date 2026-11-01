@@ -1,0 +1,452 @@
+{
+ "event": "e14",
+ "seed": 1739732,
+ "domain": "logistics",
+ "company": "Vexel Logistics",
+ "n_wire": 7,
+ "prompt_sha": "34748c84e8aef76e",
+ "anchors": {
+  "f1": [
+   "Vexel Logistics",
+   "4,800"
+  ],
+  "f2": [
+   "310m GBP"
+  ],
+  "f3": [
+   "Marian Holt",
+   "12%",
+   "2023"
+  ],
+  "f4": [
+   "5.2%",
+   "London"
+  ],
+  "f5": [
+   "12.4p"
+  ],
+  "f6": [
+   "14 June 2024"
+  ],
+  "f7": [
+   "HQ"
+  ],
+  "n1": [
+   "Unite the Union",
+   "2,400"
+  ],
+  "n2": [
+   "Sarah Jenkins"
+  ],
+  "n3": [
+   "Citi",
+   "18%"
+  ],
+  "n4": [
+   "Deeside",
+   "3 years"
+  ],
+  "n5": [
+   "RetailWatch",
+   "48h"
+  ],
+  "n6": [
+   "1998",
+   "Arthur Vexel",
+   "Manchester"
+  ],
+  "n7": [
+   "1 September 2024"
+  ],
+  "n8": [
+   "70%"
+  ],
+  "n9": [
+   "CFO"
+  ],
+  "n10": [
+   "Deeside",
+   "15k GBP"
+  ],
+  "n11": [
+   "DHL Express",
+   "3"
+  ],
+  "n12": [
+   "2025"
+  ],
+  "n13": [
+   "TDU"
+  ],
+  "p1": [
+   "Deeside",
+   "120",
+   "150"
+  ],
+  "p2": [
+   "22 May 2024"
+  ],
+  "p3": [
+   "Unite",
+   "Deeside",
+   "19 May 2024"
+  ],
+  "p4": [
+   "Deeside",
+   "Sarah Jenkins",
+   "Vexel"
+  ],
+  "p5": [
+   "Deeside",
+   "80%"
+  ],
+  "w1": [],
+  "w2": [],
+  "w3": []
+ },
+ "wire": {
+  "headline": "Vexel Logistics to cut 4,800 UK jobs as revenue falls",
+  "sentences": [
+   [
+    "f1",
+    "Vexel Logistics has announced that it will cancel 4,800 jobs across its UK depots."
+   ],
+   [
+    "f6",
+    "The company stated that these redundancies are effective from 14 June 2024."
+   ],
+   [
+    "f3",
+    "CEO Marian Holt cited a 12% revenue decline since 2023 as the reason for the cuts."
+   ],
+   [
+    "f2",
+    "The restructuring is expected to save 310m GBP in annual operating costs."
+   ],
+   [
+    "f5",
+    "Employees will receive a severance package valued at 12.4p per share."
+   ],
+   [
+    "f4",
+    "Shares dropped 5.2% in pre-market trading in London following the announcement."
+   ],
+   [
+    "f7",
+    "The company's HQ confirmed that there will be no change to customer service levels."
+   ]
+  ]
+ },
+ "variants": {
+  "WD_1": {
+   "role": "WD",
+   "outlet": "The Press and Journal",
+   "sentences": [
+    {
+     "fact": "f3",
+     "text": "As the reason for the cuts, CEO Marian Holt cited a 8% revenue decline since 2023.",
+     "origin": "copied",
+     "tampered": true,
+     "tamper": {
+      "from": "12%",
+      "to": "8%"
+     },
+     "forged": false
+    },
+    {
+     "fact": "f2",
+     "text": "The restructuring is expected to save 310m GBP in annual operating costs, Unite said.",
+     "origin": "copied",
+     "forged": true,
+     "forge": {
+      "source": "Unite",
+      "was": "copied"
+     },
+     "tampered": false
+    },
+    {
+     "fact": "f5",
+     "text": "A severance package valued at 12.4p per share will be received by employees.",
+     "origin": "rewritten",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "w1",
+     "text": "Rain has delayed the setup of the town hall at Deeside Hall.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    }
+   ]
+  },
+  "WD_2": {
+   "role": "WD",
+   "outlet": "Western Morning News",
+   "sentences": [
+    {
+     "fact": "f5",
+     "text": "Employees will receive a severance package valued at 12.4p per share.",
+     "origin": "copied",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "f1",
+     "text": "Vexel Logistics has announced that it will cancel 4,800 jobs across its UK depots.",
+     "origin": "copied",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "f6",
+     "text": "These redundancies are effective from 14 June 2024, according to the company's statement.",
+     "origin": "rewritten",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "w2",
+     "text": "Workers shared coffee in the canteen before the protest.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    }
+   ]
+  },
+  "WD_3": {
+   "role": "WD",
+   "outlet": "Belfast Telegraph",
+   "sentences": [
+    {
+     "fact": "f4",
+     "text": "Following the announcement, shares dropped 5.2% in pre-market trading in London.",
+     "origin": "copied",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "f3",
+     "text": "As the reason for the cuts, CEO Marian Holt cited a 12% revenue decline since 2023.",
+     "origin": "copied",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "f5",
+     "text": "A severance package valued at 12.4p per share will be received by employees.",
+     "origin": "rewritten",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "w3",
+     "text": "Signs reading 'Save Our Jobs' were spotted near the gate.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    }
+   ]
+  },
+  "PD": {
+   "role": "PD",
+   "headline": "Deeside Depot Faces Massive Staff Cuts as Local Officials Step In",
+   "sentences": [
+    {
+     "fact": "f1",
+     "text": "Vexel Logistics has stated that 4,800 jobs across its UK depots will be cancelled.",
+     "origin": "rewritten",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "p5",
+     "text": "A local newspaper has reported that 80% of staff at the Deeside site are facing redundancy.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "p1",
+     "text": "The Deeside depot is set to lose 120 of its 150 permanent employees.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "f3",
+     "text": "The reason for the cuts was cited by CEO Marian Holt as a 12% revenue decline since 2023.",
+     "origin": "rewritten",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "p3",
+     "text": "A representative from Unite visited the Deeside site on 19 May 2024.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "p2",
+     "text": "The local council is scheduled to host a town hall meeting on 22 May 2024.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    }
+   ]
+  },
+  "ND": {
+   "role": "ND",
+   "headline": "Logistics Firm Announces Major Restructuring Amid Rising Tensions",
+   "sentences": [
+    {
+     "fact": "f2",
+     "text": "The company announced a restructuring plan designed to save 310m GBP in annual operating costs.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "f3",
+     "text": "Marian Holt, serving as CEO, cited a 12% decline in income from 2023 onward as the primary cause for the changes.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n6",
+     "text": "The firm, which was founded in 1998 by Arthur Vexel in Manchester, is now facing significant operational challenges.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n12",
+     "text": "An internal memo leaked showing a cost-cutting target for 2025 has fueled speculation about further cuts.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n9",
+     "text": "A former CFO left the board recently, citing strategic disagreement over the company's direction.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n1",
+     "text": "Unite the Union has stated that it plans to ballot 2,400 members on the prospect of a strike.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n8",
+     "text": "A union representative claims that 70% of the roles affected by the restructuring are night shifts.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n13",
+     "text": "The driver union TDU has described the company's action as 'deeply concerning' for the workforce.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n2",
+     "text": "Local MP Sarah Jenkins has demanded an independent inquiry into the decision-making process.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n4",
+     "text": "Staff at the Deeside warehouse have reported that necessary upgrades were delayed by 3 years.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n5",
+     "text": "The customer group RetailWatch has pointed to 48h delivery delays as evidence of operational strain.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n10",
+     "text": "Deeside council has stepped in to offer retraining grants worth 15k GBP to affected workers.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n7",
+     "text": "The next step in the dispute sees a tribunal filing expected by 1 September 2024.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    }
+   ]
+  },
+  "HOP2": {
+   "role": "HOP2",
+   "parent": "WD_1",
+   "sentences": [
+    {
+     "fact": "f3",
+     "text": "As the reason for the cuts, CEO Marian Holt cited a 8% revenue decline since 2023.",
+     "origin": "copied",
+     "tampered": true,
+     "tamper": {
+      "from": "12%",
+      "to": "8%"
+     },
+     "hop": 2,
+     "forged": false
+    },
+    {
+     "fact": "f2",
+     "text": "The restructuring is expected to save 310m GBP in annual operating costs, Unite said.",
+     "origin": "copied",
+     "forged": true,
+     "forge": {
+      "source": "Unite",
+      "was": "copied"
+     },
+     "hop": 2,
+     "tampered": false
+    },
+    {
+     "fact": "f5",
+     "text": "A severance package valued at 12.4p per share will be received by employees.",
+     "origin": "copied",
+     "hop": 2,
+     "tampered": false,
+     "forged": false
+    }
+   ]
+  }
+ },
+ "assign": {
+  "W": {
+   "total": 7,
+   "unassigned": 0
+  },
+  "PD_own": {
+   "total": 4,
+   "unassigned": 0
+  },
+  "ND": {
+   "total": 13,
+   "unassigned": 0
+  }
+ },
+ "anchor_missing": 0,
+ "anchor_total": 31,
+ "fact_integrity_issues": []
+}

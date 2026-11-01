@@ -1,0 +1,332 @@
+{
+ "event": "e11",
+ "seed": 1739729,
+ "domain": "dairy",
+ "company": "Highland Cream Collective",
+ "n_wire": 7,
+ "prompt_sha": "34748c84e8aef76e",
+ "anchors": {
+  "f1": [
+   "Highland Cream Collective",
+   "310m GBP"
+  ],
+  "f2": [
+   "Marian Holt",
+   "12%"
+  ],
+  "f3": [
+   "Deeside",
+   "March 2027"
+  ],
+  "f4": [
+   "4.8%"
+  ],
+  "f5": [
+   "4,800 tonne"
+  ],
+  "f6": [
+   "4 November"
+  ],
+  "f7": [
+   "James Rook",
+   "12.4p"
+  ],
+  "n1": [
+   "Unite",
+   "2,400"
+  ],
+  "n2": [
+   "Alistair Thorne"
+  ],
+  "n3": [
+   "FairMilk"
+  ],
+  "n4": [
+   "Lowland Dairy",
+   "1998"
+  ],
+  "n5": [
+   "McKinsey"
+  ],
+  "n6": [
+   "15%"
+  ],
+  "n7": [
+   "GreenPasture"
+  ],
+  "n8": [
+   "Sarah Jenkins"
+  ],
+  "n9": [
+   "5m GBP"
+  ],
+  "n10": [
+   "Valais Creamery"
+  ],
+  "n11": [
+   "safety staff"
+  ],
+  "n12": [
+   "8m GBP"
+  ],
+  "n13": [
+   "January 2028"
+  ],
+  "p1": [
+   "30%"
+  ],
+  "p2": [
+   "route 42"
+  ],
+  "p3": [
+   "Elena Voss",
+   "Town Hall"
+  ],
+  "p4": [
+   "dairy science"
+  ],
+  "p5": [
+   "1950s"
+  ],
+  "w1": [],
+  "w2": [],
+  "w3": []
+ },
+ "wire": {
+  "headline": "Highland Cream Collective Reveals Major Restructuring Plan Amid Rising Costs",
+  "sentences": [
+   [
+    "f6",
+    "The board of Highland Cream Collective voted unanimously on 4 November to proceed with the company's strategic changes."
+   ],
+   [
+    "f1",
+    "The dairy firm announced a 310m GBP restructuring plan to address ongoing financial pressures."
+   ],
+   [
+    "f5",
+    "Company officials cited rising 4,800 tonne raw milk costs as a primary driver for the necessary operational adjustments."
+   ],
+   [
+    "f2",
+    "CEO Marian Holt confirmed that the plan includes a target for a 12% workforce reduction."
+   ],
+   [
+    "f3",
+    "The closure of the Deeside processing plant is scheduled to take place in March 2027."
+   ],
+   [
+    "f4",
+    "Shares in the company dropped 4.8% during post-announcement trading following the release of the details."
+   ],
+   [
+    "f7",
+    "Analyst James Rook predicts that the restructuring will result in a 12.4p per share dilution for investors."
+   ]
+  ]
+ },
+ "variants": {
+  "WD_1": {
+   "role": "WD",
+   "outlet": "The Press and Journal",
+   "sentences": [
+    {
+     "fact": "f3",
+     "text": "In March 2027, the closure of the Deeside processing plant is scheduled to occur.",
+     "origin": "copied"
+    },
+    {
+     "fact": "f6",
+     "text": "The board of Highland Cream Collective voted unanimously on 4 November to proceed with the company's strategic changes.",
+     "origin": "copied"
+    },
+    {
+     "fact": "f7",
+     "text": "The restructuring is predicted by Analyst James Rook to result in a 12.4p per share dilution for investors.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "w1",
+     "text": "Residents have noticed increased delivery truck traffic.",
+     "origin": "own"
+    }
+   ]
+  },
+  "WD_2": {
+   "role": "WD",
+   "outlet": "Western Morning News",
+   "sentences": [
+    {
+     "fact": "f3",
+     "text": "The closure of the Deeside processing plant is scheduled to take place in March 2027.",
+     "origin": "copied"
+    },
+    {
+     "fact": "f6",
+     "text": "On 4 November, the board of Highland Cream Collective voted unanimously to proceed with the company's strategic changes.",
+     "origin": "copied"
+    },
+    {
+     "fact": "f7",
+     "text": "Analyst James Rook forecasts that the restructuring will lead to a 12.4p per share dilution for investors.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "w2",
+     "text": "Rumors are currently circulating regarding secret backroom deals.",
+     "origin": "own"
+    }
+   ]
+  },
+  "WD_3": {
+   "role": "WD",
+   "outlet": "Belfast Telegraph",
+   "sentences": [
+    {
+     "fact": "f6",
+     "text": "On 4 November, the board of Highland Cream Collective voted unanimously to proceed with the company's strategic changes.",
+     "origin": "copied"
+    },
+    {
+     "fact": "f5",
+     "text": "Citing rising 4,800 tonne raw milk costs as a primary driver, Company officials noted that operational adjustments were necessary.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "f4",
+     "text": "Following the release of the details, Shares in the company dropped 4.8% during post-announcement trading.",
+     "origin": "copied"
+    },
+    {
+     "fact": "w3",
+     "text": "Local bakeries have switched to alternative cream suppliers.",
+     "origin": "own"
+    }
+   ]
+  },
+  "PD": {
+   "role": "PD",
+   "headline": "Deeside Community Reacts to Economic and Infrastructure Changes",
+   "sentences": [
+    {
+     "fact": "f6",
+     "text": "On 4 November, the board of Highland Cream Collective unanimously voted to move ahead with the company's strategic changes.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "p1",
+     "text": "Pub owners in Deeside have reported a 30% drop in local spending.",
+     "origin": "own"
+    },
+    {
+     "fact": "p2",
+     "text": "Meanwhile, local bus route 42 has been rerouted away from the plant.",
+     "origin": "own"
+    },
+    {
+     "fact": "f5",
+     "text": "Rising 4,800 tonne raw milk costs were cited by company officials as a primary driver for the required operational adjustments.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "p3",
+     "text": "Mayor Elena Voss is set to host a community meeting at Town Hall.",
+     "origin": "own"
+    },
+    {
+     "fact": "p4",
+     "text": "A nearby school also plans to introduce a vocational dairy science program.",
+     "origin": "own"
+    }
+   ]
+  },
+  "ND": {
+   "role": "ND",
+   "headline": "Dairy Firm Faces Backlash Over Layoffs and Plant Closure",
+   "sentences": [
+    {
+     "fact": "f2",
+     "text": "CEO Marian Holt confirmed a target to reduce the workforce by 12%.",
+     "origin": "own"
+    },
+    {
+     "fact": "f3",
+     "text": "The closure of the Deeside processing plant is scheduled for March 2027.",
+     "origin": "own"
+    },
+    {
+     "fact": "n1",
+     "text": "Unite announced plans to ballot 2,400 members on strike action.",
+     "origin": "own"
+    },
+    {
+     "fact": "n8",
+     "text": "Union leader Sarah Jenkins called the decision reckless.",
+     "origin": "own"
+    },
+    {
+     "fact": "n2",
+     "text": "MP Alistair Thorne demanded a public inquiry into the job losses.",
+     "origin": "own"
+    },
+    {
+     "fact": "n3",
+     "text": "Consumer group FairMilk protested against price hikes.",
+     "origin": "own"
+    },
+    {
+     "fact": "n4",
+     "text": "Historical records show a 1998 merger with Lowland Dairy.",
+     "origin": "own"
+    },
+    {
+     "fact": "n5",
+     "text": "Consultancy McKinsey advises on supply chain optimization.",
+     "origin": "own"
+    },
+    {
+     "fact": "n6",
+     "text": "Local suppliers face a 15% contract value reduction.",
+     "origin": "own"
+    },
+    {
+     "fact": "n7",
+     "text": "Environmental group GreenPasture audits carbon footprint claims.",
+     "origin": "own"
+    },
+    {
+     "fact": "n9",
+     "text": "The regional council allocated a 5m GBP retraining fund.",
+     "origin": "own"
+    },
+    {
+     "fact": "n10",
+     "text": "Competitor Valais Creamery expands in neighboring counties.",
+     "origin": "own"
+    },
+    {
+     "fact": "n11",
+     "text": "A whistleblower alleged internal pressure to cut safety staff.",
+     "origin": "own"
+    }
+   ]
+  }
+ },
+ "assign": {
+  "W": {
+   "total": 7,
+   "unassigned": 0
+  },
+  "PD_own": {
+   "total": 4,
+   "unassigned": 0
+  },
+  "ND": {
+   "total": 13,
+   "unassigned": 0
+  }
+ },
+ "anchor_missing": 0,
+ "anchor_total": 31,
+ "fact_integrity_issues": []
+}

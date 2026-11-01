@@ -1,0 +1,332 @@
+{
+ "event": "e20",
+ "seed": 1739859,
+ "domain": "retail",
+ "company": "GreenMart",
+ "n_wire": 7,
+ "prompt_sha": "34748c84e8aef76e",
+ "anchors": {
+  "f1": [
+   "GreenMart",
+   "4,800",
+   "120"
+  ],
+  "f2": [
+   "Julian Thorne",
+   "310m GBP"
+  ],
+  "f3": [
+   "12%"
+  ],
+  "f4": [
+   "March 2027"
+  ],
+  "f5": [
+   "4.26bn GBP"
+  ],
+  "f6": [
+   "Unite"
+  ],
+  "f7": [
+   "12.4p"
+  ],
+  "n1": [
+   "Sarah Vane"
+  ],
+  "n2": [
+   "Marian Holt"
+  ],
+  "n3": [
+   "FreshVoice"
+  ],
+  "n4": [
+   "1995"
+  ],
+  "n5": [
+   "200"
+  ],
+  "n6": [
+   "15%",
+   "Deeside"
+  ],
+  "n7": [
+   "BlueBasket",
+   "40"
+  ],
+  "n8": [
+   "68%"
+  ],
+  "n9": [
+   "4,800"
+  ],
+  "n10": [
+   "AgroLink"
+  ],
+  "n11": [
+   "22%"
+  ],
+  "n12": [
+   "Kenji Sato"
+  ],
+  "n13": [
+   "4 November"
+  ],
+  "p1": [
+   "Dave Pyle",
+   "Manchester"
+  ],
+  "p2": [
+   "500k GBP"
+  ],
+  "p3": [
+   "30"
+  ],
+  "p4": [
+   "3",
+   "5 miles"
+  ],
+  "p5": [
+   "Community fridge project"
+  ],
+  "w1": [],
+  "w2": [],
+  "w3": []
+ },
+ "wire": {
+  "headline": "GreenMart to Cut 4,800 Jobs in Major Restructuring",
+  "sentences": [
+   [
+    "f1",
+    "GreenMart has announced the reduction of 4,800 jobs across 120 stores nationwide."
+   ],
+   [
+    "f2",
+    "Chief Executive Julian Thorne stated that this restructuring is intended to save 310m GBP."
+   ],
+   [
+    "f5",
+    "The company cited a revenue decline of 4.26bn GBP as the primary driver for this decision."
+   ],
+   [
+    "f4",
+    "The job cuts are set to take effect from March 2027 and will affect supply chain roles."
+   ],
+   [
+    "f3",
+    "Following the announcement, shares dipped 12% in early trading."
+   ],
+   [
+    "f6",
+    "Union Unite confirmed that the consultation period begins immediately."
+   ],
+   [
+    "f7",
+    "Analysts predict a 12.4p hit to earnings per share resulting from these changes."
+   ]
+  ]
+ },
+ "variants": {
+  "WD_1": {
+   "role": "WD",
+   "outlet": "The Press and Journal",
+   "sentences": [
+    {
+     "fact": "f4",
+     "text": "From March 2027, the job cuts are set to take effect and will affect supply chain roles.",
+     "origin": "copied"
+    },
+    {
+     "fact": "f2",
+     "text": "Stated by Chief Executive Julian Thorne, this restructuring is meant to save 310m GBP.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "f5",
+     "text": "The company cited a revenue decline of 4.26bn GBP as the primary driver for this decision.",
+     "origin": "copied"
+    },
+    {
+     "fact": "w1",
+     "text": "Shoppers have noticed fewer bananas in display racks.",
+     "origin": "own"
+    }
+   ]
+  },
+  "WD_2": {
+   "role": "WD",
+   "outlet": "Western Morning News",
+   "sentences": [
+    {
+     "fact": "f1",
+     "text": "GreenMart has announced the reduction of 4,800 jobs across 120 stores nationwide.",
+     "origin": "copied"
+    },
+    {
+     "fact": "f2",
+     "text": "Chief Executive Julian Thorne stated that the purpose of this restructuring is to save 310m GBP.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "f3",
+     "text": "Following the announcement, shares dipped 12% in early trading.",
+     "origin": "copied"
+    },
+    {
+     "fact": "w2",
+     "text": "Staff were observed wearing black armbands while in the break room.",
+     "origin": "own"
+    }
+   ]
+  },
+  "WD_3": {
+   "role": "WD",
+   "outlet": "Belfast Telegraph",
+   "sentences": [
+    {
+     "fact": "f2",
+     "text": "Chief Executive Julian Thorne stated that this restructuring is intended to save 310m GBP by him.",
+     "origin": "copied"
+    },
+    {
+     "fact": "f3",
+     "text": "Following the announcement, shares dipped 12% in early trading according to reports.",
+     "origin": "copied"
+    },
+    {
+     "fact": "f7",
+     "text": "A 12.4p hit to earnings per share is predicted by Analysts to result from these changes.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "w3",
+     "text": "According to w3, elevator music has been changed to silent mode.",
+     "origin": "own"
+    }
+   ]
+  },
+  "PD": {
+   "role": "PD",
+   "headline": "Dave Pyle Fears Closure of Manchester Store",
+   "sentences": [
+    {
+     "fact": "f1",
+     "text": "GreenMart has announced that it is cutting 4,800 jobs across 120 stores nationwide.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "p1",
+     "text": "Dave Pyle, the store manager in Manchester, expressed fear that his location will face closure.",
+     "origin": "own"
+    },
+    {
+     "fact": "p2",
+     "text": "The local council has proposed a 500k GBP grant aimed at retraining.",
+     "origin": "own"
+    },
+    {
+     "fact": "f5",
+     "text": "The company cited this decision's primary driver as a revenue decline of 4.26bn GBP.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "p3",
+     "text": "Students at a nearby university will lose 30 part-time slots.",
+     "origin": "own"
+    },
+    {
+     "fact": "p4",
+     "text": "A rival chain is opening 3 stores within 5 miles.",
+     "origin": "own"
+    }
+   ]
+  },
+  "ND": {
+   "role": "ND",
+   "headline": "GreenMart to cut 4,800 jobs in major restructuring",
+   "sentences": [
+    {
+     "fact": "f2",
+     "text": "Chief Executive Julian Thorne announced a restructuring plan intended to save 310m GBP for the company.",
+     "origin": "own"
+    },
+    {
+     "fact": "f3",
+     "text": "The company's shares dipped 12% in early trading following the announcement.",
+     "origin": "own"
+    },
+    {
+     "fact": "n1",
+     "text": "Analyst Sarah Vane described the move as overdue for margin recovery.",
+     "origin": "own"
+    },
+    {
+     "fact": "n2",
+     "text": "Local MP Marian Holt demanded a parliamentary inquiry into the planned closures.",
+     "origin": "own"
+    },
+    {
+     "fact": "n3",
+     "text": "Customer group FreshVoice launched a petition against recent price hikes.",
+     "origin": "own"
+    },
+    {
+     "fact": "n4",
+     "text": "GreenMart was founded in 1995 by a brother-in-law duo.",
+     "origin": "own"
+    },
+    {
+     "fact": "n5",
+     "text": "The next phase of the plan targets 200 distribution centre positions.",
+     "origin": "own"
+    },
+    {
+     "fact": "n6",
+     "text": "A regional director cited a 15% footfall drop in Deeside.",
+     "origin": "own"
+    },
+    {
+     "fact": "n7",
+     "text": "Competitor BlueBasket is expanding into the same 40 postcode areas.",
+     "origin": "own"
+    },
+    {
+     "fact": "n8",
+     "text": "A staff morale survey showed that 68% of employees intend to resign.",
+     "origin": "own"
+    },
+    {
+     "fact": "n9",
+     "text": "The legal team is currently reviewing severance packages for 4,800 staff.",
+     "origin": "own"
+    },
+    {
+     "fact": "n10",
+     "text": "Supplier AgroLink warned of contract termination threats.",
+     "origin": "own"
+    },
+    {
+     "fact": "n11",
+     "text": "Online sales grew by 22% despite an overall revenue fall.",
+     "origin": "own"
+    }
+   ]
+  }
+ },
+ "assign": {
+  "W": {
+   "total": 7,
+   "unassigned": 0
+  },
+  "PD_own": {
+   "total": 4,
+   "unassigned": 0
+  },
+  "ND": {
+   "total": 13,
+   "unassigned": 0
+  }
+ },
+ "anchor_missing": 1,
+ "anchor_total": 31,
+ "fact_integrity_issues": []
+}

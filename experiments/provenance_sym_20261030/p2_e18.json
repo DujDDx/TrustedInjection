@@ -1,0 +1,376 @@
+{
+ "event": "e18",
+ "seed": 1739736,
+ "domain": "manufacturing",
+ "company": "Ironvale Brewing Co.",
+ "n_wire": 8,
+ "prompt_sha": "34748c84e8aef76e",
+ "anchors": {
+  "f1": [
+   "Ironvale Brewing Co",
+   "2,400",
+   "Deeside"
+  ],
+  "f2": [
+   "Deeside",
+   "4 November 2026"
+  ],
+  "f3": [
+   "Marian Holt",
+   "18%"
+  ],
+  "f4": [
+   "Ironvale",
+   "12%"
+  ],
+  "f5": [
+   "310m GBP"
+  ],
+  "f6": [
+   "Manchester"
+  ],
+  "f7": [
+   "12 weeks"
+  ],
+  "f8": [
+   "8,500"
+  ],
+  "n1": [
+   "Unite",
+   "2,400"
+  ],
+  "n2": [
+   "Sarah Jenkins"
+  ],
+  "n3": [
+   "Fitch",
+   "4.26bn GBP"
+  ],
+  "n4": [
+   "Hopheads UK"
+  ],
+  "n5": [
+   "1923",
+   "Arthur Thorne"
+  ],
+  "n6": [
+   "Leeds"
+  ],
+  "n7": [
+   "McKinsey",
+   "2025"
+  ],
+  "n8": [
+   "David Oakes"
+  ],
+  "n9": [
+   "50k GBP"
+  ],
+  "n10": [
+   "Glasgow",
+   "2019"
+  ],
+  "n11": [
+   "John Smith",
+   "15%"
+  ],
+  "n12": [
+   "300"
+  ],
+  "n13": [
+   "March 2027"
+  ],
+  "p1": [
+   "Deeside",
+   "400"
+  ],
+  "p2": [
+   "25%"
+  ],
+  "p3": [
+   "The Anchor"
+  ],
+  "p4": [
+   "10%"
+  ],
+  "p5": [
+   "Deeside"
+  ],
+  "w1": [],
+  "w2": [
+   "40"
+  ],
+  "w3": []
+ },
+ "wire": {
+  "headline": "Ironvale Brewing Cuts 2,400 Jobs as Deeside Plant Closes",
+  "sentences": [
+   [
+    "f1",
+    "Ironvale Brewing Co has announced plans to cut 2,400 jobs at its Deeside plant."
+   ],
+   [
+    "f2",
+    "The closure of the Deeside facility is set to take effect on 4 November 2026."
+   ],
+   [
+    "f3",
+    "CEO Marian Holt attributed the decision to an 18% drop in domestic beer sales."
+   ],
+   [
+    "f4",
+    "Ironvale shares fell 12% during early trading hours following the announcement."
+   ],
+   [
+    "f5",
+    "The company stated that its restructuring plan aims to save 310m GBP annually."
+   ],
+   [
+    "f6",
+    "Production operations will shift to a new automated plant in Manchester."
+   ],
+   [
+    "f7",
+    "Affected employees will receive 12 weeks' notice before the redundancy takes effect."
+   ],
+   [
+    "f8",
+    "The total workforce across all UK sites will be reduced to 8,500."
+   ]
+  ]
+ },
+ "variants": {
+  "WD_1": {
+   "role": "WD",
+   "outlet": "Manchester Evening News",
+   "sentences": [
+    {
+     "fact": "f4",
+     "text": "Following the announcement, Ironvale shares fell 12% during early trading hours.",
+     "origin": "copied"
+    },
+    {
+     "fact": "f2",
+     "text": "On 4 November 2026, the Deeside facility closure is set to take effect.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "f3",
+     "text": "CEO Marian Holt attributed the decision to an 18% drop in domestic beer sales.",
+     "origin": "copied"
+    },
+    {
+     "fact": "f5",
+     "text": "The company explained that its restructuring plan is designed to save 310m GBP annually.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "w1",
+     "text": "Locals gathered outside the factory gate, holding hand-drawn signs during the event.",
+     "origin": "own"
+    }
+   ]
+  },
+  "WD_2": {
+   "role": "WD",
+   "outlet": "The Journal",
+   "sentences": [
+    {
+     "fact": "f2",
+     "text": "The closure of the Deeside facility is set to take effect on 4 November 2026.",
+     "origin": "copied"
+    },
+    {
+     "fact": "f5",
+     "text": "The company stated that the aim of its restructuring plan is to save 310m GBP annually.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "f6",
+     "text": "Production operations are going to move to a new automated plant in Manchester.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "f7",
+     "text": "Affected employees will receive 12 weeks' notice before the redundancy takes effect.",
+     "origin": "copied"
+    },
+    {
+     "fact": "w2",
+     "text": "A former brewery worker shared their story of spending 40 years on site.",
+     "origin": "own"
+    }
+   ]
+  },
+  "WD_3": {
+   "role": "WD",
+   "outlet": "South Wales Argus",
+   "sentences": [
+    {
+     "fact": "f5",
+     "text": "The company stated that its restructuring plan aims to save 310m GBP annually.",
+     "origin": "copied"
+    },
+    {
+     "fact": "f2",
+     "text": "The Deeside facility closure is scheduled to take effect on 4 November 2026.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "f4",
+     "text": "Following the announcement, Ironvale shares fell 12% during early trading hours.",
+     "origin": "copied"
+    },
+    {
+     "fact": "f7",
+     "text": "Employees impacted will be given 12 weeks' notice prior to the redundancy becoming effective.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "w3",
+     "text": "A community centre opened a donation drive for affected families.",
+     "origin": "own"
+    }
+   ]
+  },
+  "PD": {
+   "role": "PD",
+   "headline": "Deeside Community Faces Economic Ripple Effects",
+   "sentences": [
+    {
+     "fact": "f1",
+     "text": "Plans to cut 2,400 jobs at its Deeside plant have been announced by Ironvale Brewing Co.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "p1",
+     "text": "Deeside local council estimates that 400 secondary jobs are currently at risk.",
+     "origin": "own"
+    },
+    {
+     "fact": "p2",
+     "text": "A local taxi firm has reported a 25% drop in its daily bookings.",
+     "origin": "own"
+    },
+    {
+     "fact": "f3",
+     "text": "An 18% drop in domestic beer sales was attributed to the decision by CEO Marian Holt.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "p3",
+     "text": "The nearby pub, 'The Anchor', has lost its exclusive Ironvale supply deal.",
+     "origin": "own"
+    },
+    {
+     "fact": "p4",
+     "text": "A local housing association has warned of a 10% vacancy rate increase.",
+     "origin": "own"
+    },
+    {
+     "fact": "p5",
+     "text": "Schools in Deeside face potential budget cuts due to lost taxes.",
+     "origin": "own"
+    }
+   ]
+  },
+  "ND": {
+   "role": "ND",
+   "headline": "Ironvale to Close Deeside Plant as Union Prepares for Strike",
+   "sentences": [
+    {
+     "fact": "f2",
+     "text": "Beginning 4 November 2026, the Deeside site will shut down.",
+     "origin": "own"
+    },
+    {
+     "fact": "f3",
+     "text": "CEO Marian Holt cited an 18% drop in domestic beer sales as a primary factor in the decision.",
+     "origin": "own"
+    },
+    {
+     "fact": "n1",
+     "text": "The Unite union has confirmed that a ballot of 2,400 members on strike action is underway.",
+     "origin": "own"
+    },
+    {
+     "fact": "n2",
+     "text": "Local MP Sarah Jenkins has demanded an inquiry into supply chain failures surrounding the announcement.",
+     "origin": "own"
+    },
+    {
+     "fact": "n3",
+     "text": "Analysts at Fitch noted that a 4.26bn GBP debt burden is complicating the exit strategy.",
+     "origin": "own"
+    },
+    {
+     "fact": "n4",
+     "text": "A customer group known as Hopheads UK has launched a petition demanding local sourcing.",
+     "origin": "own"
+    },
+    {
+     "fact": "n5",
+     "text": "Ironvale was founded in 1923 by the industrialist Arthur Thorne.",
+     "origin": "own"
+    },
+    {
+     "fact": "n6",
+     "text": "The next phase of the plan involves the closure of a distribution hub in Leeds.",
+     "origin": "own"
+    },
+    {
+     "fact": "n7",
+     "text": "The consultancy McKinsey had advised the company on cost-cutting measures in 2025.",
+     "origin": "own"
+    },
+    {
+     "fact": "n8",
+     "text": "Unite representative David Oakes described the decision as a shock to the community.",
+     "origin": "own"
+    },
+    {
+     "fact": "n9",
+     "text": "The local council has offered a 50k GBP grant for retraining programmes.",
+     "origin": "own"
+    },
+    {
+     "fact": "n10",
+     "text": "Ironvale previously closed a brewing plant in Glasgow in 2019.",
+     "origin": "own"
+    },
+    {
+     "fact": "n11",
+     "text": "Analyst John Smith predicts a further 15% drop in share price by year end.",
+     "origin": "own"
+    },
+    {
+     "fact": "n12",
+     "text": "The supplier network includes 300 local businesses that are affected by the cutbacks.",
+     "origin": "own"
+    },
+    {
+     "fact": "n13",
+     "text": "The union plans to hold a protest march outside the Deeside headquarters in March 2027.",
+     "origin": "own"
+    }
+   ]
+  }
+ },
+ "assign": {
+  "W": {
+   "total": 8,
+   "unassigned": 0
+  },
+  "PD_own": {
+   "total": 5,
+   "unassigned": 1
+  },
+  "ND": {
+   "total": 15,
+   "unassigned": 0
+  }
+ },
+ "anchor_missing": 0,
+ "anchor_total": 37,
+ "fact_integrity_issues": []
+}

@@ -1,0 +1,420 @@
+{
+ "event": "e13",
+ "seed": 1739731,
+ "domain": "media",
+ "company": "Northbridge Press Group",
+ "n_wire": 6,
+ "prompt_sha": "34748c84e8aef76e",
+ "anchors": {
+  "f1": [
+   "Northbridge Press Group",
+   "1,200"
+  ],
+  "f2": [
+   "45m GBP",
+   "2026"
+  ],
+  "f3": [
+   "Alan Thorne"
+  ],
+  "f4": [
+   "12%"
+  ],
+  "f5": [
+   "Manchester",
+   "Leeds"
+  ],
+  "f6": [
+   "15 October"
+  ],
+  "n1": [
+   "Unite",
+   "8,500"
+  ],
+  "n2": [
+   "Sarah Jenkins"
+  ],
+  "n3": [
+   "David Croft"
+  ],
+  "n4": [
+   "Ink & Paper"
+  ],
+  "n5": [
+   "Daily Echo",
+   "2019",
+   "300m GBP"
+  ],
+  "n6": [
+   "Deeside"
+  ],
+  "n7": [
+   "Marian Holt"
+  ],
+  "n8": [
+   "2%"
+  ],
+  "n9": [
+   "70%",
+   "6"
+  ],
+  "n10": [
+   "quarterly earnings"
+  ],
+  "n11": [
+   "archive digitisation"
+  ],
+  "n12": [
+   "Southside Media"
+  ],
+  "n13": [
+   "15%"
+  ],
+  "p1": [
+   "Glasgow",
+   "November"
+  ],
+  "p2": [
+   "5m GBP"
+  ],
+  "p3": [
+   "Community radio"
+  ],
+  "p4": [
+   "Clyde"
+  ],
+  "p5": [
+   "online platforms"
+  ],
+  "w1": [],
+  "w2": [],
+  "w3": []
+ },
+ "wire": {
+  "headline": "Northbridge Press Group Cuts 1,200 UK Jobs in Major Restructuring",
+  "sentences": [
+   [
+    "f1",
+    "Northbridge Press Group has announced the elimination of 1,200 jobs across its UK titles."
+   ],
+   [
+    "f2",
+    "The company stated that this restructuring aims to save 45m GBP annually by 2026."
+   ],
+   [
+    "f3",
+    "CEO Alan Thorne cited the digital shift as the primary driver for these changes."
+   ],
+   [
+    "f4",
+    "Shares dropped 12% in pre-market trading following the announcement."
+   ],
+   [
+    "f5",
+    "The redundancies will affect print divisions in Manchester and Leeds."
+   ],
+   [
+    "f6",
+    "The consultation period is set to end on 15 October before final decisions are made."
+   ]
+  ]
+ },
+ "variants": {
+  "WD_1": {
+   "role": "WD",
+   "outlet": "The Northern Echo",
+   "sentences": [
+    {
+     "fact": "f5",
+     "text": "The redundancies will affect print divisions in Manchester and Leeds, Southside Media said.",
+     "origin": "copied",
+     "forged": true,
+     "forge": {
+      "source": "Southside Media",
+      "was": "copied"
+     },
+     "tampered": false
+    },
+    {
+     "fact": "f2",
+     "text": "This restructuring, the company stated, is designed to save 45m GBP annually by 2026.",
+     "origin": "rewritten",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "f4",
+     "text": "Following the announcement, shares dropped 8% in pre-market trading.",
+     "origin": "copied",
+     "tampered": true,
+     "tamper": {
+      "from": "12%",
+      "to": "8%"
+     },
+     "forged": false
+    },
+    {
+     "fact": "w1",
+     "text": "Rainy weather outside the office added a somber tone to the departure.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    }
+   ]
+  },
+  "WD_2": {
+   "role": "WD",
+   "outlet": "The Yorkshire Post",
+   "sentences": [
+    {
+     "fact": "f4",
+     "text": "Following the announcement, shares dropped 12% in pre-market trading.",
+     "origin": "copied",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "f2",
+     "text": "It was stated by the company that this restructuring is designed to save 45m GBP annually by 2026.",
+     "origin": "rewritten",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "f3",
+     "text": "CEO Alan Thorne cited the digital shift as the primary driver for these changes.",
+     "origin": "copied",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "w2",
+     "text": "Staff were seen carrying framed photos of past editors out of the building.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    }
+   ]
+  },
+  "WD_3": {
+   "role": "WD",
+   "outlet": "Western Mail",
+   "sentences": [
+    {
+     "fact": "f2",
+     "text": "The company stated that this restructuring aims to save 45m GBP annually by 2026.",
+     "origin": "copied",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "f1",
+     "text": "Northbridge Press Group has announced the cutting of 1,200 jobs across its UK titles.",
+     "origin": "copied",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "f3",
+     "text": "The digital shift was cited by CEO Alan Thorne as the primary driver for these changes.",
+     "origin": "rewritten",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "w3",
+     "text": "The coffee machine in the lobby remained silent during the final shifts.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    }
+   ]
+  },
+  "PD": {
+   "role": "PD",
+   "headline": "Glasgow Newsroom Faces Closure Amid Digital Shift",
+   "sentences": [
+    {
+     "fact": "f1",
+     "text": "Northbridge Press Group has announced that 1,200 jobs across its UK titles will be eliminated.",
+     "origin": "rewritten",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "p1",
+     "text": "The Glasgow office is scheduled to close entirely by the end of November.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "p4",
+     "text": "Workers at the Clyde facility have received immediate redundancy notices.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "f3",
+     "text": "The primary driver for these changes was cited by CEO Alan Thorne as the digital shift.",
+     "origin": "rewritten",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "p2",
+     "text": "The local council has offered a 5m GBP grant to support digital training initiatives.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "Community radio station partners with surviving newsroom staff",
+     "text": "A community radio station has entered into a partnership with the surviving newsroom staff.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    }
+   ]
+  },
+  "ND": {
+   "role": "ND",
+   "headline": "Northbridge Restructuring Sparks Union Ballot and Leadership Resignation",
+   "sentences": [
+    {
+     "fact": "f2",
+     "text": "The company announced that the restructuring aims to save 45m GBP annually by 2026.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "f3",
+     "text": "Alan Thorne, the head executive, identified the move toward digital as the main cause behind such modifications.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n1",
+     "text": "Unite the Union plans to ballot 8,500 members on strike action in response.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n2",
+     "text": "Analyst Sarah Jenkins called the cost savings insufficient for a turnaround.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n3",
+     "text": "Local MP David Croft demanded an inquiry into the potential job losses.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n4",
+     "text": "A reader group called Ink & Paper launched a petition for digital access.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n5",
+     "text": "Northbridge acquired the rival Daily Echo in 2019 for 300m GBP.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n6",
+     "text": "Print runs at the Deeside facility are set to halve by next quarter.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n7",
+     "text": "Editor-in-chief Marian Holt resigned, citing creative differences.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n8",
+     "text": "Digital subscription revenue grew only 2% last fiscal year.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n9",
+     "text": "Staff morale surveys show that 70% fear redundancy in the next 6 months.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    }
+   ]
+  },
+  "HOP2": {
+   "role": "HOP2",
+   "parent": "WD_1",
+   "sentences": [
+    {
+     "fact": "f4",
+     "text": "Following the announcement, shares dropped 8% in pre-market trading.",
+     "origin": "copied",
+     "tampered": true,
+     "tamper": {
+      "from": "12%",
+      "to": "8%"
+     },
+     "hop": 2,
+     "forged": false
+    },
+    {
+     "fact": "f5",
+     "text": "The redundancies will affect print divisions in Manchester and Leeds, Southside Media said.",
+     "origin": "copied",
+     "forged": true,
+     "forge": {
+      "source": "Southside Media",
+      "was": "copied"
+     },
+     "hop": 2,
+     "tampered": false
+    },
+    {
+     "fact": "f2",
+     "text": "This restructuring, the company stated, is designed to save 45m GBP annually by 2026.",
+     "origin": "copied",
+     "hop": 2,
+     "tampered": false,
+     "forged": false
+    }
+   ]
+  }
+ },
+ "assign": {
+  "W": {
+   "total": 6,
+   "unassigned": 0
+  },
+  "PD_own": {
+   "total": 4,
+   "unassigned": 1
+  },
+  "ND": {
+   "total": 11,
+   "unassigned": 0
+  }
+ },
+ "anchor_missing": 0,
+ "anchor_total": 28,
+ "fact_integrity_issues": []
+}

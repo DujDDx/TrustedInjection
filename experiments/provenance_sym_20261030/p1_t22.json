@@ -1,0 +1,228 @@
+{
+ "event": "p1_energy",
+ "seed": 22,
+ "prompt_sha": "35bea3e1e8d5c9b4",
+ "wire": {
+  "headline": "Energy Firm Reports Revenue Rise Amid Profit Drop and Job Cuts",
+  "sentences": [
+   [
+    "f1",
+    "Revenue increased by 7% year-on-year to 4.26bn GBP for the quarter to 30 September."
+   ],
+   [
+    "f2",
+    "The company's pre-tax profit declined by 12% to 310m GBP."
+   ],
+   [
+    "f3",
+    "The firm announced plans to cut 850 jobs, representing about 6% of its workforce."
+   ],
+   [
+    "f4",
+    "Two gas plants, one in Wales and one in Kent, are scheduled to close by March 2027."
+   ],
+   [
+    "f5",
+    "CEO Marian Holt stated that cost pressure has been sharper than expected."
+   ],
+   [
+    "f6",
+    "Ofgem has opened an investigation into the company's billing system."
+   ],
+   [
+    "f7",
+    "The dividend was held at 12.4p a share."
+   ]
+  ]
+ },
+ "variants": {
+  "WD_1": {
+   "role": "WD",
+   "outlet": "The Northern Echo",
+   "sentences": [
+    {
+     "fact": "f1",
+     "text": "Revenue increased by 7% year-on-year to 4.26bn GBP for the quarter to 30 September.",
+     "origin": "copied"
+    },
+    {
+     "fact": "f3",
+     "text": "The firm announced plans to cut 850 jobs, representing about 6% of its workforce.",
+     "origin": "copied"
+    },
+    {
+     "fact": "f4",
+     "text": "By March 2027, two gas plants, one in Kent and one in Wales, are scheduled to close.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "w1",
+     "text": "The company declined to comment on the timing of the plant closures.",
+     "origin": "own"
+    }
+   ]
+  },
+  "WD_2": {
+   "role": "WD",
+   "outlet": "The Yorkshire Post",
+   "sentences": [
+    {
+     "fact": "f6",
+     "text": "Ofgem has opened an investigation into the company's billing system.",
+     "origin": "copied"
+    },
+    {
+     "fact": "f2",
+     "text": "The company's pre-tax profit declined by 12% to 310m GBP.",
+     "origin": "copied"
+    },
+    {
+     "fact": "f5",
+     "text": "Cost pressure has been sharper than expected, as stated by CEO Marian Holt.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "w2",
+     "text": "The union branch secretary stated that members are angry but not surprised.",
+     "origin": "own"
+    }
+   ]
+  },
+  "WD_3": {
+   "role": "WD",
+   "outlet": "Western Mail",
+   "sentences": [
+    {
+     "fact": "f3",
+     "text": "The firm announced plans to cut 850 jobs, representing about 6% of its workforce.",
+     "origin": "copied"
+    },
+    {
+     "fact": "f1",
+     "text": "Revenue increased by 7% year-on-year to 4.26bn GBP for the quarter to 30 September.",
+     "origin": "copied"
+    },
+    {
+     "fact": "f2",
+     "text": "The company's pre-tax profit fell by 12% to 310m GBP.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "w3",
+     "text": "The local chamber of commerce stated that the town has lost 300 manufacturing jobs since 2020.",
+     "origin": "own"
+    }
+   ]
+  },
+  "PD": {
+   "role": "PD",
+   "headline": "Kestrel Securities Cuts 850 Jobs Amidst Rising Costs",
+   "sentences": [
+    {
+     "fact": "f1",
+     "text": "For the quarter to 30 September, revenue rose by 7% year-on-year to reach 4.26bn GBP.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "f3",
+     "text": "The company announced 850 job cuts, which represents about 6% of its workforce.",
+     "origin": "own"
+    },
+    {
+     "fact": "f5",
+     "text": "CEO Marian Holt stated that cost pressure has become sharper than expected.",
+     "origin": "own"
+    },
+    {
+     "fact": "p1",
+     "text": "A Kestrel Securities analyst noted that the job cuts will save 90m GBP a year.",
+     "origin": "own"
+    },
+    {
+     "fact": "p2",
+     "text": "Unite intends to ballot its members on taking industrial action.",
+     "origin": "own"
+    },
+    {
+     "fact": "p3",
+     "text": "The MP for Deeside has requested an urgent meeting with the company.",
+     "origin": "own"
+    }
+   ]
+  },
+  "ND": {
+   "role": "ND",
+   "headline": "Energy Firm Announces Job Cuts and Profit Drop Amid Regulatory Scrutiny",
+   "sentences": [
+    {
+     "fact": "f2",
+     "text": "The company reported a pre-tax profit decline of 12% to 310m GBP.",
+     "origin": "own"
+    },
+    {
+     "fact": "f3",
+     "text": "Plans were revealed to cut 850 jobs, which represents about 6% of the workforce.",
+     "origin": "own"
+    },
+    {
+     "fact": "n1",
+     "text": "A Kestrel Securities analyst stated that these job cuts will save 90m GBP a year.",
+     "origin": "own"
+    },
+    {
+     "fact": "n9",
+     "text": "Negotiations with unions are set to begin on 4 November.",
+     "origin": "own"
+    },
+    {
+     "fact": "n2",
+     "text": "The union Unite intends to ballot members on taking industrial action.",
+     "origin": "own"
+    },
+    {
+     "fact": "n11",
+     "text": "The company stated that there will be no compulsory redundancies before January 2027.",
+     "origin": "own"
+    },
+    {
+     "fact": "n5",
+     "text": "Since 2024, 1,200 staff have left the company under a voluntary scheme.",
+     "origin": "own"
+    },
+    {
+     "fact": "n3",
+     "text": "The Kent plant, which employs 410 staff, has a local supply chain that is now exposed.",
+     "origin": "own"
+    },
+    {
+     "fact": "n4",
+     "text": "The MP for Deeside has requested an urgent meeting with the company.",
+     "origin": "own"
+    },
+    {
+     "fact": "n8",
+     "text": "A customer group logged 3,400 billing complaints in six months.",
+     "origin": "own"
+    },
+    {
+     "fact": "n10",
+     "text": "Ofgem fined the company 1.8m GBP in 2023 over billing issues.",
+     "origin": "own"
+    },
+    {
+     "fact": "n6",
+     "text": "Ofgem is scheduled to report preliminary findings by end of 2026.",
+     "origin": "own"
+    },
+    {
+     "fact": "n12",
+     "text": "Kestrel Securities reduced its price target to 240p from 290p.",
+     "origin": "own"
+    }
+   ]
+  }
+ },
+ "anchor_missing": 0,
+ "anchor_total": 31,
+ "fact_integrity_issues": []
+}

@@ -1,0 +1,391 @@
+{
+ "event": "e09",
+ "seed": 1739606,
+ "domain": "Utilities",
+ "company": "Thornwater Group",
+ "n_wire": 8,
+ "prompt_sha": "34748c84e8aef76e",
+ "anchors": {
+  "f1": [
+   "Thornwater Group",
+   "12%",
+   "April 1"
+  ],
+  "f2": [
+   "Ofgem",
+   "310m GBP"
+  ],
+  "f3": [
+   "Marian Holt"
+  ],
+  "f4": [
+   "4.5%",
+   "London Stock Exchange"
+  ],
+  "f5": [
+   "12.4p",
+   "July"
+  ],
+  "f6": [
+   "4,800"
+  ],
+  "f7": [
+   "4 November"
+  ],
+  "f8": [
+   "4.26bn GBP"
+  ],
+  "n1": [
+   "Unite",
+   "2,400"
+  ],
+  "n2": [
+   "Sarah Jenkins"
+  ],
+  "n3": [
+   "Citizens Against Hikes",
+   "15,000"
+  ],
+  "n4": [
+   "Veridian"
+  ],
+  "n5": [
+   "3",
+   "5 years"
+  ],
+  "n6": [
+   "March 2027"
+  ],
+  "n7": [
+   "David Okafor"
+  ],
+  "n8": [
+   "20%"
+  ],
+  "n9": [
+   "Regional water board"
+  ],
+  "n10": [
+   "60%",
+   "12 months"
+  ],
+  "n11": [
+   "River Corvus"
+  ],
+  "n12": [
+   "BlackRock"
+  ],
+  "n13": [
+   "January 2028"
+  ],
+  "p1": [
+   "Deeside",
+   "January"
+  ],
+  "p2": [
+   "500"
+  ],
+  "p3": [
+   "Deeside Action",
+   "Main Street"
+  ],
+  "p4": [
+   "12%",
+   "Regional hospital"
+  ],
+  "p5": [
+   "10%",
+   "Local business association"
+  ],
+  "w1": [],
+  "w2": [],
+  "w3": []
+ },
+ "wire": {
+  "headline": "Thornwater Group Faces Backlash Over Tariff Hike Amidst Debt Concerns",
+  "sentences": [
+   [
+    "f1",
+    "Thornwater Group has confirmed a 12% tariff increase that will take effect on April 1."
+   ],
+   [
+    "f3",
+    "CEO Marian Holt cited aging pipes as the primary driver for the proposed price hikes."
+   ],
+   [
+    "f6",
+    "The company reported that 4,800 leaks were repaired during the previous fiscal year."
+   ],
+   [
+    "f5",
+    "As a result of the changes, the average household bill is set to rise to 12.4p per day by July."
+   ],
+   [
+    "f2",
+    "Regulator Ofgem has approved a 310m GBP investment plan for infrastructure improvements."
+   ],
+   [
+    "f8",
+    "According to recent filings, the company's total debt stands at 4.26bn GBP."
+   ],
+   [
+    "f4",
+    "Shares fell by 4.5% in early trading on the London Stock Exchange following the announcement."
+   ],
+   [
+    "f7",
+    "An investor call is scheduled for 4 November to discuss the company's outlook."
+   ]
+  ]
+ },
+ "variants": {
+  "WD_1": {
+   "role": "WD",
+   "outlet": "Manchester Evening News",
+   "sentences": [
+    {
+     "fact": "f3",
+     "text": "CEO Marian Holt cited aging pipes as the primary driver for the proposed price hikes.",
+     "origin": "copied"
+    },
+    {
+     "fact": "f1",
+     "text": "Thornwater Group has confirmed a 12% tariff increase that will take effect on April 1.",
+     "origin": "copied"
+    },
+    {
+     "fact": "f4",
+     "text": "Following the announcement, shares dropped by 4.5% during early trading on the London Stock Exchange.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "f7",
+     "text": "Scheduled for 4 November, an investor call will take place to discuss the company's outlook.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "w1",
+     "text": "Residents described the water as 'tasting like old coins'.",
+     "origin": "own"
+    }
+   ]
+  },
+  "WD_2": {
+   "role": "WD",
+   "outlet": "The Journal",
+   "sentences": [
+    {
+     "fact": "f8",
+     "text": "The company's total debt stands at 4.26bn GBP, according to recent filings.",
+     "origin": "copied"
+    },
+    {
+     "fact": "f6",
+     "text": "4,800 leaks were repaired during the previous fiscal year, according to a company report.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "f5",
+     "text": "The average household bill will rise to 12.4p per day by July due to the changes.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "f2",
+     "text": "Regulator Ofgem has approved a 310m GBP investment plan for infrastructure improvements.",
+     "origin": "copied"
+    },
+    {
+     "fact": "w2",
+     "text": "A local pub owner noted that empty glasses were observed due to quality concerns.",
+     "origin": "own"
+    }
+   ]
+  },
+  "WD_3": {
+   "role": "WD",
+   "outlet": "South Wales Argus",
+   "sentences": [
+    {
+     "fact": "f7",
+     "text": "To discuss the company's outlook, an investor call is scheduled for 4 November.",
+     "origin": "copied"
+    },
+    {
+     "fact": "f1",
+     "text": "Thornwater Group has confirmed a 12% tariff increase that will take effect on April 1.",
+     "origin": "copied"
+    },
+    {
+     "fact": "f3",
+     "text": "Aging pipes were cited by CEO Marian Holt as the primary driver for the proposed price hikes.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "f8",
+     "text": "The company's total debt is reported at 4.26bn GBP, according to recent filings.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "w3",
+     "text": "Schools in district issue boiled water advisories to parents",
+     "origin": "own"
+    }
+   ]
+  },
+  "PD": {
+   "role": "PD",
+   "headline": "Deeside Water Crisis Sparks Protest and Economic Concerns",
+   "sentences": [
+    {
+     "fact": "f1",
+     "text": "Thornwater Group has verified a 12% tariff increase which will go into effect on April 1.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "p1",
+     "text": "Residents of Deeside have reported that brown water incidents have tripled since January.",
+     "origin": "own"
+    },
+    {
+     "fact": "p2",
+     "text": "The local council has offered emergency grants to 500 low-income households.",
+     "origin": "own"
+    },
+    {
+     "fact": "f6",
+     "text": "The company disclosed that 4,800 leaks were fixed during the previous fiscal year.",
+     "origin": "rewritten"
+    },
+    {
+     "fact": "p3",
+     "text": "The community group Deeside Action held a protest on Main Street.",
+     "origin": "own"
+    },
+    {
+     "fact": "p4",
+     "text": "A regional hospital reported a 12% rise in water-related complaints.",
+     "origin": "own"
+    },
+    {
+     "fact": "p5",
+     "text": "The local business association warned of a 10% sales drop if strikes occur.",
+     "origin": "own"
+    }
+   ]
+  },
+  "ND": {
+   "role": "ND",
+   "headline": "Regulator Approves Major Investment as Union Prepares for Potential Strike",
+   "sentences": [
+    {
+     "fact": "f2",
+     "text": "Ofgem, the regulatory body, has sanctioned a GBP 310m strategy to fund infrastructure.",
+     "origin": "own"
+    },
+    {
+     "fact": "f3",
+     "text": "CEO Marian Holt cites aging pipes as the primary driver for the proposed hikes.",
+     "origin": "own"
+    },
+    {
+     "fact": "n1",
+     "text": "The union Unite plans to ballot 2,400 members on strike action next week.",
+     "origin": "own"
+    },
+    {
+     "fact": "n2",
+     "text": "Local MP Sarah Jenkins is demanding an urgent parliamentary inquiry into the matter.",
+     "origin": "own"
+    },
+    {
+     "fact": "n3",
+     "text": "The Citizens Against Hikes group has gathered 15,000 signatures for a petition.",
+     "origin": "own"
+    },
+    {
+     "fact": "n4",
+     "text": "Analyst firm Veridian rates the stock as 'underperform' following the announcement.",
+     "origin": "own"
+    },
+    {
+     "fact": "n5",
+     "text": "Company history shows 3 major price hikes in the last 5 years.",
+     "origin": "own"
+    },
+    {
+     "fact": "n6",
+     "text": "Planned maintenance windows are set to double in March 2027.",
+     "origin": "own"
+    },
+    {
+     "fact": "n7",
+     "text": "Union rep David Okafor calls the decision 'financially reckless'.",
+     "origin": "own"
+    },
+    {
+     "fact": "n8",
+     "text": "An independent audit flags a 20% discrepancy in leak repair costs.",
+     "origin": "own"
+    },
+    {
+     "fact": "n9",
+     "text": "The regional water board opposes the cross-border pipeline expansion plans.",
+     "origin": "own"
+    },
+    {
+     "fact": "n10",
+     "text": "A staff morale survey shows 60% of employees are considering resignation within 12 months.",
+     "origin": "own"
+    },
+    {
+     "fact": "n11",
+     "text": "The environmental agency warns of runoff impact on the River Corvus.",
+     "origin": "own"
+    },
+    {
+     "fact": "n12",
+     "text": "A shareholder letter from BlackRock calls for board restructuring.",
+     "origin": "own"
+    },
+    {
+     "fact": "n13",
+     "text": "The next regulatory review is expected in January 2028.",
+     "origin": "own"
+    }
+   ]
+  }
+ },
+ "assign": {
+  "W": {
+   "total": 8,
+   "unassigned": 0
+  },
+  "PD_own": {
+   "total": 5,
+   "unassigned": 0
+  },
+  "ND": {
+   "total": 15,
+   "unassigned": 1
+  }
+ },
+ "anchor_missing": 3,
+ "anchor_total": 37,
+ "fact_integrity_issues": [
+  {
+   "variant": "PD",
+   "fact": "p4",
+   "why": "锚点被拆到多句或缺失"
+  },
+  {
+   "variant": "PD",
+   "fact": "p5",
+   "why": "锚点被拆到多句或缺失"
+  },
+  {
+   "variant": "ND",
+   "fact": "n9",
+   "why": "锚点被拆到多句或缺失"
+  }
+ ]
+}

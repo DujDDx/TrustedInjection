@@ -1,0 +1,422 @@
+{
+ "event": "e04",
+ "seed": 1739601,
+ "domain": "chemicals",
+ "company": "Veridion Chemicals",
+ "n_wire": 6,
+ "prompt_sha": "34748c84e8aef76e",
+ "anchors": {
+  "f1": [
+   "Veridion Chemicals",
+   "Deeside",
+   "March 2027"
+  ],
+  "f2": [
+   "4,800"
+  ],
+  "f3": [
+   "Julian Vane",
+   "12%"
+  ],
+  "f4": [
+   "8.5p",
+   "42.10p"
+  ],
+  "f5": [
+   "310m GBP"
+  ],
+  "f6": [
+   "4 November"
+  ],
+  "n1": [
+   "Unite",
+   "2,400"
+  ],
+  "n2": [
+   "Sarah Okafor",
+   "15%"
+  ],
+  "n3": [
+   "Richard Kestrel"
+  ],
+  "n4": [
+   "PolyTech"
+  ],
+  "n5": [
+   "1998",
+   "500m GBP"
+  ],
+  "n6": [
+   "15 December"
+  ],
+  "n7": [
+   "25m GBP"
+  ],
+  "n8": [
+   "Elena Rostova"
+  ],
+  "n9": [
+   "Marcus Thorne"
+  ],
+  "n10": [
+   "Helix Materials",
+   "January 2027"
+  ],
+  "n11": [
+   "1,200"
+  ],
+  "n12": [
+   "Deeside Forward",
+   "12 October"
+  ],
+  "n13": [
+   "2010"
+  ],
+  "p1": [
+   "Tom Harker"
+  ],
+  "p2": [
+   "20%"
+  ],
+  "p3": [
+   "Caernarfon",
+   "5%"
+  ],
+  "p4": [
+   "30%"
+  ],
+  "p5": [
+   "150"
+  ],
+  "w1": [],
+  "w2": [],
+  "w3": []
+ },
+ "wire": {
+  "headline": "Veridion Chemicals to Shut Deeside Facility by 2027",
+  "sentences": [
+   [
+    "f1",
+    "Veridion Chemicals has announced plans to close its Deeside plant by March 2027."
+   ],
+   [
+    "f2",
+    "The closure is expected to affect 4,800 direct jobs at the facility."
+   ],
+   [
+    "f3",
+    "CEO Julian Vane attributed the decision to margin pressure following a 12% drop."
+   ],
+   [
+    "f4",
+    "Shares fell 8.5p to 42.10p on the day of the announcement."
+   ],
+   [
+    "f5",
+    "The total cost of the redundancy package is valued at 310m GBP."
+   ],
+   [
+    "f6",
+    "The board approved the plan during an emergency session on 4 November."
+   ]
+  ]
+ },
+ "variants": {
+  "WD_1": {
+   "role": "WD",
+   "outlet": "The Northern Echo",
+   "sentences": [
+    {
+     "fact": "f6",
+     "text": "The board approved the plan during an emergency session on 4 November, Unite said.",
+     "origin": "copied",
+     "forged": true,
+     "forge": {
+      "source": "Unite",
+      "was": "copied"
+     },
+     "tampered": false
+    },
+    {
+     "fact": "f1",
+     "text": "Veridion Chemicals has announced plans to close its Deeside plant by March 2029.",
+     "origin": "copied",
+     "tampered": true,
+     "tamper": {
+      "from": "2027",
+      "to": "2029"
+     },
+     "forged": false
+    },
+    {
+     "fact": "f5",
+     "text": "The 310m GBP value is assigned to the total cost of the redundancy package.",
+     "origin": "rewritten",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "w1",
+     "text": "Grey skies were observed over the empty factory gates this morning.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    }
+   ]
+  },
+  "WD_2": {
+   "role": "WD",
+   "outlet": "The Yorkshire Post",
+   "sentences": [
+    {
+     "fact": "f2",
+     "text": "The closure is expected to affect 4,800 direct jobs at the facility.",
+     "origin": "copied",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "f3",
+     "text": "CEO Julian Vane attributed the decision to margin pressure following a 12% drop.",
+     "origin": "copied",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "f6",
+     "text": "During an emergency session held on 4 November, the plan was approved by the board.",
+     "origin": "rewritten",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "w2",
+     "text": "A local pub owner poured out the last beer for his staff.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    }
+   ]
+  },
+  "WD_3": {
+   "role": "WD",
+   "outlet": "Western Mail",
+   "sentences": [
+    {
+     "fact": "f3",
+     "text": "CEO Julian Vane attributed the decision to margin pressure following a 12% drop.",
+     "origin": "copied",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "f1",
+     "text": "Veridion Chemicals has announced plans to close its Deeside plant by March 2027.",
+     "origin": "copied",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "f6",
+     "text": "4 November saw the directors sanction the proposal in a crisis meeting.",
+     "origin": "rewritten",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "w3",
+     "text": "Children were seen playing near the closed main entrance doors.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    }
+   ]
+  },
+  "PD": {
+   "role": "PD",
+   "headline": "Deeside Economic Activity Slides as Businesses and Services Report Declines",
+   "sentences": [
+    {
+     "fact": "f1",
+     "text": "Plans to shut down its Deeside plant by March 2027 have been announced by Veridion Chemicals.",
+     "origin": "rewritten",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "p1",
+     "text": "Local cafe owner Tom Harker recently lost a major contract, signaling a shift in the area's commercial landscape.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "p2",
+     "text": "Transport operators have reduced the bus routes serving the Deeside industrial zone by 20%.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "f3",
+     "text": "CEO Julian Vane attributed the decision to the 12% drop in margin pressure.",
+     "origin": "rewritten",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "p3",
+     "text": "Housing prices in the nearby town of Caernarfon fell by 5% during the last quarter.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "p4",
+     "text": "Local taxi drivers have reported a 30% drop in their shift bookings.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    }
+   ]
+  },
+  "ND": {
+   "role": "ND",
+   "headline": "Massive plant closure set to impact 4,800 jobs as union prepares for industrial action",
+   "sentences": [
+    {
+     "fact": "f2",
+     "text": "The upcoming closure of the facility is set to directly impact 4,800 jobs at the site.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "f3",
+     "text": "Pointing to a 12% decline in performance, Julian Vane, the CEO, cited margin pressure as the cause for the choice.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n11",
+     "text": "A local newspaper report has indicated that 1,200 indirect jobs are also at risk from the closure.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n5",
+     "text": "The plant was originally opened in 1998 with an initial investment of 500m GBP.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n13",
+     "text": "The company's history reveals three previous leadership changes since 2010.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n1",
+     "text": "The Unite union has confirmed a ballot of 2,400 members regarding a potential strike.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n9",
+     "text": "Union representative Marcus Thorne described the leadership's stance as tone deaf.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n6",
+     "text": "Staff members expect to receive their final pay by 15 December following their exit.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n7",
+     "text": "The regional council has allocated 25m GBP for retraining programs to assist affected workers.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n3",
+     "text": "Local MP Richard Kestrel has demanded an inquiry into the decision to close the plant.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n4",
+     "text": "Customer group PolyTech has warned of potential supply chain delays resulting from the closure.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    }
+   ]
+  },
+  "HOP2": {
+   "role": "HOP2",
+   "parent": "WD_1",
+   "sentences": [
+    {
+     "fact": "f1",
+     "text": "Veridion Chemicals has announced plans to close its Deeside plant by March 2029.",
+     "origin": "copied",
+     "tampered": true,
+     "tamper": {
+      "from": "2027",
+      "to": "2029"
+     },
+     "hop": 2,
+     "forged": false
+    },
+    {
+     "fact": "f6",
+     "text": "The board approved the plan during an emergency session on 4 November, Unite said.",
+     "origin": "copied",
+     "forged": true,
+     "forge": {
+      "source": "Unite",
+      "was": "copied"
+     },
+     "hop": 2,
+     "tampered": false
+    },
+    {
+     "fact": "f5",
+     "text": "The 310m GBP value is assigned to the total cost of the redundancy package.",
+     "origin": "copied",
+     "hop": 2,
+     "tampered": false,
+     "forged": false
+    }
+   ]
+  }
+ },
+ "assign": {
+  "W": {
+   "total": 6,
+   "unassigned": 0
+  },
+  "PD_own": {
+   "total": 4,
+   "unassigned": 0
+  },
+  "ND": {
+   "total": 11,
+   "unassigned": 0
+  }
+ },
+ "anchor_missing": 0,
+ "anchor_total": 29,
+ "fact_integrity_issues": []
+}

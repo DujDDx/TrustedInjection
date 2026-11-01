@@ -1,0 +1,139 @@
+### E1001 | academic_conference | future
+f1 | The <Conference> <Year> will be held in <City>. | <Conference>=name:NeurIPS|ICLR; <Year>=date:2028|2019; <City>=place:Vancouver|Lisbon
+f2 | The main track opens in <Month> at the <Venue>. | <Month>=date:December|April; <Venue>=place:Convention Centre|Expo Hall
+f3 | <Person_A> of <Affiliation_A> will give the opening address. | <Person_A>=agent:Mira Osei|Tomas Berg; <Affiliation_A>=agent:Delft University|Aalto University
+f4 | Organisers expect <Attendees> attendees. | <Attendees>=quantity:11,000|7,600
+f5 | The event is sponsored by <Sponsor>. | <Sponsor>=agent:Borealis Labs|Kestrel Systems
+
+### E1002 | corporate_earnings | past
+f1 | <Company> reported a fall in profit for the <Quarter> quarter. | <Company>=name:Harrow Textiles|Bramwell Fabrics; <Quarter>=date:third|second
+f2 | Revenue fell <Pct> to <Revenue>. | <Pct>=quantity:8 percent|5 percent; <Revenue>=quantity:410m pounds|366m pounds
+f3 | Chief executive <Person_A> blamed weak demand in <Region>. | <Person_A>=agent:Iris Kwan|Peter Aldous; <Region>=place:northern Europe|southern Europe
+f4 | The company employs <Staff> people. | <Staff>=quantity:6,300|5,900
+f5 | Shares closed down <Move> in <City>. | <Move>=quantity:12p|9p; <City>=place:London|Frankfurt
+
+### E1003 | football_transfer | past
+f1 | <Club> signed <Person_A> for <Fee>. | <Club>=name:Ashford United|Kingsmere Rovers; <Person_A>=agent:Diego Ferreira|Lucas Meyer; <Fee>=quantity:24m pounds|18m pounds
+f2 | The striker arrives from <Club_B> on a <Years> deal. | <Club_B>=name:Riverton City|Harlow Town; <Years>=quantity:four-year|three-year
+f3 | Manager <Person_B> said the fee was agreed in <Month>. | <Person_B>=agent:Stuart Hale|Marek Novak; <Month>=date:August|January
+f4 | The striker scored <Goals> goals last season. | <Goals>=quantity:17|12
+f5 | The club finished <Position> and will play in <City> next season. | <Position>=quantity:seventh|ninth; <City>=place:Liverpool|Leeds
+
+### E1004 | city_council | past
+f1 | <Council> approved a <Scheme> in <City>. | <Council>=agent:Bristol City Council|Cardiff Council; <Scheme>=name:bus lane|cycle lane; <City>=place:Bristol|Cardiff
+f2 | The vote was <For> to <Against>. | <For>=quantity:31|24; <Against>=quantity:18|21
+f3 | Councillor <Person_A> opposed the plan. | <Person_A>=agent:Nadia Rahman|Owen Price
+f4 | Work begins in <Month>. | <Month>=date:October|February
+f5 | The scheme costs <Cost>. | <Cost>=quantity:4.6m pounds|3.9m pounds
+
+### E1005 | scientific_paper | future
+f1 | A study by <Institution> will appear in <Journal>. | <Institution>=agent:Leiden Observatory|Uppsala Institute; <Journal>=name:Astronomy Letters|Physics Review
+f2 | The authors measured <Signal> across <Samples> samples. | <Signal>=quantity:3.4 sigma|2.1 sigma; <Samples>=quantity:18,000|12,500
+f3 | Lead author <Person_A> said the result needs confirmation. | <Person_A>=agent:Anika Rao|Felix Braun
+f4 | Observations were taken at <Site> in <Country>. | <Site>=place:Atacama Desert|Canary Islands; <Country>=place:Chile|Spain
+f5 | The team will present the work in <Month>. | <Month>=date:June|November
+
+### E1006 | natural_disaster | past
+f1 | <Storm> hit <Region> on <Day>. | <Storm>=name:Tropical Storm Rhea|Hurricane Otto; <Region>=place:Mindanao|Luzon; <Day>=date:12 May|3 June
+f2 | At least <Deaths> people died. | <Deaths>=quantity:64|41
+f3 | Officials said <Missing> are still missing. | <Missing>=quantity:29|17
+f4 | <Agency> sent <Aid> in aid. | <Agency>=agent:Red Crescent|World Vision; <Aid>=quantity:7m dollars|4m dollars
+f5 | Schools in <Town> remain closed. | <Town>=place:Tacloban|Batangas
+
+### E1007 | film_festival | future
+f1 | The <Festival> will open in <City> with <Film>. | <Festival>=name:Reykjavik Film Week|Bergen Cinema Days; <City>=place:Reykjavik|Bergen; <Film>=name:Winter Light|Northern Drift
+f2 | <Director> will chair the jury. | <Director>=agent:Hana Sato|Elias Vogt
+f3 | The programme includes <Films> films from <Countries> countries. | <Films>=quantity:112|86; <Countries>=quantity:34|27
+f4 | The festival runs for <Days> days in <Month>. | <Days>=quantity:11|8; <Month>=date:November|March
+f5 | Tickets cost <Price>. | <Price>=quantity:2,400 kronur|1,900 kronur
+
+### E1008 | hospital | past
+f1 | <Hospital> opened a new <Unit> in <City>. | <Hospital>=agent:Northgate General Hospital|Riverside Infirmary; <Unit>=name:cardiac unit|stroke unit; <City>=place:Derby|Stoke
+f2 | The unit will treat <Patients> patients a year. | <Patients>=quantity:2,800|2,100
+f3 | Chief executive <Person_A> said waiting times would fall. | <Person_A>=agent:Ruth Ellery|Mark Danes
+f4 | The build cost <Cost> and took <Months> months. | <Cost>=quantity:18m pounds|14m pounds; <Months>=quantity:26|19
+f5 | It opens to referrals in <Month>. | <Month>=date:January|July
+
+### E1009 | court_ruling | past
+f1 | <Court> ruled against <Company> in <City>. | <Court>=agent:High Court|Crown Court; <Company>=name:Vantage Logistics|Orion Freight; <City>=place:Manchester|Birmingham
+f2 | The judge ordered <Damages> in damages. | <Damages>=quantity:2.4m pounds|1.8m pounds
+f3 | <Person_A>, the claimant, welcomed the decision. | <Person_A>=agent:Elaine Marsh|Colin Pryce
+f4 | The case concerned <Workers> workers dismissed in <Year>. | <Workers>=quantity:340|260; <Year>=date:2022|2019
+f5 | An appeal must be filed by <Day>. | <Day>=date:30 September|14 December
+
+### E1010 | central_bank | past
+f1 | <Bank> raised its policy rate to <Rate>. | <Bank>=agent:Reserve Bank of Australia|Reserve Bank of New Zealand; <Rate>=quantity:4.35 percent|3.9 percent
+f2 | The board voted <For> to <Against>. | <For>=quantity:7|9; <Against>=quantity:2|3
+f3 | Governor <Person_A> said inflation remained too high. | <Person_A>=agent:Maya Corrigan|Tane Whitiora
+f4 | The decision took effect on <Day>. | <Day>=date:6 November|2 December
+f5 | The bank next meets in <City>. | <City>=place:Sydney|Wellington
+
+### E1011 | museum | future
+f1 | The <Museum> will stage an exhibition of <Artist> in <City>. | <Museum>=name:Fitzwilliam Museum|Ashmolean Museum; <Artist>=agent:Yayoi Kusama|Anish Kapoor; <City>=place:Cambridge|Oxford
+f2 | It brings together <Works> works, including <Loans> on loan. | <Works>=quantity:180|140; <Loans>=quantity:46|32
+f3 | The show opens in <Month> and runs for <Weeks> weeks. | <Month>=date:March|September; <Weeks>=quantity:22|16
+f4 | Entry costs <Price>. | <Price>=quantity:14 pounds|11 pounds
+f5 | <Sponsor> is funding the exhibition. | <Sponsor>=agent:Dorsey Foundation|Hallam Trust
+
+### E1012 | university | past
+f1 | <University> appointed <Person_A> as vice-chancellor. | <University>=name:University of Stirling|University of Ulster; <Person_A>=agent:Alison Fairbairn|Declan Moore
+f2 | She joins from <Previous> in <City>. | <Previous>=name:Trinity College|King's College; <City>=place:Dublin|Aberdeen
+f3 | The appointment begins in <Month>. | <Month>=date:August|February
+f4 | The university has <Students> students and <Staff> staff. | <Students>=quantity:14,000|11,500; <Staff>=quantity:1,600|1,300
+f5 | The role pays <Salary> a year. | <Salary>=quantity:290,000 pounds|245,000 pounds
+
+### E1013 | factory_opening | future
+f1 | <Company> will open a <Plant> in <Town>. | <Company>=name:Nordwind Composites|Baltic Marine Systems; <Plant>=name:blade factory|hull plant; <Town>=place:Campbeltown|Kirkwall
+f2 | The plant will employ <Jobs> people. | <Jobs>=quantity:420|310
+f3 | Production starts in <Month>. | <Month>=date:April|October
+f4 | The investment is worth <Amount>. | <Amount>=quantity:95m pounds|72m pounds
+f5 | <Agency> provided <Grant> in support. | <Agency>=agent:Highlands Enterprise|Orkney Council; <Grant>=quantity:8m pounds|5.5m pounds
+
+### E1014 | airline | future
+f1 | <Airline> will add a route from <City> to <City_B>. | <Airline>=name:Aurora Air|Silverwing; <City>=place:Bristol|Newcastle; <City_B>=place:Palma|Malaga
+f2 | Flights begin in <Month> and run <Times> times a week. | <Month>=date:May|November; <Times>=quantity:four|three
+f3 | The airline will use <Aircraft>. | <Aircraft>=name:A320|737
+f4 | Fares start at <Fare>. | <Fare>=quantity:39 pounds|29 pounds
+f5 | Chief executive <Person_A> said demand had grown. | <Person_A>=agent:Louise Hart|Ravi Menon
+
+### E1015 | union_negotiation | past
+f1 | <Union> rejected a pay offer from <Employer>. | <Union>=agent:Unite|GMB; <Employer>=name:Northline Rail|Crosscountry Trains
+f2 | The offer was <Pct>, below the union's demand of <Demand>. | <Pct>=quantity:3.5 percent|2.8 percent; <Demand>=quantity:6 percent|5 percent
+f3 | Talks resume in <City> on <Day>. | <City>=place:Leeds|Sheffield; <Day>=date:18 November|9 December
+f4 | <Members> members will be balloted. | <Members>=quantity:9,400|7,200
+f5 | General secretary <Person_A> called the offer inadequate. | <Person_A>=agent:Sharon Wills|Danny Crewe
+
+### E1016 | charity | future
+f1 | <Charity> will launch a <Campaign> appeal in <City>. | <Charity>=name:Shelterpoint|Haven Trust; <Campaign>=name:winter warmth|safe nights; <City>=place:Glasgow|Dundee
+f2 | The appeal aims to raise <Target> by <Month>. | <Target>=quantity:1.2m pounds|900,000 pounds; <Month>=date:December|July
+f3 | <Volunteers> volunteers will take part. | <Volunteers>=quantity:2,300|1,700
+f4 | The campaign runs until <Day>. | <Day>=date:31 January|28 February
+f5 | Ambassador <Person_A> said demand had doubled. | <Person_A>=agent:Catriona Bell|Iain Muir
+
+### E1017 | product_recall | past
+f1 | <Company> recalled <Units> units of its <Product>. | <Company>=name:Halo Appliances|Vantage Home; <Units>=quantity:46,000|31,000; <Product>=name:kettle|toaster
+f2 | The fault can cause <Fault> in units made before <Year>. | <Fault>=name:overheating|short circuiting; <Year>=date:2021|2019
+f3 | <Retailer> is contacting buyers, director <Person_A> said. | <Retailer>=name:Argos|Currys; <Person_A>=agent:Dawn Whitaker|Neil Prosser
+f4 | The recall was announced on <Day> in <City>. | <Day>=date:7 October|22 July; <City>=place:Leeds|Bristol
+f5 | Refunds will be paid within <Days> days. | <Days>=quantity:14|28
+
+### E1018 | election | past
+f1 | <Party> won the election in <Region>. | <Party>=name:Labour|National Party; <Region>=place:Wales|Scotland
+f2 | The party took <Seats> of <Total> seats. | <Seats>=quantity:28|21; <Total>=quantity:60|54
+f3 | Leader <Person_A> promised a review of <Policy>. | <Person_A>=agent:Elin Rees|Fiona Buchan; <Policy>=name:tuition fees|farm subsidies
+f4 | Turnout was <Turnout>. | <Turnout>=quantity:62 percent|55 percent
+f5 | The result was declared in <City> on <Day>. | <City>=place:Cardiff|Edinburgh; <Day>=date:6 May|3 June
+
+### E1019 | transport_strike | future
+f1 | <Operator> faces a strike by <Union> in <City>. | <Operator>=name:Metroline|Stagecoach; <Union>=agent:RMT|Unite; <City>=place:London|Bristol
+f2 | Services will stop for <Days> days from <Day>. | <Days>=quantity:3|2; <Day>=date:12 December|5 January
+f3 | <Routes> routes will be affected. | <Routes>=quantity:41|28
+f4 | The dispute concerns <Issue>. | <Issue>=name:night pay|shift patterns
+f5 | Talks continue at <Venue>. | <Venue>=place:Guildhall|Corn Exchange
+
+### E1020 | housing | future
+f1 | <Developer> won approval for <Homes> homes in <Town>. | <Developer>=name:Wainwright Homes|Redland Estates; <Homes>=quantity:640|480; <Town>=place:Swindon|Cheltenham
+f2 | The site covers <Hectares> hectares near <Road>. | <Hectares>=quantity:22|16; <Road>=place:A419|A40
+f3 | <Percent> of the homes will be affordable. | <Percent>=quantity:30 percent|25 percent
+f4 | Construction begins in <Month>. | <Month>=date:September|March
+f5 | Councillor <Person_A> opposed the plan. | <Person_A>=agent:Gill Francis|Terry Nash

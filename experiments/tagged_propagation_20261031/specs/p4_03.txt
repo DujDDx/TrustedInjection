@@ -1,0 +1,149 @@
+### E1041 | insurance | future
+f1 | <Insurer> raised home premiums by <Pct> in <Region>. | <Insurer>=name:Aviva|Direct Line; <Pct>=quantity:11 percent|8 percent; <Region>=place:Scotland|Wales
+f2 | The rise takes effect in <Month>. | <Month>=date:April|September
+f3 | <Customers> customers will pay more. | <Customers>=quantity:1.3m|980,000
+f4 | <Regulator> said it would monitor the increase. | <Regulator>=agent:Financial Conduct Authority|Competition Authority
+f5 | Chief executive <Person_A> blamed <Cause>. | <Person_A>=agent:Amanda Blanc|Penny James; <Cause>=name:storm damage claims|rebuilding costs
+
+### E1042 | mining | future
+f1 | <Miner> will reopen a <Metal> mine in <Region>. | <Miner>=name:Anglo Pacific|Cornish Metals; <Metal>=name:tin|copper; <Region>=place:Cornwall|Devon
+f2 | The mine closed in <Year>. | <Year>=date:1998|1986
+f3 | It holds <Reserves> tonnes of ore. | <Reserves>=quantity:4.6m|3.2m
+f4 | The project will create <Jobs> jobs. | <Jobs>=quantity:280|190
+f5 | <Council> approved the plan in <Month>. | <Council>=agent:Cornwall Council|Devon County Council; <Month>=date:June|November
+f6 | Production is due to start in <Year_B>. | <Year_B>=date:2029|2027
+
+### E1043 | shipping | past
+f1 | <Line> will reroute <Ships> ships away from <Strait>. | <Line>=name:Maersk|Hapag-Lloyd; <Ships>=quantity:14|11; <Strait>=place:Red Sea|Suez Canal
+f2 | The diversion adds <Days> days to each voyage. | <Days>=quantity:9|6
+f3 | Freight rates rose to <Rate> in <Month>. | <Rate>=quantity:3,400 dollars|2,700 dollars; <Month>=date:January|March
+f4 | <Body> warned of delays. | <Body>=agent:International Chamber of Shipping|Baltic Exchange
+f5 | The change began on <Day>. | <Day>=date:19 December|4 February
+
+### E1044 | publishing | past
+f1 | <Publisher> bought <Imprint> for <Price>. | <Publisher>=name:Penguin Random House|HarperCollins; <Imprint>=name:Bloodaxe Books|Carcanet Press; <Price>=quantity:18m pounds|13m pounds
+f2 | The imprint publishes <Titles> titles a year. | <Titles>=quantity:60|44
+f3 | Founder <Person_A> will retire in <Month>. | <Person_A>=agent:Neil Astley|Michael Schmidt; <Month>=date:March|August
+f4 | The deal needs approval from <Body>. | <Body>=agent:Competition and Markets Authority|Office of Fair Trading
+f5 | Staff will move to <City>. | <City>=place:London|Edinburgh
+f6 | The sale completes in <Month_B>. | <Month_B>=date:May|October
+
+### E1045 | football_ownership | past
+f1 | <Buyer> agreed to buy <Club> for <Price>. | <Buyer>=name:Redwood Capital|Atlas Group; <Club>=name:Sheffield Wednesday|Derby County; <Price>=quantity:105m pounds|78m pounds
+f2 | The buyer is led by <Person_A> of <Firm>. | <Person_A>=agent:Daniel Kessler|Ravi Shah; <Firm>=name:Redwood Partners|Atlas Holdings
+f3 | Fans group <Group> in <City> opposed the deal. | <Group>=agent:Wednesday Supporters Trust|RamsTrust; <City>=place:Sheffield|Derby
+f4 | The league must approve it by <Day>. | <Day>=date:31 March|15 July
+f5 | The club finished <Position> last season. | <Position>=quantity:14th|19th
+
+### E1046 | water_utility | past
+f1 | <Utility> was fined <Fine> for <Fault>. | <Utility>=name:Thames Water|Southern Water; <Fine>=quantity:3.3m pounds|2.1m pounds; <Fault>=name:sewage discharges|leak reporting failures
+f2 | The regulator found <Incidents> incidents in <Year>. | <Incidents>=quantity:42|29; <Year>=date:2023|2021
+f3 | <Customers> customers in <Region> were affected. | <Customers>=quantity:240,000|160,000; <Region>=place:Thames Valley|Sussex
+f4 | The company said it would invest <Amount>. | <Amount>=quantity:1.4bn pounds|980m pounds
+f5 | <Group> called for the licence to be reviewed. | <Group>=agent:Surfers Against Sewage|River Trust
+f6 | The fine was announced on <Day>. | <Day>=date:12 July|23 October
+
+### E1047 | airport | future
+f1 | <Airport> will expand its <Terminal> by <Year>. | <Airport>=name:Bristol Airport|Liverpool John Lennon; <Terminal>=name:north terminal|main terminal; <Year>=date:2030|2028
+f2 | Passenger numbers will rise to <Passengers>. | <Passengers>=quantity:12m|9.4m
+f3 | <Council> approved the plan in <Month>. | <Council>=agent:North Somerset Council|Liverpool City Council; <Month>=date:February|September
+f4 | <Group> opposed the expansion. | <Group>=agent:Extinction Rebellion|Friends of the Earth
+f5 | Work begins with <Works> near <Town>. | <Works>=name:new car park|runway extension; <Town>=place:Bristol|Liverpool
+
+### E1048 | theatre | future
+f1 | <Theatre> will stage <Play> for <Weeks> weeks. | <Theatre>=name:Almeida Theatre|Donmar Warehouse; <Play>=name:Long Room|Salt and Iron; <Weeks>=quantity:9|7
+f2 | <Actor> will play the lead. | <Actor>=agent:Adrian Lester|Celia Imrie
+f3 | The director is <Person_A>. | <Person_A>=agent:Rupert Goold|Michael Longhurst
+f4 | Previews begin on <Day> in <City>. | <Day>=date:14 March|2 June; <City>=place:London|Bristol
+f5 | Tickets cost up to <Price>. | <Price>=quantity:65 pounds|48 pounds
+f6 | The run ends in <Month>. | <Month>=date:May|September
+
+### E1049 | dairy | future
+f1 | <Cooperative> will raise its milk price to <Price>. | <Cooperative>=name:First Milk|Arla; <Price>=quantity:41p|37p
+f2 | The rise applies from <Month> to <Month_B>. | <Month>=date:November|March; <Month_B>=date:February|July
+f3 | <Farmers> farmers in <Region> supply the cooperative. | <Farmers>=quantity:700|520; <Region>=place:Cheshire|Pembrokeshire
+f4 | <Body> said input costs remained high. | <Body>=agent:Agriculture and Horticulture Development Board|Dairy Council
+f5 | Chief executive <Person_A> said the increase was needed. | <Person_A>=agent:Shelagh Hancock|Ash Amirahmadi
+
+### E1050 | pharma_trial | past
+f1 | <Company> reported results from a <Trial> trial of <Drug>. | <Company>=name:Vantage Bio|Helix Pharma; <Trial>=name:phase three|phase two; <Drug>=name:VX-118|HLX-204
+f2 | The drug reduced symptoms by <Pct>. | <Pct>=quantity:34 percent|26 percent
+f3 | <Patients> patients in <Country> took part. | <Patients>=quantity:1,800|1,200; <Country>=place:Germany|France
+f4 | <Regulator> will review the data in <Month>. | <Regulator>=agent:European Medicines Agency|Health Products Agency; <Month>=date:September|April
+f5 | Shares rose <Move> on the news. | <Move>=quantity:18 percent|12 percent
+f6 | A larger trial begins in <Year>. | <Year>=date:2028|2026
+
+### E1051 | construction | future
+f1 | <Builder> won a contract worth <Value> to build <Project>. | <Builder>=name:Kier Group|Morgan Sindall; <Value>=quantity:340m pounds|210m pounds; <Project>=name:new hospital wing|river bridge
+f2 | Work starts in <Month> at <Site>. | <Month>=date:January|June; <Site>=place:Stockton|Carlisle
+f3 | The project will employ <Workers> workers. | <Workers>=quantity:900|640
+f4 | <Client> awarded the contract. | <Client>=agent:North Tees Hospital Trust|Cumberland Council
+f5 | Completion is due in <Year>. | <Year>=date:2029|2027
+
+### E1052 | bus_network | future
+f1 | <Operator> will cut <Routes> routes in <City>. | <Operator>=name:First Bus|Go North East; <Routes>=quantity:23|16; <City>=place:Bristol|Newcastle
+f2 | The cuts take effect in <Month>. | <Month>=date:April|October
+f3 | <Passengers> passengers will lose services. | <Passengers>=quantity:18,000|12,000
+f4 | <Council> leader <Person_A> called for funding. | <Council>=agent:Bristol City Council|Newcastle City Council; <Person_A>=agent:Tony Dyer|Karen Kilgour
+f5 | <Union> warned of job losses. | <Union>=agent:Unite|RMT
+f6 | A consultation closes on <Day>. | <Day>=date:28 February|11 May
+
+### E1053 | spectrum_auction | past
+f1 | <Regulator> raised <Amount> in a <Band> spectrum auction. | <Regulator>=agent:Ofcom|ComReg; <Amount>=quantity:2.4bn pounds|1.7bn pounds; <Band>=name:3.6GHz|700MHz
+f2 | <Operator> paid the most, at <Bid>. | <Operator>=name:EE|Vodafone; <Bid>=quantity:780m pounds|520m pounds
+f3 | The auction ended on <Day> in <City>. | <Day>=date:22 March|8 September; <City>=place:London|Dublin
+f4 | Licences run for <Years> years. | <Years>=quantity:15|12
+f5 | <Body> said coverage would improve. | <Body>=agent:Digital UK|Broadband Stakeholder Group
+
+### E1054 | art_auction | past
+f1 | A <Work> by <Artist> sold for <Price>. | <Work>=name:study in blue|portrait of a lady; <Artist>=agent:Lucian Freud|Frank Auerbach; <Price>=quantity:14.6m pounds|9.8m pounds
+f2 | The buyer was <Buyer>. | <Buyer>=name:private collector|Asian museum
+f3 | The sale took place at <House> in <City>. | <House>=name:Christie's|Sotheby's; <City>=place:London|New York
+f4 | It had been expected to fetch <Estimate>. | <Estimate>=quantity:11m pounds|8m pounds
+f5 | The auction lasted <Minutes> minutes. | <Minutes>=quantity:9|6
+f6 | The seller was <Seller>, which bought it in <Year>. | <Seller>=name:artist's estate|family trust; <Year>=date:2009|2014
+
+### E1055 | food_safety | past
+f1 | <Agency> recalled <Product> over <Risk>. | <Agency>=agent:Food Standards Agency|Food Safety Authority; <Product>=name:smoked salmon|soft cheese; <Risk>=name:listeria|salmonella
+f2 | The recall affects <Batches> batches. | <Batches>=quantity:14|9
+f3 | The products were sold in <Retailer> stores in <Region>. | <Retailer>=name:Tesco|Sainsbury's; <Region>=place:Scotland|Wales
+f4 | Customers should return items by <Day>. | <Day>=date:20 December|4 March
+f5 | <Company> said the cause was <Cause>. | <Company>=name:Strathearn Smokehouse|Dale Farm; <Cause>=name:cooling fault|packaging fault
+
+### E1056 | prison | future
+f1 | <Prison> will close <Wings> wings in <Region>. | <Prison>=name:HMP Wandsworth|HMP Liverpool; <Wings>=quantity:4|3; <Region>=place:south London|Merseyside
+f2 | <Prisoners> prisoners will be moved to <Prison_B>. | <Prisoners>=quantity:620|480; <Prison_B>=name:HMP Pentonville|HMP Altcourse
+f3 | <Union> warned of overcrowding elsewhere. | <Union>=agent:Prison Officers Association|POA Scotland
+f4 | The closure begins in <Month>. | <Month>=date:February|August
+f5 | <Body> will inspect the site. | <Body>=agent:HM Inspectorate of Prisons|Independent Monitoring Board
+f6 | The decision was announced on <Day>. | <Day>=date:9 January|17 June
+
+### E1057 | forestry | future
+f1 | <Body> approved <Hectares> hectares of new woodland in <Region>. | <Body>=agent:Forestry Commission|Natural Resources Wales; <Hectares>=quantity:1,400|980; <Region>=place:Northumberland|Powys
+f2 | The planting will start in <Month>. | <Month>=date:November|April
+f3 | <Trees> trees will be planted. | <Trees>=quantity:2.1m|1.5m
+f4 | <Group> objected to the loss of <Habitat>. | <Group>=agent:RSPB|Woodland Trust; <Habitat>=name:heathland|moorland
+f5 | The scheme is funded by <Fund>. | <Fund>=name:Nature for Climate Fund|Woodland Carbon Fund
+
+### E1058 | esports | past
+f1 | <Team> won the <Event> final in <City>. | <Team>=name:Vitality|G2 Esports; <Event>=name:Spring Masters|Global Series; <City>=place:Copenhagen|Berlin
+f2 | The prize was <Prize>. | <Prize>=quantity:450,000 dollars|320,000 dollars
+f3 | <Player> was named most valuable player. | <Player>=agent:Mathieu Herbaut|Rasmus Nielsen
+f4 | The final drew <Viewers> viewers. | <Viewers>=quantity:1.4m|960,000
+f5 | The next event is in <Month> in <City_B>. | <Month>=date:July|December; <City_B>=place:Katowice|Dallas
+f6 | <Sponsor> renewed its sponsorship. | <Sponsor>=agent:Red Bull|Logitech
+
+### E1059 | mortgage_lending | past
+f1 | <Lender> cut mortgage rates by <Pct>. | <Lender>=name:Nationwide|Halifax; <Pct>=quantity:0.35 percentage points|0.25 percentage points
+f2 | The cut applies from <Day>. | <Day>=date:2 February|19 May
+f3 | A two-year fix now costs <Rate> for buyers in <Region>. | <Rate>=quantity:4.6 percent|5.1 percent; <Region>=place:England|Wales
+f4 | <Body> said approvals had risen. | <Body>=agent:UK Finance|Bank of England
+f5 | Broker <Person_A> said demand would follow. | <Person_A>=agent:David Hollingworth|Ray Boulger
+
+### E1060 | tourism | past
+f1 | <Region> recorded <Visitors> visitors in <Year>. | <Region>=place:Cornwall|Pembrokeshire; <Visitors>=quantity:4.8m|3.1m; <Year>=date:2025|2023
+f2 | Spending rose to <Spend>. | <Spend>=quantity:2.3bn pounds|1.6bn pounds
+f3 | <Body> said wet weather hit <Month> bookings. | <Body>=agent:Visit Cornwall|Visit Pembrokeshire; <Month>=date:August|July
+f4 | Hotel occupancy reached <Occupancy>. | <Occupancy>=quantity:78 percent|64 percent
+f5 | <Council> will fund a <Campaign> campaign. | <Council>=agent:Cornwall Council|Pembrokeshire Council; <Campaign>=name:shoulder season|stay longer
+f6 | The figures were published on <Day>. | <Day>=date:6 March|21 September

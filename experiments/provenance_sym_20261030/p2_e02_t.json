@@ -1,0 +1,450 @@
+{
+ "event": "e02",
+ "seed": 1739599,
+ "domain": "construction",
+ "company": "Northgate Homes",
+ "n_wire": 7,
+ "prompt_sha": "34748c84e8aef76e",
+ "anchors": {
+  "f1": [
+   "Northgate Homes",
+   "1,200"
+  ],
+  "f2": [
+   "Marian Holt"
+  ],
+  "f3": [
+   "4.5%"
+  ],
+  "f4": [
+   "310m GBP"
+  ],
+  "f5": [
+   "12%",
+   "March 2027"
+  ],
+  "f6": [
+   "4,800"
+  ],
+  "f7": [
+   "4 November"
+  ],
+  "n1": [
+   "Unite the Union"
+  ],
+  "n2": [
+   "Sam Reed",
+   "Finch Capital"
+  ],
+  "n3": [
+   "David Clarke"
+  ],
+  "n4": [
+   "SafeStart",
+   "18 months"
+  ],
+  "n5": [
+   "Northgate",
+   "1988",
+   "Deeside",
+   "50"
+  ],
+  "n6": [
+   "12",
+   "January 2028"
+  ],
+  "n7": [
+   "Alan Foster"
+  ],
+  "n8": [
+   "PricewaterhouseCoopers"
+  ],
+  "n9": [
+   "T&GWU"
+  ],
+  "n10": [
+   "BuildRight",
+   "300"
+  ],
+  "n11": [
+   "Shelter",
+   "2,500"
+  ],
+  "n12": [
+   "February 2028"
+  ],
+  "n13": [
+   "AluTech",
+   "6-month"
+  ],
+  "p1": [
+   "Deeside",
+   "June 2027",
+   "40"
+  ],
+  "p2": [
+   "Elara Vance",
+   "£5m"
+  ],
+  "p3": [
+   "Deeside",
+   "15%"
+  ],
+  "p4": [
+   "Deeside Future"
+  ],
+  "p5": [
+   "October 2028"
+  ],
+  "w1": [
+   "Deeside"
+  ],
+  "w2": [],
+  "w3": []
+ },
+ "wire": {
+  "headline": "Northgate Homes to cut 1,200 jobs amid weak housing demand",
+  "sentences": [
+   [
+    "f1",
+    "Northgate Homes has announced plans to lay off 1,200 staff members across its sites in the UK."
+   ],
+   [
+    "f2",
+    "CEO Marian Holt attributed the decision to weak housing demand in the market."
+   ],
+   [
+    "f3",
+    "The company's shares dropped 4.5% in early trading following the announcement."
+   ],
+   [
+    "f4",
+    "The layoffs are intended to reduce operating costs by 310m GBP annually."
+   ],
+   [
+    "f5",
+    "The company projects a revenue decline of 12% by March 2027."
+   ],
+   [
+    "f6",
+    "The broader restructuring plan aims to cut overheads by eliminating 4,800 roles."
+   ],
+   [
+    "f7",
+    "The board of directors approved the plan on 4 November after completing a review."
+   ]
+  ]
+ },
+ "variants": {
+  "WD_1": {
+   "role": "WD",
+   "outlet": "The Press and Journal",
+   "sentences": [
+    {
+     "fact": "f2",
+     "text": "The decision was attributed by CEO Marian Holt to weak housing demand in the market.",
+     "origin": "rewritten",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "f5",
+     "text": "The company projects a revenue decline of 8% by March 2027.",
+     "origin": "copied",
+     "tampered": true,
+     "tamper": {
+      "from": "12%",
+      "to": "8%"
+     },
+     "forged": false
+    },
+    {
+     "fact": "f6",
+     "text": "The broader restructuring plan aims to reduce overheads by eliminating 4,800 roles, Finch Capital said.",
+     "origin": "copied",
+     "forged": true,
+     "forge": {
+      "source": "Finch Capital",
+      "was": "copied"
+     },
+     "tampered": false
+    },
+    {
+     "fact": "w1",
+     "text": "Rainy skies hung over Deeside as the announcement was delivered.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    }
+   ]
+  },
+  "WD_2": {
+   "role": "WD",
+   "outlet": "Western Morning News",
+   "sentences": [
+    {
+     "fact": "f3",
+     "text": "Following the announcement, The company's shares dropped 4.5% in early trading.",
+     "origin": "copied",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "f1",
+     "text": "Northgate Homes has announced plans to lay off 1,200 staff members across its sites in the UK.",
+     "origin": "copied",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "f2",
+     "text": "Marian Holt, the CEO, cited weak housing demand in the market as the reason for the decision.",
+     "origin": "rewritten",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "w2",
+     "text": "A local pub has reported a decline in visitors since the news was announced.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    }
+   ]
+  },
+  "WD_3": {
+   "role": "WD",
+   "outlet": "Belfast Telegraph",
+   "sentences": [
+    {
+     "fact": "f5",
+     "text": "The company projects a revenue decline of 12% by March 2027.",
+     "origin": "copied",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "f1",
+     "text": "Plans to lay off 1,200 staff members across its sites in the UK have been announced by Northgate Homes.",
+     "origin": "copied",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "f7",
+     "text": "On 4 November, the plan received board of directors sign-off following the conclusion of an examination.",
+     "origin": "rewritten",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "w3",
+     "text": "Residents shared memories of the old factory days.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    }
+   ]
+  },
+  "PD": {
+   "role": "PD",
+   "headline": "Deeside Faces Closure and Funding Cuts as Mayor Announces Retraining Package",
+   "sentences": [
+    {
+     "fact": "f1",
+     "text": "Plans to cut 1,200 staff members across its sites in the UK have been announced by Northgate Homes.",
+     "origin": "rewritten",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "p1",
+     "text": "A site in Deeside is scheduled to close by June 2027, a decision that will impact 40 staff members.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "p2",
+     "text": "Mayor Elara Vance has announced a £5m retraining package to assist those affected by the changes.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "f3",
+     "text": "Following the announcement, the company's shares fell 4.5% in early trading.",
+     "origin": "rewritten",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "p3",
+     "text": "A local school in Deeside is set to lose 15% of its funding, adding to the community's financial concerns.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "p4",
+     "text": "The community group Deeside Future is demanding job guarantees in response to the impending closures and cuts.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    }
+   ]
+  },
+  "ND": {
+   "role": "ND",
+   "headline": "Northgate Cuts Jobs Citing Weak Demand as Unions Warn of Action",
+   "sentences": [
+    {
+     "fact": "f2",
+     "text": "CEO Marian Holt attributed the company's recent strategic decision to weak housing demand.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "f3",
+     "text": "Shares fell 4.5% in early trading following the announcement of the move.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n1",
+     "text": "Unite the Union warned that potential industrial action could occur next month.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n2",
+     "text": "Analyst Sam Reed from Finch Capital described the move as premature.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n3",
+     "text": "Local MP David Clarke demanded an inquiry into the resulting job losses.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n4",
+     "text": "The homeowner group SafeStart alleged there had been 18 months of delays.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n5",
+     "text": "Northgate was founded in 1988 in Deeside with 50 employees.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n6",
+     "text": "The company plans to open 12 new sites in January 2028.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n7",
+     "text": "Deputy General Manager Alan Foster denied any quality control failures.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n8",
+     "text": "Consultancy PricewaterhouseCoopers is advising on the restructuring costs.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n9",
+     "text": "Trade union T&GWU joined Unite in criticizing the project timeline.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n10",
+     "text": "Regional developer BuildRight offered to buy 300 plots.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    },
+    {
+     "fact": "n11",
+     "text": "Housing charity Shelter reported that 2,500 homeless families were affected.",
+     "origin": "own",
+     "tampered": false,
+     "forged": false
+    }
+   ]
+  },
+  "HOP2": {
+   "role": "HOP2",
+   "parent": "WD_1",
+   "sentences": [
+    {
+     "fact": "f5",
+     "text": "The company projects a revenue decline of 8% by March 2027.",
+     "origin": "copied",
+     "tampered": true,
+     "tamper": {
+      "from": "12%",
+      "to": "8%"
+     },
+     "hop": 2,
+     "forged": false
+    },
+    {
+     "fact": "f6",
+     "text": "The broader restructuring plan aims to reduce overheads by eliminating 4,800 roles, Finch Capital said.",
+     "origin": "copied",
+     "forged": true,
+     "forge": {
+      "source": "Finch Capital",
+      "was": "copied"
+     },
+     "hop": 2,
+     "tampered": false
+    },
+    {
+     "fact": "f2",
+     "text": "The decision was attributed by CEO Marian Holt to weak housing demand in the market.",
+     "origin": "copied",
+     "hop": 2,
+     "tampered": false,
+     "forged": false
+    }
+   ]
+  }
+ },
+ "assign": {
+  "W": {
+   "total": 7,
+   "unassigned": 0
+  },
+  "PD_own": {
+   "total": 4,
+   "unassigned": 0
+  },
+  "ND": {
+   "total": 13,
+   "unassigned": 0
+  }
+ },
+ "anchor_missing": 0,
+ "anchor_total": 31,
+ "fact_integrity_issues": []
+}
