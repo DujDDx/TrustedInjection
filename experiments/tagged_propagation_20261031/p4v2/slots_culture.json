@@ -1,0 +1,452 @@
+[
+ {
+  "event_id": "E2301",
+  "domain": "culture",
+  "topic": "film_festival_premiere_controversy",
+  "angle": "A controversial film premieres at a major festival, sparking debate over its themes and the festival's decision to screen it.",
+  "country": "Sweden",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2302",
+  "domain": "culture",
+  "topic": "album_leak_release_strategy",
+  "angle": "An highly anticipated album leaks online ahead of its release, forcing the artist and label to change their marketing strategy.",
+  "country": "Norway",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2303",
+  "domain": "culture",
+  "topic": "theatre_adaptation_rights_dispute",
+  "angle": "A legal battle erupts over the rights to adapt a beloved novel for the stage, with two competing productions announced.",
+  "country": "Philippines",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2304",
+  "domain": "culture",
+  "topic": "book_prize_upset",
+  "angle": "An underdog debut novel wins a prestigious literary prize, overshadowing heavily favored established authors.",
+  "country": "Ghana",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2305",
+  "domain": "culture",
+  "topic": "museum_repatriation_claim",
+  "angle": "A museum faces a formal repatriation claim from a foreign government for a contested ancient artifact in its collection.",
+  "country": "New Zealand",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2306",
+  "domain": "culture",
+  "topic": "street_art_authenticity_dispute",
+  "angle": "A newly discovered street art piece attributed to a famous artist is questioned by experts, leading to a authenticity debate.",
+  "country": "Ireland",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2307",
+  "domain": "culture",
+  "topic": "music_festival_cancellation",
+  "angle": "A major music festival is abruptly canceled due to extreme weather, leaving thousands of ticket holders stranded and seeking refunds.",
+  "country": "United Kingdom",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2308",
+  "domain": "culture",
+  "topic": "heritage_site_restoration_funding",
+  "angle": "A UNESCO World Heritage site launches a crowdfunding campaign to fund urgent restoration work after government funding falls through.",
+  "country": "United States",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2309",
+  "domain": "culture",
+  "topic": "awards_ceremony_boycott",
+  "angle": "Several high-profile nominees announce a boycott of an awards ceremony, citing lack of diversity and transparency in voting.",
+  "country": "India",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2310",
+  "domain": "culture",
+  "topic": "auction_record_sale",
+  "angle": "A long-lost painting sells for a record-breaking sum at auction, far exceeding pre-sale estimates and igniting speculation about the buyer.",
+  "country": "Nigeria",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2311",
+  "domain": "culture",
+  "topic": "artist_retrospective_tour",
+  "angle": "A legendary musician announces a retrospective tour celebrating their five-decade career, with dates in arenas worldwide.",
+  "country": "Brazil",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2312",
+  "domain": "culture",
+  "topic": "exhibition_censorship_protest",
+  "angle": "An art exhibition is censored by its venue after complaints about a provocative piece, prompting artists to withdraw their works in protest.",
+  "country": "Japan",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2313",
+  "domain": "culture",
+  "topic": "film_archive_discovery",
+  "angle": "A lost silent film is discovered in a vault and restored, leading to a special screening at a film festival.",
+  "country": "Germany",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2314",
+  "domain": "culture",
+  "topic": "book_ban_library_controversy",
+  "angle": "A school library faces controversy over a book ban, with parents and students clashing over intellectual freedom.",
+  "country": "France",
+  "tense": "future",
+  "n": 6
+ },
+ {
+  "event_id": "E2315",
+  "domain": "culture",
+  "topic": "theatre_actor_replacement",
+  "angle": "A major theatre production replaces its lead actor just weeks before opening due to creative differences, causing a media frenzy.",
+  "country": "Kenya",
+  "tense": "future",
+  "n": 6
+ },
+ {
+  "event_id": "E2316",
+  "domain": "culture",
+  "topic": "music_streaming_royalty_dispute",
+  "angle": "A popular artist sues a streaming platform over unpaid royalties, highlighting the ongoing debate about fair pay in the music industry.",
+  "country": "Mexico",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2317",
+  "domain": "culture",
+  "topic": "heritage_building_demolition",
+  "angle": "A historic building is slated for demolition to make way for a development, sparking protests from preservationists.",
+  "country": "Indonesia",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2318",
+  "domain": "culture",
+  "topic": "awards_scandal_vote_rigging",
+  "angle": "An awards organization is rocked by allegations of vote rigging, leading to an independent investigation and calls for reform.",
+  "country": "Canada",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2319",
+  "domain": "culture",
+  "topic": "auction_forgery_scandal",
+  "angle": "A major auction house is embroiled in a forgery scandal after experts question the authenticity of several high-profile lots.",
+  "country": "Australia",
+  "tense": "future",
+  "n": 6
+ },
+ {
+  "event_id": "E2320",
+  "domain": "culture",
+  "topic": "artist_estate_legal_battle",
+  "angle": "The heirs of a deceased artist engage in a legal battle over the control of the estate and the right to authenticate new works.",
+  "country": "South Africa",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2321",
+  "domain": "culture",
+  "topic": "festival_lineup_leak",
+  "angle": "The lineup for a major music festival is leaked online, forcing organizers to announce it early and address security concerns.",
+  "country": "Spain",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2322",
+  "domain": "culture",
+  "topic": "film_sequel_announcement_backlash",
+  "angle": "A director announces a sequel to a cult classic, but fans react negatively due to the original's ambiguous ending.",
+  "country": "Italy",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2323",
+  "domain": "culture",
+  "topic": "theatre_improvisation_record",
+  "angle": "A theatre troupe attempts to break the world record for the longest continuous improvisation show, aiming for 50 hours.",
+  "country": "Netherlands",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2324",
+  "domain": "culture",
+  "topic": "book_adaptation_cast_controversy",
+  "angle": "The casting of a controversial actor in a film adaptation of a beloved book sparks online petitions and debate.",
+  "country": "Poland",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2325",
+  "domain": "culture",
+  "topic": "museum_interactive_exhibit",
+  "angle": "A museum launches a new interactive exhibit using virtual reality to bring ancient history to life, attracting record visitors.",
+  "country": "Turkey",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2326",
+  "domain": "culture",
+  "topic": "graffiti_legal_battle",
+  "angle": "A graffiti artist sues a property developer for destroying a mural, testing the legal rights of street artists.",
+  "country": "Egypt",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2327",
+  "domain": "culture",
+  "topic": "music_festival_environmental_protest",
+  "angle": "Environmental activists stage a protest at a music festival, urging organizers to reduce waste and carbon emissions.",
+  "country": "South Korea",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2328",
+  "domain": "culture",
+  "topic": "heritage_language_revival",
+  "angle": "A new initiative uses music and storytelling to revive an endangered indigenous language, culminating in a public performance.",
+  "country": "Vietnam",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2329",
+  "domain": "culture",
+  "topic": "awards_diversity_initiative",
+  "angle": "A major awards body announces new diversity quotas for voters after criticism over lack of representation.",
+  "country": "Argentina",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2330",
+  "domain": "culture",
+  "topic": "auction_charity_sale",
+  "angle": "A celebrity donates a personal art collection for a charity auction, raising millions for a cause.",
+  "country": "Chile",
+  "tense": "future",
+  "n": 6
+ },
+ {
+  "event_id": "E2331",
+  "domain": "culture",
+  "topic": "artist_mural_restoration",
+  "angle": "A faded mural by a famous artist is restored after years of neglect, revealing hidden details and sparking new interest.",
+  "country": "Sweden",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2332",
+  "domain": "culture",
+  "topic": "film_festival_virtual_reality",
+  "angle": "A film festival introduces a virtual reality category, showcasing immersive storytelling and attracting tech enthusiasts.",
+  "country": "Norway",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2333",
+  "domain": "culture",
+  "topic": "book_prize_controversy_sponsor",
+  "angle": "A literary prize faces backlash over its sponsor's ethical record, leading to authors declining nominations.",
+  "country": "Philippines",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2334",
+  "domain": "culture",
+  "topic": "theatre_site_specific_performance",
+  "angle": "A theatre company stages a play in an abandoned warehouse, blending immersive performance with local history.",
+  "country": "Ghana",
+  "tense": "future",
+  "n": 6
+ },
+ {
+  "event_id": "E2335",
+  "domain": "culture",
+  "topic": "music_album_anniversary_edition",
+  "angle": "A classic album gets a 50th-anniversary reissue with unreleased tracks and a documentary, thrilling fans.",
+  "country": "New Zealand",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2336",
+  "domain": "culture",
+  "topic": "heritage_craft_revival",
+  "angle": "A traditional craft facing extinction is revived through a apprenticeship program, culminating in a public exhibition.",
+  "country": "Ireland",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2337",
+  "domain": "culture",
+  "topic": "awards_ceremony_host_controversy",
+  "angle": "A comedian slated to host a major awards show faces backlash over past offensive jokes, prompting calls for replacement.",
+  "country": "United Kingdom",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2338",
+  "domain": "culture",
+  "topic": "auction_manuscript_discovery",
+  "angle": "A previously unknown manuscript by a famous author is discovered and auctioned, fetching a high price.",
+  "country": "United States",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2339",
+  "domain": "culture",
+  "topic": "artist_biopic_release",
+  "angle": "A biopic about a controversial artist is released, sparking debate about the portrayal of their life and legacy.",
+  "country": "India",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2340",
+  "domain": "culture",
+  "topic": "festival_accessibility_improvements",
+  "angle": "A major festival announces new accessibility measures for disabled attendees after criticism from advocacy groups.",
+  "country": "Nigeria",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2341",
+  "domain": "culture",
+  "topic": "film_preservation_digital_restoration",
+  "angle": "A classic film is digitally restored and re-released in theaters, introducing it to a new generation.",
+  "country": "Brazil",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2342",
+  "domain": "culture",
+  "topic": "book_translation_award",
+  "angle": "A translator wins a major award for their work on a translated novel, highlighting the art of translation.",
+  "country": "Japan",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2343",
+  "domain": "culture",
+  "topic": "theatre_community_outreach",
+  "angle": "A theatre company launches a community outreach program, offering free workshops and performances in underserved neighborhoods.",
+  "country": "Germany",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2344",
+  "domain": "culture",
+  "topic": "music_collaboration_surprise",
+  "angle": "Two artists from different genres release a surprise collaboration album, topping charts and confusing fans.",
+  "country": "France",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2345",
+  "domain": "culture",
+  "topic": "heritage_site_looting",
+  "angle": "An archaeological site is looted, prompting calls for increased protection and a police investigation.",
+  "country": "Kenya",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2346",
+  "domain": "culture",
+  "topic": "awards_lifetime_achievement",
+  "angle": "A veteran artist receives a lifetime achievement award, prompting a retrospective of their work and interviews.",
+  "country": "Mexico",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2347",
+  "domain": "culture",
+  "topic": "auction_nft_sale",
+  "angle": "A digital artwork NFT sells for millions at auction, sparking debate about the future of art collecting.",
+  "country": "Indonesia",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2348",
+  "domain": "culture",
+  "topic": "artist_residency_program",
+  "angle": "A new artist residency program is announced, offering emerging artists studio space and mentorship.",
+  "country": "Canada",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2349",
+  "domain": "culture",
+  "topic": "festival_crowdfunding_success",
+  "angle": "A small community festival successfully crowdfunds to continue after losing its main sponsor.",
+  "country": "Australia",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2350",
+  "domain": "culture",
+  "topic": "film_director_cut_controversy",
+  "angle": "A director disowns the theatrical cut of their film, leading to a petition for the release of the director's cut.",
+  "country": "South Africa",
+  "tense": "future",
+  "n": 6
+ }
+]

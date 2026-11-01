@@ -1,0 +1,452 @@
+[
+ {
+  "event_id": "E2351",
+  "domain": "health",
+  "topic": "hospital_acquires_robotic_surgery_program",
+  "angle": "A regional hospital unveils a surgical robot program and reports on the first operations performed with it.",
+  "country": "New Zealand",
+  "tense": "future",
+  "n": 6
+ },
+ {
+  "event_id": "E2352",
+  "domain": "health",
+  "topic": "clinic_opens_evening_walk_in_service",
+  "angle": "A community clinic extends its hours to evenings to ease access for working patients, with early uptake figures.",
+  "country": "Ireland",
+  "tense": "future",
+  "n": 6
+ },
+ {
+  "event_id": "E2353",
+  "domain": "health",
+  "topic": "measles_outbreak_in_under_vaccinated_school",
+  "angle": "Health authorities trace a measles cluster at a school with low vaccination coverage and describe the containment response.",
+  "country": "United Kingdom",
+  "tense": "future",
+  "n": 6
+ },
+ {
+  "event_id": "E2354",
+  "domain": "health",
+  "topic": "seasonal_flu_vaccination_campaign_launch",
+  "angle": "A national flu immunization campaign kicks off with target groups and distribution logistics explained.",
+  "country": "United States",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2355",
+  "domain": "health",
+  "topic": "phase_three_trial_primary_endpoint_met",
+  "angle": "A drugmaker reports that a phase three trial met its primary efficacy endpoint, with analysts parsing the data.",
+  "country": "India",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2356",
+  "domain": "health",
+  "topic": "regulator_approves_first_gene_therapy_for_rare_disease",
+  "angle": "A medicines regulator grants approval for a gene therapy targeting a rare inherited disorder, including conditions attached.",
+  "country": "Nigeria",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2357",
+  "domain": "health",
+  "topic": "elective_surgery_waiting_list_peaks",
+  "angle": "New figures show elective waiting lists at a record high, with breakdowns by specialty and region.",
+  "country": "Brazil",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2358",
+  "domain": "health",
+  "topic": "mask_mandate_reintroduced_in_care_homes",
+  "angle": "Public health officials reintroduce mask requirements in care homes amid rising respiratory infections.",
+  "country": "Japan",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2359",
+  "domain": "health",
+  "topic": "nurse_staffing_shortage_forces_ward_closure",
+  "angle": "A hospital temporarily closes a ward because of nurse shortages, raising concerns about winter capacity.",
+  "country": "Germany",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2360",
+  "domain": "health",
+  "topic": "hospital_cyberattack_disrupts_appointments",
+  "angle": "A ransomware attack on a hospital network forces cancellation of appointments and diversion of emergencies.",
+  "country": "France",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2361",
+  "domain": "health",
+  "topic": "clinic_merger_creates_larger_primary_care_group",
+  "angle": "Two clinic networks announce a merger aimed at shared records and bulk purchasing, with patient-group reaction.",
+  "country": "Kenya",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2362",
+  "domain": "health",
+  "topic": "newborn_screening_programme_expanded",
+  "angle": "A health system adds a rare metabolic condition to its newborn heel-prick screening panel.",
+  "country": "Mexico",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2363",
+  "domain": "health",
+  "topic": "contaminated_food_product_recall",
+  "angle": "A food safety agency recalls a product linked to a bacterial illness cluster and advises consumers.",
+  "country": "Indonesia",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2364",
+  "domain": "health",
+  "topic": "hospital_emergency_department_overcrowding_report",
+  "angle": "An inspection report documents dangerous overcrowding and long ambulance handover delays at an emergency department.",
+  "country": "Canada",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2365",
+  "domain": "health",
+  "topic": "antimicrobial_resistance_surveillance_findings",
+  "angle": "A surveillance report shows rising resistance to a last-resort antibiotic in a common hospital pathogen.",
+  "country": "Australia",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2366",
+  "domain": "health",
+  "topic": "generic_drug_price_collapse_after_patent_expiry",
+  "angle": "The patent on a blockbuster medicine expires and multiple generics launch, reshaping treatment costs.",
+  "country": "South Africa",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2367",
+  "domain": "health",
+  "topic": "vaccine_hesitancy_survey_results",
+  "angle": "A national survey quantifies vaccine hesitancy and identifies the demographic groups most likely to delay.",
+  "country": "Spain",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2368",
+  "domain": "health",
+  "topic": "mobile_clinic_brings_care_to_rural_counties",
+  "angle": "A roving clinic van delivers primary care to remote communities, with patient numbers from its first months.",
+  "country": "Italy",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2369",
+  "domain": "health",
+  "topic": "hospital_builds_new_intensive_care_unit",
+  "angle": "A hospital opens a expanded intensive care unit and explains how it changes critical care capacity.",
+  "country": "Netherlands",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2370",
+  "domain": "health",
+  "topic": "maternal_mortality_review_published",
+  "angle": "A confidential enquiry into maternal deaths publishes findings and recommendations for maternity services.",
+  "country": "Poland",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2371",
+  "domain": "health",
+  "topic": "telemedicine_consultation_volume_doubles",
+  "angle": "Health system data show remote consultations doubling year on year, with questions about quality and equity.",
+  "country": "Turkey",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2372",
+  "domain": "health",
+  "topic": "clinical_trial_paused_for_safety_review",
+  "angle": "A trial sponsor pauses enrollment pending a safety review after an adverse event signal.",
+  "country": "Egypt",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2373",
+  "domain": "health",
+  "topic": "hospital_trust_overspend_triggers_budget_measures",
+  "angle": "A hospital trust reports a large deficit and sets out cost-cutting measures affecting services.",
+  "country": "South Korea",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2374",
+  "domain": "health",
+  "topic": "pharmacist_prescribing_pilot_expands",
+  "angle": "A pilot allowing community pharmacists to prescribe for minor ailments expands to more regions.",
+  "country": "Vietnam",
+  "tense": "future",
+  "n": 6
+ },
+ {
+  "event_id": "E2375",
+  "domain": "health",
+  "topic": "organ_transplant_waiting_list_grows",
+  "angle": "Transplant waiting list figures rise, with a campaign to boost donor registration launched alongside.",
+  "country": "Argentina",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2376",
+  "domain": "health",
+  "topic": "hospital_hand_hygiene_audit_results",
+  "angle": "An infection control audit reveals variable hand hygiene compliance across wards and the corrective actions taken.",
+  "country": "Chile",
+  "tense": "future",
+  "n": 6
+ },
+ {
+  "event_id": "E2377",
+  "domain": "health",
+  "topic": "mental_health_waits_for_children_lengthen",
+  "angle": "Data show children waiting longer for mental health assessments, prompting calls for expanded services.",
+  "country": "Sweden",
+  "tense": "future",
+  "n": 6
+ },
+ {
+  "event_id": "E2378",
+  "domain": "health",
+  "topic": "groundbreaking_ceremony_for_new_hospital",
+  "angle": "Officials break ground on a replacement hospital, with timelines, funding, and service-transfer plans.",
+  "country": "Norway",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2379",
+  "domain": "health",
+  "topic": "drug_approval_expanded_to_new_indication",
+  "angle": "A regulator extends an existing medicine's approval to a second disease, with clinician reaction.",
+  "country": "Philippines",
+  "tense": "future",
+  "n": 6
+ },
+ {
+  "event_id": "E2380",
+  "domain": "health",
+  "topic": "hospital_launches_ai_radiology_triage_tool",
+  "angle": "A hospital deploys an AI tool to prioritize chest X-rays and reports on accuracy and radiologist workload.",
+  "country": "Ghana",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2381",
+  "domain": "health",
+  "topic": "gp_practice_closes_leaving_patients_reassigned",
+  "angle": "A general practice closes abruptly and its patient list is distributed to neighboring clinics.",
+  "country": "New Zealand",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2382",
+  "domain": "health",
+  "topic": "national_immunization_schedule_updated",
+  "angle": "The national immunization schedule is revised, changing the number or timing of doses for one vaccine.",
+  "country": "Ireland",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2383",
+  "domain": "health",
+  "topic": "hospital_readmission_rates_under_scrutiny",
+  "angle": "A quality regulator publishes 30-day readmission rates by hospital and highlights outliers.",
+  "country": "United Kingdom",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2384",
+  "domain": "health",
+  "topic": "nursing_strike_announced_over_pay_dispute",
+  "angle": "A nursing union announces strike dates in a pay dispute, with contingency plans outlined.",
+  "country": "United States",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2385",
+  "domain": "health",
+  "topic": "rare_disease_diagnosis_odyssey_case_study",
+  "angle": "A case study describes a patient's multi-year path to a rare disease diagnosis and the diagnostic gaps it exposes.",
+  "country": "India",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2386",
+  "domain": "health",
+  "topic": "hospital_opens_dedicated_stroke_unit",
+  "angle": "A hospital opens a dedicated stroke unit and explains how it improves door-to-treatment times.",
+  "country": "Nigeria",
+  "tense": "future",
+  "n": 6
+ },
+ {
+  "event_id": "E2387",
+  "domain": "health",
+  "topic": "over_the_counter_narcan_distribution_programme",
+  "angle": "A public health agency expands free naloxone distribution to pharmacies to reduce overdose deaths.",
+  "country": "Brazil",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2388",
+  "domain": "health",
+  "topic": "hospital_faces_backlog_of_imaging_scans",
+  "angle": "A hospital reports a large backlog of MRI and CT scans and outlines weekend scanning to clear it.",
+  "country": "Japan",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2389",
+  "domain": "health",
+  "topic": "physician_associate_role_introduced_in_hospitals",
+  "angle": "Hospitals introduce physician associates into ward teams, with debate over scope and supervision.",
+  "country": "Germany",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2390",
+  "domain": "health",
+  "topic": "cancer_screening_programme_uptake_falls",
+  "angle": "Screening programme data show declining uptake, with outreach campaigns targeting missed groups.",
+  "country": "France",
+  "tense": "future",
+  "n": 6
+ },
+ {
+  "event_id": "E2391",
+  "domain": "health",
+  "topic": "blood_supply_shortage_triggers_donor_appeal",
+  "angle": "A blood service issues an urgent appeal as stock levels fall below safe thresholds.",
+  "country": "Kenya",
+  "tense": "future",
+  "n": 6
+ },
+ {
+  "event_id": "E2392",
+  "domain": "health",
+  "topic": "hospital_launches_same_day_emergency_care_center",
+  "angle": "A hospital opens a same-day emergency care unit to divert patients from the main emergency department.",
+  "country": "Mexico",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2393",
+  "domain": "health",
+  "topic": "drug_pricing_negotiation_for_hepatitis_treatment",
+  "angle": "A health payer negotiates a volume-based price deal to widen access to a hepatitis treatment.",
+  "country": "Indonesia",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2394",
+  "domain": "health",
+  "topic": "postpartum_care_model_redesigned",
+  "angle": "A maternity service redesigns postpartum follow-up with home visits and a new check schedule.",
+  "country": "Canada",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2395",
+  "domain": "health",
+  "topic": "hospital_water_system_legionella_findings",
+  "angle": "Routine testing finds legionella in a hospital water system, prompting restrictions and remediation.",
+  "country": "Australia",
+  "tense": "future",
+  "n": 6
+ },
+ {
+  "event_id": "E2396",
+  "domain": "health",
+  "topic": "general_practice_appointment_mode_statistics",
+  "angle": "Official statistics reveal the share of appointments delivered in person versus remotely, with trend analysis.",
+  "country": "South Africa",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2397",
+  "domain": "health",
+  "topic": "vaccine_cold_chain_failure_investigation",
+  "angle": "An investigation finds a cold chain breach spoiled vaccine doses, and authorities describe the recall and rebooking.",
+  "country": "Spain",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2398",
+  "domain": "health",
+  "topic": "hospital_foundation_trust_merger_approved",
+  "angle": "Regulators approve the merger of two hospital trusts, with conditions on service retention.",
+  "country": "Italy",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2399",
+  "domain": "health",
+  "topic": "long_covid_clinic_opening_and_demand",
+  "angle": "A dedicated long COVID clinic opens and reports demand far exceeding its initial capacity.",
+  "country": "Netherlands",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2400",
+  "domain": "health",
+  "topic": "clinical_guideline_reversal_on_common_treatment",
+  "angle": "A major guideline body reverses its recommendation on a common treatment after new trial evidence.",
+  "country": "Poland",
+  "tense": "past",
+  "n": 5
+ }
+]

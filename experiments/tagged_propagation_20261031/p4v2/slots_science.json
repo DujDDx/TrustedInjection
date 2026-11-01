@@ -1,0 +1,452 @@
+[
+ {
+  "event_id": "E2201",
+  "domain": "science",
+  "topic": "peer_reviewed_clinical_trial_result",
+  "angle": "A randomized controlled trial reports its primary outcome, upending prior expectations about an existing treatment.",
+  "country": "Netherlands",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2202",
+  "domain": "science",
+  "topic": "retraction_and_investigation",
+  "angle": "A high-profile paper is retracted after an institutional investigation finds data manipulation.",
+  "country": "Poland",
+  "tense": "future",
+  "n": 6
+ },
+ {
+  "event_id": "E2203",
+  "domain": "science",
+  "topic": "preprint_gone_viral",
+  "angle": "An unreviewed preprint sparks widespread attention and debate before peer review concludes.",
+  "country": "Turkey",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2204",
+  "domain": "science",
+  "topic": "replication_failure",
+  "angle": "Independent labs fail to reproduce a landmark finding, prompting a field-wide reckoning.",
+  "country": "Egypt",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2205",
+  "domain": "science",
+  "topic": "negative_result_published",
+  "angle": "A well-powered study reports a null result that contradicts a widely promoted hypothesis.",
+  "country": "South Korea",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2206",
+  "domain": "science",
+  "topic": "meta_analysis_synthesis",
+  "angle": "A meta-analysis pools dozens of trials to settle a long-running disagreement over effect size.",
+  "country": "Vietnam",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2207",
+  "domain": "science",
+  "topic": "new_model_organism",
+  "angle": "Researchers establish a new laboratory organism that opens previously inaccessible experimental questions.",
+  "country": "Argentina",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2208",
+  "domain": "science",
+  "topic": "spacecraft_launch",
+  "angle": "A science mission launches to study a target no spacecraft has visited before.",
+  "country": "Chile",
+  "tense": "future",
+  "n": 6
+ },
+ {
+  "event_id": "E2209",
+  "domain": "science",
+  "topic": "spacecraft_arrival_orbit_insertion",
+  "angle": "A probe arrives at its destination and begins orbital observations after years of cruise.",
+  "country": "Sweden",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2210",
+  "domain": "science",
+  "topic": "lander_touchdown",
+  "angle": "A lander sets down on a planetary surface and returns its first images and telemetry.",
+  "country": "Norway",
+  "tense": "future",
+  "n": 6
+ },
+ {
+  "event_id": "E2211",
+  "domain": "science",
+  "topic": "sample_return_capsule",
+  "angle": "A capsule carrying extraterrestrial samples parachutes to Earth and enters curation.",
+  "country": "Philippines",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2212",
+  "domain": "science",
+  "topic": "telescope_first_light",
+  "angle": "A new observatory releases its first-light images, revealing capabilities beyond prior instruments.",
+  "country": "Ghana",
+  "tense": "future",
+  "n": 6
+ },
+ {
+  "event_id": "E2213",
+  "domain": "science",
+  "topic": "exoplanet_atmosphere_detection",
+  "angle": "Spectroscopy identifies a molecule in an exoplanet atmosphere, narrowing habitability questions.",
+  "country": "New Zealand",
+  "tense": "future",
+  "n": 6
+ },
+ {
+  "event_id": "E2214",
+  "domain": "science",
+  "topic": "gravitational_wave_event",
+  "angle": "Detectors register a merger event that tests theories of compact-object physics.",
+  "country": "Ireland",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2215",
+  "domain": "science",
+  "topic": "deep_space_anomaly",
+  "angle": "A spacecraft transmits anomalous data that engineers and scientists race to diagnose.",
+  "country": "United Kingdom",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2216",
+  "domain": "science",
+  "topic": "mission_extension_or_cancellation",
+  "angle": "A funding agency decides the fate of an aging but productive science mission.",
+  "country": "United States",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2217",
+  "domain": "science",
+  "topic": "polar_expedition",
+  "angle": "A research team completes a traverse across an ice sheet, collecting unprecedented field data.",
+  "country": "India",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2218",
+  "domain": "science",
+  "topic": "deep_sea_expedition",
+  "angle": "A submersible dive surveys an unexplored trench and documents new species.",
+  "country": "Nigeria",
+  "tense": "future",
+  "n": 6
+ },
+ {
+  "event_id": "E2219",
+  "domain": "science",
+  "topic": "rainforest_biodiversity_survey",
+  "angle": "A rapid-assessment expedition catalogues species in a threatened, poorly studied habitat.",
+  "country": "Brazil",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2220",
+  "domain": "science",
+  "topic": "high_altitude_ice_core",
+  "angle": "A drilling team extracts an ice core that extends the climate record further back in time.",
+  "country": "Japan",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2221",
+  "domain": "science",
+  "topic": "volcano_monitoring_campaign",
+  "angle": "Scientists deploy instruments on an restless volcano and capture a precursory signal.",
+  "country": "Germany",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2222",
+  "domain": "science",
+  "topic": "cave_or_karst_exploration",
+  "angle": "Explorers map a newly accessible cave system and find preserved paleontological material.",
+  "country": "France",
+  "tense": "future",
+  "n": 6
+ },
+ {
+  "event_id": "E2223",
+  "domain": "science",
+  "topic": "desert_fossil_dig",
+  "angle": "A field crew unearths a fossil assemblage that reframes an evolutionary transition.",
+  "country": "Kenya",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2224",
+  "domain": "science",
+  "topic": "amazonian_field_lab_collapse",
+  "angle": "A remote research station faces closure, threatening a decades-long ecological monitoring record.",
+  "country": "Mexico",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2225",
+  "domain": "science",
+  "topic": "new_lab_facility_opening",
+  "angle": "A national facility opens with instrumentation unavailable elsewhere, drawing visiting researchers.",
+  "country": "Indonesia",
+  "tense": "future",
+  "n": 6
+ },
+ {
+  "event_id": "E2226",
+  "domain": "science",
+  "topic": "lab_safety_incident",
+  "angle": "An accident at a research laboratory triggers a review of safety protocols and oversight.",
+  "country": "Canada",
+  "tense": "future",
+  "n": 6
+ },
+ {
+  "event_id": "E2227",
+  "domain": "science",
+  "topic": "biosafety_level_upgrade",
+  "angle": "A university upgrades containment facilities to enable work on a dangerous pathogen.",
+  "country": "Australia",
+  "tense": "future",
+  "n": 6
+ },
+ {
+  "event_id": "E2228",
+  "domain": "science",
+  "topic": "shared_equipment_breakdown",
+  "angle": "A critical instrument fails, halting experiments across many labs that depend on it.",
+  "country": "South Africa",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2229",
+  "domain": "science",
+  "topic": "lab_reproducibility_audit",
+  "angle": "An internal audit of a large lab's records finds inconsistent data practices.",
+  "country": "Spain",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2230",
+  "domain": "science",
+  "topic": "undergraduate_research_surprise",
+  "angle": "A student-led side project yields an unexpected observation that reshapes a lab's direction.",
+  "country": "Italy",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2231",
+  "domain": "science",
+  "topic": "citizen_science_discovery",
+  "angle": "Volunteers analyzing open data spot a phenomenon professional surveys missed.",
+  "country": "Netherlands",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2232",
+  "domain": "science",
+  "topic": "serendipitous_discovery",
+  "angle": "An experiment aimed at one question produces an accidental result with broader implications.",
+  "country": "Poland",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2233",
+  "domain": "science",
+  "topic": "ancient_dna_revelation",
+  "angle": "Genetic material from old remains rewrites a population history previously inferred from artifacts.",
+  "country": "Turkey",
+  "tense": "future",
+  "n": 6
+ },
+ {
+  "event_id": "E2234",
+  "domain": "science",
+  "topic": "new_material_synthesis",
+  "angle": "A materials team reports a compound with properties predicted but never before realized.",
+  "country": "Egypt",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2235",
+  "domain": "science",
+  "topic": "catalyst_breakthrough",
+  "angle": "A new catalyst achieves a reaction under far milder conditions than industry standard.",
+  "country": "South Korea",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2236",
+  "domain": "science",
+  "topic": "quantum_computing_milestone",
+  "angle": "A quantum device demonstrates an error-correction result that changes scaling projections.",
+  "country": "Vietnam",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2237",
+  "domain": "science",
+  "topic": "fusion_plasma_record",
+  "angle": "A fusion experiment reports a plasma milestone that advances the case for net energy.",
+  "country": "Argentina",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2238",
+  "domain": "science",
+  "topic": "battery_chemistry_advance",
+  "angle": "A lab-scale cell chemistry promises longer life or safer operation than commercial alternatives.",
+  "country": "Chile",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2239",
+  "domain": "science",
+  "topic": "semiconductor_process_demo",
+  "angle": "Researchers demonstrate a fabrication route that could extend chip scaling.",
+  "country": "Sweden",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2240",
+  "domain": "science",
+  "topic": "ai_model_applied_to_science",
+  "angle": "A machine-learning system produces a scientific result later validated by conventional methods.",
+  "country": "Norway",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2241",
+  "domain": "science",
+  "topic": "research_grant_award",
+  "angle": "A major funder awards a large grant to a consortium tackling a longstanding problem.",
+  "country": "Philippines",
+  "tense": "future",
+  "n": 6
+ },
+ {
+  "event_id": "E2242",
+  "domain": "science",
+  "topic": "funding_cut_impact",
+  "angle": "A budget reduction forces cancellation of a research program and scatters its team.",
+  "country": "Ghana",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2243",
+  "domain": "science",
+  "topic": "grant_review_controversy",
+  "angle": "A funding decision draws criticism over transparency and peer-review process.",
+  "country": "New Zealand",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2244",
+  "domain": "science",
+  "topic": "philanthropic_science_gift",
+  "angle": "A private donation endows a research institute or initiative with unusual independence.",
+  "country": "Ireland",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2245",
+  "domain": "science",
+  "topic": "industry_academic_partnership",
+  "angle": "A university and company announce a joint research agreement with contested terms.",
+  "country": "United Kingdom",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2246",
+  "domain": "science",
+  "topic": "open_access_mandate",
+  "angle": "A new publishing policy changes how federally funded research must be released.",
+  "country": "United States",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2247",
+  "domain": "science",
+  "topic": "big_data_repository_release",
+  "angle": "A consortium releases a massive dataset that other scientists can mine for new questions.",
+  "country": "India",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2248",
+  "domain": "science",
+  "topic": "reproducibility_tooling_launch",
+  "angle": "A platform launches to help labs register designs and share analysis code by default.",
+  "country": "Nigeria",
+  "tense": "future",
+  "n": 6
+ },
+ {
+  "event_id": "E2249",
+  "domain": "science",
+  "topic": "field_station_closure",
+  "angle": "A long-running field station loses funding, jeopardizing longitudinal environmental data.",
+  "country": "Brazil",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2250",
+  "domain": "science",
+  "topic": "science_advisory_panel_report",
+  "angle": "An expert panel issues recommendations that could reshape research priorities or regulation.",
+  "country": "Japan",
+  "tense": "past",
+  "n": 5
+ }
+]

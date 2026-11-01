@@ -1,0 +1,452 @@
+[
+ {
+  "event_id": "E2101",
+  "domain": "sports",
+  "topic": "match_result_upset",
+  "angle": "Underdog team stuns defending champions with a last-minute goal in a league match.",
+  "country": "Kenya",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2102",
+  "domain": "sports",
+  "topic": "transfer_record_fee",
+  "angle": "Star player completes a world-record transfer to a rival club, sparking debate over financial fair play.",
+  "country": "Mexico",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2103",
+  "domain": "sports",
+  "topic": "world_record_broken",
+  "angle": "Sprinter shatters the 100m world record at a Diamond League meet, raising questions about track conditions.",
+  "country": "Indonesia",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2104",
+  "domain": "sports",
+  "topic": "season_ending_injury",
+  "angle": "Key player suffers a season-ending ACL injury during a routine training session, leaving team scrambling for replacement.",
+  "country": "Canada",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2105",
+  "domain": "sports",
+  "topic": "new_stadium_controversy",
+  "angle": "Proposed new stadium faces backlash from local residents over environmental impact and public funding.",
+  "country": "Australia",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2106",
+  "domain": "sports",
+  "topic": "doping_ban_appeal",
+  "angle": "Cyclist appeals a four-year doping ban, claiming contaminated supplements as the cause.",
+  "country": "South Africa",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2107",
+  "domain": "sports",
+  "topic": "coach_fired_midseason",
+  "angle": "Head coach is fired midseason after a string of poor results, with assistant taking over temporarily.",
+  "country": "Spain",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2108",
+  "domain": "sports",
+  "topic": "tournament_expansion",
+  "angle": "Governing body announces expansion of the World Cup to 48 teams, raising concerns about player workload.",
+  "country": "Italy",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2109",
+  "domain": "sports",
+  "topic": "governing_body_corruption",
+  "angle": "FIFA officials arrested in corruption probe involving broadcasting rights deals.",
+  "country": "Netherlands",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2110",
+  "domain": "sports",
+  "topic": "olympic_host_selection",
+  "angle": "IOC selects new host city for 2036 Olympics amid concerns over human rights and infrastructure.",
+  "country": "Poland",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2111",
+  "domain": "sports",
+  "topic": "athlete_retirement",
+  "angle": "Legendary tennis player announces retirement after 20 Grand Slam titles, citing persistent knee pain.",
+  "country": "Turkey",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2112",
+  "domain": "sports",
+  "topic": "trade_deadline_blockbuster",
+  "angle": "NBA team trades three first-round picks for a disgruntled superstar, reshaping championship odds.",
+  "country": "Egypt",
+  "tense": "future",
+  "n": 6
+ },
+ {
+  "event_id": "E2113",
+  "domain": "sports",
+  "topic": "salary_cap_violation",
+  "angle": "NFL team fined and stripped of draft picks for salary cap violations spanning two seasons.",
+  "country": "South Korea",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2114",
+  "domain": "sports",
+  "topic": "var_controversy",
+  "angle": "VAR decision in crucial match sparks outrage after disallowing a clear goal due to a marginal offside.",
+  "country": "Vietnam",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2115",
+  "domain": "sports",
+  "topic": "fan_behavior_fine",
+  "angle": "Club fined heavily after fans throw flares onto the pitch, causing match suspension.",
+  "country": "Argentina",
+  "tense": "future",
+  "n": 6
+ },
+ {
+  "event_id": "E2116",
+  "domain": "sports",
+  "topic": "player_mental_health_break",
+  "angle": "Star gymnast withdraws from competition to focus on mental health, prompting wider conversation.",
+  "country": "Chile",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2117",
+  "domain": "sports",
+  "topic": "contract_holdout",
+  "angle": "Running back holds out from training camp demanding a new contract, threatening to miss regular season games.",
+  "country": "Sweden",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2118",
+  "domain": "sports",
+  "topic": "draft_prospect_scandal",
+  "angle": "Top NFL draft prospect faces allegations of domestic violence, causing teams to reconsider drafting him.",
+  "country": "Norway",
+  "tense": "future",
+  "n": 6
+ },
+ {
+  "event_id": "E2119",
+  "domain": "sports",
+  "topic": "college_conference_realignment",
+  "angle": "Major college conference expands by adding two prominent universities, disrupting traditional rivalries.",
+  "country": "Philippines",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2120",
+  "domain": "sports",
+  "topic": "esports_inclusion_olympics",
+  "angle": "IOC announces inaugural Olympic Esports Games, but several major game publishers decline participation.",
+  "country": "Ghana",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2121",
+  "domain": "sports",
+  "topic": "stadium_ naming_rights_deal",
+  "angle": "Historic stadium sells naming rights to cryptocurrency exchange, angering traditional fans.",
+  "country": "New Zealand",
+  "tense": "future",
+  "n": 6
+ },
+ {
+  "event_id": "E2122",
+  "domain": "sports",
+  "topic": "referee_strike",
+  "angle": "Professional soccer referees go on strike over pay and working conditions, forcing league to use replacements.",
+  "country": "Ireland",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2123",
+  "domain": "sports",
+  "topic": "gender_pay_dispute",
+  "angle": "Women's national team files lawsuit against federation alleging systemic gender-based pay discrimination.",
+  "country": "United Kingdom",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2124",
+  "domain": "sports",
+  "topic": "concussion_protocol_change",
+  "angle": "League implements stricter concussion protocol after independent study links repeated head trauma to CTE.",
+  "country": "United States",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2125",
+  "domain": "sports",
+  "topic": "athlete_protest_political",
+  "angle": "Athlete kneels during national anthem, reigniting debate over politics in sports.",
+  "country": "India",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2126",
+  "domain": "sports",
+  "topic": "new_ownership_takeover",
+  "angle": "Consortium led by tech billionaire completes takeover of Premier League club, promising heavy investment.",
+  "country": "Nigeria",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2127",
+  "domain": "sports",
+  "topic": "financial_trouble_administration",
+  "angle": "Historic football club enters administration due to mounting debts, facing possible liquidation.",
+  "country": "Brazil",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2128",
+  "domain": "sports",
+  "topic": "youth_academy_scandal",
+  "angle": "Investigation reveals widespread abuse in youth football academies, leading to multiple arrests.",
+  "country": "Japan",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2129",
+  "domain": "sports",
+  "topic": "wrong_ball_incident",
+  "angle": "Cricket match abandoned after ball tampering incident leads to heated confrontation between teams.",
+  "country": "Germany",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2130",
+  "domain": "sports",
+  "topic": "weather_postponement",
+  "angle": "Extreme heat forces marathon organizers to postpone race by several hours, raising safety concerns.",
+  "country": "France",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2131",
+  "domain": "sports",
+  "topic": "equipment_technology_ban",
+  "angle": "Swimming governing body bans high-tech swimsuits after multiple world records fall.",
+  "country": "Kenya",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2132",
+  "domain": "sports",
+  "topic": "player_transfer_collapse",
+  "angle": "High-profile transfer collapses at last minute due to failed medical, leaving player in limbo.",
+  "country": "Mexico",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2133",
+  "domain": "sports",
+  "topic": "managerial_poaching",
+  "angle": "Rival club accuses team of tapping up their manager, filing official complaint to league.",
+  "country": "Indonesia",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2134",
+  "domain": "sports",
+  "topic": "fan_owned_club_success",
+  "angle": "Fan-owned club achieves promotion to top division, defying financial odds.",
+  "country": "Canada",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2135",
+  "domain": "sports",
+  "topic": "athlete_comeback_injury",
+  "angle": "Former world champion returns to competition after two years of rehab from career-threatening injury.",
+  "country": "Australia",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2136",
+  "domain": "sports",
+  "topic": "title_stripped_violation",
+  "angle": "Team stripped of league title after investigation reveals salary cap breaches.",
+  "country": "South Africa",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2137",
+  "domain": "sports",
+  "topic": "schedule_congestion",
+  "angle": "Players union criticizes governing body for overcrowded schedule, citing increased injury risk.",
+  "country": "Spain",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2138",
+  "domain": "sports",
+  "topic": "video_assistant_referee_expansion",
+  "angle": "League votes to expand VAR to all matches despite fan protests over delays.",
+  "country": "Italy",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2139",
+  "domain": "sports",
+  "topic": "athlete_nutrition_supplement_scare",
+  "angle": "Several athletes test positive for banned substance after consuming contaminated supplement, prompting recalls.",
+  "country": "Netherlands",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2140",
+  "domain": "sports",
+  "topic": "paralympic_classification_dispute",
+  "angle": "Paralympic athlete challenges classification system, claiming unfair advantage for competitors with different disabilities.",
+  "country": "Poland",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2141",
+  "domain": "sports",
+  "topic": "stadium_evacuation",
+  "angle": "Bomb threat forces evacuation of stadium during match, highlighting security gaps.",
+  "country": "Turkey",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2142",
+  "domain": "sports",
+  "topic": "player_union_strike",
+  "angle": "Baseball players threaten strike over free agency rules as collective bargaining agreement expires.",
+  "country": "Egypt",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2143",
+  "domain": "sports",
+  "topic": "college_athlete_endorsement_deal",
+  "angle": "Star college quarterback signs first major name, image, and likeness deal, sparking debate over amateurism.",
+  "country": "South Korea",
+  "tense": "future",
+  "n": 6
+ },
+ {
+  "event_id": "E2144",
+  "domain": "sports",
+  "topic": "international_friendly_cancelled",
+  "angle": "National team friendly cancelled due to diplomatic tensions between host countries.",
+  "country": "Vietnam",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2145",
+  "domain": "sports",
+  "topic": "youth_olympics_postponement",
+  "angle": "Youth Olympics postponed due to global pandemic, raising concerns over athlete development.",
+  "country": "Argentina",
+  "tense": "future",
+  "n": 6
+ },
+ {
+  "event_id": "E2146",
+  "domain": "sports",
+  "topic": "sports_betting_scandal",
+  "angle": "Player suspended for betting on his own team's matches, prompting league-wide integrity review.",
+  "country": "Chile",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2147",
+  "domain": "sports",
+  "topic": "title_race_photo_finish",
+  "angle": "Marathon major ends in photo finish, with winner declared after reviewing frame-by-frame images.",
+  "country": "Sweden",
+  "tense": "future",
+  "n": 6
+ },
+ {
+  "event_id": "E2148",
+  "domain": "sports",
+  "topic": "franchise_relocation",
+  "angle": "Professional team announces relocation to another city after failed stadium negotiations.",
+  "country": "Norway",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2149",
+  "domain": "sports",
+  "topic": "athlete_brand_endorsement_controversy",
+  "angle": "Athlete faces backlash for endorsing controversial product, raising questions about moral clauses.",
+  "country": "Philippines",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2150",
+  "domain": "sports",
+  "topic": "fan_attendance_record",
+  "angle": "Women's soccer match sets new attendance record, highlighting growth of the women's game.",
+  "country": "Ghana",
+  "tense": "past",
+  "n": 5
+ }
+]
