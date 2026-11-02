@@ -1,0 +1,171 @@
+{
+ "best_val_score": 0.1624,
+ "best_at": "full/3",
+ "test": {
+  "loss": 0.9067180428434821,
+  "dim1_f1": 0.3269,
+  "dim2_f1": 0.0,
+  "score": 0.1635,
+  "slices": {
+   "dup|A|A|val": {
+    "n": 6238,
+    "dim1_acc": 0.8894,
+    "dim2_acc": 1.0
+   },
+   "dup|A|B|own": {
+    "n": 1593,
+    "dim1_acc": 0.8029,
+    "dim2_acc": 1.0
+   },
+   "dup|A|B|trans": {
+    "n": 6376,
+    "dim1_acc": 0.329,
+    "dim2_acc": 0.9802
+   },
+   "dup|A|C|val": {
+    "n": 7949,
+    "dim1_acc": 0.8045,
+    "dim2_acc": 1.0
+   },
+   "dup|B|A|val": {
+    "n": 6276,
+    "dim1_acc": 0.8107,
+    "dim2_acc": 1.0
+   },
+   "dup|B|Bf|trans": {
+    "n": 6324,
+    "dim1_acc": 0.2467,
+    "dim2_acc": 1.0
+   },
+   "dup|B|X|val": {
+    "n": 7476,
+    "dim1_acc": 0.9494,
+    "dim2_acc": 1.0
+   },
+   "dup|C|Bf|trans": {
+    "n": 2628,
+    "dim1_acc": 0.9566,
+    "dim2_acc": 1.0
+   },
+   "dup|C|B|own": {
+    "n": 888,
+    "dim1_acc": 0.9662,
+    "dim2_acc": 1.0
+   },
+   "dup|C|B|trans": {
+    "n": 3792,
+    "dim1_acc": 0.9557,
+    "dim2_acc": 1.0
+   },
+   "dup|C|X|val": {
+    "n": 14906,
+    "dim1_acc": 0.9477,
+    "dim2_acc": 1.0
+   },
+   "rumor|A|A|val": {
+    "n": 6882,
+    "dim1_acc": 0.9259,
+    "dim2_acc": 1.0
+   },
+   "rumor|A|B|own": {
+    "n": 1386,
+    "dim1_acc": 0.6797,
+    "dim2_acc": 1.0
+   },
+   "rumor|A|B|rumor_mirror": {
+    "n": 1716,
+    "dim1_acc": 0.2797,
+    "dim2_acc": 0.0
+   },
+   "rumor|A|B|rumor_plain": {
+    "n": 1440,
+    "dim1_acc": 0.3292,
+    "dim2_acc": 0.0
+   },
+   "rumor|A|B|trans": {
+    "n": 3828,
+    "dim1_acc": 0.3652,
+    "dim2_acc": 1.0
+   },
+   "rumor|A|C|c_mirror": {
+    "n": 1560,
+    "dim1_acc": 0.7846,
+    "dim2_acc": 0.9846
+   },
+   "rumor|A|C|val": {
+    "n": 7050,
+    "dim1_acc": 0.7949,
+    "dim2_acc": 0.9779
+   },
+   "rumor|B|A|val": {
+    "n": 6882,
+    "dim1_acc": 0.8448,
+    "dim2_acc": 1.0
+   },
+   "rumor|B|Bf|trans": {
+    "n": 6906,
+    "dim1_acc": 0.2163,
+    "dim2_acc": 1.0
+   },
+   "rumor|B|X|c_mirror": {
+    "n": 1188,
+    "dim1_acc": 1.0,
+    "dim2_acc": 1.0
+   },
+   "rumor|B|X|val": {
+    "n": 7068,
+    "dim1_acc": 0.9643,
+    "dim2_acc": 1.0
+   },
+   "rumor|C|Bf|trans": {
+    "n": 3588,
+    "dim1_acc": 0.9348,
+    "dim2_acc": 1.0
+   },
+   "rumor|C|B|own": {
+    "n": 732,
+    "dim1_acc": 0.8361,
+    "dim2_acc": 1.0
+   },
+   "rumor|C|B|rumor_mirror": {
+    "n": 864,
+    "dim1_acc": 1.0,
+    "dim2_acc": 1.0
+   },
+   "rumor|C|B|rumor_plain": {
+    "n": 696,
+    "dim1_acc": 0.6638,
+    "dim2_acc": 1.0
+   },
+   "rumor|C|B|trans": {
+    "n": 1908,
+    "dim1_acc": 0.7704,
+    "dim2_acc": 1.0
+   },
+   "rumor|C|X|c_mirror": {
+    "n": 1998,
+    "dim1_acc": 0.9369,
+    "dim2_acc": 1.0
+   },
+   "rumor|C|X|val": {
+    "n": 13698,
+    "dim1_acc": 0.8988,
+    "dim2_acc": 1.0
+   }
+  }
+ },
+ "args": {
+  "data": "p4_pairs",
+  "model": "/mnt/hdd4/models/research/NEWS-COPY-wire-clustering-na",
+  "out": "/mnt/hdd4/dujddx/tagged_crossdoc_p4_20261101",
+  "epochs": 5,
+  "warmup_epochs": 1,
+  "batch": 8,
+  "lr_enc": 1e-05,
+  "lr_head": 0.0001,
+  "wd": 0.01,
+  "seed": 42,
+  "limit": 0
+ },
+ "seconds": 530.3
+}

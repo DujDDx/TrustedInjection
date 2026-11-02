@@ -16,7 +16,7 @@ Audit is deterministic (v1.1 §6.3 + v1.2 §2.1). A failed document is retried w
 seed only, up to 6 times; the prompt is never amended, so the four roles stay identical.
 If A fails 6 times the whole (event, branch) is dropped and the reason recorded.
 
-    python3 gen_docs.py --events events_pilot.jsonl --out docs.jsonl [--limit 2]
+    python3 gen_docs.py --events events_pilot.jsonl --out docs.jsonl [--limit 2] [--resume]
 Environment: TI_BASE (default http://127.0.0.1:8818), TI_MODEL.
 """
 import hashlib
@@ -130,11 +130,21 @@ def main():
     print(f"{len(events)} events x 2 branches x 4 documents; prompt_sha="
           f"{hashlib.sha256(PROMPT.encode()).hexdigest()[:16]}")
 
+    # --resume: keep what is already in --out and skip those (event, branch) pairs, so a
+    # crash hours into the 3,200-document run does not start it over. Seeds are derived
+    # from the event id, so a resumed branch draws exactly what a fresh run would.
+    resume = "--resume" in a and os.path.exists(out)
+    done = set()
+    if resume:
+        done = {(r["event_id"], r["branch"]) for r in map(json.loads, open(out)) if r}
+        print(f"resume: {len(done)} branches already in {out}")
     stats = {"ok": 0, "fail": 0, "dropped": 0, "retried": 0}
-    with open(out, "w") as fo:
+    with open(out, "a" if resume else "w") as fo:
         for ev in events:
             ftxt = {f["id"]: f["text"] for f in ev["facts"]}
             for branch in ("dup", "rumor"):
+                if (ev["event_id"], branch) in done:
+                    continue
                 rng = random.Random(f"{ev['event_id']}-{branch}")
                 a_ids, c_ids, b_only = plan(ev, rng)
                 base = zlib.crc32(f"{ev['event_id']}-{branch}".encode()) % 90000 + offset
