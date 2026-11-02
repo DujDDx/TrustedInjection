@@ -1,0 +1,452 @@
+[
+ {
+  "event_id": "E2151",
+  "domain": "public_policy",
+  "topic": "budget_deficit_reconciliation",
+  "angle": "Council finance chiefs publish an emergency reconciliation showing how a previously balanced budget opened a multimillion-pound hole.",
+  "country": "Australia",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2152",
+  "domain": "public_policy",
+  "topic": "statutory_instrument_consultation",
+  "angle": "A regulator opens consultation on a draft statutory instrument that would tighten reporting duties on firms.",
+  "country": "South Africa",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2153",
+  "domain": "public_policy",
+  "topic": "high_court_judicial_review",
+  "angle": "A claimant wins permission for judicial review of a government decision taken without the required assessment.",
+  "country": "Spain",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2154",
+  "domain": "public_policy",
+  "topic": "prime_minister_reshuffle",
+  "angle": "A cabinet reshuffle moves a minister from transport to housing, signalling a shift in policy priorities.",
+  "country": "Italy",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2155",
+  "domain": "public_policy",
+  "topic": "local_plan_adoption",
+  "angle": "A council adopts its long-contested local plan, setting new housing targets for the next fifteen years.",
+  "country": "Netherlands",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2156",
+  "domain": "public_policy",
+  "topic": "planning_appeal_inquiry",
+  "angle": "A public inquiry opens into an appeal against refusal of permission for a large mixed-use development.",
+  "country": "Poland",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2157",
+  "domain": "public_policy",
+  "topic": "council_tax_referendum",
+  "angle": "A council seeks a referendum after proposing an increase above the government's threshold.",
+  "country": "Turkey",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2158",
+  "domain": "public_policy",
+  "topic": "election_recount_challenge",
+  "angle": "A defeated candidate petitions for a recount and legal challenge over ballot handling in a marginal ward.",
+  "country": "Egypt",
+  "tense": "future",
+  "n": 6
+ },
+ {
+  "event_id": "E2159",
+  "domain": "public_policy",
+  "topic": "by_election_snap_poll",
+  "angle": "Polls close in a by-election triggered by a sitting member's resignation, with a knife-edge result forecast.",
+  "country": "South Korea",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2160",
+  "domain": "public_policy",
+  "topic": "regulator_enforcement_notice",
+  "angle": "A watchdog issues an enforcement notice ordering a utility to remedy repeated compliance failures.",
+  "country": "Vietnam",
+  "tense": "future",
+  "n": 6
+ },
+ {
+  "event_id": "E2161",
+  "domain": "public_policy",
+  "topic": "court_sentencing_guideline",
+  "angle": "The sentencing council publishes a revised guideline affecting how courts handle a common offence.",
+  "country": "Argentina",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2162",
+  "domain": "public_policy",
+  "topic": "transport_franchise_award",
+  "angle": "A franchising authority announces the winning bidder for a regional rail contract after a long procurement.",
+  "country": "Chile",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2163",
+  "domain": "public_policy",
+  "topic": "bus_network_redesign",
+  "angle": "A transport authority consults on a wholesale redesign of bus routes and frequency in a city region.",
+  "country": "Sweden",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2164",
+  "domain": "public_policy",
+  "topic": "hospital_trust_financial_special_measures",
+  "angle": "A hospital trust is placed in special measures after regulators find serious financial and quality failures.",
+  "country": "Norway",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2165",
+  "domain": "public_policy",
+  "topic": "school_place_crisis",
+  "angle": "Education officials warn of a shortfall in secondary school places and set out emergency accommodation plans.",
+  "country": "Philippines",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2166",
+  "domain": "public_policy",
+  "topic": "rent_control_legislation",
+  "angle": "A devolved government introduces a bill to cap rent increases and strengthen tenants' rights.",
+  "country": "Ghana",
+  "tense": "future",
+  "n": 6
+ },
+ {
+  "event_id": "E2167",
+  "domain": "public_policy",
+  "topic": "social_housing_inspection",
+  "angle": "A regulator publishes the findings of an inspection into damp and fire-safety failures in social housing.",
+  "country": "New Zealand",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2168",
+  "domain": "public_policy",
+  "topic": "infrastructure_planning_consent",
+  "angle": "Ministers grant development consent for a major energy project after a lengthy examination.",
+  "country": "Ireland",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2169",
+  "domain": "public_policy",
+  "topic": "tax_avoidance_tribunal",
+  "angle": "A tax tribunal rules on a scheme used by a large employer to reduce national insurance liabilities.",
+  "country": "United Kingdom",
+  "tense": "future",
+  "n": 6
+ },
+ {
+  "event_id": "E2170",
+  "domain": "public_policy",
+  "topic": "procurement_contract_challenge",
+  "angle": "A losing bidder launches a legal challenge to a public contract award over scoring irregularities.",
+  "country": "United States",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2171",
+  "domain": "public_policy",
+  "topic": "electoral_boundary_review",
+  "angle": "A boundary commission publishes final recommendations redrawing parliamentary constituencies.",
+  "country": "India",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2172",
+  "domain": "public_policy",
+  "topic": "police_and_crime_commissioner_budget",
+  "angle": "A police commissioner clashes with a council over the precept and force budget.",
+  "country": "Nigeria",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2173",
+  "domain": "public_policy",
+  "topic": "data_protection_fine",
+  "angle": "A privacy regulator fines a public body over a data breach affecting thousands of residents.",
+  "country": "Brazil",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2174",
+  "domain": "public_policy",
+  "topic": "environmental_permit_variation",
+  "angle": "An environmental regulator consults on varying an industrial permit after repeated odour complaints.",
+  "country": "Japan",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2175",
+  "domain": "public_policy",
+  "topic": "waste_collection_strike_negotiation",
+  "angle": "Council leaders and unions enter last-minute talks to avert a waste collection strike.",
+  "country": "Germany",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2176",
+  "domain": "public_policy",
+  "topic": "flood_defence_funding_settlement",
+  "angle": "Government announces a funding settlement for flood defences, with a list of schemes deferred.",
+  "country": "France",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2177",
+  "domain": "public_policy",
+  "topic": "childcare_provider_closure",
+  "angle": "Ofsted-style inspectors report on a wave of nursery closures and the effect on sufficiency of places.",
+  "country": "Kenya",
+  "tense": "future",
+  "n": 6
+ },
+ {
+  "event_id": "E2178",
+  "domain": "public_policy",
+  "topic": "immigration_rule_change",
+  "angle": "The Home Office lays new immigration rules before Parliament changing eligibility for a visa route.",
+  "country": "Mexico",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2179",
+  "domain": "public_policy",
+  "topic": "asylum_accommodation_planning_dispute",
+  "angle": "A council mounts a planning challenge against the use of a site for asylum accommodation.",
+  "country": "Indonesia",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2180",
+  "domain": "public_policy",
+  "topic": "prison_overcrowding_emergency",
+  "angle": "Justice officials activate emergency measures as the prison population nears operational capacity.",
+  "country": "Canada",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2181",
+  "domain": "public_policy",
+  "topic": "parliamentary_committee_report",
+  "angle": "A select committee publishes a critical report on the delivery of a flagship policy programme.",
+  "country": "Australia",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2182",
+  "domain": "public_policy",
+  "topic": "public_inquiry_findings",
+  "angle": "A statutory inquiry publishes its findings into a historical institutional failure and recommends reforms.",
+  "country": "South Africa",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2183",
+  "domain": "public_policy",
+  "topic": "tender_collusion_investigation",
+  "angle": "A competition authority opens an investigation into suspected bid-rigging on public contracts.",
+  "country": "Spain",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2184",
+  "domain": "public_policy",
+  "topic": "council_asset_sale_decision",
+  "angle": "A council cabinet approves the sale of a landmark publicly owned site to balance its capital programme.",
+  "country": "Italy",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2185",
+  "domain": "public_policy",
+  "topic": "wind_farm_repowering_application",
+  "angle": "A developer submits a repowering application for an ageing wind farm, triggering local objections.",
+  "country": "Netherlands",
+  "tense": "future",
+  "n": 6
+ },
+ {
+  "event_id": "E2186",
+  "domain": "public_policy",
+  "topic": "road_pricing_pilot",
+  "angle": "A combined authority proposes a road-user charging pilot and launches a statutory consultation.",
+  "country": "Poland",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2187",
+  "domain": "public_policy",
+  "topic": "library_service_restructure",
+  "angle": "A council votes on closing branches and replacing them with a reduced mobile library service.",
+  "country": "Turkey",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2188",
+  "domain": "public_policy",
+  "topic": "pension_fund_divestment_vote",
+  "angle": "A local government pension committee votes on divesting from fossil fuel holdings.",
+  "country": "Egypt",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2189",
+  "domain": "public_policy",
+  "topic": "devolution_deal_negotiation",
+  "angle": "A region negotiates a devolution deal with central government over new powers and funding.",
+  "country": "South Korea",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2190",
+  "domain": "public_policy",
+  "topic": "building_safety_remediation_order",
+  "angle": "A regulator issues a remediation order to a building owner over unsafe cladding.",
+  "country": "Vietnam",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2191",
+  "domain": "public_policy",
+  "topic": "electoral_commission_investigation",
+  "angle": "The elections watchdog opens an investigation into a party's donation reporting.",
+  "country": "Argentina",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2192",
+  "domain": "public_policy",
+  "topic": "legal_aid_means_test_reform",
+  "angle": "The justice ministry consults on reforming the means test for legal aid eligibility.",
+  "country": "Chile",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2193",
+  "domain": "public_policy",
+  "topic": "council_company_insolvency",
+  "angle": "A council-owned trading company enters insolvency, prompting scrutiny of governance and lending.",
+  "country": "Sweden",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2194",
+  "domain": "public_policy",
+  "topic": "green_belt_release_decision",
+  "angle": "A planning inspector rules on releasing green belt land for a housing allocation.",
+  "country": "Norway",
+  "tense": "future",
+  "n": 6
+ },
+ {
+  "event_id": "E2195",
+  "domain": "public_policy",
+  "topic": "water_company_performance_review",
+  "angle": "The water regulator publishes a performance review and sets out required investment and bill impacts.",
+  "country": "Philippines",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2196",
+  "domain": "public_policy",
+  "topic": "metro_mayor_transport_levy",
+  "angle": "A metro mayor announces a levy increase to fund transport investment, drawing business opposition.",
+  "country": "Ghana",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2197",
+  "domain": "public_policy",
+  "topic": "census_based_funding_formula",
+  "angle": "Ministers publish a revised funding formula using updated population data, shifting money between areas.",
+  "country": "New Zealand",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2198",
+  "domain": "public_policy",
+  "topic": "court_backlog_recovery_plan",
+  "angle": "The courts service sets out a recovery plan to tackle a backlog of criminal cases.",
+  "country": "Ireland",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2199",
+  "domain": "public_policy",
+  "topic": "public_sector_pay_award_dispute",
+  "angle": "A pay review body recommends an award above the government's stated affordability, sparking a dispute.",
+  "country": "United Kingdom",
+  "tense": "future",
+  "n": 6
+ },
+ {
+  "event_id": "E2200",
+  "domain": "public_policy",
+  "topic": "referendum_campaign_finance_ruling",
+  "angle": "An electoral commission rules on spending returns from a referendum campaign.",
+  "country": "United States",
+  "tense": "past",
+  "n": 6
+ }
+]

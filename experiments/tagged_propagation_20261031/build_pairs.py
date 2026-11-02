@@ -33,6 +33,21 @@ MAXLEN = 160
 ART = re.compile(r"(?i)\b(a|an)\s+$")
 
 
+def article_for(val):
+    """'a' or 'an' by the sound of the value, not its first letter: an 8m, an 11,000,
+    an 18-month, a 110; a university, a one-off, an hour."""
+    m = re.match(r"\d+", val)
+    if m:
+        lead = m.group()
+        return "an" if lead[0] == "8" or lead in ("11", "18") else "a"
+    w = val.lower()
+    if w.startswith(("uni", "use", "usu", "uti", "eu", "one", "once")):
+        return "a"
+    if w.startswith(("hour", "honest", "honour", "heir")):
+        return "an"
+    return "an" if w[:1] in "aeiou" else "a"
+
+
 def fill(text, values):
     """Replace every <Tag> with values[tag]. Returns (filled_text, spans).
 
@@ -46,8 +61,10 @@ def fill(text, values):
         val = values[tag]
         mm = ART.search(s)
         if mm:
-            want = "an" if val[0].lower() in "aeiou" else "a"
-            if mm.group(1).lower() != want:
+            want = article_for(val)
+            if mm.group(1).isupper() or mm.group(1)[0].isupper():
+                want = want.capitalize()
+            if mm.group(1) != want:
                 s = s[:mm.start(1)] + want + s[mm.end(1):]
         start = len(s)
         s += val

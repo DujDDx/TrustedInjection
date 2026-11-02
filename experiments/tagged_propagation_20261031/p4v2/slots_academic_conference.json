@@ -1,0 +1,452 @@
+[
+ {
+  "event_id": "E2001",
+  "domain": "academic_conference",
+  "topic": "keynote_speaker_withdraws",
+  "angle": "A high-profile keynote speaker pulls out days before the event, forcing organizers to scramble for a replacement and attendees to question the program.",
+  "country": "United Kingdom",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2002",
+  "domain": "academic_conference",
+  "topic": "record_submission_surge",
+  "angle": "The program committee reports an unprecedented number of submissions, straining reviewer capacity and pushing acceptance rates to a new low.",
+  "country": "United States",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2003",
+  "domain": "academic_conference",
+  "topic": "paper_retraction_after_acceptance",
+  "angle": "An accepted paper is retracted when co-authors discover a fatal flaw in the results, raising questions about the review process.",
+  "country": "India",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2004",
+  "domain": "academic_conference",
+  "topic": "visa_denials_block_delegates",
+  "angle": "A large cohort of international presenters is denied visas, leaving empty slots in the program and sparking debate about host-country policies.",
+  "country": "Nigeria",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2005",
+  "domain": "academic_conference",
+  "topic": "venue_cancels_last_minute",
+  "angle": "The conference hotel cancels the booking weeks out, forcing organizers to relocate the entire event on short notice.",
+  "country": "Brazil",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2006",
+  "domain": "academic_conference",
+  "topic": "registration_system_crash",
+  "angle": "The online registration platform collapses on the early-bird deadline, leaving thousands unable to pay and organizers fielding angry emails.",
+  "country": "Japan",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2007",
+  "domain": "academic_conference",
+  "topic": "protest_disrupts_plenary",
+  "angle": "Climate activists stage a sit-in during a plenary talk, halting proceedings and prompting a debate about protest at scholarly gatherings.",
+  "country": "Germany",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2008",
+  "domain": "academic_conference",
+  "topic": "ai_generated_paper_scandal",
+  "angle": "Reviewers accept a paper later revealed to be almost entirely machine-generated, triggering a reckoning over submission screening.",
+  "country": "France",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2009",
+  "domain": "academic_conference",
+  "topic": "best_paper_award_controversy",
+  "angle": "The best paper award goes to a controversial study, and the resulting backlash forces the steering committee to defend its selection.",
+  "country": "Kenya",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2010",
+  "domain": "academic_conference",
+  "topic": "childcare_provision_debate",
+  "angle": "Organizers announce on-site childcare for the first time, prompting discussion about accessibility and the cost to registration fees.",
+  "country": "Mexico",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2011",
+  "domain": "academic_conference",
+  "topic": "hybrid_format_failure",
+  "angle": "The promised hybrid setup fails mid-conference, leaving remote attendees unable to participate and raising questions about equity.",
+  "country": "Indonesia",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2012",
+  "domain": "academic_conference",
+  "topic": "harassment_incident_policy",
+  "angle": "An incident at a social event tests the conference's new code of conduct, and the organizers' response becomes the talk of the halls.",
+  "country": "Canada",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2013",
+  "domain": "academic_conference",
+  "topic": "student_travel_grant_cuts",
+  "angle": "Funding cuts slash the travel grant budget, and early-career researchers protest that participation is becoming a privilege of the wealthy.",
+  "country": "Australia",
+  "tense": "future",
+  "n": 6
+ },
+ {
+  "event_id": "E2014",
+  "domain": "academic_conference",
+  "topic": "proceedings_published_late",
+  "angle": "The conference proceedings appear eight months after the event, frustrating authors who needed the citation for their own deadlines.",
+  "country": "South Africa",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2015",
+  "domain": "academic_conference",
+  "topic": "reviewer_burnout_crisis",
+  "angle": "A survey reveals reviewers are declining at record rates, and the committee debates abandoning double-blind review to cope.",
+  "country": "Spain",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2016",
+  "domain": "academic_conference",
+  "topic": "plagiarism_discovered_preprint",
+  "angle": "A sharp-eyed attendee spots a poster that duplicates a previously published figure, prompting an on-site investigation.",
+  "country": "Italy",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2017",
+  "domain": "academic_conference",
+  "topic": "industry_sponsor_influence",
+  "angle": "A major corporate sponsor is accused of shaping the program, reigniting debate about industry money in academic meetings.",
+  "country": "Netherlands",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2018",
+  "domain": "academic_conference",
+  "topic": "diversity_numbers_stall",
+  "angle": "Despite new initiatives, the conference's diversity statistics barely move, and organizers face tough questions from the community.",
+  "country": "Poland",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2019",
+  "domain": "academic_conference",
+  "topic": "carbon_offset_pledge",
+  "angle": "The organizing committee pledges to offset the conference's travel emissions, and attendees debate whether the gesture is meaningful.",
+  "country": "Turkey",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2020",
+  "domain": "academic_conference",
+  "topic": "stampede_at_poster_session",
+  "angle": "Overcrowding at the poster session leads to complaints about venue sizing and a scramble to redesign next year's layout.",
+  "country": "Egypt",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2021",
+  "domain": "academic_conference",
+  "topic": "award_nomination_leak",
+  "angle": "Internal emails about fellow nominations leak before the announcement, embarrassing the awards committee and reigniting transparency debates.",
+  "country": "South Korea",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2022",
+  "domain": "academic_conference",
+  "topic": "satellite_event_overshadows_main",
+  "angle": "A fringe workshop held alongside the main conference draws bigger crowds than the keynote, prompting soul-searching about the program.",
+  "country": "Vietnam",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2023",
+  "domain": "academic_conference",
+  "topic": "language_barrier_complaints",
+  "angle": "Non-native speakers complain that rapid-fire Q&A excludes them, and organizers pilot a new moderated discussion format.",
+  "country": "Argentina",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2024",
+  "domain": "academic_conference",
+  "topic": "catering_scandal",
+  "angle": "Attendees fall ill after a conference dinner, and the venue's food safety record becomes a cautionary tale for planners.",
+  "country": "Chile",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2025",
+  "domain": "academic_conference",
+  "topic": "digital_proceedings_privacy",
+  "angle": "Authors discover their rejected submissions remain visible in an improperly configured repository, raising a privacy outcry.",
+  "country": "Sweden",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2026",
+  "domain": "academic_conference",
+  "topic": "steering_committee_election",
+  "angle": "A contested election for the steering committee turns nasty, with candidates trading accusations over mailing-list campaigning.",
+  "country": "Norway",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2027",
+  "domain": "academic_conference",
+  "topic": "emerging_topic_surge",
+  "angle": "A single hot research area dominates half the accepted papers, and attendees worry the conference is losing disciplinary breadth.",
+  "country": "Philippines",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2028",
+  "domain": "academic_conference",
+  "topic": "accessibility_lawsuit_threat",
+  "angle": "Advocates warn the venue's inaccessible facilities could invite legal action, forcing a last-minute audit and accommodations.",
+  "country": "Ghana",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2029",
+  "domain": "academic_conference",
+  "topic": "press_coverage_misquote",
+  "angle": "A journalist misquotes a plenary speaker in a widely shared article, and the conference's press office scrambles to correct the record.",
+  "country": "New Zealand",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2030",
+  "domain": "academic_conference",
+  "topic": "registration_fee_hike_backlash",
+  "angle": "Organizers raise fees sharply to cover rising costs, and the community pushes back over affordability for junior scholars.",
+  "country": "Ireland",
+  "tense": "future",
+  "n": 6
+ },
+ {
+  "event_id": "E2031",
+  "domain": "academic_conference",
+  "topic": "time_zone_scheduling_friction",
+  "angle": "A global virtual conference schedules sessions that exclude Asia-Pacific attendees, sparking complaints and a revised timetable.",
+  "country": "United Kingdom",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2032",
+  "domain": "academic_conference",
+  "topic": "mentoring_program_launch",
+  "angle": "A new pairing scheme connects first-time attendees with senior mentors, and early feedback suggests it boosts retention.",
+  "country": "United States",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2033",
+  "domain": "academic_conference",
+  "topic": "proceedings_indexing_dispute",
+  "angle": "A dispute over which database will index the proceedings delays publication and threatens authors' citation prospects.",
+  "country": "India",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2034",
+  "domain": "academic_conference",
+  "topic": "malware_in_conference_app",
+  "angle": "The official conference app is found to contain malicious code, forcing an emergency takedown and an apology to attendees.",
+  "country": "Nigeria",
+  "tense": "future",
+  "n": 6
+ },
+ {
+  "event_id": "E2035",
+  "domain": "academic_conference",
+  "topic": "session_chair_absenteeism",
+  "angle": "Multiple session chairs fail to show, leaving talks unruly and prompting calls for a formal chairing contract.",
+  "country": "Brazil",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2036",
+  "domain": "academic_conference",
+  "topic": "travel_chaos_strands_delegates",
+  "angle": "A transport strike strands delegates en route, and organizers livestream sessions to accommodate those who cannot arrive.",
+  "country": "Japan",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2037",
+  "domain": "academic_conference",
+  "topic": "gender_balance_panel_backlash",
+  "angle": "A all-male plenary panel photo goes viral, triggering an apology and a commitment to balanced lineups.",
+  "country": "Germany",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2038",
+  "domain": "academic_conference",
+  "topic": "open_access_mandate_clash",
+  "angle": "A funder's new open-access mandate conflicts with the proceedings publisher's terms, leaving authors caught in the middle.",
+  "country": "France",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2039",
+  "domain": "academic_conference",
+  "topic": "student_volunteer_exploitation",
+  "angle": "Student volunteers complain they are doing unpaid labor for hours in exchange for a waived fee, sparking a fairness debate.",
+  "country": "Kenya",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2040",
+  "domain": "academic_conference",
+  "topic": "viral_talk_video",
+  "angle": "A single conference talk racks up millions of views online, making its speaker an overnight celebrity and reshaping next year's marketing.",
+  "country": "Mexico",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2041",
+  "domain": "academic_conference",
+  "topic": "security_breach_badge_data",
+  "angle": "Attendee badge data is exposed in a security lapse, prompting an emergency notification and a review of the registration vendor.",
+  "country": "Indonesia",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2042",
+  "domain": "academic_conference",
+  "topic": "replication_track_debut",
+  "angle": "The conference launches a dedicated replication track, and the first crop of submissions reignites debates about publishing negative results.",
+  "country": "Canada",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2043",
+  "domain": "academic_conference",
+  "topic": "venue_overbooked",
+  "angle": "A double-booking forces two parallel sessions into one room, and attendees must choose between talks they came to see.",
+  "country": "Australia",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2044",
+  "domain": "academic_conference",
+  "topic": "cancellation_climate_event",
+  "angle": "Extreme weather forces evacuation of the venue mid-conference, testing the organizers' emergency plans and refund policies.",
+  "country": "South Africa",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2045",
+  "domain": "academic_conference",
+  "topic": "proceedings_embargo_conflict",
+  "angle": "A presenter's talk conflicts with a journal embargo, and the ensuing dispute highlights the tension between conferences and publishers.",
+  "country": "Spain",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2046",
+  "domain": "academic_conference",
+  "topic": "committee_conflict_of_interest",
+  "angle": "A program chair is found to have accepted papers from their own institution, prompting new conflict-of-interest rules.",
+  "country": "Italy",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2047",
+  "domain": "academic_conference",
+  "topic": "virtual_poster_novelty",
+  "angle": "Organizers experiment with interactive virtual posters, and attendees debate whether the format improves or degrades scientific exchange.",
+  "country": "Netherlands",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2048",
+  "domain": "academic_conference",
+  "topic": "travel_grant_recipient_followup",
+  "angle": "A follow-up study shows travel-grant recipients publish more afterward, giving organizers ammunition in their next fundraising pitch.",
+  "country": "Poland",
+  "tense": "future",
+  "n": 6
+ },
+ {
+  "event_id": "E2049",
+  "domain": "academic_conference",
+  "topic": "sign_interpreting_shortfall",
+  "angle": "Demand for sign-language interpretation outstrips supply, and deaf attendees describe being sidelined in discussions.",
+  "country": "Turkey",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2050",
+  "domain": "academic_conference",
+  "topic": "legacy_conference_rebrand",
+  "angle": "A decades-old conference rebrands and renames itself, and longtime attendees debate whether the identity is being lost.",
+  "country": "Egypt",
+  "tense": "future",
+  "n": 6
+ }
+]

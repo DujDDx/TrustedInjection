@@ -1,0 +1,400 @@
+{"event_id": "E2001", "issues": []}
+{"event_id": "E2002", "issues": []}
+{"event_id": "E2003", "issues": []}
+{"event_id": "E2004", "issues": [{"kind": "category", "where": "<University>", "detail": "University of Ibadan is a place/institution, not an agent (person or organisation)"}]}
+{"event_id": "E2005", "issues": [{"kind": "category", "where": "<University>", "detail": "University is an organisation, not an agent (person/organisation is allowed, but cat should be organisation; agent is person or organisation—actually acceptable)"}]}
+{"event_id": "E2006", "issues": []}
+{"event_id": "E2007", "issues": []}
+{"event_id": "E2008", "issues": []}
+{"event_id": "E2009", "issues": []}
+{"event_id": "E2010", "issues": []}
+{"event_id": "E2011", "issues": []}
+{"event_id": "E2012", "issues": []}
+{"event_id": "E2013", "issues": []}
+{"event_id": "E2014", "issues": []}
+{"event_id": "E2015", "issues": []}
+{"event_id": "E2016", "issues": []}
+{"event_id": "E2017", "issues": []}
+{"event_id": "E2018", "issues": []}
+{"event_id": "E2019", "issues": [{"kind": "category", "where": "<University>", "detail": "University is a place/institution, not an agent (person or organisation)"}, {"kind": "seed", "where": "f5", "detail": "Seed says debate is on the closing morning, not in a month; adding <Month> contradicts/alters seed"}]}
+{"event_id": "E2020", "issues": []}
+{"event_id": "E2021", "issues": []}
+{"event_id": "E2022", "issues": []}
+{"event_id": "E2023", "issues": []}
+{"event_id": "E2024", "issues": []}
+{"event_id": "E2025", "issues": [{"kind": "category", "where": "<University>", "detail": "Lund University is a place/institution, not an agent (person or organisation); cat should be place or name, not agent"}]}
+{"event_id": "E2026", "issues": []}
+{"event_id": "E2027", "issues": []}
+{"event_id": "E2028", "issues": []}
+{"event_id": "E2029", "issues": []}
+{"event_id": "E2030", "issues": []}
+{"event_id": "E2031", "issues": []}
+{"event_id": "E2032", "issues": []}
+{"event_id": "E2033", "issues": []}
+{"event_id": "E2034", "issues": []}
+{"event_id": "E2035", "issues": []}
+{"event_id": "E2036", "issues": []}
+{"event_id": "E2037", "issues": []}
+{"event_id": "E2038", "issues": []}
+{"event_id": "E2039", "issues": [{"kind": "category", "where": "<University>", "detail": "University of Nairobi is an organisation, not an agent (person)"}]}
+{"event_id": "E2040", "issues": [{"kind": "depends", "where": "f5", "detail": "<Speaker> refers to 'Zambrano'/'Cuevas' introduced only in f2 (<Person_A>); without f2 it is unclear who the speaker is."}, {"kind": "depends", "where": "f6", "detail": "The city Mérida is introduced in the seed as the new venue; but f6's <City> is only meaningful relative to the move mentioned in f4/seed—if f4 is absent, 'stream every session live from Mérida' lacks the relocation context. Actually the seed states the move, so this is fine."}]}
+{"event_id": "E2041", "issues": []}
+{"event_id": "E2042", "issues": []}
+{"event_id": "E2043", "issues": [{"kind": "seed", "where": "f5", "detail": "Seed says the symposium closes on 3 May; f5 adds 'after a shortened final programme', which the seed does not state."}]}
+{"event_id": "E2044", "issues": []}
+{"event_id": "E2045", "issues": []}
+{"event_id": "E2046", "issues": []}
+{"event_id": "E2047", "issues": []}
+{"event_id": "E2048", "issues": []}
+{"event_id": "E2049", "issues": []}
+{"event_id": "E2050", "issues": []}
+{"event_id": "E2051", "issues": []}
+{"event_id": "E2052", "issues": []}
+{"event_id": "E2053", "issues": []}
+{"event_id": "E2054", "issues": []}
+{"event_id": "E2055", "issues": []}
+{"event_id": "E2056", "issues": []}
+{"event_id": "E2057", "issues": []}
+{"event_id": "E2058", "issues": []}
+{"event_id": "E2059", "issues": []}
+{"event_id": "E2060", "issues": []}
+{"event_id": "E2061", "issues": []}
+{"event_id": "E2062", "issues": []}
+{"event_id": "E2063", "issues": [{"kind": "seed", "where": "f1", "detail": "Seed says price is above the 27 to 31 euro range, but 24 euros is below that range; contradiction."}, {"kind": "category", "where": "<Exchange>", "detail": "Euronext Amsterdam is a place/exchange, not an agent (person or organisation)."}]}
+{"event_id": "E2064", "issues": []}
+{"event_id": "E2065", "issues": []}
+{"event_id": "E2066", "issues": []}
+{"event_id": "E2067", "issues": [{"kind": "unparsed", "detail": "{\"issues\": [{\"kind\": \"category\", \"where\": \"<Retailer>\", \"detail\": \"Retailer is a department store chain (organisation), but cat is agent; agent should be person or organisation—actually organisation i"}]}
+{"event_id": "E2068", "issues": []}
+{"event_id": "E2069", "issues": []}
+{"event_id": "E2070", "issues": []}
+{"event_id": "E2071", "issues": []}
+{"event_id": "E2072", "issues": []}
+{"event_id": "E2073", "issues": []}
+{"event_id": "E2074", "issues": []}
+{"event_id": "E2075", "issues": []}
+{"event_id": "E2076", "issues": []}
+{"event_id": "E2077", "issues": []}
+{"event_id": "E2078", "issues": []}
+{"event_id": "E2079", "issues": []}
+{"event_id": "E2080", "issues": []}
+{"event_id": "E2081", "issues": []}
+{"event_id": "E2082", "issues": []}
+{"event_id": "E2083", "issues": [{"kind": "rumor_type", "where": "<Programme>", "detail": "truth/rumor are monetary amounts (2.1bn euro), not a programme name; substituting gives 'a 2.1bn euro sustainability programme' which is a quantity, not a name"}, {"kind": "grammar", "where": "<Programme>", "detail": "substituting '2.1bn euro' yields 'a 2.1bn euro sustainability programme' — the tag is meant as a name but the value is a quantity, producing a nonsensical name slot"}, {"kind": "seed", "where": "f1", "detail": "seed says the programme will be unveiled in Munich, but f1 places the unveiling in <City> (Munich) 'in spring' while seed specifies 9 April; also seed says board confirmed in Munich, f1 says unveil in Munich — the 'in spring' conflicts with the specific date 9 April"}, {"kind": "seed", "where": "f6", "detail": "seed says the board confirmed the announcement in Munich; f6 says the board confirmed the announcement on <Date> at its headquarters, adding a date for the confirmation not stated in seed"}]}
+{"event_id": "E2084", "issues": []}
+{"event_id": "E2085", "issues": []}
+{"event_id": "E2086", "issues": []}
+{"event_id": "E2087", "issues": []}
+{"event_id": "E2088", "issues": []}
+{"event_id": "E2089", "issues": []}
+{"event_id": "E2090", "issues": []}
+{"event_id": "E2091", "issues": []}
+{"event_id": "E2092", "issues": []}
+{"event_id": "E2093", "issues": []}
+{"event_id": "E2094", "issues": []}
+{"event_id": "E2095", "issues": []}
+{"event_id": "E2096", "issues": []}
+{"event_id": "E2097", "issues": []}
+{"event_id": "E2098", "issues": [{"kind": "seed", "where": "f5", "detail": "Seed says workers had been told the news at a meeting on Tuesday; f5 says they would hear the news, contradicting the seed."}]}
+{"event_id": "E2099", "issues": []}
+{"event_id": "E2100", "issues": []}
+{"event_id": "E2101", "issues": []}
+{"event_id": "E2102", "issues": []}
+{"event_id": "E2103", "issues": []}
+{"event_id": "E2104", "issues": []}
+{"event_id": "E2105", "issues": []}
+{"event_id": "E2106", "issues": []}
+{"event_id": "E2107", "issues": []}
+{"event_id": "E2108", "issues": []}
+{"event_id": "E2109", "issues": []}
+{"event_id": "E2110", "issues": []}
+{"event_id": "E2111", "issues": []}
+{"event_id": "E2112", "issues": []}
+{"event_id": "E2113", "issues": []}
+{"event_id": "E2114", "issues": []}
+{"event_id": "E2115", "issues": []}
+{"event_id": "E2116", "issues": []}
+{"event_id": "E2117", "issues": []}
+{"event_id": "E2118", "issues": []}
+{"event_id": "E2119", "issues": []}
+{"event_id": "E2120", "issues": []}
+{"event_id": "E2121", "issues": []}
+{"event_id": "E2122", "issues": [{"kind": "category", "where": "<League>", "detail": "cat is agent but value is an organisation/league, not a person or organisation acting as agent; should be name/place-like"}]}
+{"event_id": "E2123", "issues": []}
+{"event_id": "E2124", "issues": []}
+{"event_id": "E2125", "issues": []}
+{"event_id": "E2126", "issues": []}
+{"event_id": "E2127", "issues": []}
+{"event_id": "E2128", "issues": []}
+{"event_id": "E2129", "issues": []}
+{"event_id": "E2130", "issues": []}
+{"event_id": "E2131", "issues": []}
+{"event_id": "E2132", "issues": []}
+{"event_id": "E2133", "issues": []}
+{"event_id": "E2134", "issues": []}
+{"event_id": "E2135", "issues": [{"kind": "category", "where": "<Institute>", "detail": "Institute is an organisation/place, not an agent (person or organisation is allowed, but 'agent' cat is for person or organisation; institute is an organisation so arguably fine) — actually the issue is <Suburb> is a place but 'Manly' is a suburb, fine."}]}
+{"event_id": "E2136", "issues": []}
+{"event_id": "E2137", "issues": []}
+{"event_id": "E2138", "issues": []}
+{"event_id": "E2139", "issues": []}
+{"event_id": "E2140", "issues": []}
+{"event_id": "E2141", "issues": []}
+{"event_id": "E2142", "issues": []}
+{"event_id": "E2143", "issues": []}
+{"event_id": "E2144", "issues": []}
+{"event_id": "E2145", "issues": []}
+{"event_id": "E2146", "issues": [{"kind": "seed", "where": "f5", "detail": "Seed says the fine and education order were announced in Santiago; f5 places the education order in <City>, which is not stated in the seed."}]}
+{"event_id": "E2147", "issues": []}
+{"event_id": "E2148", "issues": [{"kind": "category", "where": "<OldCity>", "detail": "Lerkendal is a rink/arena, not a city/place name; cat 'place' is wrong"}]}
+{"event_id": "E2149", "issues": []}
+{"event_id": "E2150", "issues": [{"kind": "seed", "where": "f5", "detail": "Seed says league plans to expand to 18 teams next season, not on a specific date; f5 adds 'on <Date>' which the seed does not state."}]}
+{"event_id": "E2151", "issues": []}
+{"event_id": "E2152", "issues": []}
+{"event_id": "E2153", "issues": []}
+{"event_id": "E2154", "issues": []}
+{"event_id": "E2155", "issues": []}
+{"event_id": "E2156", "issues": []}
+{"event_id": "E2157", "issues": []}
+{"event_id": "E2158", "issues": []}
+{"event_id": "E2159", "issues": []}
+{"event_id": "E2160", "issues": []}
+{"event_id": "E2161", "issues": []}
+{"event_id": "E2162", "issues": []}
+{"event_id": "E2163", "issues": []}
+{"event_id": "E2164", "issues": []}
+{"event_id": "E2165", "issues": []}
+{"event_id": "E2166", "issues": []}
+{"event_id": "E2167", "issues": []}
+{"event_id": "E2168", "issues": []}
+{"event_id": "E2169", "issues": []}
+{"event_id": "E2170", "issues": []}
+{"event_id": "E2171", "issues": []}
+{"event_id": "E2172", "issues": []}
+{"event_id": "E2173", "issues": [{"kind": "grammar", "where": "f5", "detail": "Deadline '22 July' already contains the month, so substituting gives 'by 22 July in July' — doubled month."}]}
+{"event_id": "E2174", "issues": []}
+{"event_id": "E2175", "issues": []}
+{"event_id": "E2176", "issues": []}
+{"event_id": "E2177", "issues": []}
+{"event_id": "E2178", "issues": []}
+{"event_id": "E2179", "issues": []}
+{"event_id": "E2180", "issues": []}
+{"event_id": "E2181", "issues": []}
+{"event_id": "E2182", "issues": []}
+{"event_id": "E2183", "issues": []}
+{"event_id": "E2184", "issues": []}
+{"event_id": "E2185", "issues": []}
+{"event_id": "E2186", "issues": []}
+{"event_id": "E2187", "issues": []}
+{"event_id": "E2188", "issues": []}
+{"event_id": "E2189", "issues": []}
+{"event_id": "E2190", "issues": []}
+{"event_id": "E2191", "issues": []}
+{"event_id": "E2192", "issues": []}
+{"event_id": "E2193", "issues": []}
+{"event_id": "E2194", "issues": []}
+{"event_id": "E2195", "issues": []}
+{"event_id": "E2196", "issues": []}
+{"event_id": "E2197", "issues": []}
+{"event_id": "E2198", "issues": []}
+{"event_id": "E2199", "issues": []}
+{"event_id": "E2200", "issues": []}
+{"event_id": "E2201", "issues": []}
+{"event_id": "E2202", "issues": []}
+{"event_id": "E2203", "issues": []}
+{"event_id": "E2204", "issues": []}
+{"event_id": "E2205", "issues": []}
+{"event_id": "E2206", "issues": []}
+{"event_id": "E2207", "issues": []}
+{"event_id": "E2208", "issues": []}
+{"event_id": "E2209", "issues": []}
+{"event_id": "E2210", "issues": []}
+{"event_id": "E2211", "issues": [{"kind": "seed", "where": "f5", "detail": "Seed says samples catalogued over 26 days before release to outside labs; f5 says release on a specific date (14 March), which contradicts the seed's timeline and adds a release date not stated."}, {"kind": "rumor_type", "where": "<Day>", "detail": "Truth '14 March' is the capsule's parachute/recovery date, not a release date; substituting it makes f5 contradict the seed."}]}
+{"event_id": "E2212", "issues": []}
+{"event_id": "E2213", "issues": []}
+{"event_id": "E2214", "issues": []}
+{"event_id": "E2215", "issues": []}
+{"event_id": "E2216", "issues": []}
+{"event_id": "E2217", "issues": [{"kind": "seed", "where": "f6", "detail": "Seed says funding came from the Northern Science Trust; f6 says funding was 'confirmed in March by the Trust', which contradicts the seed's attribution of funding to the Trust."}]}
+{"event_id": "E2218", "issues": []}
+{"event_id": "E2219", "issues": [{"kind": "seed", "where": "f5", "detail": "Seed says the institute reported on Thursday; it does not say findings were presented in a month/day. 'Thursday' is a day, not a month, and the presentation claim is not in seed."}, {"kind": "rumor_type", "where": "<Month>", "detail": "Truth 'Thursday' is a day of week, not a month; tag cat date but fact says 'in <Month>' implying a month."}, {"kind": "grammar", "where": "f5", "detail": "Substituting 'Thursday' into 'presented in <Month>' gives 'presented in Thursday', which is ungrammatical (wrong preposition)."}]}
+{"event_id": "E2220", "issues": []}
+{"event_id": "E2221", "issues": []}
+{"event_id": "E2222", "issues": []}
+{"event_id": "E2223", "issues": []}
+{"event_id": "E2224", "issues": []}
+{"event_id": "E2225", "issues": []}
+{"event_id": "E2226", "issues": []}
+{"event_id": "E2227", "issues": []}
+{"event_id": "E2228", "issues": []}
+{"event_id": "E2229", "issues": []}
+{"event_id": "E2230", "issues": []}
+{"event_id": "E2231", "issues": []}
+{"event_id": "E2232", "issues": []}
+{"event_id": "E2233", "issues": []}
+{"event_id": "E2234", "issues": []}
+{"event_id": "E2235", "issues": []}
+{"event_id": "E2236", "issues": []}
+{"event_id": "E2237", "issues": []}
+{"event_id": "E2238", "issues": []}
+{"event_id": "E2239", "issues": []}
+{"event_id": "E2240", "issues": []}
+{"event_id": "E2241", "issues": []}
+{"event_id": "E2242", "issues": []}
+{"event_id": "E2243", "issues": [{"kind": "seed", "where": "f6", "detail": "Seed says sixteen applications were shortlisted and 24 rejected; f6 states 24 were shortlisted, contradicting the seed."}, {"kind": "rumor_type", "where": "<Applications>", "detail": "Rumor value 16 is a quantity like the truth 24, but swapping changes the shortlisted count to the rejected count, contradicting the seed's numbers."}]}
+{"event_id": "E2244", "issues": []}
+{"event_id": "E2245", "issues": []}
+{"event_id": "E2246", "issues": []}
+{"event_id": "E2247", "issues": []}
+{"event_id": "E2248", "issues": []}
+{"event_id": "E2249", "issues": []}
+{"event_id": "E2250", "issues": [{"kind": "rumor_type", "where": "<Month>", "detail": "truth 'autumn' is a season, not a month/date; rumor 'spring' likewise a season"}]}
+{"event_id": "E2251", "issues": []}
+{"event_id": "E2252", "issues": []}
+{"event_id": "E2253", "issues": []}
+{"event_id": "E2254", "issues": []}
+{"event_id": "E2255", "issues": []}
+{"event_id": "E2256", "issues": []}
+{"event_id": "E2257", "issues": [{"kind": "seed", "where": "f5", "detail": "Seed says spill was solvent from tank cars, not into a drainage canal; canal detail not in seed."}, {"kind": "depends", "where": "f5", "detail": "Refers to 'the spill' but no other fact introduces a spill except f1's derailment; 'two ruptured tank cars' is introduced only here, and 'the spill' depends on that."}]}
+{"event_id": "E2258", "issues": []}
+{"event_id": "E2259", "issues": []}
+{"event_id": "E2260", "issues": [{"kind": "seed", "where": "f3", "detail": "Seed says skimming vessels would arrive within 12 hours, not 'by October' (a month)."}]}
+{"event_id": "E2261", "issues": []}
+{"event_id": "E2262", "issues": [{"kind": "seed", "where": "f3", "detail": "Seed says a magnitude 6.1 tremor struck in the afternoon; f3 calls it an aftershock, contradicting the seed."}]}
+{"event_id": "E2263", "issues": []}
+{"event_id": "E2264", "issues": []}
+{"event_id": "E2265", "issues": []}
+{"event_id": "E2266", "issues": []}
+{"event_id": "E2267", "issues": [{"kind": "category", "where": "<Mine>", "detail": "cat is agent but the value is a place (colliery), not a person or organisation"}]}
+{"event_id": "E2268", "issues": []}
+{"event_id": "E2269", "issues": []}
+{"event_id": "E2270", "issues": []}
+{"event_id": "E2271", "issues": []}
+{"event_id": "E2272", "issues": [{"kind": "seed", "where": "f5", "detail": "Seed says highway reopened late on 9 January, but blizzard closed it on 14 January; reopening on 9 January contradicts the seed timeline."}]}
+{"event_id": "E2273", "issues": [{"kind": "rumor_type", "where": "<Month>", "detail": "truth 'Friday' is a day of the week, not a month; rumor 'Thursday' is also a day, mismatched with the tag name/category expectation"}]}
+{"event_id": "E2274", "issues": []}
+{"event_id": "E2275", "issues": []}
+{"event_id": "E2276", "issues": []}
+{"event_id": "E2277", "issues": []}
+{"event_id": "E2278", "issues": []}
+{"event_id": "E2279", "issues": [{"kind": "category", "where": "<Plant>", "detail": "A plant is a place/facility, not an agent (person or organisation)."}]}
+{"event_id": "E2280", "issues": []}
+{"event_id": "E2281", "issues": []}
+{"event_id": "E2282", "issues": []}
+{"event_id": "E2283", "issues": []}
+{"event_id": "E2284", "issues": []}
+{"event_id": "E2285", "issues": []}
+{"event_id": "E2286", "issues": []}
+{"event_id": "E2287", "issues": []}
+{"event_id": "E2288", "issues": [{"kind": "seed", "where": "f3", "detail": "Seed says the exercise assumed a wave could reach shore in 31 minutes; f3 attributes this assumption to officials, not stated in seed."}]}
+{"event_id": "E2289", "issues": []}
+{"event_id": "E2290", "issues": []}
+{"event_id": "E2291", "issues": []}
+{"event_id": "E2292", "issues": []}
+{"event_id": "E2293", "issues": []}
+{"event_id": "E2294", "issues": []}
+{"event_id": "E2295", "issues": []}
+{"event_id": "E2296", "issues": [{"kind": "category", "where": "<Airport>", "detail": "Airport is a place/facility, not an agent (person or organisation)"}]}
+{"event_id": "E2297", "issues": []}
+{"event_id": "E2298", "issues": []}
+{"event_id": "E2299", "issues": []}
+{"event_id": "E2300", "issues": []}
+{"event_id": "E2301", "issues": []}
+{"event_id": "E2302", "issues": []}
+{"event_id": "E2303", "issues": []}
+{"event_id": "E2304", "issues": []}
+{"event_id": "E2305", "issues": []}
+{"event_id": "E2306", "issues": []}
+{"event_id": "E2307", "issues": []}
+{"event_id": "E2308", "issues": []}
+{"event_id": "E2309", "issues": []}
+{"event_id": "E2310", "issues": []}
+{"event_id": "E2311", "issues": []}
+{"event_id": "E2312", "issues": []}
+{"event_id": "E2313", "issues": []}
+{"event_id": "E2314", "issues": [{"kind": "category", "where": "<School>", "detail": "Lycée Jean Moulin is a named institution, not an agent (person/organisation); cat should be name/place, not agent"}]}
+{"event_id": "E2315", "issues": []}
+{"event_id": "E2316", "issues": []}
+{"event_id": "E2317", "issues": []}
+{"event_id": "E2318", "issues": [{"kind": "seed", "where": "f2", "detail": "Seed says the review will be led from Winnipeg? Actually seed says announced in Winnipeg; f2 says lead the review from Winnipeg, which the seed does not state."}, {"kind": "seed", "where": "f5", "detail": "Seed says the council will publish the reform plan, not the executive director."}]}
+{"event_id": "E2319", "issues": []}
+{"event_id": "E2320", "issues": []}
+{"event_id": "E2321", "issues": [{"kind": "grammar", "where": "f5", "detail": "Substituting <Month_A>='September' and <Day>='19 September' yields 'from September to 19 September', which is redundant/nonsensical; the month and day overlap."}]}
+{"event_id": "E2322", "issues": [{"kind": "seed", "where": "f2", "detail": "Seed says the protagonist stared at a locked door, not that this happened in a setting/city; the original's ending location is not stated in seed."}, {"kind": "seed", "where": "f3", "detail": "Seed says the press conference was in Turin, but <City> truth is Bologna."}, {"kind": "seed", "where": "f4", "detail": "Seed says shooting begins in Bologna, but <ShootCity> truth is Naples."}]}
+{"event_id": "E2323", "issues": []}
+{"event_id": "E2324", "issues": [{"kind": "seed", "where": "f1", "detail": "Seed says shooting begins in September, not 'next spring'."}, {"kind": "depends", "where": "f3", "detail": "'his replacement' refers to the actor introduced only in f2."}, {"kind": "depends", "where": "f4", "detail": "'the actor' refers to the actor introduced only in f2."}]}
+{"event_id": "E2325", "issues": []}
+{"event_id": "E2326", "issues": [{"kind": "category", "where": "<Court>", "detail": "Court is a place/institution, not an agent (person or organisation)"}]}
+{"event_id": "E2327", "issues": []}
+{"event_id": "E2328", "issues": []}
+{"event_id": "E2329", "issues": []}
+{"event_id": "E2330", "issues": []}
+{"event_id": "E2331", "issues": []}
+{"event_id": "E2332", "issues": []}
+{"event_id": "E2333", "issues": []}
+{"event_id": "E2334", "issues": []}
+{"event_id": "E2335", "issues": []}
+{"event_id": "E2336", "issues": []}
+{"event_id": "E2337", "issues": []}
+{"event_id": "E2338", "issues": []}
+{"event_id": "E2339", "issues": []}
+{"event_id": "E2340", "issues": []}
+{"event_id": "E2341", "issues": []}
+{"event_id": "E2342", "issues": []}
+{"event_id": "E2343", "issues": []}
+{"event_id": "E2344", "issues": []}
+{"event_id": "E2345", "issues": []}
+{"event_id": "E2346", "issues": [{"kind": "category", "where": "<Museum>", "detail": "Museo del Barro is a place/institution, not an agent (person or organisation acting); cat should be place/name, not agent"}, {"kind": "category", "where": "<Prep>", "detail": "9 months is a duration/quantity, but the tag is used as a preposition slot; cat 'quantity' mismatches the grammatical role"}]}
+{"event_id": "E2347", "issues": []}
+{"event_id": "E2348", "issues": []}
+{"event_id": "E2349", "issues": []}
+{"event_id": "E2350", "issues": []}
+{"event_id": "E2351", "issues": []}
+{"event_id": "E2352", "issues": [{"kind": "seed", "where": "f6", "detail": "Seed says the launch is 6 April, but f6 says February launch; contradicts seed."}, {"kind": "seed", "where": "<Month>", "detail": "Truth value February contradicts seed's 6 April start date."}]}
+{"event_id": "E2353", "issues": [{"kind": "category", "where": "<School>", "detail": "School is a place/institution, not an agent (person or organisation)"}]}
+{"event_id": "E2354", "issues": []}
+{"event_id": "E2355", "issues": []}
+{"event_id": "E2356", "issues": []}
+{"event_id": "E2357", "issues": []}
+{"event_id": "E2358", "issues": []}
+{"event_id": "E2359", "issues": []}
+{"event_id": "E2360", "issues": []}
+{"event_id": "E2361", "issues": []}
+{"event_id": "E2362", "issues": []}
+{"event_id": "E2363", "issues": []}
+{"event_id": "E2364", "issues": [{"kind": "category", "where": "<Hospital>", "detail": "Hospital is a place/institution, not an agent (person or organisation); cat should be place, not agent"}]}
+{"event_id": "E2365", "issues": [{"kind": "category", "where": "<Pathogen>", "detail": "colistin/meropenem are antibiotics, not a pathogen; cat should not be name for a pathogen"}]}
+{"event_id": "E2366", "issues": []}
+{"event_id": "E2367", "issues": []}
+{"event_id": "E2368", "issues": []}
+{"event_id": "E2369", "issues": []}
+{"event_id": "E2370", "issues": []}
+{"event_id": "E2371", "issues": []}
+{"event_id": "E2372", "issues": []}
+{"event_id": "E2373", "issues": []}
+{"event_id": "E2374", "issues": []}
+{"event_id": "E2375", "issues": []}
+{"event_id": "E2376", "issues": []}
+{"event_id": "E2377", "issues": [{"kind": "seed", "where": "f2", "detail": "Seed says wait is projected to reach 58 days by March, up from 61 days now; f2 says reach 58 days by March, which matches, but the seed's 'up from 61 days' is contradicted by 58<61. Actually f2 itself is fine; the seed is internally inconsistent. No issue with f2."}]}
+{"event_id": "E2378", "issues": []}
+{"event_id": "E2379", "issues": []}
+{"event_id": "E2380", "issues": []}
+{"event_id": "E2381", "issues": []}
+{"event_id": "E2382", "issues": []}
+{"event_id": "E2383", "issues": []}
+{"event_id": "E2384", "issues": [{"kind": "category", "where": "<Hospital>", "detail": "Cedar Ridge Medical Center is a place/facility, not an agent (person or organisation)"}]}
+{"event_id": "E2385", "issues": []}
+{"event_id": "E2386", "issues": []}
+{"event_id": "E2387", "issues": []}
+{"event_id": "E2388", "issues": []}
+{"event_id": "E2389", "issues": []}
+{"event_id": "E2390", "issues": []}
+{"event_id": "E2391", "issues": []}
+{"event_id": "E2392", "issues": []}
+{"event_id": "E2393", "issues": []}
+{"event_id": "E2394", "issues": []}
+{"event_id": "E2395", "issues": []}
+{"event_id": "E2396", "issues": []}
+{"event_id": "E2397", "issues": []}
+{"event_id": "E2398", "issues": []}
+{"event_id": "E2399", "issues": []}
+{"event_id": "E2400", "issues": []}

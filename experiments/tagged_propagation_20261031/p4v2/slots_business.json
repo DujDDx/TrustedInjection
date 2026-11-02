@@ -1,0 +1,452 @@
+[
+ {
+  "event_id": "E2051",
+  "domain": "business",
+  "topic": "quarterly_earnings_beat",
+  "angle": "Company reports quarterly earnings that exceed analyst expectations, driven by strong sales in a key segment.",
+  "country": "Brazil",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2052",
+  "domain": "business",
+  "topic": "merger_acquisition_announcement",
+  "angle": "Two major companies in the same industry announce a definitive agreement to merge, creating a new industry leader.",
+  "country": "Japan",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2053",
+  "domain": "business",
+  "topic": "plant_closure",
+  "angle": "Manufacturer announces the closure of a domestic factory, citing declining demand and shifting production to a lower-cost country.",
+  "country": "Germany",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2054",
+  "domain": "business",
+  "topic": "product_recall",
+  "angle": "Consumer goods company issues a voluntary recall of a popular product due to a safety defect, prompting regulatory scrutiny.",
+  "country": "France",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2055",
+  "domain": "business",
+  "topic": "layoffs_restructuring",
+  "angle": "Tech firm announces a significant round of layoffs as part of a restructuring plan to cut costs and focus on core products.",
+  "country": "Kenya",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2056",
+  "domain": "business",
+  "topic": "startup_funding_round",
+  "angle": "Early-stage startup secures a Series B funding round led by a prominent venture capital firm to scale its operations.",
+  "country": "Mexico",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2057",
+  "domain": "business",
+  "topic": "retail_same_store_sales",
+  "angle": "Major retailer reports a decline in same-store sales for the quarter, blaming weak consumer spending and unfavorable weather.",
+  "country": "Indonesia",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2058",
+  "domain": "business",
+  "topic": "energy_sector_capex",
+  "angle": "Oil and gas company announces a significant increase in capital expenditures for renewable energy projects, signaling a strategic shift.",
+  "country": "Canada",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2059",
+  "domain": "business",
+  "topic": "shipping_container_rates",
+  "angle": "Global shipping container rates surge due to port congestion and increased demand, impacting importers and exporters.",
+  "country": "Australia",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2060",
+  "domain": "business",
+  "topic": "airline_route_expansion",
+  "angle": "Airline announces new international routes and increased flight frequencies to capitalize on rising travel demand.",
+  "country": "South Africa",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2061",
+  "domain": "business",
+  "topic": "bank_interest_rate_decision",
+  "angle": "Central bank raises interest rates, leading major banks to adjust their lending rates and mortgage products.",
+  "country": "Spain",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2062",
+  "domain": "business",
+  "topic": "bank_branch_closures",
+  "angle": "Regional bank announces a wave of branch closures as customers increasingly shift to digital banking services.",
+  "country": "Italy",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2063",
+  "domain": "business",
+  "topic": "ipo_pricing",
+  "angle": "Technology company prices its initial public offering above the expected range, valuing the firm at over $10 billion.",
+  "country": "Netherlands",
+  "tense": "future",
+  "n": 6
+ },
+ {
+  "event_id": "E2064",
+  "domain": "business",
+  "topic": "stock_buyback_program",
+  "angle": "Corporation announces a new share repurchase program worth $5 billion, aiming to return capital to shareholders.",
+  "country": "Poland",
+  "tense": "future",
+  "n": 6
+ },
+ {
+  "event_id": "E2065",
+  "domain": "business",
+  "topic": "dividend_increase",
+  "angle": "Consumer staples company raises its quarterly dividend by 10%, extending its streak of annual dividend increases.",
+  "country": "Turkey",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2066",
+  "domain": "business",
+  "topic": "ceo_succession",
+  "angle": "Long-serving CEO announces retirement; company appoints a successor from within the ranks, effective next quarter.",
+  "country": "Egypt",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2067",
+  "domain": "business",
+  "topic": "activist_investor_stake",
+  "angle": "Activist investor discloses a significant stake in a struggling retailer and pushes for board changes and operational improvements.",
+  "country": "South Korea",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2068",
+  "domain": "business",
+  "topic": "antitrust_investigation",
+  "angle": "Regulators launch an antitrust investigation into a tech giant's acquisition of a smaller competitor, citing concerns over market dominance.",
+  "country": "Vietnam",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2069",
+  "domain": "business",
+  "topic": "supply_chain_disruption",
+  "angle": "Automaker halts production at several plants due to a shortage of semiconductor chips, highlighting ongoing supply chain issues.",
+  "country": "Argentina",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2070",
+  "domain": "business",
+  "topic": "commodity_price_impact",
+  "angle": "Rising copper prices boost profits for mining companies but squeeze margins for manufacturers reliant on the metal.",
+  "country": "Chile",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2071",
+  "domain": "business",
+  "topic": "bond_issuance",
+  "angle": "Large corporation issues $2 billion in corporate bonds to refinance debt and fund a new acquisition.",
+  "country": "Sweden",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2072",
+  "domain": "business",
+  "topic": "credit_rating_downgrade",
+  "angle": "Rating agency downgrades a major airline's credit rating due to high debt levels and uncertain recovery prospects.",
+  "country": "Norway",
+  "tense": "future",
+  "n": 6
+ },
+ {
+  "event_id": "E2073",
+  "domain": "business",
+  "topic": "joint_venture_formation",
+  "angle": "Two companies from different industries form a joint venture to develop and market a new product line.",
+  "country": "Philippines",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2074",
+  "domain": "business",
+  "topic": "strategic_divestiture",
+  "angle": "Conglomerate sells off a non-core business unit to a private equity firm to focus on its primary operations.",
+  "country": "Ghana",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2075",
+  "domain": "business",
+  "topic": "chapter_11_bankruptcy",
+  "angle": "Retail chain files for Chapter 11 bankruptcy protection and announces plans to close underperforming stores.",
+  "country": "New Zealand",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2076",
+  "domain": "business",
+  "topic": "chapter_11_emergence",
+  "angle": "Company emerges from Chapter 11 bankruptcy after completing a restructuring plan that cuts debt and streamlines operations.",
+  "country": "Ireland",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2077",
+  "domain": "business",
+  "topic": "strike_labor_dispute",
+  "angle": "Workers at a major manufacturer go on strike after contract negotiations fail, halting production at key facilities.",
+  "country": "United Kingdom",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2078",
+  "domain": "business",
+  "topic": "executive_departure",
+  "angle": "Chief financial officer abruptly resigns; company appoints an interim CFO and launches a search for a permanent replacement.",
+  "country": "United States",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2079",
+  "domain": "business",
+  "topic": "product_launch",
+  "angle": "Consumer electronics company unveils a new flagship product at a highly anticipated launch event, aiming to capture market share.",
+  "country": "India",
+  "tense": "future",
+  "n": 6
+ },
+ {
+  "event_id": "E2080",
+  "domain": "business",
+  "topic": "earnings_guidance_cut",
+  "angle": "Company lowers its full-year earnings guidance due to weaker-than-expected demand and rising costs.",
+  "country": "Nigeria",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2081",
+  "domain": "business",
+  "topic": "insider_trading_charges",
+  "angle": "SEC charges a former executive with insider trading for trading on non-public information ahead of a merger announcement.",
+  "country": "Brazil",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2082",
+  "domain": "business",
+  "topic": "data_breach_impact",
+  "angle": "Major retailer discloses a data breach that compromised customer payment information, leading to a drop in stock price.",
+  "country": "Japan",
+  "tense": "future",
+  "n": 6
+ },
+ {
+  "event_id": "E2083",
+  "domain": "business",
+  "topic": "sustainability_initiative",
+  "angle": "Multinational corporation announces a $1 billion sustainability initiative to reduce carbon emissions across its supply chain.",
+  "country": "Germany",
+  "tense": "future",
+  "n": 6
+ },
+ {
+  "event_id": "E2084",
+  "domain": "business",
+  "topic": "fda_approval",
+  "angle": "Biotech company receives FDA approval for a new drug, sending its stock soaring and opening a new revenue stream.",
+  "country": "France",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2085",
+  "domain": "business",
+  "topic": "patent_litigation",
+  "angle": "Technology companies settle a long-running patent infringement lawsuit with a cross-licensing agreement and undisclosed payment.",
+  "country": "Kenya",
+  "tense": "future",
+  "n": 6
+ },
+ {
+  "event_id": "E2086",
+  "domain": "business",
+  "topic": "commodity_hedging_loss",
+  "angle": "Airline reports a significant loss from fuel hedging contracts as oil prices decline unexpectedly.",
+  "country": "Mexico",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2087",
+  "domain": "business",
+  "topic": "plant_expansion",
+  "angle": "Automaker announces a $500 million investment to expand an existing assembly plant to increase production of electric vehicles.",
+  "country": "Indonesia",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2088",
+  "domain": "business",
+  "topic": "real_estate_investment",
+  "angle": "Private equity firm acquires a portfolio of commercial real estate properties in a deal valued at $2 billion.",
+  "country": "Canada",
+  "tense": "future",
+  "n": 6
+ },
+ {
+  "event_id": "E2089",
+  "domain": "business",
+  "topic": "digital_transformation",
+  "angle": "Traditional retailer announces a multi-year digital transformation strategy, including investments in AI and e-commerce.",
+  "country": "Australia",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2090",
+  "domain": "business",
+  "topic": "spinoff",
+  "angle": "Industrial conglomerate announces plans to spin off its healthcare division into a separate publicly traded company.",
+  "country": "South Africa",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2091",
+  "domain": "business",
+  "topic": "shareholder_meeting_vote",
+  "angle": "Shareholders vote down a proposed executive compensation package at the annual meeting, signaling discontent.",
+  "country": "Spain",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2092",
+  "domain": "business",
+  "topic": "currency_fluctuation_impact",
+  "angle": "Multinational company warns that a strong dollar will negatively impact its overseas earnings in the upcoming quarter.",
+  "country": "Italy",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2093",
+  "domain": "business",
+  "topic": "regulatory_fine",
+  "angle": "Financial institution agrees to pay a $100 million fine to settle allegations of improper mortgage servicing practices.",
+  "country": "Netherlands",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2094",
+  "domain": "business",
+  "topic": "factory_automation",
+  "angle": "Manufacturer announces a major investment in automation and robotics at its plants to improve efficiency and reduce labor costs.",
+  "country": "Poland",
+  "tense": "future",
+  "n": 6
+ },
+ {
+  "event_id": "E2095",
+  "domain": "business",
+  "topic": "strategic_partnership",
+  "angle": "Two companies from different sectors announce a strategic partnership to co-develop and market a new technology platform.",
+  "country": "Turkey",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2096",
+  "domain": "business",
+  "topic": "plant_safety_inspection",
+  "angle": "Chemical company faces increased regulatory scrutiny after a safety inspection reveals multiple violations at a key plant.",
+  "country": "Egypt",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2097",
+  "domain": "business",
+  "topic": "commodity_supply_cut",
+  "angle": "OPEC+ announces a production cut, leading to a spike in oil prices and impacting energy company profits.",
+  "country": "South Korea",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2098",
+  "domain": "business",
+  "topic": "trade_tariff_impact",
+  "angle": "U.S. imposes new tariffs on imported steel, causing steel-using manufacturers to warn of higher costs and potential layoffs.",
+  "country": "Vietnam",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2099",
+  "domain": "business",
+  "topic": "pension_funding_shortfall",
+  "angle": "Major corporation discloses a significant shortfall in its pension fund, requiring additional contributions.",
+  "country": "Argentina",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2100",
+  "domain": "business",
+  "topic": "supplier_bankruptcy",
+  "angle": "Key supplier files for bankruptcy, forcing a manufacturer to scramble for alternative sources and potentially delay production.",
+  "country": "Chile",
+  "tense": "past",
+  "n": 5
+ }
+]

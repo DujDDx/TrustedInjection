@@ -1,0 +1,452 @@
+[
+ {
+  "event_id": "E2251",
+  "domain": "disaster_accident",
+  "topic": "earthquake_early_warning_activation",
+  "angle": "A regional seismic network triggers automated alerts seconds before shaking arrives, and officials assess how many residents received and acted on them.",
+  "country": "South Korea",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2252",
+  "domain": "disaster_accident",
+  "topic": "wildfire_evacuation_route_closure",
+  "angle": "A fast-moving wildfire forces closure of the main highway out of a mountain town, stranding evacuees and prompting a rerouting operation.",
+  "country": "Vietnam",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2253",
+  "domain": "disaster_accident",
+  "topic": "flash_flood_street_rescue",
+  "angle": "Swift-water teams rescue motorists trapped on a flooded underpass after a sudden downpour overwhelms drainage.",
+  "country": "Argentina",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2254",
+  "domain": "disaster_accident",
+  "topic": "hurricane_landfall_shelter_surge",
+  "angle": "As a hurricane approaches landfall, coastal shelters report unprecedented demand and officials scramble to open overflow sites.",
+  "country": "Chile",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2255",
+  "domain": "disaster_accident",
+  "topic": "drought_reservoir_record_low",
+  "angle": "A key municipal reservoir hits its lowest level on record, triggering mandatory water restrictions and a debate over emergency supply contracts.",
+  "country": "Sweden",
+  "tense": "future",
+  "n": 6
+ },
+ {
+  "event_id": "E2256",
+  "domain": "disaster_accident",
+  "topic": "industrial_chemical_plume_shelter_in_place",
+  "angle": "A tank rupture at a chemical plant releases a toxic plume, forcing neighborhoods to shelter in place while hazmat crews identify the substance.",
+  "country": "Norway",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2257",
+  "domain": "disaster_accident",
+  "topic": "train_derailment_hazmat_evacuation",
+  "angle": "A freight train derails carrying mixed hazardous cargo, prompting a multi-block evacuation and air-quality monitoring.",
+  "country": "Philippines",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2258",
+  "domain": "disaster_accident",
+  "topic": "building_collapse_search_and_rescue",
+  "angle": "A partial structural collapse at a construction site traps workers, launching a delicate search-and-rescue operation with heavy equipment and dogs.",
+  "country": "Ghana",
+  "tense": "future",
+  "n": 6
+ },
+ {
+  "event_id": "E2259",
+  "domain": "disaster_accident",
+  "topic": "apartment_fire_high_rise_rescue",
+  "angle": "A high-rise apartment fire traps residents above the flames, requiring aerial ladder and internal stairwell rescues.",
+  "country": "New Zealand",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2260",
+  "domain": "disaster_accident",
+  "topic": "oil_spill_coastal_response",
+  "angle": "A tanker grounding releases crude along a sensitive coastline, triggering booming, skimming, and wildlife triage.",
+  "country": "Ireland",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2261",
+  "domain": "disaster_accident",
+  "topic": "wildfire_smoke_health_advisory",
+  "angle": "Dense wildfire smoke pushes air quality into hazardous ranges, prompting public health advisories and school closures.",
+  "country": "United Kingdom",
+  "tense": "future",
+  "n": 6
+ },
+ {
+  "event_id": "E2262",
+  "domain": "disaster_accident",
+  "topic": "earthquake_aftershock_building_inspection",
+  "angle": "Following a moderate quake, inspectors rapidly tag buildings red, yellow, or green as aftershocks complicate re-entry decisions.",
+  "country": "United States",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2263",
+  "domain": "disaster_accident",
+  "topic": "tornado_warning_overnight",
+  "angle": "An overnight tornado warning catches residents asleep, raising questions about siren audibility and phone alert effectiveness.",
+  "country": "India",
+  "tense": "future",
+  "n": 6
+ },
+ {
+  "event_id": "E2264",
+  "domain": "disaster_accident",
+  "topic": "landslide_road_burial",
+  "angle": "A rain-soaked hillside collapses onto a highway, burying vehicles and requiring days of excavation and geotechnical assessment.",
+  "country": "Nigeria",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2265",
+  "domain": "disaster_accident",
+  "topic": "tsunami_watch_coastal_evacuation",
+  "angle": "A distant offshore quake puts a coast under tsunami watch, testing evacuation routes and vertical shelter capacity.",
+  "country": "Brazil",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2266",
+  "domain": "disaster_accident",
+  "topic": "dam_emergency_spillway_concern",
+  "angle": "Engineers detect structural distress at a dam spillway, prompting downstream evacuation planning and emergency drawdown.",
+  "country": "Japan",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2267",
+  "domain": "disaster_accident",
+  "topic": "mine_collapse_trapped_miners",
+  "angle": "A tunnel collapse traps miners underground, triggering a drilling-and-communication rescue effort.",
+  "country": "Germany",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2268",
+  "domain": "disaster_accident",
+  "topic": "pipeline_leak_rural_evacuation",
+  "angle": "A buried pipeline leak forces evacuation of a rural community while crews isolate and repair the line.",
+  "country": "France",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2269",
+  "domain": "disaster_accident",
+  "topic": "ferry_capsizing_mass_rescue",
+  "angle": "A passenger ferry lists and capsizes near shore, launching a multi-agency mass rescue with helicopters and nearby vessels.",
+  "country": "Kenya",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2270",
+  "domain": "disaster_accident",
+  "topic": "avalanche_backcountry_rescue",
+  "angle": "An avalanche buries backcountry skiers, prompting beacon searches and a helicopter rescue in worsening weather.",
+  "country": "Mexico",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2271",
+  "domain": "disaster_accident",
+  "topic": "heat_wave_cooling_center_activation",
+  "angle": "An extreme heat event triggers city cooling-center activation and outreach to vulnerable residents.",
+  "country": "Indonesia",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2272",
+  "domain": "disaster_accident",
+  "topic": "blizzard_highway_stranding",
+  "angle": "A blizzard closes an interstate and strands hundreds of motorists, requiring warming buses and fuel delivery.",
+  "country": "Canada",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2273",
+  "domain": "disaster_accident",
+  "topic": "ice_storm_power_outage_response",
+  "angle": "An ice storm topples power lines across a region, prompting utility mutual-aid mobilization and warming shelters.",
+  "country": "Australia",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2274",
+  "domain": "disaster_accident",
+  "topic": "volcanic_ash_flight_disruption",
+  "angle": "An eruption sends ash into flight paths, forcing aviation authorities to reroute and cancel flights across a region.",
+  "country": "South Africa",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2275",
+  "domain": "disaster_accident",
+  "topic": "wildfire_defensible_space_inspection",
+  "angle": "Officials conduct pre-season defensible-space inspections and warn homeowners in a high-risk wildland-urban interface.",
+  "country": "Spain",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2276",
+  "domain": "disaster_accident",
+  "topic": "river_flood_levee_patrol",
+  "angle": "Levee patrols report seepage during a slow-rise flood, triggering emergency reinforcement before a potential breach.",
+  "country": "Italy",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2277",
+  "domain": "disaster_accident",
+  "topic": "sinkhole_urban_street_swallow",
+  "angle": "A sinkhole opens in an urban street, swallowing a car and threatening underground utilities.",
+  "country": "Netherlands",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2278",
+  "domain": "disaster_accident",
+  "topic": "bridge_scour_closure_inspection",
+  "angle": "Post-flood scour concerns prompt emergency closure and inspection of a major river bridge.",
+  "country": "Poland",
+  "tense": "future",
+  "n": 6
+ },
+ {
+  "event_id": "E2279",
+  "domain": "disaster_accident",
+  "topic": "factory_explosion_investigation",
+  "angle": "An explosion at a manufacturing plant injures workers and launches a cause investigation amid structural instability.",
+  "country": "Turkey",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2280",
+  "domain": "disaster_accident",
+  "topic": "tanker_truck_rollover_spill",
+  "angle": "A fuel tanker rolls over on a highway, spilling diesel and requiring containment and traffic diversion.",
+  "country": "Egypt",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2281",
+  "domain": "disaster_accident",
+  "topic": "wildfire_recovery_reforestation_plan",
+  "angle": "After a major wildfire, agencies unveil a reforestation and erosion-control plan for burn scars.",
+  "country": "South Korea",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2282",
+  "domain": "disaster_accident",
+  "topic": "flood_insurance_claims_surge",
+  "angle": "A flood event triggers a surge in insurance claims, exposing gaps in coverage and delays in adjustment.",
+  "country": "Vietnam",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2283",
+  "domain": "disaster_accident",
+  "topic": "earthquake_school_retrofit_drill",
+  "angle": "A school district runs a full-scale earthquake drill and announces retrofit progress on older campuses.",
+  "country": "Argentina",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2284",
+  "domain": "disaster_accident",
+  "topic": "monsoon_landslide_forecast_alert",
+  "angle": "Forecasters issue landslide-risk alerts ahead of heavy monsoon rains, prompting pre-emptive evacuations.",
+  "country": "Chile",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2285",
+  "domain": "disaster_accident",
+  "topic": "coastal_storm_surge_mapping",
+  "angle": "New storm-surge inundation maps are released to guide evacuation zones before hurricane season.",
+  "country": "Sweden",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2286",
+  "domain": "disaster_accident",
+  "topic": "wildfire_prescribed_burn_drill",
+  "angle": "Fire agencies conduct a planned prescribed burn and public evacuation drill to test coordination.",
+  "country": "Norway",
+  "tense": "future",
+  "n": 6
+ },
+ {
+  "event_id": "E2287",
+  "domain": "disaster_accident",
+  "topic": "hazmat_rail_yard_leak_exercise",
+  "angle": "A rail yard stages a hazmat leak exercise with responders practicing containment and decontamination.",
+  "country": "Philippines",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2288",
+  "domain": "disaster_accident",
+  "topic": "tsunami_vertical_evacuation_drill",
+  "angle": "A coastal city tests vertical-evacuation procedures for a tsunami with limited escape time.",
+  "country": "Ghana",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2289",
+  "domain": "disaster_accident",
+  "topic": "drought_wildfire_water_trucking",
+  "angle": "Drought conditions force wildfire crews to rely on long-distance water trucking as local sources dry up.",
+  "country": "New Zealand",
+  "tense": "future",
+  "n": 6
+ },
+ {
+  "event_id": "E2290",
+  "domain": "disaster_accident",
+  "topic": "dam_break_inundation_forecast",
+  "angle": "Emergency managers model dam-break inundation zones and brief downstream communities on evacuation timing.",
+  "country": "Ireland",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2291",
+  "domain": "disaster_accident",
+  "topic": "urban_search_rescue_collapse_drill",
+  "angle": "An urban search-and-rescue team runs a rubble-collapse drill with live victims and structural engineers.",
+  "country": "United Kingdom",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2292",
+  "domain": "disaster_accident",
+  "topic": "cyclone_shelter_readiness_check",
+  "angle": "Ahead of cyclone season, officials inspect shelters and stockpiles and identify capacity gaps.",
+  "country": "United States",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2293",
+  "domain": "disaster_accident",
+  "topic": "flood_evacuation_route_warning",
+  "angle": "Forecasters warn that key flood evacuation routes may become impassable, urging early departure.",
+  "country": "India",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2294",
+  "domain": "disaster_accident",
+  "topic": "wildfire_insurance_nonrenewal_notice",
+  "angle": "Insurers issue nonrenewal notices in a high-fire-risk area, sparking a policy and disclosure debate.",
+  "country": "Nigeria",
+  "tense": "future",
+  "n": 6
+ },
+ {
+  "event_id": "E2295",
+  "domain": "disaster_accident",
+  "topic": "heat_dome_grid_stress_forecast",
+  "angle": "A forecast heat dome prompts grid operators to warn of strain and plan rolling outages.",
+  "country": "Brazil",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2296",
+  "domain": "disaster_accident",
+  "topic": "airport_winter_storm_ground_stop",
+  "angle": "A winter storm triggers a ground stop and deicing backlog at a major airport, stranding travelers.",
+  "country": "Japan",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2297",
+  "domain": "disaster_accident",
+  "topic": "wildfire_air_tanker_retardant_drop",
+  "angle": "Air tankers conduct retardant drops to protect a threatened community as ground crews build containment lines.",
+  "country": "Germany",
+  "tense": "past",
+  "n": 5
+ },
+ {
+  "event_id": "E2298",
+  "domain": "disaster_accident",
+  "topic": "coastal_erosion_emergency_permit",
+  "angle": "Storms accelerate coastal erosion, prompting an emergency permit for shoreline armoring and property evacuation.",
+  "country": "France",
+  "tense": "future",
+  "n": 5
+ },
+ {
+  "event_id": "E2299",
+  "domain": "disaster_accident",
+  "topic": "flooded_hospital_patient_transfer",
+  "angle": "Flooding compromises a hospital's power and access, forcing an emergency patient transfer operation.",
+  "country": "Kenya",
+  "tense": "past",
+  "n": 6
+ },
+ {
+  "event_id": "E2300",
+  "domain": "disaster_accident",
+  "topic": "earthquake_lifeline_utility_restoration",
+  "angle": "Utility crews race to restore water and power lifelines after an earthquake damages transmission and mains.",
+  "country": "Mexico",
+  "tense": "future",
+  "n": 6
+ }
+]

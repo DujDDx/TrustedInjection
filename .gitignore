@@ -29,3 +29,9 @@ clear_outputs_and_logs.sh
 .pytest_cache/
 .local_compat/
 .workbuddy-ai/
+
+# API 密钥
+dskey
+# Haiku 子代理的失败产出，只留本地
+experiments/tagged_propagation_20261031/p4v2/_haiku_attempt/
+experiments/tagged_propagation_20261031/p4v2/repair_done.jsonl
