@@ -11,8 +11,8 @@
 | 成对交叉编码器 | `train_pairce.py` | 0.585 | 0.000 | 0.634 |
 | 成对交叉编码器 + 精确匹配嵌入 + 类别加权 | `train_pairce.py`（默认参数） | **0.651** | **0.728** | **0.858** |
 
-词面基线（`measure_signal.py --docs p4_pairs/docs.jsonl`，T1，同一批测试事件）：
-B 排在 C 前 0.725（2-gram）/ 0.750（LCS）。
+词面基线（`measure_signal.py` 的 T1，输入只保留 `p4_pairs/docs.jsonl` 中 split 为 test 的文档）：
+B 排在 C 前 0.725（2-gram）/ 0.762（LCS）。
 
 每个目录含 `summary_seed42.json`（测试指标、参数、耗时）和 `train_seed42.jsonl`（逐轮验证）。
 检查点（约 450 MB）不入库，在 `/mnt/hdd4/dujddx/tagged_{crossdoc,srcptr,pairce,pairce_match}_p4_2026110{1,2}/best.pt`。
