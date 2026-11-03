@@ -1,0 +1,28 @@
+thresholds (val, F1) [0.475, 0.5]
+DONE (-0.22600286442924428, 9)
+thresholds (val, F1) [0.39999999999999997, 0.5]
+DONE (-0.23642394531656194, 6)
+  ck = torch.load(c, map_location=dev)
+
+== p4_pairs: 60 events
+  seed:tagged_pairce_relantib0.3_p4_20261102    dim1 0.745  dim2 0.849  | dim1 - baseline +0.106  95% CI [+0.078, +0.132]
+  seed:tagged_pairce_relantib0.3_p4_s1_20261102 dim1 0.745  dim2 0.843  | dim1 - baseline +0.106  95% CI [+0.071, +0.139]
+  seed:tagged_pairce_relantib0.3_p4_s2_20261102 dim1 0.746  dim2 0.823  | dim1 - baseline +0.107  95% CI [+0.077, +0.135]
+  ensemble                                      dim1 0.762  dim2 0.839  | dim1 - baseline +0.123  95% CI [+0.089, +0.153]
+  baseline                                      dim1 0.639  dim2 0.588
+
+== heldout/qwen_pairs: 50 events
+  seed:tagged_pairce_relantib0.3_p4_20261102    dim1 0.757  dim2 0.884  | dim1 - baseline +0.127  95% CI [+0.089, +0.165]
+  seed:tagged_pairce_relantib0.3_p4_s1_20261102 dim1 0.770  dim2 0.866  | dim1 - baseline +0.140  95% CI [+0.098, +0.181]
+  seed:tagged_pairce_relantib0.3_p4_s2_20261102 dim1 0.777  dim2 0.878  | dim1 - baseline +0.147  95% CI [+0.111, +0.184]
+  ensemble                                      dim1 0.788  dim2 0.906  | dim1 - baseline +0.158  95% CI [+0.118, +0.198]
+  baseline                                      dim1 0.630  dim2 0.582
+
+== heldout/ds_pairs: 56 events
+  seed:tagged_pairce_relantib0.3_p4_20261102    dim1 0.718  dim2 0.754  | dim1 - baseline +0.081  95% CI [+0.048, +0.111]
+  seed:tagged_pairce_relantib0.3_p4_s1_20261102 dim1 0.668  dim2 0.752  | dim1 - baseline +0.031  95% CI [-0.013, +0.075]
+  seed:tagged_pairce_relantib0.3_p4_s2_20261102 dim1 0.684  dim2 0.737  | dim1 - baseline +0.047  95% CI [+0.013, +0.080]
+  ensemble                                      dim1 0.700  dim2 0.740  | dim1 - baseline +0.063  95% CI [+0.023, +0.102]
+  baseline                                      dim1 0.637  dim2 0.595
+thresholds {'seed:tagged_pairce_relantib0.3_p4_20261102': 0.44999998807907104, 'seed:tagged_pairce_relantib0.3_p4_s1_20261102': 0.4749999940395355, 'seed:tagged_pairce_relantib0.3_p4_s2_20261102': 0.4000000059604645, 'ensemble': 0.44999999999999996}
+ALLDONE

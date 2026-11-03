@@ -36,12 +36,25 @@ from train_crossdoc import MAX_LEN, MODEL, Pairs, evaluate, token_slices
 from train_srcptr import EPS, aux_labels, eval_src
 
 CK_SRC = "/mnt/hdd4/dujddx/tagged_srcptr_p4_20261101/best.pt"
+NLEX = 7
+
+
+def lex_feats(a, b):
+    """Overlap statistics of target token ids a and candidate token ids b (no specials):
+    n-gram Jaccard n = 1..4, share of a's / b's 2-grams found in the other, log length ratio."""
+    g = lambda t, n: {tuple(t[x:x + n]) for x in range(len(t) - n + 1)}
+    jac = lambda x, y: len(x & y) / max(1, len(x | y))
+    a2, b2 = g(a, 2), g(b, 2)
+    return torch.tensor([*(jac(g(a, n), g(b, n)) for n in (1, 2, 3, 4)),
+                         len(a2 & b2) / max(1, len(a2)), len(a2 & b2) / max(1, len(b2)),
+                         float(np.log(max(1, len(a)) / max(1, len(b))))])
 BOS, EOS, PAD = 0, 2, 1
 
 
 class PairCE(nn.Module):
-    def __init__(self, model_dir, init="newscopy", freeze=4, dropout=0.1):
+    def __init__(self, model_dir, init="newscopy", freeze=4, dropout=0.1, rel=False, lex=False):
         super().__init__()
+        self.rel, self.lex = rel, lex
         self.enc = MPNetModel.from_pretrained(model_dir, config=AutoConfig.from_pretrained(model_dir))
         if init == "srcptr":
             sd = torch.load(CK_SRC, map_location="cpu")["model"]
@@ -61,6 +74,19 @@ class PairCE(nn.Module):
         # The same-value head alone stayed at its base rate (0.89 for match and mismatch).
         self.match = nn.Embedding(2, H)
         nn.init.zeros_(self.match.weight)
+        # relational source head (--rel): the score of edge i <- j also sees the reverse edge
+        # j <- i, i's other candidates and j's other targets (means, so any pool size works).
+        # Copying is relative: "C is close to A" means little until compared with how close B is.
+        if rel:
+            self.rel_head = nn.Sequential(nn.Linear(5 * H, H), nn.GELU(), nn.Dropout(dropout), nn.Linear(H, 1))
+        # lexical edge features (--lex, needs --rel): the token baseline's document-level
+        # overlap statistics, computed from the same token ids the encoder reads, added to the
+        # edge score through a small MLP over the edge, its reverse and the two neighbour means
+        if lex:
+            self.lex_head = nn.Sequential(nn.Linear(4 * NLEX, 64), nn.GELU(), nn.Linear(64, 1))
+        # decision thresholds on p(dim1), p(dim2), chosen on the validation split for F1
+        # after training (calibrate); 0.5 until then
+        self.register_buffer("thr", torch.tensor([0.5, 0.5]))
 
     def heads(self):
         return [p for n, p in self.named_parameters() if not n.startswith("enc.")]
@@ -73,6 +99,7 @@ class PairCE(nn.Module):
         seq = torch.full((B, N, N - 1, 2 * L), PAD, dtype=ids.dtype, device=ids.device)
         att = torch.zeros_like(seq)
         match = torch.zeros_like(seq)
+        lex = torch.zeros(B, N, N - 1, NLEX, device=ids.device)
         lens = mask.sum(-1)                                   # [B,3]
         for b in range(B):
             for i in range(N):
@@ -85,16 +112,20 @@ class PairCE(nn.Module):
                     mi = torch.isin(ti, tj) & (ti > EOS)       # ids 0-2 are <s>, <pad>, </s>
                     mj = torch.isin(tj, ti) & (tj > EOS)
                     match[b, i, k, :li] = mi; match[b, i, k, li + 1:len(s)] = mj
+                    lex[b, i, k] = lex_feats(ti[1:-1].tolist(), tj[:-1].tolist())
         P = B * N * (N - 1)
-        return seq.view(P, 2 * L), att.view(P, 2 * L), match.view(P, 2 * L)
+        return seq.view(P, 2 * L), att.view(P, 2 * L), match.view(P, 2 * L), lex
 
     def forward_all(self, ids, mask):
         B, N, L = ids.shape
-        seq, att, match = self.build(ids, mask)
+        seq, att, match, lex = self.build(ids, mask)
         emb = self.enc.embeddings.word_embeddings(seq) + self.match(match)
         pos = torch.cumsum(att, 1) * att + PAD                # MPNet's padding-aware position ids
         h = self.drop(self.enc(inputs_embeds=emb, position_ids=pos, attention_mask=att).last_hidden_state)
-        pair = self.pair(h[:, 0]).view(B, N, N - 1).float()
+        if self.rel:
+            pair = self.rel_score(h[:, 0].view(B, N, N - 1, -1), lex if self.lex else None).float()
+        else:
+            pair = self.pair(h[:, 0]).view(B, N, N - 1).float()
         tok = h[:, :L]                                        # target's own positions
         has = self.has(tok).squeeze(-1).view(B, N, N - 1, L).float()
         same = self.same(tok).squeeze(-1).view(B, N, N - 1, L).float()
@@ -104,9 +135,32 @@ class PairCE(nn.Module):
         p1 = (p_src * ph).sum(2); p2 = (p_src * ph * (1 - ps)).sum(2)
         return dict(src=src, has=has, same=same, p=torch.stack([p1, p2], -1))
 
+    @staticmethod
+    def edges(c):
+        """[B,N,N-1,D] slot layout -> [B,N,N,D] with E[:, i, j] = edge i <- j (diagonal 0)."""
+        B, N, _, D = c.shape
+        E = c.new_zeros(B, N, N, D)
+        for i in range(N):
+            for k, j in enumerate(x for x in range(N) if x != i):
+                E[:, i, j] = c[:, i, k]
+        return E
+
+    def rel_score(self, c, lex=None):
+        """c [B,N,N-1,H] pair <s> states (slot k of target i = k-th other doc) -> [B,N,N-1]."""
+        N = c.shape[1]
+        nb = lambda E: ((E.sum(2, keepdim=True) - E) / max(1, N - 2),   # i's other candidates
+                        (E.sum(1, keepdim=True) - E) / max(1, N - 2))   # j's other targets
+        E = self.edges(c); rev = E.transpose(1, 2); tgt, cand = nb(E)
+        s = self.rel_head(torch.cat([E, rev, E - rev, tgt, cand], -1)).squeeze(-1)
+        if lex is not None:
+            X = self.edges(lex.to(c.dtype)); tx, cx = nb(X)
+            s = s + self.lex_head(torch.cat([X, X.transpose(1, 2), tx, cx], -1)).squeeze(-1)
+        return torch.stack([torch.stack([s[:, i, j] for j in range(N) if j != i], -1) for i in range(N)], 1)
+
     def forward(self, ids, mask):
         p = self.forward_all(ids, mask)["p"].clamp(EPS, 1 - EPS)
-        return torch.log(p) - torch.log1p(-p)
+        t = self.thr.clamp(EPS, 1 - EPS)
+        return (torch.log(p) - torch.log1p(-p)) - (torch.log(t) - torch.log1p(-t))
 
 
 @torch.no_grad()
@@ -128,7 +182,60 @@ def rank_b_over_c(model, z, pairs, docs_role, idx, device):
     return {k: round(float(np.mean(v)), 4) for k, v in ok.items()} | {"all": round(float(np.mean(sum(ok.values(), []))), 4)}
 
 
-def weighted_losses(o, y, src, has, same, w_same0, w_dim2):
+@torch.no_grad()
+def calibrate(model, dl, device):
+    """Threshold on p(dim1) that maximises dim1 F1 on dl (the validation split). dim2 stays
+    at 0.5 (a val-tuned dim2 threshold of 0.625 lowered dim2 F1 on both held-out sets);
+    t2 >= t1 keeps dim2 => dim1."""
+    model.eval(); P, Y = [], []
+    for ids, mask, y, _ in dl:
+        with torch.autocast("cuda", enabled=(device == "cuda")):
+            P.append(model.forward_all(ids.to(device), mask.to(device))["p"].float().cpu().numpy())
+        Y.append(y.numpy())
+    P, Y = np.concatenate(P), np.concatenate(Y)
+    grid = np.linspace(0.05, 0.95, 37); thr = []
+    for d in (0,):
+        v = Y[..., d] != -100; p, g = P[..., d][v], Y[..., d][v]
+        f = [2 * ((p > t) & (g == 1)).sum() / max(1, 2 * ((p > t) & (g == 1)).sum() + ((p > t) & (g == 0)).sum()
+                                                   + ((p <= t) & (g == 1)).sum()) for t in grid]
+        thr.append(float(grid[int(np.argmax(f))]))
+    thr.append(max(0.5, thr[0]))
+    model.thr.copy_(torch.tensor(thr))
+    return thr
+
+
+def rank_loss(pair, src, margin=1.0):
+    """Same-source ranking: for every source j, each true edge i <- j must outscore each
+    non-edge i' <- j by a margin. Says only that copies of j look more like j than other
+    documents do, which also holds in real news (a wire story and its many reprints).
+    pair [B,N,N-1] edge logits, src [B,N] true slot (N-1 = none)."""
+    B, N, _ = pair.shape
+    E = PairCE.edges(pair.unsqueeze(-1)).squeeze(-1)                  # [B,N,N] i <- j
+    Y = PairCE.edges(F.one_hot(src, N)[..., :N - 1].unsqueeze(-1).float()).squeeze(-1)
+    off = ~torch.eye(N, dtype=torch.bool, device=pair.device)
+    pos = (Y > 0) & off; neg = (Y == 0) & off                          # [B,i,j]
+    # pairs (i, i') sharing source j: d = s(i <- j) - s(i' <- j)
+    d = E.unsqueeze(2) - E.unsqueeze(1)                                # [B,i,i',j]
+    m = pos.unsqueeze(2) & neg.unsqueeze(1)
+    return F.softplus(margin - d[m]).mean() if m.any() else pair.sum() * 0
+
+
+def anti_penalty(pair, pools=None):
+    """Mean squared direction gap (s(i <- j) - s(j <- i))^2 over a pool's edges. Keeps the two
+    directions of a pair apart only as far as the training signal insists: where nothing in
+    the text says who copied whom (Set B: A vs its rewrite Bf), both directions stay close
+    and an F1-calibrated threshold keeps both, instead of a confident guess that may flip
+    under another writer (it did: DeepSeek Set B dim1 0.60 vs the lexical baseline's 0.69)."""
+    E = PairCE.edges(pair.unsqueeze(-1)).squeeze(-1)
+    N = E.shape[1]; off = ~torch.eye(N, dtype=torch.bool, device=pair.device)
+    G = ((E - E.transpose(1, 2)) ** 2)[:, off]
+    if pools is not None:                   # only these pools (Set B in --w-anti-b)
+        if not pools.any(): return pair.sum() * 0
+        G = G[pools]
+    return G.mean()
+
+
+def weighted_losses(o, y, src, has, same, w_same0, w_dim2, w_rank=0.0, w_anti=0.0, w_anti_b=0.0, set_b=None):
     """train_srcptr.losses with class weights: 'value differs' is 11% of same-value labels and
     dim2 = 1 is 2% of tokens, so unweighted both heads settle at the majority answer."""
     out = {}
@@ -144,6 +251,17 @@ def weighted_losses(o, y, src, has, same, w_same0, w_dim2):
         w = torch.where(t > 0, 1.0, w_same0) if name == "same" else None
         out[name] = F.binary_cross_entropy_with_logits(o[name][m], t, weight=w) if m.any() else o[name].sum() * 0
     out["total"] = out["dim1"] + out["dim2"] + out["src"] + 0.5 * (out["has"] + out["same"])
+    if w_rank:
+        out["rank"] = rank_loss(o["src"][..., :-1], src)
+        out["total"] = out["total"] + w_rank * out["rank"]
+    if w_anti:
+        out["anti"] = anti_penalty(o["src"][..., :-1])
+        out["total"] = out["total"] + w_anti * out["anti"]
+    if w_anti_b:
+        # Set B pairs A / Bf are the same story with some values changed: same length, same
+        # wording, so the text does not say which one is the rewrite. Set A keeps its direction.
+        out["anti_b"] = anti_penalty(o["src"][..., :-1], set_b)
+        out["total"] = out["total"] + w_anti_b * out["anti_b"]
     return out
 
 
@@ -166,6 +284,12 @@ def main():
     ap.add_argument("--wd", type=float, default=0.01)
     ap.add_argument("--seed", type=int, default=42)
     ap.add_argument("--limit", type=int, default=0)
+    ap.add_argument("--rel", action="store_true", help="relational source head")
+    ap.add_argument("--lex", action="store_true", help="lexical edge features in the relational head")
+    ap.add_argument("--w-rank", type=float, default=0.0, help="weight of the same-source ranking loss")
+    ap.add_argument("--w-anti", type=float, default=0.0, help="weight of the direction-gap penalty")
+    ap.add_argument("--w-anti-b", type=float, default=0.0, help="direction-gap penalty on Set B pools only")
+    ap.add_argument("--init-ckpt", help="start from a trained PairCE state dict (non-strict)")
     args = ap.parse_args()
 
     torch.manual_seed(args.seed); random.seed(args.seed); np.random.seed(args.seed)
@@ -192,7 +316,10 @@ def main():
 
     dl_val = DataLoader(Pairs(z, split["val"]), batch_size=16, shuffle=False)
     dl_test = DataLoader(Pairs(z, split["test"]), batch_size=16, shuffle=False)
-    model = PairCE(args.model, init=args.init, freeze=args.freeze).to(device)
+    model = PairCE(args.model, init=args.init, freeze=args.freeze, rel=args.rel, lex=args.lex).to(device)
+    if args.init_ckpt:
+        miss = model.load_state_dict(torch.load(args.init_ckpt, map_location=device)["model"], strict=False)
+        print("init from", args.init_ckpt, miss, flush=True)
     enc = [p for p in model.enc.parameters() if p.requires_grad]
     opt = torch.optim.AdamW([{"params": model.heads(), "lr": args.lr_head},
                              {"params": enc, "lr": args.lr_enc}], weight_decay=args.wd)
@@ -216,7 +343,9 @@ def main():
             same = torch.from_numpy(same_all[kk].astype(np.int64)).to(device)
             with torch.autocast("cuda", enabled=(device == "cuda")):
                 o = model.forward_all(ids, mask)
-            ls = weighted_losses(o, y, src, has, same, args.w_same0, args.w_dim2)
+            set_b = torch.tensor([pairs[k]["set"] == "B" for k in kk], device=device)
+            ls = weighted_losses(o, y, src, has, same, args.w_same0, args.w_dim2, args.w_rank, args.w_anti,
+                                 args.w_anti_b, set_b)
             opt.zero_grad(set_to_none=True)
             scaler.scale(ls["total"]).backward()
             scaler.unscale_(opt); torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
@@ -244,13 +373,17 @@ def main():
         print("EVAL", json.dumps({k: v for k, v in rec.items() if k not in ("slices", "src")}), flush=True)
         if bad >= args.patience and ep + 1 >= args.min_epochs: print("early stop", flush=True); break
 
-    model.load_state_dict(torch.load(out / "best.pt", map_location=device)["model"])
+    ck = torch.load(out / "best.pt", map_location=device)
+    model.load_state_dict(ck["model"])
+    ck["thr"] = calibrate(model, dl_val, device); ck["model"] = model.state_dict()
+    torch.save(ck, out / "best.pt")
+    print("thresholds (val, F1)", ck["thr"], flush=True)
     te = {}
     if split["test"]:                       # data without test events (e.g. pool_train): use eval_heldout.py
         te = evaluate(model, dl_test, slices, device)
         te["src"] = eval_src(model, dl_test, pairs, src_all, device)
         te["rank_b_over_c"] = rank_b_over_c(model, z, pairs, docs_role, split["test"], device)
-    json.dump({"best_val_score": best[0], "best_epoch": best[1], "test": te, "args": vars(args),
+    json.dump({"best_val_score": best[0], "best_epoch": best[1], "thr": ck["thr"], "test": te, "args": vars(args),
                "seconds": round(time.time() - start, 1)},
               open(out / f"summary_seed{args.seed}.json", "w"), indent=1, ensure_ascii=False)
     print("TEST", json.dumps({k: v for k, v in te.items() if k not in ("slices",)}), flush=True)

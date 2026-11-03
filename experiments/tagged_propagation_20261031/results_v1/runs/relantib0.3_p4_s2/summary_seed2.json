@@ -1,0 +1,234 @@
+{
+ "best_val_score": -0.23642394531656194,
+ "best_epoch": 6,
+ "thr": [
+  0.39999999999999997,
+  0.5
+ ],
+ "test": {
+  "loss": 0.2444430856793015,
+  "dim1_f1": 0.7456,
+  "dim2_f1": 0.8233,
+  "score": 0.7844,
+  "slices": {
+   "dup|A|A|val": {
+    "n": 6238,
+    "dim1_acc": 1.0,
+    "dim2_acc": 1.0
+   },
+   "dup|A|B|own": {
+    "n": 1593,
+    "dim1_acc": 1.0,
+    "dim2_acc": 1.0
+   },
+   "dup|A|B|trans": {
+    "n": 6376,
+    "dim1_acc": 0.8758,
+    "dim2_acc": 1.0
+   },
+   "dup|A|C|val": {
+    "n": 7949,
+    "dim1_acc": 0.8415,
+    "dim2_acc": 1.0
+   },
+   "dup|B|A|val": {
+    "n": 6276,
+    "dim1_acc": 0.1033,
+    "dim2_acc": 1.0
+   },
+   "dup|B|Bf|trans": {
+    "n": 6324,
+    "dim1_acc": 0.9687,
+    "dim2_acc": 1.0
+   },
+   "dup|B|X|val": {
+    "n": 7476,
+    "dim1_acc": 1.0,
+    "dim2_acc": 1.0
+   },
+   "dup|C|Bf|trans": {
+    "n": 2628,
+    "dim1_acc": 1.0,
+    "dim2_acc": 1.0
+   },
+   "dup|C|B|own": {
+    "n": 888,
+    "dim1_acc": 1.0,
+    "dim2_acc": 1.0
+   },
+   "dup|C|B|trans": {
+    "n": 3792,
+    "dim1_acc": 1.0,
+    "dim2_acc": 1.0
+   },
+   "dup|C|X|val": {
+    "n": 14906,
+    "dim1_acc": 1.0,
+    "dim2_acc": 1.0
+   },
+   "rumor|A|A|val": {
+    "n": 6882,
+    "dim1_acc": 1.0,
+    "dim2_acc": 1.0
+   },
+   "rumor|A|B|own": {
+    "n": 1386,
+    "dim1_acc": 0.9697,
+    "dim2_acc": 0.974
+   },
+   "rumor|A|B|rumor_mirror": {
+    "n": 1716,
+    "dim1_acc": 0.8182,
+    "dim2_acc": 0.7168
+   },
+   "rumor|A|B|rumor_plain": {
+    "n": 1440,
+    "dim1_acc": 0.9708,
+    "dim2_acc": 0.9125
+   },
+   "rumor|A|B|trans": {
+    "n": 3828,
+    "dim1_acc": 0.9122,
+    "dim2_acc": 0.9984
+   },
+   "rumor|A|C|c_mirror": {
+    "n": 1560,
+    "dim1_acc": 0.6385,
+    "dim2_acc": 0.7192
+   },
+   "rumor|A|C|val": {
+    "n": 7050,
+    "dim1_acc": 0.8809,
+    "dim2_acc": 1.0
+   },
+   "rumor|B|A|val": {
+    "n": 6882,
+    "dim1_acc": 0.0549,
+    "dim2_acc": 1.0
+   },
+   "rumor|B|Bf|trans": {
+    "n": 6906,
+    "dim1_acc": 0.9583,
+    "dim2_acc": 1.0
+   },
+   "rumor|B|X|c_mirror": {
+    "n": 1188,
+    "dim1_acc": 1.0,
+    "dim2_acc": 1.0
+   },
+   "rumor|B|X|val": {
+    "n": 7068,
+    "dim1_acc": 1.0,
+    "dim2_acc": 1.0
+   },
+   "rumor|C|Bf|trans": {
+    "n": 3588,
+    "dim1_acc": 1.0,
+    "dim2_acc": 1.0
+   },
+   "rumor|C|B|own": {
+    "n": 732,
+    "dim1_acc": 1.0,
+    "dim2_acc": 1.0
+   },
+   "rumor|C|B|rumor_mirror": {
+    "n": 864,
+    "dim1_acc": 1.0,
+    "dim2_acc": 1.0
+   },
+   "rumor|C|B|rumor_plain": {
+    "n": 696,
+    "dim1_acc": 1.0,
+    "dim2_acc": 1.0
+   },
+   "rumor|C|B|trans": {
+    "n": 1908,
+    "dim1_acc": 1.0,
+    "dim2_acc": 1.0
+   },
+   "rumor|C|X|c_mirror": {
+    "n": 1998,
+    "dim1_acc": 1.0,
+    "dim2_acc": 1.0
+   },
+   "rumor|C|X|val": {
+    "n": 13698,
+    "dim1_acc": 1.0,
+    "dim2_acc": 1.0
+   }
+  },
+  "src": {
+   "dup|A|has_source": {
+    "n": 358,
+    "acc": 0.8492
+   },
+   "dup|A|none": {
+    "n": 716,
+    "acc": 0.9078
+   },
+   "dup|B|has_source": {
+    "n": 360,
+    "acc": 0.0667
+   },
+   "dup|B|none": {
+    "n": 720,
+    "acc": 0.9917
+   },
+   "dup|C|none": {
+    "n": 1077,
+    "acc": 1.0
+   },
+   "rumor|A|has_source": {
+    "n": 360,
+    "acc": 0.8667
+   },
+   "rumor|A|none": {
+    "n": 720,
+    "acc": 0.9167
+   },
+   "rumor|B|has_source": {
+    "n": 360,
+    "acc": 0.05
+   },
+   "rumor|B|none": {
+    "n": 720,
+    "acc": 0.9917
+   },
+   "rumor|C|none": {
+    "n": 1080,
+    "acc": 1.0
+   }
+  },
+  "rank_b_over_c": {
+   "dup": 0.8659,
+   "rumor": 0.8667,
+   "all": 0.8663
+  }
+ },
+ "args": {
+  "data": "p4_pairs",
+  "model": "/mnt/hdd4/models/research/NEWS-COPY-wire-clustering-na",
+  "out": "/mnt/hdd4/dujddx/tagged_pairce_relantib0.3_p4_s2_20261102",
+  "init": "newscopy",
+  "freeze": 4,
+  "epochs": 10,
+  "patience": 3,
+  "select": "val_loss",
+  "w_same0": 5.0,
+  "w_dim2": 5.0,
+  "min_epochs": 3,
+  "batch": 8,
+  "lr_enc": 2e-05,
+  "lr_head": 0.0001,
+  "wd": 0.01,
+  "seed": 2,
+  "limit": 0,
+  "rel": true,
+  "lex": false,
+  "w_rank": 0.0,
+  "w_anti": 0.0,
+  "w_anti_b": 0.3,
+  "init_ckpt": null
+ },
+ "seconds": 1974.2
+}

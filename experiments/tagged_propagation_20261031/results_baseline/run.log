@@ -1,0 +1,33 @@
+train p4_pairs: 10048 pairs
+
+== rule|tuned_on_train_for_f1: tau 0.1009 theta 0.15  train score 0.5339
+  p4_pairs             dim1 F1 0.579 acc 0.810 (all-0 0.801)  dim2 F1 0.536 acc 0.976 (all-0 0.976)  B>C 0.692
+    src dup|A|has_source 0.95  dup|A|none 0.50  dup|B|has_source 0.48  dup|B|none 0.88  dup|C|none 1.00  rumor|A|has_source 0.83  rumor|A|none 0.49  rumor|B|has_source 0.48  rumor|B|none 0.82  rumor|C|none 1.00
+  heldout/qwen_pairs   dim1 F1 0.598 acc 0.817 (all-0 0.797)  dim2 F1 0.564 acc 0.979 (all-0 0.977)  B>C 0.806
+    src dup|A|has_source 0.92  dup|A|none 0.52  dup|B|has_source 0.55  dup|B|none 0.84  dup|C|none 1.00  rumor|A|has_source 0.86  rumor|A|none 0.51  rumor|B|has_source 0.51  rumor|B|none 0.82  rumor|C|none 1.00
+  heldout/ds_pairs     dim1 F1 0.565 acc 0.786 (all-0 0.790)  dim2 F1 0.536 acc 0.975 (all-0 0.977)  B>C 0.694
+    src dup|A|has_source 0.82  dup|A|none 0.50  dup|B|has_source 0.45  dup|B|none 0.82  dup|C|none 1.00  rumor|A|has_source 0.71  rumor|A|none 0.48  rumor|B|has_source 0.36  rumor|B|none 0.79  rumor|C|none 1.00
+
+== rule|tuned_on_train_for_acc: tau 0.4353 theta 0.40  train acc 0.9012
+  p4_pairs             dim1 F1 0.414 acc 0.842 (all-0 0.801)  dim2 F1 0.222 acc 0.979 (all-0 0.976)  B>C 0.692
+    src dup|A|has_source 0.50  dup|A|none 0.95  dup|B|has_source 0.15  dup|B|none 0.96  dup|C|none 1.00  rumor|A|has_source 0.28  rumor|A|none 0.99  rumor|B|has_source 0.28  rumor|B|none 0.92  rumor|C|none 1.00
+  heldout/qwen_pairs   dim1 F1 0.413 acc 0.836 (all-0 0.797)  dim2 F1 0.252 acc 0.979 (all-0 0.977)  B>C 0.806
+    src dup|A|has_source 0.55  dup|A|none 0.98  dup|B|has_source 0.27  dup|B|none 0.92  dup|C|none 1.00  rumor|A|has_source 0.27  rumor|A|none 0.97  rumor|B|has_source 0.22  rumor|B|none 0.90  rumor|C|none 1.00
+  heldout/ds_pairs     dim1 F1 0.490 acc 0.815 (all-0 0.790)  dim2 F1 0.430 acc 0.981 (all-0 0.977)  B>C 0.694
+    src dup|A|has_source 0.63  dup|A|none 0.78  dup|B|has_source 0.25  dup|B|none 0.84  dup|C|none 1.00  rumor|A|has_source 0.45  rumor|A|none 0.85  rumor|B|has_source 0.23  rumor|B|none 0.83  rumor|C|none 1.00
+
+== lr|tuned_on_train_for_f1: tau 0.1149 theta 0.35  train score 0.5938
+  p4_pairs             dim1 F1 0.639 acc 0.794 (all-0 0.801)  dim2 F1 0.588 acc 0.977 (all-0 0.976)  B>C 0.709
+    src dup|A|has_source 0.93  dup|A|none 0.48  dup|B|has_source 0.90  dup|B|none 0.57  dup|C|none 1.00  rumor|A|has_source 0.88  rumor|A|none 0.53  rumor|B|has_source 0.88  rumor|B|none 0.59  rumor|C|none 1.00
+  heldout/qwen_pairs   dim1 F1 0.630 acc 0.797 (all-0 0.797)  dim2 F1 0.582 acc 0.981 (all-0 0.977)  B>C 0.786
+    src dup|A|has_source 0.94  dup|A|none 0.50  dup|B|has_source 0.88  dup|B|none 0.64  dup|C|none 1.00  rumor|A|has_source 0.86  rumor|A|none 0.55  rumor|B|has_source 0.78  rumor|B|none 0.62  rumor|C|none 1.00
+  heldout/ds_pairs     dim1 F1 0.637 acc 0.777 (all-0 0.790)  dim2 F1 0.595 acc 0.976 (all-0 0.977)  B>C 0.690
+    src dup|A|has_source 0.88  dup|A|none 0.40  dup|B|has_source 0.92  dup|B|none 0.61  dup|C|none 1.00  rumor|A|has_source 0.90  rumor|A|none 0.34  rumor|B|has_source 0.89  rumor|B|none 0.59  rumor|C|none 1.00
+
+== lr|tuned_on_train_for_acc: tau 0.3392 theta 0.70  train acc 0.9029
+  p4_pairs             dim1 F1 0.588 acc 0.829 (all-0 0.801)  dim2 F1 0.510 acc 0.982 (all-0 0.976)  B>C 0.709
+    src dup|A|has_source 0.82  dup|A|none 0.72  dup|B|has_source 0.52  dup|B|none 0.76  dup|C|none 1.00  rumor|A|has_source 0.62  rumor|A|none 0.81  rumor|B|has_source 0.55  rumor|B|none 0.74  rumor|C|none 1.00
+  heldout/qwen_pairs   dim1 F1 0.554 acc 0.820 (all-0 0.797)  dim2 F1 0.456 acc 0.982 (all-0 0.977)  B>C 0.786
+    src dup|A|has_source 0.80  dup|A|none 0.77  dup|B|has_source 0.51  dup|B|none 0.77  dup|C|none 1.00  rumor|A|has_source 0.59  rumor|A|none 0.79  rumor|B|has_source 0.45  rumor|B|none 0.76  rumor|C|none 1.00
+  heldout/ds_pairs     dim1 F1 0.642 acc 0.825 (all-0 0.790)  dim2 F1 0.672 acc 0.986 (all-0 0.977)  B>C 0.690
+    src dup|A|has_source 0.88  dup|A|none 0.69  dup|B|has_source 0.61  dup|B|none 0.74  dup|C|none 1.00  rumor|A|has_source 0.82  rumor|A|none 0.70  rumor|B|has_source 0.56  rumor|B|none 0.66  rumor|C|none 1.00

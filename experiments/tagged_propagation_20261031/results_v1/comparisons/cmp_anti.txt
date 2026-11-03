@@ -1,0 +1,27 @@
+thresholds (val, F1) [0.44999999999999996, 0.5]
+DONE (-0.2917887422773573, 5)
+thresholds (val, F1) [0.42499999999999993, 0.5]
+DONE (-0.33064394902299954, 9)
+
+== p4_pairs: 60 events
+  seed:tagged_pairce_rellex_p4_20261102         dim1 0.763  dim2 0.814  | dim1 - baseline +0.124  95% CI [+0.095, +0.153]
+  seed:tagged_pairce_rellexanti0.3_p4_20261102  dim1 0.717  dim2 0.758  | dim1 - baseline +0.078  95% CI [+0.042, +0.115]
+  seed:tagged_pairce_rellexanti1.0_p4_20261102  dim1 0.655  dim2 0.781  | dim1 - baseline +0.017  95% CI [-0.007, +0.040]
+  ensemble                                      dim1 0.778  dim2 0.811  | dim1 - baseline +0.140  95% CI [+0.103, +0.178]
+  baseline                                      dim1 0.639  dim2 0.588
+
+== heldout/qwen_pairs: 50 events
+  seed:tagged_pairce_rellex_p4_20261102         dim1 0.736  dim2 0.802  | dim1 - baseline +0.106  95% CI [+0.059, +0.148]
+  seed:tagged_pairce_rellexanti0.3_p4_20261102  dim1 0.693  dim2 0.729  | dim1 - baseline +0.063  95% CI [+0.007, +0.117]
+  seed:tagged_pairce_rellexanti1.0_p4_20261102  dim1 0.634  dim2 0.658  | dim1 - baseline +0.004  95% CI [-0.034, +0.042]
+  ensemble                                      dim1 0.746  dim2 0.784  | dim1 - baseline +0.116  95% CI [+0.065, +0.164]
+  baseline                                      dim1 0.630  dim2 0.582
+
+== heldout/ds_pairs: 56 events
+  seed:tagged_pairce_rellex_p4_20261102         dim1 0.689  dim2 0.727  | dim1 - baseline +0.053  95% CI [+0.018, +0.086]
+  seed:tagged_pairce_rellexanti0.3_p4_20261102  dim1 0.622  dim2 0.575  | dim1 - baseline -0.015  95% CI [-0.054, +0.024]
+  seed:tagged_pairce_rellexanti1.0_p4_20261102  dim1 0.607  dim2 0.651  | dim1 - baseline -0.030  95% CI [-0.056, -0.004]
+  ensemble                                      dim1 0.666  dim2 0.670  | dim1 - baseline +0.030  95% CI [-0.004, +0.065]
+  baseline                                      dim1 0.637  dim2 0.595
+thresholds {'seed:tagged_pairce_rellex_p4_20261102': 0.15000000596046448, 'seed:tagged_pairce_rellexanti0.3_p4_20261102': 0.44999998807907104, 'seed:tagged_pairce_rellexanti1.0_p4_20261102': 0.42500001192092896, 'ensemble': 0.37499999999999994}
+ALLDONE

@@ -54,10 +54,15 @@ def main():
     ap.add_argument("--ckpt", required=True)
     ap.add_argument("--sets", nargs="+", required=True)
     ap.add_argument("--out")
+    ap.add_argument("--thr05", action="store_true", help="ignore the calibrated thresholds")
     a = ap.parse_args()
     dev = "cuda" if torch.cuda.is_available() else "cpu"
-    m = PairCE(MODEL).to(dev)
-    m.load_state_dict(torch.load(a.ckpt, map_location=dev)["model"]); m.eval()
+    ck = torch.load(a.ckpt, map_location=dev)
+    m = PairCE(MODEL, rel=ck.get("args", {}).get("rel", False), lex=ck.get("args", {}).get("lex", False)).to(dev)
+    miss = m.load_state_dict(ck["model"], strict=False)
+    assert set(miss.missing_keys) <= {"thr"} and not miss.unexpected_keys, miss
+    if a.thr05: m.thr.fill_(0.5)
+    print("thresholds", m.thr.tolist()); m.eval()
     tok = str(Path(MODEL) / "tokenizer.json")
     res = {}
     for d in a.sets:

@@ -1,0 +1,233 @@
+{
+ "best_val_score": -0.33064394902299954,
+ "best_epoch": 9,
+ "thr": [
+  0.42499999999999993,
+  0.5
+ ],
+ "test": {
+  "loss": 0.3369726323419147,
+  "dim1_f1": 0.6553,
+  "dim2_f1": 0.7807,
+  "score": 0.718,
+  "slices": {
+   "dup|A|A|val": {
+    "n": 6238,
+    "dim1_acc": 0.5306,
+    "dim2_acc": 1.0
+   },
+   "dup|A|B|own": {
+    "n": 1593,
+    "dim1_acc": 1.0,
+    "dim2_acc": 1.0
+   },
+   "dup|A|B|trans": {
+    "n": 6376,
+    "dim1_acc": 0.6239,
+    "dim2_acc": 1.0
+   },
+   "dup|A|C|val": {
+    "n": 7949,
+    "dim1_acc": 0.9675,
+    "dim2_acc": 1.0
+   },
+   "dup|B|A|val": {
+    "n": 6276,
+    "dim1_acc": 0.0526,
+    "dim2_acc": 1.0
+   },
+   "dup|B|Bf|trans": {
+    "n": 6324,
+    "dim1_acc": 0.9507,
+    "dim2_acc": 1.0
+   },
+   "dup|B|X|val": {
+    "n": 7476,
+    "dim1_acc": 1.0,
+    "dim2_acc": 1.0
+   },
+   "dup|C|Bf|trans": {
+    "n": 2628,
+    "dim1_acc": 1.0,
+    "dim2_acc": 1.0
+   },
+   "dup|C|B|own": {
+    "n": 888,
+    "dim1_acc": 1.0,
+    "dim2_acc": 1.0
+   },
+   "dup|C|B|trans": {
+    "n": 3792,
+    "dim1_acc": 1.0,
+    "dim2_acc": 1.0
+   },
+   "dup|C|X|val": {
+    "n": 14906,
+    "dim1_acc": 1.0,
+    "dim2_acc": 1.0
+   },
+   "rumor|A|A|val": {
+    "n": 6882,
+    "dim1_acc": 0.4141,
+    "dim2_acc": 0.9573
+   },
+   "rumor|A|B|own": {
+    "n": 1386,
+    "dim1_acc": 0.9827,
+    "dim2_acc": 0.9957
+   },
+   "rumor|A|B|rumor_mirror": {
+    "n": 1716,
+    "dim1_acc": 0.9615,
+    "dim2_acc": 0.7902
+   },
+   "rumor|A|B|rumor_plain": {
+    "n": 1440,
+    "dim1_acc": 0.8417,
+    "dim2_acc": 0.7417
+   },
+   "rumor|A|B|trans": {
+    "n": 3828,
+    "dim1_acc": 0.8417,
+    "dim2_acc": 1.0
+   },
+   "rumor|A|C|c_mirror": {
+    "n": 1560,
+    "dim1_acc": 0.7038,
+    "dim2_acc": 0.7885
+   },
+   "rumor|A|C|val": {
+    "n": 7050,
+    "dim1_acc": 0.9464,
+    "dim2_acc": 1.0
+   },
+   "rumor|B|A|val": {
+    "n": 6882,
+    "dim1_acc": 0.0506,
+    "dim2_acc": 1.0
+   },
+   "rumor|B|Bf|trans": {
+    "n": 6906,
+    "dim1_acc": 1.0,
+    "dim2_acc": 1.0
+   },
+   "rumor|B|X|c_mirror": {
+    "n": 1188,
+    "dim1_acc": 1.0,
+    "dim2_acc": 1.0
+   },
+   "rumor|B|X|val": {
+    "n": 7068,
+    "dim1_acc": 1.0,
+    "dim2_acc": 1.0
+   },
+   "rumor|C|Bf|trans": {
+    "n": 3588,
+    "dim1_acc": 1.0,
+    "dim2_acc": 1.0
+   },
+   "rumor|C|B|own": {
+    "n": 732,
+    "dim1_acc": 1.0,
+    "dim2_acc": 1.0
+   },
+   "rumor|C|B|rumor_mirror": {
+    "n": 864,
+    "dim1_acc": 1.0,
+    "dim2_acc": 1.0
+   },
+   "rumor|C|B|rumor_plain": {
+    "n": 696,
+    "dim1_acc": 1.0,
+    "dim2_acc": 1.0
+   },
+   "rumor|C|B|trans": {
+    "n": 1908,
+    "dim1_acc": 1.0,
+    "dim2_acc": 1.0
+   },
+   "rumor|C|X|c_mirror": {
+    "n": 1998,
+    "dim1_acc": 1.0,
+    "dim2_acc": 1.0
+   },
+   "rumor|C|X|val": {
+    "n": 13698,
+    "dim1_acc": 1.0,
+    "dim2_acc": 1.0
+   }
+  },
+  "src": {
+   "dup|A|has_source": {
+    "n": 358,
+    "acc": 0.4665
+   },
+   "dup|A|none": {
+    "n": 716,
+    "acc": 0.8911
+   },
+   "dup|B|has_source": {
+    "n": 360,
+    "acc": 0.9167
+   },
+   "dup|B|none": {
+    "n": 720,
+    "acc": 0.5583
+   },
+   "dup|C|none": {
+    "n": 1077,
+    "acc": 1.0
+   },
+   "rumor|A|has_source": {
+    "n": 360,
+    "acc": 0.8333
+   },
+   "rumor|A|none": {
+    "n": 720,
+    "acc": 0.625
+   },
+   "rumor|B|has_source": {
+    "n": 360,
+    "acc": 0.95
+   },
+   "rumor|B|none": {
+    "n": 720,
+    "acc": 0.575
+   },
+   "rumor|C|none": {
+    "n": 1080,
+    "acc": 1.0
+   }
+  },
+  "rank_b_over_c": {
+   "dup": 0.8659,
+   "rumor": 0.8667,
+   "all": 0.8663
+  }
+ },
+ "args": {
+  "data": "p4_pairs",
+  "model": "/mnt/hdd4/models/research/NEWS-COPY-wire-clustering-na",
+  "out": "/mnt/hdd4/dujddx/tagged_pairce_rellexanti1.0_p4_20261102",
+  "init": "newscopy",
+  "freeze": 4,
+  "epochs": 10,
+  "patience": 3,
+  "select": "val_loss",
+  "w_same0": 5.0,
+  "w_dim2": 5.0,
+  "min_epochs": 3,
+  "batch": 8,
+  "lr_enc": 2e-05,
+  "lr_head": 0.0001,
+  "wd": 0.01,
+  "seed": 42,
+  "limit": 0,
+  "rel": true,
+  "lex": true,
+  "w_rank": 0.0,
+  "w_anti": 1.0,
+  "init_ckpt": null
+ },
+ "seconds": 1992.5
+}
