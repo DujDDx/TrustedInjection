@@ -19,7 +19,9 @@ HERE = Path(__file__).resolve().parent
 
 
 def writer_fn(name):
-    if name == "qwen":
+    """deepseek: the API writer (test only). Any other name: whatever model the local
+    llama-server at TI_BASE is serving; the name is only the label kept in the records."""
+    if name != "deepseek":
         return lambda text, seed: G.complete(text, max_tokens=G.MAX_TOK, temperature=G.TEMP, seed=seed)
     sys.path.insert(0, str(HERE / "p4v2"))
     from gen_events_ds import chat                      # key from DEEPSEEK_API_KEY or ./dskey

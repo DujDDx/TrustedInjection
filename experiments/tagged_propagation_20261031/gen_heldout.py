@@ -46,13 +46,14 @@ def gen(write, prompt, role, lines, seed, mat_tags, a_tags=None, b_tags=None):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--writer", choices=["qwen", "deepseek"], required=True)
+    ap.add_argument("--writer", required=True, help="qwen, deepseek, or a label for the model at TI_BASE")
     ap.add_argument("--out", required=True)
     ap.add_argument("--shard", default="0/1")
     # training data with the training prompts: --splits train val --pool train
     ap.add_argument("--splits", nargs="+", default=["test"])
     ap.add_argument("--pool", choices=["train", "heldout"], default="heldout")
     ap.add_argument("--skip", nargs="*", default=[], help="docs files whose events are already done")
+    ap.add_argument("--limit", type=int, default=0, help="first N events only (writer pilot)")
     a = ap.parse_args()
     done = {json.loads(l)["event_id"] for f in a.skip for l in open(f)}
     si, sn = map(int, a.shard.split("/"))
@@ -60,7 +61,9 @@ def main():
     pool = P.TRAIN if a.pool == "train" else P.HELDOUT
     out = Path(a.out); out.parent.mkdir(parents=True, exist_ok=True)
     fo = open(out, "w")
-    for n, ev in enumerate(split_events(set(a.splits))):
+    evs = split_events(set(a.splits))
+    if a.limit: evs = evs[: a.limit]
+    for n, ev in enumerate(evs):
         if n % sn != si: continue
         eid = ev["event_id"]
         if eid in done: continue

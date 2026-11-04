@@ -50,6 +50,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--ckpts", nargs="+", required=True)
     ap.add_argument("--sets", nargs="+", required=True)
+    ap.add_argument("--val-data", default="p4_pairs", help="pairs whose val split sets the ensemble threshold")
     ap.add_argument("--baseline", help="prefix of baseline_token.py --dump files")
     ap.add_argument("--boot", type=int, default=2000)
     ap.add_argument("--out")
@@ -57,7 +58,7 @@ def main():
     a = ap.parse_args()
     dev = "cuda" if torch.cuda.is_available() else "cpu"
     data = {}
-    for d in dict.fromkeys(["p4_pairs"] + a.sets):
+    for d in dict.fromkeys([a.val_data] + a.sets):
         z = dict(np.load(Path(d) / "token_labels.npz"))
         pairs = [json.loads(l) for l in open(Path(d) / "pairs.jsonl")]
         data[d] = (z, pairs)
@@ -67,13 +68,13 @@ def main():
         m = PairCE(MODEL, rel=ck.get("args", {}).get("rel", False), lex=ck.get("args", {}).get("lex", False)).to(dev)
         m.load_state_dict(ck["model"], strict=False); m.eval()
         thr1.append(float(m.thr[0]))
-        z, pairs = data["p4_pairs"]
+        z, pairs = data[a.val_data]
         P[c]["val"] = probs(m, z, [i for i, p in enumerate(pairs) if p["split"] == "val"], dev)
         for d in a.sets:
             z, pairs = data[d]
             P[c][d] = probs(m, z, [i for i, p in enumerate(pairs) if p["split"] == "test"], dev)
         del m; torch.cuda.empty_cache()
-    z, pairs = data["p4_pairs"]
+    z, pairs = data[a.val_data]
     yval = np.stack([z["dim1"], z["dim2"]], -1)[[i for i, p in enumerate(pairs) if p["split"] == "val"]].astype(int)
     ens_val = np.mean([P[c]["val"] for c in a.ckpts], 0)
     t_ens = best_thr(ens_val[..., 0], yval[..., 0])

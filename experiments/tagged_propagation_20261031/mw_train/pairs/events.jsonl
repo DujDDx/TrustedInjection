@@ -1,0 +1,637 @@
+{"event_id": "E2002", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f3", "f5"], "c_ids": ["f1", "f2", "f3", "f5", "f4"], "b_only": ["f4"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2002", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f5", "f6"], "c_ids": ["f1", "f3", "f5", "f6", "f2"], "b_only": ["f2"], "rumor_facts": ["f3", "f6"], "mirrored_to_c": ["f3", "f6"]}
+{"event_id": "E2003", "branch": "dup", "split": "val", "a_ids": ["f1", "f2", "f3", "f4"], "c_ids": ["f1", "f2", "f3", "f4", "f5"], "b_only": ["f6"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2005", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f3"], "c_ids": ["f1", "f2", "f3", "f4"], "b_only": ["f4"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2005", "branch": "rumor", "split": "train", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f3"], "b_only": ["f2"], "rumor_facts": ["f4", "f5"], "mirrored_to_c": ["f4", "f5"]}
+{"event_id": "E2006", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f2"], "b_only": ["f5"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2006", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f4"], "c_ids": ["f1", "f2", "f4", "f3"], "b_only": ["f5"], "rumor_facts": ["f2", "f4"], "mirrored_to_c": ["f2"]}
+{"event_id": "E2007", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f2"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2007", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f4"], "c_ids": ["f1", "f2", "f4", "f5"], "b_only": ["f5"], "rumor_facts": ["f4"], "mirrored_to_c": []}
+{"event_id": "E2008", "branch": "dup", "split": "val", "a_ids": ["f1", "f2", "f3"], "c_ids": ["f1", "f2", "f3", "f5"], "b_only": ["f5"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2008", "branch": "rumor", "split": "val", "a_ids": ["f1", "f2", "f4"], "c_ids": ["f1", "f2", "f4", "f5"], "b_only": ["f5"], "rumor_facts": ["f2", "f4"], "mirrored_to_c": ["f2"]}
+{"event_id": "E2009", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f2"], "b_only": ["f4"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2009", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f4"], "b_only": ["f3"], "rumor_facts": ["f2"], "mirrored_to_c": ["f2"]}
+{"event_id": "E2010", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f4"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2010", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f5"], "b_only": ["f2"], "rumor_facts": ["f3"], "mirrored_to_c": []}
+{"event_id": "E2011", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f4"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2011", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f5"], "b_only": ["f2"], "rumor_facts": ["f4"], "mirrored_to_c": ["f4"]}
+{"event_id": "E2012", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f4", "f5"], "c_ids": ["f1", "f3", "f4", "f5", "f6"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2012", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f4", "f5"], "c_ids": ["f1", "f2", "f4", "f5", "f6"], "b_only": ["f6"], "rumor_facts": ["f2"], "mirrored_to_c": []}
+{"event_id": "E2013", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f3", "f5"], "c_ids": ["f1", "f2", "f3", "f5", "f4"], "b_only": ["f4"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2013", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f4", "f6"], "c_ids": ["f1", "f3", "f4", "f6", "f2"], "b_only": ["f2"], "rumor_facts": ["f3"], "mirrored_to_c": ["f3"]}
+{"event_id": "E2016", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f3"], "c_ids": ["f1", "f2", "f3", "f4"], "b_only": ["f5"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2016", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f3"], "c_ids": ["f1", "f2", "f3", "f5"], "b_only": ["f5"], "rumor_facts": ["f2"], "mirrored_to_c": ["f2"]}
+{"event_id": "E2017", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f5"], "b_only": ["f5"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2017", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f4"], "c_ids": ["f1", "f2", "f4", "f3"], "b_only": ["f5"], "rumor_facts": ["f1", "f4"], "mirrored_to_c": ["f4"]}
+{"event_id": "E2018", "branch": "rumor", "split": "val", "a_ids": ["f1", "f2", "f4"], "c_ids": ["f1", "f2", "f4", "f5"], "b_only": ["f3"], "rumor_facts": ["f2"], "mirrored_to_c": ["f2"]}
+{"event_id": "E2019", "branch": "dup", "split": "val", "a_ids": ["f1", "f2", "f3"], "c_ids": ["f1", "f2", "f3", "f4"], "b_only": ["f4"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2019", "branch": "rumor", "split": "val", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f2"], "b_only": ["f2"], "rumor_facts": ["f4"], "mirrored_to_c": ["f4"]}
+{"event_id": "E2020", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f3"], "c_ids": ["f1", "f2", "f3", "f5"], "b_only": ["f5"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2020", "branch": "rumor", "split": "train", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f2"], "b_only": ["f2"], "rumor_facts": ["f1", "f5"], "mirrored_to_c": ["f1"]}
+{"event_id": "E2021", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f5"], "b_only": ["f5"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2021", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f3"], "c_ids": ["f1", "f2", "f3", "f5"], "b_only": ["f5"], "rumor_facts": ["f1"], "mirrored_to_c": []}
+{"event_id": "E2022", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f2"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2022", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f3"], "c_ids": ["f1", "f2", "f3", "f5"], "b_only": ["f4"], "rumor_facts": ["f1"], "mirrored_to_c": ["f1"]}
+{"event_id": "E2024", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f5"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2024", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f3"], "c_ids": ["f1", "f2", "f3", "f4"], "b_only": ["f4"], "rumor_facts": ["f1", "f3"], "mirrored_to_c": ["f1", "f3"]}
+{"event_id": "E2027", "branch": "dup", "split": "train", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f2"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2027", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f4"], "b_only": ["f4"], "rumor_facts": ["f1", "f3"], "mirrored_to_c": ["f1", "f3"]}
+{"event_id": "E2028", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f2"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2028", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f4"], "c_ids": ["f1", "f2", "f4", "f5"], "b_only": ["f3"], "rumor_facts": ["f1", "f2"], "mirrored_to_c": []}
+{"event_id": "E2029", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f3"], "c_ids": ["f1", "f2", "f3", "f5"], "b_only": ["f4"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2029", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f3"], "c_ids": ["f1", "f2", "f3", "f5"], "b_only": ["f5"], "rumor_facts": ["f1"], "mirrored_to_c": []}
+{"event_id": "E2030", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f3", "f4"], "c_ids": ["f1", "f2", "f3", "f4", "f6"], "b_only": ["f6"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2030", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f4", "f6"], "c_ids": ["f1", "f2", "f4", "f6", "f5"], "b_only": ["f5"], "rumor_facts": ["f1"], "mirrored_to_c": ["f1"]}
+{"event_id": "E2033", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f2"], "b_only": ["f4"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2033", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f4"], "c_ids": ["f1", "f2", "f4", "f3"], "b_only": ["f3"], "rumor_facts": ["f1", "f4"], "mirrored_to_c": ["f1"]}
+{"event_id": "E2034", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f3", "f6"], "c_ids": ["f1", "f2", "f3", "f6", "f4"], "b_only": ["f4"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2034", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f4", "f6"], "c_ids": ["f1", "f3", "f4", "f6", "f5"], "b_only": ["f2"], "rumor_facts": ["f1", "f6"], "mirrored_to_c": ["f6"]}
+{"event_id": "E2035", "branch": "dup", "split": "train", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f2"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2035", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f5"], "b_only": ["f5"], "rumor_facts": ["f4"], "mirrored_to_c": ["f4"]}
+{"event_id": "E2036", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f3", "f4"], "c_ids": ["f1", "f2", "f3", "f4", "f5"], "b_only": ["f5"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2036", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f3", "f4"], "c_ids": ["f1", "f2", "f3", "f4", "f6"], "b_only": ["f5"], "rumor_facts": ["f1", "f3"], "mirrored_to_c": ["f3"]}
+{"event_id": "E2037", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f4", "f6"], "c_ids": ["f1", "f2", "f4", "f6", "f3"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2037", "branch": "rumor", "split": "train", "a_ids": ["f1", "f4", "f5", "f6"], "c_ids": ["f1", "f4", "f5", "f6", "f2"], "b_only": ["f2"], "rumor_facts": ["f5"], "mirrored_to_c": ["f5"]}
+{"event_id": "E2038", "branch": "dup", "split": "train", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f3"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2038", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f3"], "b_only": ["f4"], "rumor_facts": ["f5"], "mirrored_to_c": []}
+{"event_id": "E2039", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f3", "f6"], "c_ids": ["f1", "f2", "f3", "f6", "f4"], "b_only": ["f5"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2039", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f5", "f6"], "c_ids": ["f1", "f2", "f5", "f6", "f4"], "b_only": ["f4"], "rumor_facts": ["f2"], "mirrored_to_c": []}
+{"event_id": "E2040", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f4", "f6"], "c_ids": ["f1", "f3", "f4", "f6", "f2"], "b_only": ["f5"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2040", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f5", "f6"], "c_ids": ["f1", "f2", "f5", "f6", "f4"], "b_only": ["f3"], "rumor_facts": ["f6"], "mirrored_to_c": ["f6"]}
+{"event_id": "E2041", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f3", "f5"], "c_ids": ["f1", "f2", "f3", "f5", "f4"], "b_only": ["f4"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2041", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f3", "f5"], "c_ids": ["f1", "f2", "f3", "f5", "f6"], "b_only": ["f4"], "rumor_facts": ["f3"], "mirrored_to_c": []}
+{"event_id": "E2042", "branch": "dup", "split": "val", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f4"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2042", "branch": "rumor", "split": "val", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f3"], "b_only": ["f3"], "rumor_facts": ["f4"], "mirrored_to_c": ["f4"]}
+{"event_id": "E2043", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f2"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2043", "branch": "rumor", "split": "train", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f3"], "b_only": ["f2"], "rumor_facts": ["f4"], "mirrored_to_c": []}
+{"event_id": "E2044", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f4"], "c_ids": ["f1", "f2", "f4", "f5"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2044", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f4"], "b_only": ["f3"], "rumor_facts": ["f2", "f5"], "mirrored_to_c": ["f5"]}
+{"event_id": "E2045", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f4", "f6"], "c_ids": ["f1", "f2", "f4", "f6", "f3"], "b_only": ["f5"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2045", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f4", "f6"], "c_ids": ["f1", "f3", "f4", "f6", "f5"], "b_only": ["f2"], "rumor_facts": ["f1", "f6"], "mirrored_to_c": []}
+{"event_id": "E2046", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f5", "f6"], "c_ids": ["f1", "f2", "f5", "f6", "f4"], "b_only": ["f4"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2046", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f4", "f5"], "c_ids": ["f1", "f3", "f4", "f5", "f6"], "b_only": ["f6"], "rumor_facts": ["f3", "f5"], "mirrored_to_c": []}
+{"event_id": "E2048", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f4", "f5"], "c_ids": ["f1", "f3", "f4", "f5", "f6"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2048", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f4", "f5"], "c_ids": ["f1", "f2", "f4", "f5", "f3"], "b_only": ["f6"], "rumor_facts": ["f1", "f5"], "mirrored_to_c": ["f5"]}
+{"event_id": "E2049", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f4"], "b_only": ["f4"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2049", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f4"], "b_only": ["f4"], "rumor_facts": ["f1", "f2"], "mirrored_to_c": []}
+{"event_id": "E2050", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f4", "f6"], "c_ids": ["f1", "f2", "f4", "f6", "f3"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2050", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f5", "f6"], "c_ids": ["f1", "f2", "f5", "f6", "f3"], "b_only": ["f4"], "rumor_facts": ["f2", "f5"], "mirrored_to_c": ["f2"]}
+{"event_id": "E2051", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f3"], "c_ids": ["f1", "f2", "f3", "f4"], "b_only": ["f4"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2051", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f3"], "c_ids": ["f1", "f2", "f3", "f5"], "b_only": ["f4"], "rumor_facts": ["f3"], "mirrored_to_c": ["f3"]}
+{"event_id": "E2052", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f4"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2052", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f4"], "b_only": ["f4"], "rumor_facts": ["f1"], "mirrored_to_c": ["f1"]}
+{"event_id": "E2054", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f4", "f6"], "c_ids": ["f1", "f3", "f4", "f6", "f2"], "b_only": ["f5"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2054", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f4", "f5"], "c_ids": ["f1", "f2", "f4", "f5", "f3"], "b_only": ["f6"], "rumor_facts": ["f2"], "mirrored_to_c": ["f2"]}
+{"event_id": "E2055", "branch": "dup", "split": "train", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f3"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2055", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f3"], "b_only": ["f3"], "rumor_facts": ["f2"], "mirrored_to_c": []}
+{"event_id": "E2057", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f4"], "c_ids": ["f1", "f2", "f4", "f5"], "b_only": ["f5"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2057", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f3"], "b_only": ["f4"], "rumor_facts": ["f1", "f5"], "mirrored_to_c": ["f5"]}
+{"event_id": "E2058", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f4"], "c_ids": ["f1", "f2", "f4", "f5"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2058", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f3"], "c_ids": ["f1", "f2", "f3", "f4"], "b_only": ["f5"], "rumor_facts": ["f2", "f3"], "mirrored_to_c": ["f3"]}
+{"event_id": "E2061", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f4"], "c_ids": ["f1", "f2", "f4", "f5"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2061", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f4"], "b_only": ["f4"], "rumor_facts": ["f1"], "mirrored_to_c": []}
+{"event_id": "E2062", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f4"], "c_ids": ["f1", "f2", "f4", "f3"], "b_only": ["f5"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2062", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f3"], "c_ids": ["f1", "f2", "f3", "f4"], "b_only": ["f5"], "rumor_facts": ["f3"], "mirrored_to_c": []}
+{"event_id": "E2063", "branch": "dup", "split": "val", "a_ids": ["f1", "f3", "f5", "f6"], "c_ids": ["f1", "f3", "f5", "f6", "f2"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2063", "branch": "rumor", "split": "val", "a_ids": ["f1", "f2", "f5", "f6"], "c_ids": ["f1", "f2", "f5", "f6", "f3"], "b_only": ["f4"], "rumor_facts": ["f5"], "mirrored_to_c": []}
+{"event_id": "E2064", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f3", "f5"], "c_ids": ["f1", "f2", "f3", "f5", "f4"], "b_only": ["f6"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2064", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f4", "f5"], "c_ids": ["f1", "f2", "f4", "f5", "f3"], "b_only": ["f6"], "rumor_facts": ["f4", "f5"], "mirrored_to_c": ["f5"]}
+{"event_id": "E2066", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f5", "f6"], "c_ids": ["f1", "f3", "f5", "f6", "f2"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2066", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f5", "f6"], "c_ids": ["f1", "f2", "f5", "f6", "f3"], "b_only": ["f3"], "rumor_facts": ["f1"], "mirrored_to_c": []}
+{"event_id": "E2067", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f3", "f4"], "c_ids": ["f1", "f2", "f3", "f4", "f6"], "b_only": ["f5"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2067", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f5", "f6"], "c_ids": ["f1", "f3", "f5", "f6", "f2"], "b_only": ["f2"], "rumor_facts": ["f1", "f5"], "mirrored_to_c": ["f5"]}
+{"event_id": "E2068", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f4"], "c_ids": ["f1", "f2", "f4", "f3"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2068", "branch": "rumor", "split": "train", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f3"], "b_only": ["f3"], "rumor_facts": ["f5"], "mirrored_to_c": ["f5"]}
+{"event_id": "E2069", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f4"], "b_only": ["f4"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2069", "branch": "rumor", "split": "train", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f2"], "b_only": ["f2"], "rumor_facts": ["f1"], "mirrored_to_c": []}
+{"event_id": "E2071", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f4"], "c_ids": ["f1", "f2", "f4", "f5"], "b_only": ["f5"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2071", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f2"], "b_only": ["f2"], "rumor_facts": ["f3", "f4"], "mirrored_to_c": ["f3", "f4"]}
+{"event_id": "E2072", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f3", "f4"], "c_ids": ["f1", "f2", "f3", "f4", "f6"], "b_only": ["f6"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2072", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f4", "f5"], "c_ids": ["f1", "f3", "f4", "f5", "f6"], "b_only": ["f6"], "rumor_facts": ["f1", "f3"], "mirrored_to_c": ["f3"]}
+{"event_id": "E2074", "branch": "rumor", "split": "val", "a_ids": ["f1", "f2", "f3"], "c_ids": ["f1", "f2", "f3", "f4"], "b_only": ["f5"], "rumor_facts": ["f1", "f2"], "mirrored_to_c": ["f1", "f2"]}
+{"event_id": "E2075", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f2"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2075", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f3"], "b_only": ["f3"], "rumor_facts": ["f1", "f5"], "mirrored_to_c": ["f1"]}
+{"event_id": "E2076", "branch": "dup", "split": "train", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f3"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2076", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f2"], "b_only": ["f5"], "rumor_facts": ["f1", "f4"], "mirrored_to_c": ["f4"]}
+{"event_id": "E2077", "branch": "dup", "split": "val", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f3"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2077", "branch": "rumor", "split": "val", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f3"], "b_only": ["f4"], "rumor_facts": ["f2"], "mirrored_to_c": ["f2"]}
+{"event_id": "E2078", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f3"], "c_ids": ["f1", "f2", "f3", "f4"], "b_only": ["f4"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2078", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f4"], "b_only": ["f3"], "rumor_facts": ["f1"], "mirrored_to_c": ["f1"]}
+{"event_id": "E2079", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f5", "f6"], "c_ids": ["f1", "f2", "f5", "f6", "f4"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2079", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f3", "f4"], "c_ids": ["f1", "f2", "f3", "f4", "f5"], "b_only": ["f5"], "rumor_facts": ["f3"], "mirrored_to_c": []}
+{"event_id": "E2080", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f3"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2080", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f4"], "b_only": ["f2"], "rumor_facts": ["f1", "f5"], "mirrored_to_c": ["f5"]}
+{"event_id": "E2083", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f4", "f5"], "c_ids": ["f1", "f2", "f4", "f5", "f3"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2083", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f4", "f5"], "c_ids": ["f1", "f3", "f4", "f5", "f6"], "b_only": ["f2"], "rumor_facts": ["f1"], "mirrored_to_c": []}
+{"event_id": "E2084", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f4"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2084", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f2"], "b_only": ["f4"], "rumor_facts": ["f3"], "mirrored_to_c": ["f3"]}
+{"event_id": "E2085", "branch": "dup", "split": "train", "a_ids": ["f1", "f4", "f5", "f6"], "c_ids": ["f1", "f4", "f5", "f6", "f2"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2085", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f5", "f6"], "c_ids": ["f1", "f3", "f5", "f6", "f4"], "b_only": ["f4"], "rumor_facts": ["f1"], "mirrored_to_c": ["f1"]}
+{"event_id": "E2086", "branch": "dup", "split": "val", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f2"], "b_only": ["f5"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2086", "branch": "rumor", "split": "val", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f2"], "b_only": ["f4"], "rumor_facts": ["f5"], "mirrored_to_c": ["f5"]}
+{"event_id": "E2087", "branch": "rumor", "split": "val", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f2"], "b_only": ["f2"], "rumor_facts": ["f5"], "mirrored_to_c": ["f5"]}
+{"event_id": "E2088", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f4", "f6"], "c_ids": ["f1", "f2", "f4", "f6", "f3"], "b_only": ["f5"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2088", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f4", "f6"], "c_ids": ["f1", "f3", "f4", "f6", "f2"], "b_only": ["f2"], "rumor_facts": ["f3"], "mirrored_to_c": ["f3"]}
+{"event_id": "E2089", "branch": "dup", "split": "train", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f2"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2089", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f2"], "b_only": ["f4"], "rumor_facts": ["f5"], "mirrored_to_c": []}
+{"event_id": "E2090", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f4"], "c_ids": ["f1", "f2", "f4", "f3"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2090", "branch": "rumor", "split": "train", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f3"], "b_only": ["f3"], "rumor_facts": ["f4"], "mirrored_to_c": []}
+{"event_id": "E2091", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f5"], "b_only": ["f5"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2091", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f3"], "c_ids": ["f1", "f2", "f3", "f5"], "b_only": ["f5"], "rumor_facts": ["f1", "f3"], "mirrored_to_c": []}
+{"event_id": "E2092", "branch": "dup", "split": "val", "a_ids": ["f1", "f2", "f4"], "c_ids": ["f1", "f2", "f4", "f3"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2093", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f3", "f4"], "c_ids": ["f1", "f2", "f3", "f4", "f5"], "b_only": ["f5"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2093", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f3", "f6"], "c_ids": ["f1", "f2", "f3", "f6", "f4"], "b_only": ["f5"], "rumor_facts": ["f2", "f6"], "mirrored_to_c": ["f2"]}
+{"event_id": "E2097", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f3"], "b_only": ["f4"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2097", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f4"], "b_only": ["f4"], "rumor_facts": ["f1", "f3"], "mirrored_to_c": ["f1"]}
+{"event_id": "E2098", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f3"], "c_ids": ["f1", "f2", "f3", "f5"], "b_only": ["f4"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2098", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f3"], "c_ids": ["f1", "f2", "f3", "f5"], "b_only": ["f4"], "rumor_facts": ["f1", "f3"], "mirrored_to_c": []}
+{"event_id": "E2099", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f4", "f6"], "c_ids": ["f1", "f3", "f4", "f6", "f5"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2099", "branch": "rumor", "split": "train", "a_ids": ["f1", "f4", "f5", "f6"], "c_ids": ["f1", "f4", "f5", "f6", "f3"], "b_only": ["f2"], "rumor_facts": ["f4"], "mirrored_to_c": []}
+{"event_id": "E2100", "branch": "dup", "split": "train", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f2"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2100", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f4"], "c_ids": ["f1", "f2", "f4", "f5"], "b_only": ["f5"], "rumor_facts": ["f1", "f4"], "mirrored_to_c": ["f1"]}
+{"event_id": "E2101", "branch": "dup", "split": "val", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f5"], "b_only": ["f5"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2101", "branch": "rumor", "split": "val", "a_ids": ["f1", "f2", "f4"], "c_ids": ["f1", "f2", "f4", "f3"], "b_only": ["f3"], "rumor_facts": ["f4"], "mirrored_to_c": ["f4"]}
+{"event_id": "E2102", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f3"], "c_ids": ["f1", "f2", "f3", "f4"], "b_only": ["f4"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2102", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f4"], "b_only": ["f3"], "rumor_facts": ["f1", "f5"], "mirrored_to_c": ["f1"]}
+{"event_id": "E2103", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f4"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2103", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f3"], "c_ids": ["f1", "f2", "f3", "f4"], "b_only": ["f4"], "rumor_facts": ["f2"], "mirrored_to_c": ["f2"]}
+{"event_id": "E2104", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f4"], "c_ids": ["f1", "f2", "f4", "f5"], "b_only": ["f5"], "rumor_facts": ["f2", "f4"], "mirrored_to_c": []}
+{"event_id": "E2105", "branch": "dup", "split": "train", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f2"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2105", "branch": "rumor", "split": "train", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f2"], "b_only": ["f3"], "rumor_facts": ["f1"], "mirrored_to_c": []}
+{"event_id": "E2106", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f4", "f5"], "c_ids": ["f1", "f2", "f4", "f5", "f6"], "b_only": ["f6"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2106", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f5", "f6"], "c_ids": ["f1", "f2", "f5", "f6", "f4"], "b_only": ["f3"], "rumor_facts": ["f6"], "mirrored_to_c": ["f6"]}
+{"event_id": "E2107", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f4"], "b_only": ["f4"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2107", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f5"], "b_only": ["f5"], "rumor_facts": ["f1", "f3"], "mirrored_to_c": ["f1"]}
+{"event_id": "E2108", "branch": "dup", "split": "val", "a_ids": ["f1", "f2", "f4", "f6"], "c_ids": ["f1", "f2", "f4", "f6", "f5"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2109", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f5"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2109", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f3"], "c_ids": ["f1", "f2", "f3", "f4"], "b_only": ["f5"], "rumor_facts": ["f3"], "mirrored_to_c": []}
+{"event_id": "E2110", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f4"], "b_only": ["f4"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2110", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f4"], "c_ids": ["f1", "f2", "f4", "f3"], "b_only": ["f5"], "rumor_facts": ["f2", "f4"], "mirrored_to_c": []}
+{"event_id": "E2112", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f5", "f6"], "c_ids": ["f1", "f3", "f5", "f6", "f4"], "b_only": ["f4"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2112", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f5", "f6"], "c_ids": ["f1", "f2", "f5", "f6", "f4"], "b_only": ["f3"], "rumor_facts": ["f1", "f6"], "mirrored_to_c": ["f1"]}
+{"event_id": "E2114", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f3"], "c_ids": ["f1", "f2", "f3", "f5"], "b_only": ["f5"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2114", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f3"], "c_ids": ["f1", "f2", "f3", "f5"], "b_only": ["f4"], "rumor_facts": ["f1"], "mirrored_to_c": []}
+{"event_id": "E2115", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f3", "f4"], "c_ids": ["f1", "f2", "f3", "f4", "f5"], "b_only": ["f6"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2115", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f3", "f5"], "c_ids": ["f1", "f2", "f3", "f5", "f4"], "b_only": ["f4"], "rumor_facts": ["f1"], "mirrored_to_c": []}
+{"event_id": "E2116", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f3", "f5"], "c_ids": ["f1", "f2", "f3", "f5", "f6"], "b_only": ["f6"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2116", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f5", "f6"], "c_ids": ["f1", "f2", "f5", "f6", "f4"], "b_only": ["f3"], "rumor_facts": ["f5", "f6"], "mirrored_to_c": ["f5", "f6"]}
+{"event_id": "E2117", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f4", "f6"], "c_ids": ["f1", "f3", "f4", "f6", "f5"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2117", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f5", "f6"], "c_ids": ["f1", "f2", "f5", "f6", "f3"], "b_only": ["f4"], "rumor_facts": ["f1", "f6"], "mirrored_to_c": ["f6"]}
+{"event_id": "E2118", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f5", "f6"], "c_ids": ["f1", "f3", "f5", "f6", "f2"], "b_only": ["f4"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2118", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f5", "f6"], "c_ids": ["f1", "f2", "f5", "f6", "f3"], "b_only": ["f4"], "rumor_facts": ["f6"], "mirrored_to_c": []}
+{"event_id": "E2119", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f3"], "b_only": ["f4"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2119", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f3"], "c_ids": ["f1", "f2", "f3", "f4"], "b_only": ["f4"], "rumor_facts": ["f2"], "mirrored_to_c": []}
+{"event_id": "E2120", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f3"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2120", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f4"], "c_ids": ["f1", "f2", "f4", "f3"], "b_only": ["f3"], "rumor_facts": ["f2", "f4"], "mirrored_to_c": ["f4"]}
+{"event_id": "E2121", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f4", "f6"], "c_ids": ["f1", "f3", "f4", "f6", "f5"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2121", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f3", "f4"], "c_ids": ["f1", "f2", "f3", "f4", "f5"], "b_only": ["f6"], "rumor_facts": ["f4"], "mirrored_to_c": ["f4"]}
+{"event_id": "E2122", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f3"], "c_ids": ["f1", "f2", "f3", "f4"], "b_only": ["f4"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2122", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f2"], "b_only": ["f5"], "rumor_facts": ["f3"], "mirrored_to_c": []}
+{"event_id": "E2124", "branch": "dup", "split": "train", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f2"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2124", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f2"], "b_only": ["f5"], "rumor_facts": ["f4"], "mirrored_to_c": []}
+{"event_id": "E2125", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f4", "f5"], "c_ids": ["f1", "f3", "f4", "f5", "f6"], "b_only": ["f6"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2125", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f4", "f5"], "c_ids": ["f1", "f2", "f4", "f5", "f6"], "b_only": ["f6"], "rumor_facts": ["f1", "f2"], "mirrored_to_c": []}
+{"event_id": "E2126", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f5"], "b_only": ["f5"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2126", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f3"], "c_ids": ["f1", "f2", "f3", "f4"], "b_only": ["f4"], "rumor_facts": ["f1", "f2"], "mirrored_to_c": ["f1", "f2"]}
+{"event_id": "E2129", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f4"], "c_ids": ["f1", "f2", "f4", "f5"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2129", "branch": "rumor", "split": "train", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f3"], "b_only": ["f3"], "rumor_facts": ["f5"], "mirrored_to_c": []}
+{"event_id": "E2131", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f2"], "b_only": ["f5"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2131", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f3"], "b_only": ["f4"], "rumor_facts": ["f5"], "mirrored_to_c": ["f5"]}
+{"event_id": "E2132", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f5"], "b_only": ["f5"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2132", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f2"], "b_only": ["f5"], "rumor_facts": ["f3", "f4"], "mirrored_to_c": ["f3"]}
+{"event_id": "E2133", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f5"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2133", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f3"], "c_ids": ["f1", "f2", "f3", "f4"], "b_only": ["f5"], "rumor_facts": ["f2"], "mirrored_to_c": ["f2"]}
+{"event_id": "E2134", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f2"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2134", "branch": "rumor", "split": "train", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f2"], "b_only": ["f3"], "rumor_facts": ["f1"], "mirrored_to_c": ["f1"]}
+{"event_id": "E2135", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f3"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2135", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f4"], "b_only": ["f4"], "rumor_facts": ["f5"], "mirrored_to_c": ["f5"]}
+{"event_id": "E2136", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f3", "f4"], "c_ids": ["f1", "f2", "f3", "f4", "f6"], "b_only": ["f5"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2136", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f4", "f6"], "c_ids": ["f1", "f2", "f4", "f6", "f3"], "b_only": ["f3"], "rumor_facts": ["f1", "f6"], "mirrored_to_c": ["f6"]}
+{"event_id": "E2137", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f3"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2137", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f4"], "b_only": ["f4"], "rumor_facts": ["f2"], "mirrored_to_c": []}
+{"event_id": "E2138", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f5"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2138", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f3"], "c_ids": ["f1", "f2", "f3", "f4"], "b_only": ["f5"], "rumor_facts": ["f2", "f3"], "mirrored_to_c": ["f3"]}
+{"event_id": "E2139", "branch": "dup", "split": "train", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f2"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2139", "branch": "rumor", "split": "train", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f3"], "b_only": ["f3"], "rumor_facts": ["f5"], "mirrored_to_c": ["f5"]}
+{"event_id": "E2140", "branch": "dup", "split": "train", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f3"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2140", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f4"], "c_ids": ["f1", "f2", "f4", "f3"], "b_only": ["f5"], "rumor_facts": ["f1", "f2"], "mirrored_to_c": ["f2"]}
+{"event_id": "E2142", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f3"], "c_ids": ["f1", "f2", "f3", "f4"], "b_only": ["f5"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2142", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f2"], "b_only": ["f2"], "rumor_facts": ["f1", "f4"], "mirrored_to_c": ["f4"]}
+{"event_id": "E2143", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f4", "f5"], "c_ids": ["f1", "f2", "f4", "f5", "f6"], "b_only": ["f6"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2143", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f5", "f6"], "c_ids": ["f1", "f3", "f5", "f6", "f2"], "b_only": ["f2"], "rumor_facts": ["f5", "f6"], "mirrored_to_c": ["f6"]}
+{"event_id": "E2144", "branch": "dup", "split": "train", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f2"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2144", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f2"], "b_only": ["f5"], "rumor_facts": ["f1", "f4"], "mirrored_to_c": ["f4"]}
+{"event_id": "E2145", "branch": "dup", "split": "train", "a_ids": ["f1", "f4", "f5", "f6"], "c_ids": ["f1", "f4", "f5", "f6", "f3"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2145", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f5", "f6"], "c_ids": ["f1", "f2", "f5", "f6", "f4"], "b_only": ["f3"], "rumor_facts": ["f5", "f6"], "mirrored_to_c": ["f5"]}
+{"event_id": "E2146", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f4"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2146", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f4"], "c_ids": ["f1", "f2", "f4", "f3"], "b_only": ["f5"], "rumor_facts": ["f2"], "mirrored_to_c": []}
+{"event_id": "E2147", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f3", "f4"], "c_ids": ["f1", "f2", "f3", "f4", "f5"], "b_only": ["f6"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2147", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f4", "f6"], "c_ids": ["f1", "f3", "f4", "f6", "f2"], "b_only": ["f5"], "rumor_facts": ["f1", "f4"], "mirrored_to_c": ["f1", "f4"]}
+{"event_id": "E2148", "branch": "dup", "split": "val", "a_ids": ["f1", "f3", "f4", "f5"], "c_ids": ["f1", "f3", "f4", "f5", "f2"], "b_only": ["f6"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2148", "branch": "rumor", "split": "val", "a_ids": ["f1", "f3", "f5", "f6"], "c_ids": ["f1", "f3", "f5", "f6", "f2"], "b_only": ["f2"], "rumor_facts": ["f5"], "mirrored_to_c": []}
+{"event_id": "E2149", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f3"], "c_ids": ["f1", "f2", "f3", "f5"], "b_only": ["f4"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2149", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f3"], "b_only": ["f4"], "rumor_facts": ["f1"], "mirrored_to_c": ["f1"]}
+{"event_id": "E2150", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f4"], "c_ids": ["f1", "f2", "f4", "f3"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2150", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f3"], "c_ids": ["f1", "f2", "f3", "f5"], "b_only": ["f4"], "rumor_facts": ["f1"], "mirrored_to_c": []}
+{"event_id": "E2151", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f4"], "b_only": ["f4"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2151", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f4"], "b_only": ["f4"], "rumor_facts": ["f2"], "mirrored_to_c": []}
+{"event_id": "E2152", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f3"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2152", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f5"], "b_only": ["f2"], "rumor_facts": ["f1"], "mirrored_to_c": ["f1"]}
+{"event_id": "E2154", "branch": "rumor", "split": "val", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f4"], "b_only": ["f4"], "rumor_facts": ["f5"], "mirrored_to_c": ["f5"]}
+{"event_id": "E2155", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f4", "f6"], "c_ids": ["f1", "f3", "f4", "f6", "f5"], "b_only": ["f5"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2155", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f5", "f6"], "c_ids": ["f1", "f3", "f5", "f6", "f4"], "b_only": ["f2"], "rumor_facts": ["f3"], "mirrored_to_c": []}
+{"event_id": "E2156", "branch": "dup", "split": "val", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f2"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2156", "branch": "rumor", "split": "val", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f4"], "b_only": ["f3"], "rumor_facts": ["f1", "f2"], "mirrored_to_c": ["f1"]}
+{"event_id": "E2157", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f2"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2157", "branch": "rumor", "split": "train", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f3"], "b_only": ["f2"], "rumor_facts": ["f4", "f5"], "mirrored_to_c": ["f4"]}
+{"event_id": "E2159", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f2"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2159", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f3"], "c_ids": ["f1", "f2", "f3", "f4"], "b_only": ["f4"], "rumor_facts": ["f3"], "mirrored_to_c": []}
+{"event_id": "E2160", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f3", "f5"], "c_ids": ["f1", "f2", "f3", "f5", "f6"], "b_only": ["f4"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2160", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f3", "f4"], "c_ids": ["f1", "f2", "f3", "f4", "f5"], "b_only": ["f5"], "rumor_facts": ["f2"], "mirrored_to_c": []}
+{"event_id": "E2161", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f3", "f5"], "c_ids": ["f1", "f2", "f3", "f5", "f4"], "b_only": ["f6"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2161", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f4", "f5"], "c_ids": ["f1", "f2", "f4", "f5", "f3"], "b_only": ["f3"], "rumor_facts": ["f1"], "mirrored_to_c": []}
+{"event_id": "E2162", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f5", "f6"], "c_ids": ["f1", "f2", "f5", "f6", "f4"], "b_only": ["f4"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2162", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f4", "f5"], "c_ids": ["f1", "f3", "f4", "f5", "f2"], "b_only": ["f6"], "rumor_facts": ["f4"], "mirrored_to_c": ["f4"]}
+{"event_id": "E2163", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f4"], "c_ids": ["f1", "f2", "f4", "f5"], "b_only": ["f5"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2163", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f4"], "b_only": ["f4"], "rumor_facts": ["f1"], "mirrored_to_c": []}
+{"event_id": "E2164", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f2"], "b_only": ["f5"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2164", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f2"], "b_only": ["f2"], "rumor_facts": ["f1"], "mirrored_to_c": ["f1"]}
+{"event_id": "E2165", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f4"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2165", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f2"], "b_only": ["f2"], "rumor_facts": ["f5"], "mirrored_to_c": ["f5"]}
+{"event_id": "E2166", "branch": "rumor", "split": "val", "a_ids": ["f1", "f4", "f5", "f6"], "c_ids": ["f1", "f4", "f5", "f6", "f3"], "b_only": ["f3"], "rumor_facts": ["f5", "f6"], "mirrored_to_c": ["f5"]}
+{"event_id": "E2168", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f3"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2168", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f4"], "b_only": ["f3"], "rumor_facts": ["f2", "f5"], "mirrored_to_c": []}
+{"event_id": "E2170", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f4", "f5"], "c_ids": ["f1", "f3", "f4", "f5", "f2"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2170", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f4", "f6"], "c_ids": ["f1", "f3", "f4", "f6", "f2"], "b_only": ["f2"], "rumor_facts": ["f6"], "mirrored_to_c": []}
+{"event_id": "E2171", "branch": "dup", "split": "train", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f2"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2171", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f4"], "b_only": ["f4"], "rumor_facts": ["f2", "f5"], "mirrored_to_c": ["f2"]}
+{"event_id": "E2173", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f4"], "b_only": ["f4"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2173", "branch": "rumor", "split": "train", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f2"], "b_only": ["f2"], "rumor_facts": ["f5"], "mirrored_to_c": ["f5"]}
+{"event_id": "E2174", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f4", "f6"], "c_ids": ["f1", "f2", "f4", "f6", "f5"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2174", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f4", "f5"], "c_ids": ["f1", "f3", "f4", "f5", "f2"], "b_only": ["f6"], "rumor_facts": ["f4"], "mirrored_to_c": ["f4"]}
+{"event_id": "E2176", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f4"], "c_ids": ["f1", "f2", "f4", "f5"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2176", "branch": "rumor", "split": "train", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f2"], "b_only": ["f3"], "rumor_facts": ["f1"], "mirrored_to_c": []}
+{"event_id": "E2178", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f4"], "c_ids": ["f1", "f2", "f4", "f5"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2178", "branch": "rumor", "split": "train", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f3"], "b_only": ["f3"], "rumor_facts": ["f5"], "mirrored_to_c": ["f5"]}
+{"event_id": "E2179", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f4"], "c_ids": ["f1", "f2", "f4", "f5"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2179", "branch": "rumor", "split": "train", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f3"], "b_only": ["f3"], "rumor_facts": ["f1", "f4"], "mirrored_to_c": ["f4"]}
+{"event_id": "E2180", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f4"], "b_only": ["f4"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2180", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f3"], "c_ids": ["f1", "f2", "f3", "f4"], "b_only": ["f4"], "rumor_facts": ["f2"], "mirrored_to_c": ["f2"]}
+{"event_id": "E2181", "branch": "dup", "split": "train", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f3"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2181", "branch": "rumor", "split": "train", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f2"], "b_only": ["f2"], "rumor_facts": ["f4", "f5"], "mirrored_to_c": ["f5"]}
+{"event_id": "E2183", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f4"], "c_ids": ["f1", "f2", "f4", "f3"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2183", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f4"], "b_only": ["f4"], "rumor_facts": ["f5"], "mirrored_to_c": ["f5"]}
+{"event_id": "E2184", "branch": "rumor", "split": "val", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f2"], "b_only": ["f2"], "rumor_facts": ["f1", "f5"], "mirrored_to_c": []}
+{"event_id": "E2185", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f3", "f4"], "c_ids": ["f1", "f2", "f3", "f4", "f5"], "b_only": ["f6"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2185", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f4", "f5"], "c_ids": ["f1", "f3", "f4", "f5", "f2"], "b_only": ["f2"], "rumor_facts": ["f1", "f4"], "mirrored_to_c": ["f1"]}
+{"event_id": "E2186", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f3", "f6"], "c_ids": ["f1", "f2", "f3", "f6", "f4"], "b_only": ["f5"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2186", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f5", "f6"], "c_ids": ["f1", "f2", "f5", "f6", "f4"], "b_only": ["f3"], "rumor_facts": ["f2"], "mirrored_to_c": []}
+{"event_id": "E2187", "branch": "dup", "split": "train", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f3"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2187", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f4"], "b_only": ["f3"], "rumor_facts": ["f2", "f5"], "mirrored_to_c": []}
+{"event_id": "E2188", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f3"], "c_ids": ["f1", "f2", "f3", "f5"], "b_only": ["f5"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2188", "branch": "rumor", "split": "train", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f2"], "b_only": ["f3"], "rumor_facts": ["f4"], "mirrored_to_c": ["f4"]}
+{"event_id": "E2189", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f4"], "b_only": ["f4"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2189", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f2"], "b_only": ["f4"], "rumor_facts": ["f1", "f3"], "mirrored_to_c": ["f3"]}
+{"event_id": "E2190", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f5"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2190", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f3"], "c_ids": ["f1", "f2", "f3", "f5"], "b_only": ["f4"], "rumor_facts": ["f1", "f2"], "mirrored_to_c": ["f2"]}
+{"event_id": "E2191", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f4"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2191", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f4"], "c_ids": ["f1", "f2", "f4", "f5"], "b_only": ["f5"], "rumor_facts": ["f2"], "mirrored_to_c": []}
+{"event_id": "E2192", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f4"], "c_ids": ["f1", "f2", "f4", "f3"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2192", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f3"], "c_ids": ["f1", "f2", "f3", "f4"], "b_only": ["f4"], "rumor_facts": ["f3"], "mirrored_to_c": []}
+{"event_id": "E2193", "branch": "dup", "split": "val", "a_ids": ["f1", "f2", "f4"], "c_ids": ["f1", "f2", "f4", "f5"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2193", "branch": "rumor", "split": "val", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f2"], "b_only": ["f3"], "rumor_facts": ["f1"], "mirrored_to_c": ["f1"]}
+{"event_id": "E2194", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f3", "f4"], "c_ids": ["f1", "f2", "f3", "f4", "f5"], "b_only": ["f6"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2194", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f4", "f6"], "c_ids": ["f1", "f2", "f4", "f6", "f3"], "b_only": ["f3"], "rumor_facts": ["f1", "f2"], "mirrored_to_c": []}
+{"event_id": "E2195", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f3", "f6"], "c_ids": ["f1", "f2", "f3", "f6", "f4"], "b_only": ["f4"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2195", "branch": "rumor", "split": "train", "a_ids": ["f1", "f4", "f5", "f6"], "c_ids": ["f1", "f4", "f5", "f6", "f3"], "b_only": ["f2"], "rumor_facts": ["f4", "f5"], "mirrored_to_c": []}
+{"event_id": "E2196", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f2"], "b_only": ["f4"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2196", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f2"], "b_only": ["f4"], "rumor_facts": ["f1", "f5"], "mirrored_to_c": ["f5"]}
+{"event_id": "E2197", "branch": "dup", "split": "train", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f2"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2197", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f4"], "b_only": ["f4"], "rumor_facts": ["f1", "f5"], "mirrored_to_c": ["f1"]}
+{"event_id": "E2198", "branch": "dup", "split": "val", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f3"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2198", "branch": "rumor", "split": "val", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f4"], "b_only": ["f4"], "rumor_facts": ["f1", "f2"], "mirrored_to_c": ["f2"]}
+{"event_id": "E2200", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f3", "f6"], "c_ids": ["f1", "f2", "f3", "f6", "f4"], "b_only": ["f5"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2200", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f3", "f4"], "c_ids": ["f1", "f2", "f3", "f4", "f6"], "b_only": ["f5"], "rumor_facts": ["f4"], "mirrored_to_c": ["f4"]}
+{"event_id": "E2201", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f3"], "b_only": ["f4"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2201", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f4"], "b_only": ["f3"], "rumor_facts": ["f2", "f5"], "mirrored_to_c": ["f2"]}
+{"event_id": "E2203", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f3"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2203", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f2"], "b_only": ["f2"], "rumor_facts": ["f3"], "mirrored_to_c": []}
+{"event_id": "E2204", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f4"], "b_only": ["f4"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2204", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f2"], "b_only": ["f2"], "rumor_facts": ["f4"], "mirrored_to_c": []}
+{"event_id": "E2205", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f5"], "b_only": ["f5"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2205", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f5"], "b_only": ["f2"], "rumor_facts": ["f3", "f4"], "mirrored_to_c": []}
+{"event_id": "E2206", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f4"], "c_ids": ["f1", "f2", "f4", "f5"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2206", "branch": "rumor", "split": "train", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f2"], "b_only": ["f3"], "rumor_facts": ["f1"], "mirrored_to_c": ["f1"]}
+{"event_id": "E2207", "branch": "dup", "split": "train", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f2"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2207", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f4"], "b_only": ["f2"], "rumor_facts": ["f3"], "mirrored_to_c": ["f3"]}
+{"event_id": "E2208", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f3", "f4"], "c_ids": ["f1", "f2", "f3", "f4", "f5"], "b_only": ["f5"], "rumor_facts": ["f3"], "mirrored_to_c": []}
+{"event_id": "E2209", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f5", "f6"], "c_ids": ["f1", "f3", "f5", "f6", "f4"], "b_only": ["f4"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2209", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f3", "f6"], "c_ids": ["f1", "f2", "f3", "f6", "f5"], "b_only": ["f4"], "rumor_facts": ["f2", "f3"], "mirrored_to_c": ["f2"]}
+{"event_id": "E2211", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f4"], "c_ids": ["f1", "f2", "f4", "f3"], "b_only": ["f5"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2211", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f2"], "b_only": ["f2"], "rumor_facts": ["f4"], "mirrored_to_c": ["f4"]}
+{"event_id": "E2213", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f4", "f6"], "c_ids": ["f1", "f3", "f4", "f6", "f5"], "b_only": ["f5"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2213", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f4", "f6"], "c_ids": ["f1", "f2", "f4", "f6", "f5"], "b_only": ["f5"], "rumor_facts": ["f1"], "mirrored_to_c": ["f1"]}
+{"event_id": "E2214", "branch": "dup", "split": "val", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f2"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2215", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f5"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2215", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f4"], "b_only": ["f3"], "rumor_facts": ["f1", "f2"], "mirrored_to_c": ["f1", "f2"]}
+{"event_id": "E2216", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f4", "f5"], "c_ids": ["f1", "f2", "f4", "f5", "f6"], "b_only": ["f6"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2216", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f5", "f6"], "c_ids": ["f1", "f2", "f5", "f6", "f3"], "b_only": ["f3"], "rumor_facts": ["f1", "f6"], "mirrored_to_c": ["f1"]}
+{"event_id": "E2217", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f4", "f6"], "c_ids": ["f1", "f2", "f4", "f6", "f3"], "b_only": ["f5"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2217", "branch": "rumor", "split": "train", "a_ids": ["f1", "f4", "f5", "f6"], "c_ids": ["f1", "f4", "f5", "f6", "f2"], "b_only": ["f2"], "rumor_facts": ["f1", "f5"], "mirrored_to_c": ["f5"]}
+{"event_id": "E2218", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f5", "f6"], "c_ids": ["f1", "f2", "f5", "f6", "f4"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2218", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f4", "f5"], "c_ids": ["f1", "f2", "f4", "f5", "f3"], "b_only": ["f6"], "rumor_facts": ["f2"], "mirrored_to_c": ["f2"]}
+{"event_id": "E2219", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f3"], "c_ids": ["f1", "f2", "f3", "f4"], "b_only": ["f5"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2219", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f4"], "c_ids": ["f1", "f2", "f4", "f5"], "b_only": ["f5"], "rumor_facts": ["f1", "f2"], "mirrored_to_c": ["f1", "f2"]}
+{"event_id": "E2220", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f4"], "c_ids": ["f1", "f2", "f4", "f3"], "b_only": ["f5"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2220", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f2"], "b_only": ["f2"], "rumor_facts": ["f3"], "mirrored_to_c": ["f3"]}
+{"event_id": "E2221", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f4"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2221", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f2"], "b_only": ["f2"], "rumor_facts": ["f1", "f3"], "mirrored_to_c": ["f1"]}
+{"event_id": "E2222", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f4", "f6"], "c_ids": ["f1", "f3", "f4", "f6", "f2"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2222", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f4", "f5"], "c_ids": ["f1", "f2", "f4", "f5", "f6"], "b_only": ["f6"], "rumor_facts": ["f4", "f5"], "mirrored_to_c": ["f4", "f5"]}
+{"event_id": "E2223", "branch": "dup", "split": "val", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f4"], "b_only": ["f4"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2223", "branch": "rumor", "split": "val", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f5"], "b_only": ["f5"], "rumor_facts": ["f3", "f4"], "mirrored_to_c": ["f3"]}
+{"event_id": "E2224", "branch": "dup", "split": "val", "a_ids": ["f1", "f2", "f4"], "c_ids": ["f1", "f2", "f4", "f5"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2224", "branch": "rumor", "split": "val", "a_ids": ["f1", "f2", "f3"], "c_ids": ["f1", "f2", "f3", "f5"], "b_only": ["f5"], "rumor_facts": ["f2", "f3"], "mirrored_to_c": []}
+{"event_id": "E2225", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f4", "f5"], "c_ids": ["f1", "f3", "f4", "f5", "f6"], "b_only": ["f6"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2225", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f5", "f6"], "c_ids": ["f1", "f3", "f5", "f6", "f4"], "b_only": ["f2"], "rumor_facts": ["f3", "f5"], "mirrored_to_c": ["f3", "f5"]}
+{"event_id": "E2226", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f5", "f6"], "c_ids": ["f1", "f2", "f5", "f6", "f3"], "b_only": ["f4"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2226", "branch": "rumor", "split": "train", "a_ids": ["f1", "f4", "f5", "f6"], "c_ids": ["f1", "f4", "f5", "f6", "f3"], "b_only": ["f2"], "rumor_facts": ["f5", "f6"], "mirrored_to_c": ["f5", "f6"]}
+{"event_id": "E2227", "branch": "dup", "split": "val", "a_ids": ["f1", "f4", "f5", "f6"], "c_ids": ["f1", "f4", "f5", "f6", "f3"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2227", "branch": "rumor", "split": "val", "a_ids": ["f1", "f2", "f3", "f4"], "c_ids": ["f1", "f2", "f3", "f4", "f5"], "b_only": ["f6"], "rumor_facts": ["f2", "f3"], "mirrored_to_c": ["f2", "f3"]}
+{"event_id": "E2230", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f3"], "b_only": ["f4"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2230", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f2"], "b_only": ["f5"], "rumor_facts": ["f1"], "mirrored_to_c": ["f1"]}
+{"event_id": "E2231", "branch": "dup", "split": "train", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f3"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2231", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f4"], "c_ids": ["f1", "f2", "f4", "f5"], "b_only": ["f5"], "rumor_facts": ["f2", "f4"], "mirrored_to_c": ["f4"]}
+{"event_id": "E2232", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f2"], "b_only": ["f4"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2232", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f2"], "b_only": ["f2"], "rumor_facts": ["f4"], "mirrored_to_c": ["f4"]}
+{"event_id": "E2233", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f4", "f5"], "c_ids": ["f1", "f3", "f4", "f5", "f2"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2233", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f4", "f6"], "c_ids": ["f1", "f3", "f4", "f6", "f5"], "b_only": ["f5"], "rumor_facts": ["f1", "f4"], "mirrored_to_c": ["f1"]}
+{"event_id": "E2234", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f3"], "c_ids": ["f1", "f2", "f3", "f5"], "b_only": ["f4"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2234", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f2"], "b_only": ["f4"], "rumor_facts": ["f5"], "mirrored_to_c": []}
+{"event_id": "E2237", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f4"], "c_ids": ["f1", "f2", "f4", "f5"], "b_only": ["f5"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2237", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f2"], "b_only": ["f4"], "rumor_facts": ["f1", "f5"], "mirrored_to_c": ["f1", "f5"]}
+{"event_id": "E2238", "branch": "dup", "split": "val", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f4"], "b_only": ["f4"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2238", "branch": "rumor", "split": "val", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f3"], "b_only": ["f4"], "rumor_facts": ["f2"], "mirrored_to_c": ["f2"]}
+{"event_id": "E2239", "branch": "dup", "split": "train", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f3"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2239", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f4"], "c_ids": ["f1", "f2", "f4", "f3"], "b_only": ["f3"], "rumor_facts": ["f1", "f2"], "mirrored_to_c": ["f2"]}
+{"event_id": "E2240", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f3"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2240", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f2"], "b_only": ["f2"], "rumor_facts": ["f4"], "mirrored_to_c": []}
+{"event_id": "E2241", "branch": "dup", "split": "val", "a_ids": ["f1", "f2", "f3", "f6"], "c_ids": ["f1", "f2", "f3", "f6", "f4"], "b_only": ["f4"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2241", "branch": "rumor", "split": "val", "a_ids": ["f1", "f2", "f5", "f6"], "c_ids": ["f1", "f2", "f5", "f6", "f3"], "b_only": ["f3"], "rumor_facts": ["f5"], "mirrored_to_c": ["f5"]}
+{"event_id": "E2242", "branch": "dup", "split": "train", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f3"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2242", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f4"], "b_only": ["f4"], "rumor_facts": ["f1", "f3"], "mirrored_to_c": ["f1"]}
+{"event_id": "E2243", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f5", "f6"], "c_ids": ["f1", "f2", "f5", "f6", "f3"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2243", "branch": "rumor", "split": "train", "a_ids": ["f1", "f4", "f5", "f6"], "c_ids": ["f1", "f4", "f5", "f6", "f2"], "b_only": ["f3"], "rumor_facts": ["f1"], "mirrored_to_c": []}
+{"event_id": "E2244", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f2"], "b_only": ["f5"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2244", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f4"], "c_ids": ["f1", "f2", "f4", "f3"], "b_only": ["f5"], "rumor_facts": ["f4"], "mirrored_to_c": []}
+{"event_id": "E2245", "branch": "dup", "split": "train", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f3"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2245", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f3"], "c_ids": ["f1", "f2", "f3", "f5"], "b_only": ["f4"], "rumor_facts": ["f1", "f3"], "mirrored_to_c": ["f1", "f3"]}
+{"event_id": "E2246", "branch": "dup", "split": "train", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f2"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2246", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f4"], "b_only": ["f2"], "rumor_facts": ["f1"], "mirrored_to_c": []}
+{"event_id": "E2247", "branch": "rumor", "split": "val", "a_ids": ["f1", "f2", "f3", "f5"], "c_ids": ["f1", "f2", "f3", "f5", "f6"], "b_only": ["f6"], "rumor_facts": ["f1", "f2"], "mirrored_to_c": ["f1"]}
+{"event_id": "E2249", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f3"], "c_ids": ["f1", "f2", "f3", "f5"], "b_only": ["f5"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2249", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f2"], "b_only": ["f2"], "rumor_facts": ["f3", "f5"], "mirrored_to_c": ["f3"]}
+{"event_id": "E2253", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f4"], "b_only": ["f4"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2253", "branch": "rumor", "split": "train", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f2"], "b_only": ["f2"], "rumor_facts": ["f5"], "mirrored_to_c": ["f5"]}
+{"event_id": "E2256", "branch": "dup", "split": "train", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f2"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2256", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f4"], "b_only": ["f4"], "rumor_facts": ["f1", "f2"], "mirrored_to_c": []}
+{"event_id": "E2257", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f5", "f6"], "c_ids": ["f1", "f3", "f5", "f6", "f4"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2257", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f4", "f5"], "c_ids": ["f1", "f3", "f4", "f5", "f6"], "b_only": ["f6"], "rumor_facts": ["f5"], "mirrored_to_c": []}
+{"event_id": "E2258", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f5", "f6"], "c_ids": ["f1", "f2", "f5", "f6", "f3"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2258", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f4", "f5"], "c_ids": ["f1", "f3", "f4", "f5", "f6"], "b_only": ["f6"], "rumor_facts": ["f3"], "mirrored_to_c": []}
+{"event_id": "E2259", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f5", "f6"], "c_ids": ["f1", "f3", "f5", "f6", "f4"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2259", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f5", "f6"], "c_ids": ["f1", "f3", "f5", "f6", "f4"], "b_only": ["f2"], "rumor_facts": ["f6"], "mirrored_to_c": ["f6"]}
+{"event_id": "E2260", "branch": "dup", "split": "val", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f2"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2260", "branch": "rumor", "split": "val", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f2"], "b_only": ["f2"], "rumor_facts": ["f3"], "mirrored_to_c": []}
+{"event_id": "E2262", "branch": "dup", "split": "train", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f2"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2262", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f5"], "b_only": ["f5"], "rumor_facts": ["f4"], "mirrored_to_c": []}
+{"event_id": "E2263", "branch": "dup", "split": "train", "a_ids": ["f1", "f4", "f5", "f6"], "c_ids": ["f1", "f4", "f5", "f6", "f3"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2263", "branch": "rumor", "split": "train", "a_ids": ["f1", "f4", "f5", "f6"], "c_ids": ["f1", "f4", "f5", "f6", "f3"], "b_only": ["f2"], "rumor_facts": ["f1", "f5"], "mirrored_to_c": ["f5"]}
+{"event_id": "E2264", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f4"], "c_ids": ["f1", "f2", "f4", "f5"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2264", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f3"], "c_ids": ["f1", "f2", "f3", "f5"], "b_only": ["f5"], "rumor_facts": ["f1", "f2"], "mirrored_to_c": ["f2"]}
+{"event_id": "E2266", "branch": "dup", "split": "val", "a_ids": ["f1", "f2", "f3"], "c_ids": ["f1", "f2", "f3", "f5"], "b_only": ["f4"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2266", "branch": "rumor", "split": "val", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f2"], "b_only": ["f2"], "rumor_facts": ["f1"], "mirrored_to_c": ["f1"]}
+{"event_id": "E2267", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f3"], "c_ids": ["f1", "f2", "f3", "f4"], "b_only": ["f5"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2267", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f5"], "b_only": ["f5"], "rumor_facts": ["f1", "f4"], "mirrored_to_c": ["f4"]}
+{"event_id": "E2268", "branch": "dup", "split": "val", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f3"], "b_only": ["f4"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2268", "branch": "rumor", "split": "val", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f2"], "b_only": ["f4"], "rumor_facts": ["f3", "f5"], "mirrored_to_c": ["f5"]}
+{"event_id": "E2269", "branch": "dup", "split": "val", "a_ids": ["f1", "f3", "f4", "f5"], "c_ids": ["f1", "f3", "f4", "f5", "f6"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2269", "branch": "rumor", "split": "val", "a_ids": ["f1", "f2", "f4", "f6"], "c_ids": ["f1", "f2", "f4", "f6", "f3"], "b_only": ["f3"], "rumor_facts": ["f6"], "mirrored_to_c": ["f6"]}
+{"event_id": "E2270", "branch": "dup", "split": "val", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f4"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2271", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f3"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2271", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f3"], "b_only": ["f3"], "rumor_facts": ["f1", "f2"], "mirrored_to_c": ["f2"]}
+{"event_id": "E2272", "branch": "dup", "split": "train", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f3"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2272", "branch": "rumor", "split": "train", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f3"], "b_only": ["f2"], "rumor_facts": ["f1", "f4"], "mirrored_to_c": ["f1", "f4"]}
+{"event_id": "E2273", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f4"], "c_ids": ["f1", "f2", "f4", "f5"], "b_only": ["f5"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2273", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f4"], "b_only": ["f3"], "rumor_facts": ["f2", "f5"], "mirrored_to_c": ["f2"]}
+{"event_id": "E2274", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f4", "f5"], "c_ids": ["f1", "f3", "f4", "f5", "f6"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2274", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f3", "f6"], "c_ids": ["f1", "f2", "f3", "f6", "f5"], "b_only": ["f5"], "rumor_facts": ["f3"], "mirrored_to_c": ["f3"]}
+{"event_id": "E2276", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f4", "f6"], "c_ids": ["f1", "f2", "f4", "f6", "f3"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2276", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f4", "f6"], "c_ids": ["f1", "f3", "f4", "f6", "f2"], "b_only": ["f5"], "rumor_facts": ["f1", "f3"], "mirrored_to_c": []}
+{"event_id": "E2277", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f4"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2277", "branch": "rumor", "split": "train", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f2"], "b_only": ["f2"], "rumor_facts": ["f1", "f5"], "mirrored_to_c": []}
+{"event_id": "E2278", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f4", "f6"], "c_ids": ["f1", "f3", "f4", "f6", "f5"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2278", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f3", "f5"], "c_ids": ["f1", "f2", "f3", "f5", "f4"], "b_only": ["f6"], "rumor_facts": ["f2"], "mirrored_to_c": ["f2"]}
+{"event_id": "E2279", "branch": "rumor", "split": "val", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f4"], "b_only": ["f3"], "rumor_facts": ["f2"], "mirrored_to_c": []}
+{"event_id": "E2280", "branch": "dup", "split": "val", "a_ids": ["f1", "f2", "f4"], "c_ids": ["f1", "f2", "f4", "f3"], "b_only": ["f5"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2280", "branch": "rumor", "split": "val", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f2"], "b_only": ["f2"], "rumor_facts": ["f4", "f5"], "mirrored_to_c": ["f5"]}
+{"event_id": "E2281", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f3"], "c_ids": ["f1", "f2", "f3", "f4"], "b_only": ["f4"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2281", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f2"], "b_only": ["f4"], "rumor_facts": ["f3", "f5"], "mirrored_to_c": ["f3"]}
+{"event_id": "E2282", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f2"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2282", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f5"], "b_only": ["f2"], "rumor_facts": ["f3", "f4"], "mirrored_to_c": ["f3", "f4"]}
+{"event_id": "E2283", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f3"], "c_ids": ["f1", "f2", "f3", "f5"], "b_only": ["f5"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2283", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f2"], "b_only": ["f5"], "rumor_facts": ["f1", "f4"], "mirrored_to_c": ["f1"]}
+{"event_id": "E2284", "branch": "dup", "split": "val", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f5"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2285", "branch": "dup", "split": "train", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f2"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2285", "branch": "rumor", "split": "train", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f2"], "b_only": ["f2"], "rumor_facts": ["f5"], "mirrored_to_c": ["f5"]}
+{"event_id": "E2286", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f5", "f6"], "c_ids": ["f1", "f2", "f5", "f6", "f4"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2286", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f3", "f5"], "c_ids": ["f1", "f2", "f3", "f5", "f4"], "b_only": ["f6"], "rumor_facts": ["f1"], "mirrored_to_c": ["f1"]}
+{"event_id": "E2288", "branch": "dup", "split": "val", "a_ids": ["f1", "f2", "f4"], "c_ids": ["f1", "f2", "f4", "f5"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2288", "branch": "rumor", "split": "val", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f2"], "b_only": ["f4"], "rumor_facts": ["f3", "f5"], "mirrored_to_c": ["f5"]}
+{"event_id": "E2290", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f2"], "b_only": ["f5"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2290", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f4"], "b_only": ["f4"], "rumor_facts": ["f2", "f5"], "mirrored_to_c": ["f2", "f5"]}
+{"event_id": "E2291", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f3"], "c_ids": ["f1", "f2", "f3", "f5"], "b_only": ["f4"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2291", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f5"], "b_only": ["f5"], "rumor_facts": ["f1", "f3"], "mirrored_to_c": ["f3"]}
+{"event_id": "E2292", "branch": "dup", "split": "train", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f2"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2292", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f4"], "b_only": ["f4"], "rumor_facts": ["f1", "f3"], "mirrored_to_c": []}
+{"event_id": "E2293", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f4", "f5"], "c_ids": ["f1", "f2", "f4", "f5", "f3"], "b_only": ["f6"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2293", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f4", "f5"], "c_ids": ["f1", "f2", "f4", "f5", "f6"], "b_only": ["f3"], "rumor_facts": ["f1", "f2"], "mirrored_to_c": ["f1"]}
+{"event_id": "E2294", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f3", "f4"], "c_ids": ["f1", "f2", "f3", "f4", "f6"], "b_only": ["f6"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2294", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f3", "f4"], "c_ids": ["f1", "f2", "f3", "f4", "f5"], "b_only": ["f6"], "rumor_facts": ["f1"], "mirrored_to_c": ["f1"]}
+{"event_id": "E2295", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f4", "f5"], "c_ids": ["f1", "f2", "f4", "f5", "f3"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2295", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f3", "f5"], "c_ids": ["f1", "f2", "f3", "f5", "f6"], "b_only": ["f6"], "rumor_facts": ["f2", "f5"], "mirrored_to_c": ["f2"]}
+{"event_id": "E2296", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f4"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2296", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f3"], "c_ids": ["f1", "f2", "f3", "f5"], "b_only": ["f5"], "rumor_facts": ["f1", "f3"], "mirrored_to_c": ["f1"]}
+{"event_id": "E2297", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f2"], "b_only": ["f5"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2297", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f3"], "c_ids": ["f1", "f2", "f3", "f5"], "b_only": ["f4"], "rumor_facts": ["f2", "f3"], "mirrored_to_c": []}
+{"event_id": "E2298", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f5"], "b_only": ["f5"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2298", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f4"], "c_ids": ["f1", "f2", "f4", "f3"], "b_only": ["f3"], "rumor_facts": ["f2", "f4"], "mirrored_to_c": ["f2"]}
+{"event_id": "E2299", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f4", "f6"], "c_ids": ["f1", "f2", "f4", "f6", "f5"], "b_only": ["f5"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2299", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f4", "f6"], "c_ids": ["f1", "f3", "f4", "f6", "f2"], "b_only": ["f5"], "rumor_facts": ["f3", "f6"], "mirrored_to_c": ["f3", "f6"]}
+{"event_id": "E2300", "branch": "dup", "split": "val", "a_ids": ["f1", "f2", "f3", "f6"], "c_ids": ["f1", "f2", "f3", "f6", "f5"], "b_only": ["f5"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2301", "branch": "dup", "split": "train", "a_ids": ["f1", "f4", "f5", "f6"], "c_ids": ["f1", "f4", "f5", "f6", "f3"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2301", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f4", "f5"], "c_ids": ["f1", "f3", "f4", "f5", "f6"], "b_only": ["f2"], "rumor_facts": ["f1", "f4"], "mirrored_to_c": ["f4"]}
+{"event_id": "E2302", "branch": "dup", "split": "train", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f3"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2302", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f2"], "b_only": ["f2"], "rumor_facts": ["f3", "f5"], "mirrored_to_c": ["f5"]}
+{"event_id": "E2303", "branch": "dup", "split": "val", "a_ids": ["f1", "f2", "f3"], "c_ids": ["f1", "f2", "f3", "f4"], "b_only": ["f4"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2303", "branch": "rumor", "split": "val", "a_ids": ["f1", "f2", "f4"], "c_ids": ["f1", "f2", "f4", "f5"], "b_only": ["f3"], "rumor_facts": ["f2", "f4"], "mirrored_to_c": ["f2", "f4"]}
+{"event_id": "E2304", "branch": "dup", "split": "val", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f2"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2304", "branch": "rumor", "split": "val", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f4"], "b_only": ["f4"], "rumor_facts": ["f3", "f5"], "mirrored_to_c": ["f3"]}
+{"event_id": "E2305", "branch": "dup", "split": "train", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f2"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2305", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f2"], "b_only": ["f2"], "rumor_facts": ["f1"], "mirrored_to_c": []}
+{"event_id": "E2306", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f2"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2306", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f4"], "c_ids": ["f1", "f2", "f4", "f5"], "b_only": ["f3"], "rumor_facts": ["f1"], "mirrored_to_c": []}
+{"event_id": "E2307", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f2"], "b_only": ["f5"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2307", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f4"], "b_only": ["f2"], "rumor_facts": ["f1", "f5"], "mirrored_to_c": ["f1", "f5"]}
+{"event_id": "E2309", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f5", "f6"], "c_ids": ["f1", "f3", "f5", "f6", "f2"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2309", "branch": "rumor", "split": "train", "a_ids": ["f1", "f4", "f5", "f6"], "c_ids": ["f1", "f4", "f5", "f6", "f2"], "b_only": ["f2"], "rumor_facts": ["f1"], "mirrored_to_c": ["f1"]}
+{"event_id": "E2310", "branch": "dup", "split": "train", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f2"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2310", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f5"], "b_only": ["f5"], "rumor_facts": ["f3", "f4"], "mirrored_to_c": ["f3", "f4"]}
+{"event_id": "E2311", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f4"], "c_ids": ["f1", "f2", "f4", "f5"], "b_only": ["f5"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2311", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f4"], "c_ids": ["f1", "f2", "f4", "f5"], "b_only": ["f5"], "rumor_facts": ["f1", "f4"], "mirrored_to_c": ["f4"]}
+{"event_id": "E2312", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f4"], "c_ids": ["f1", "f2", "f4", "f5"], "b_only": ["f5"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2312", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f4"], "c_ids": ["f1", "f2", "f4", "f3"], "b_only": ["f3"], "rumor_facts": ["f1"], "mirrored_to_c": []}
+{"event_id": "E2313", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f2"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2313", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f3"], "c_ids": ["f1", "f2", "f3", "f5"], "b_only": ["f5"], "rumor_facts": ["f1"], "mirrored_to_c": ["f1"]}
+{"event_id": "E2314", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f5", "f6"], "c_ids": ["f1", "f3", "f5", "f6", "f4"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2314", "branch": "rumor", "split": "train", "a_ids": ["f1", "f4", "f5", "f6"], "c_ids": ["f1", "f4", "f5", "f6", "f3"], "b_only": ["f3"], "rumor_facts": ["f6"], "mirrored_to_c": ["f6"]}
+{"event_id": "E2315", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f3", "f5"], "c_ids": ["f1", "f2", "f3", "f5", "f6"], "b_only": ["f6"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2315", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f3", "f4"], "c_ids": ["f1", "f2", "f3", "f4", "f6"], "b_only": ["f5"], "rumor_facts": ["f2"], "mirrored_to_c": []}
+{"event_id": "E2316", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f5"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2316", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f4"], "b_only": ["f2"], "rumor_facts": ["f3", "f5"], "mirrored_to_c": []}
+{"event_id": "E2317", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f2"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2317", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f4"], "b_only": ["f4"], "rumor_facts": ["f1", "f2"], "mirrored_to_c": ["f1"]}
+{"event_id": "E2318", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f3"], "c_ids": ["f1", "f2", "f3", "f5"], "b_only": ["f4"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2318", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f4"], "b_only": ["f4"], "rumor_facts": ["f1", "f5"], "mirrored_to_c": ["f1"]}
+{"event_id": "E2319", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f5", "f6"], "c_ids": ["f1", "f3", "f5", "f6", "f4"], "b_only": ["f4"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2319", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f3", "f5"], "c_ids": ["f1", "f2", "f3", "f5", "f6"], "b_only": ["f4"], "rumor_facts": ["f2", "f3"], "mirrored_to_c": ["f2"]}
+{"event_id": "E2321", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f4"], "b_only": ["f4"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2321", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f3"], "c_ids": ["f1", "f2", "f3", "f5"], "b_only": ["f5"], "rumor_facts": ["f3"], "mirrored_to_c": ["f3"]}
+{"event_id": "E2322", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f5", "f6"], "c_ids": ["f1", "f2", "f5", "f6", "f3"], "b_only": ["f4"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2322", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f5", "f6"], "c_ids": ["f1", "f3", "f5", "f6", "f4"], "b_only": ["f2"], "rumor_facts": ["f5", "f6"], "mirrored_to_c": ["f5", "f6"]}
+{"event_id": "E2324", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f4"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2324", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f4"], "b_only": ["f4"], "rumor_facts": ["f1", "f5"], "mirrored_to_c": ["f1", "f5"]}
+{"event_id": "E2325", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f2"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2325", "branch": "rumor", "split": "train", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f2"], "b_only": ["f3"], "rumor_facts": ["f5"], "mirrored_to_c": []}
+{"event_id": "E2326", "branch": "rumor", "split": "val", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f5"], "b_only": ["f2"], "rumor_facts": ["f3"], "mirrored_to_c": []}
+{"event_id": "E2327", "branch": "dup", "split": "val", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f3"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2327", "branch": "rumor", "split": "val", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f3"], "b_only": ["f3"], "rumor_facts": ["f1", "f5"], "mirrored_to_c": []}
+{"event_id": "E2328", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f3"], "c_ids": ["f1", "f2", "f3", "f4"], "b_only": ["f4"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2328", "branch": "rumor", "split": "train", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f3"], "b_only": ["f3"], "rumor_facts": ["f1"], "mirrored_to_c": ["f1"]}
+{"event_id": "E2329", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f4", "f6"], "c_ids": ["f1", "f3", "f4", "f6", "f5"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2329", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f3", "f5"], "c_ids": ["f1", "f2", "f3", "f5", "f4"], "b_only": ["f4"], "rumor_facts": ["f1", "f3"], "mirrored_to_c": ["f1", "f3"]}
+{"event_id": "E2330", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f4", "f5"], "c_ids": ["f1", "f3", "f4", "f5", "f2"], "b_only": ["f6"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2330", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f4", "f5"], "c_ids": ["f1", "f2", "f4", "f5", "f6"], "b_only": ["f3"], "rumor_facts": ["f4"], "mirrored_to_c": []}
+{"event_id": "E2331", "branch": "rumor", "split": "val", "a_ids": ["f1", "f2", "f4", "f6"], "c_ids": ["f1", "f2", "f4", "f6", "f3"], "b_only": ["f3"], "rumor_facts": ["f2", "f6"], "mirrored_to_c": ["f6"]}
+{"event_id": "E2332", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f2"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2332", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f2"], "b_only": ["f2"], "rumor_facts": ["f1"], "mirrored_to_c": []}
+{"event_id": "E2335", "branch": "dup", "split": "train", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f3"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2335", "branch": "rumor", "split": "train", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f3"], "b_only": ["f3"], "rumor_facts": ["f4", "f5"], "mirrored_to_c": []}
+{"event_id": "E2336", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f4", "f5"], "c_ids": ["f1", "f3", "f4", "f5", "f6"], "b_only": ["f6"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2336", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f4", "f6"], "c_ids": ["f1", "f3", "f4", "f6", "f2"], "b_only": ["f2"], "rumor_facts": ["f3", "f6"], "mirrored_to_c": ["f3"]}
+{"event_id": "E2337", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f4"], "b_only": ["f4"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2337", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f4"], "b_only": ["f3"], "rumor_facts": ["f1", "f5"], "mirrored_to_c": ["f1"]}
+{"event_id": "E2338", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f4"], "c_ids": ["f1", "f2", "f4", "f3"], "b_only": ["f5"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2338", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f3"], "c_ids": ["f1", "f2", "f3", "f4"], "b_only": ["f4"], "rumor_facts": ["f2"], "mirrored_to_c": ["f2"]}
+{"event_id": "E2339", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f5", "f6"], "c_ids": ["f1", "f2", "f5", "f6", "f4"], "b_only": ["f4"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2339", "branch": "rumor", "split": "train", "a_ids": ["f1", "f4", "f5", "f6"], "c_ids": ["f1", "f4", "f5", "f6", "f2"], "b_only": ["f3"], "rumor_facts": ["f5"], "mirrored_to_c": []}
+{"event_id": "E2340", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f4"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2340", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f4"], "b_only": ["f2"], "rumor_facts": ["f1"], "mirrored_to_c": ["f1"]}
+{"event_id": "E2341", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f3"], "c_ids": ["f1", "f2", "f3", "f5"], "b_only": ["f4"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2341", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f3"], "b_only": ["f3"], "rumor_facts": ["f2"], "mirrored_to_c": ["f2"]}
+{"event_id": "E2342", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f4", "f5"], "c_ids": ["f1", "f3", "f4", "f5", "f2"], "b_only": ["f6"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2342", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f4", "f6"], "c_ids": ["f1", "f3", "f4", "f6", "f5"], "b_only": ["f5"], "rumor_facts": ["f1", "f4"], "mirrored_to_c": []}
+{"event_id": "E2343", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f3", "f5"], "c_ids": ["f1", "f2", "f3", "f5", "f6"], "b_only": ["f6"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2343", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f4", "f6"], "c_ids": ["f1", "f3", "f4", "f6", "f5"], "b_only": ["f5"], "rumor_facts": ["f3", "f6"], "mirrored_to_c": ["f3"]}
+{"event_id": "E2344", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f2"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2344", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f2"], "b_only": ["f2"], "rumor_facts": ["f1"], "mirrored_to_c": []}
+{"event_id": "E2345", "branch": "dup", "split": "val", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f4"], "b_only": ["f4"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2345", "branch": "rumor", "split": "val", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f4"], "b_only": ["f4"], "rumor_facts": ["f3", "f5"], "mirrored_to_c": []}
+{"event_id": "E2346", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f3"], "c_ids": ["f1", "f2", "f3", "f5"], "b_only": ["f5"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2346", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f2"], "b_only": ["f2"], "rumor_facts": ["f5"], "mirrored_to_c": []}
+{"event_id": "E2347", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f4"], "b_only": ["f4"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2347", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f4"], "c_ids": ["f1", "f2", "f4", "f5"], "b_only": ["f3"], "rumor_facts": ["f1", "f2"], "mirrored_to_c": ["f1"]}
+{"event_id": "E2348", "branch": "dup", "split": "train", "a_ids": ["f1", "f4", "f5", "f6"], "c_ids": ["f1", "f4", "f5", "f6", "f2"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2348", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f4", "f6"], "c_ids": ["f1", "f3", "f4", "f6", "f2"], "b_only": ["f5"], "rumor_facts": ["f1", "f4"], "mirrored_to_c": ["f1", "f4"]}
+{"event_id": "E2349", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f3"], "c_ids": ["f1", "f2", "f3", "f4"], "b_only": ["f4"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2349", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f2"], "b_only": ["f5"], "rumor_facts": ["f1", "f3"], "mirrored_to_c": []}
+{"event_id": "E2350", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f5", "f6"], "c_ids": ["f1", "f3", "f5", "f6", "f4"], "b_only": ["f4"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2350", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f4", "f5"], "c_ids": ["f1", "f2", "f4", "f5", "f6"], "b_only": ["f3"], "rumor_facts": ["f5"], "mirrored_to_c": []}
+{"event_id": "E2352", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f4", "f6"], "c_ids": ["f1", "f2", "f4", "f6", "f3"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2352", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f4", "f5"], "c_ids": ["f1", "f2", "f4", "f5", "f6"], "b_only": ["f6"], "rumor_facts": ["f5"], "mirrored_to_c": ["f5"]}
+{"event_id": "E2353", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f3", "f4"], "c_ids": ["f1", "f2", "f3", "f4", "f6"], "b_only": ["f6"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2353", "branch": "rumor", "split": "train", "a_ids": ["f1", "f4", "f5", "f6"], "c_ids": ["f1", "f4", "f5", "f6", "f2"], "b_only": ["f2"], "rumor_facts": ["f6"], "mirrored_to_c": []}
+{"event_id": "E2354", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f4", "f5"], "c_ids": ["f1", "f2", "f4", "f5", "f3"], "b_only": ["f6"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2354", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f5", "f6"], "c_ids": ["f1", "f3", "f5", "f6", "f2"], "b_only": ["f2"], "rumor_facts": ["f1", "f3"], "mirrored_to_c": []}
+{"event_id": "E2355", "branch": "dup", "split": "train", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f2"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2355", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f2"], "b_only": ["f5"], "rumor_facts": ["f1", "f4"], "mirrored_to_c": ["f1", "f4"]}
+{"event_id": "E2357", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f3"], "c_ids": ["f1", "f2", "f3", "f4"], "b_only": ["f5"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2357", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f3"], "b_only": ["f4"], "rumor_facts": ["f2"], "mirrored_to_c": ["f2"]}
+{"event_id": "E2358", "branch": "dup", "split": "val", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f2"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2358", "branch": "rumor", "split": "val", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f4"], "b_only": ["f3"], "rumor_facts": ["f1", "f2"], "mirrored_to_c": ["f2"]}
+{"event_id": "E2359", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f3"], "b_only": ["f4"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2359", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f4"], "b_only": ["f4"], "rumor_facts": ["f2", "f5"], "mirrored_to_c": []}
+{"event_id": "E2360", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f5"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2360", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f4"], "b_only": ["f2"], "rumor_facts": ["f1", "f3"], "mirrored_to_c": []}
+{"event_id": "E2361", "branch": "dup", "split": "train", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f2"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2361", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f4"], "b_only": ["f2"], "rumor_facts": ["f1"], "mirrored_to_c": ["f1"]}
+{"event_id": "E2362", "branch": "dup", "split": "val", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f2"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2363", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f3"], "b_only": ["f4"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2363", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f4"], "b_only": ["f3"], "rumor_facts": ["f2"], "mirrored_to_c": ["f2"]}
+{"event_id": "E2364", "branch": "dup", "split": "train", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f2"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2364", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f4"], "c_ids": ["f1", "f2", "f4", "f5"], "b_only": ["f5"], "rumor_facts": ["f4"], "mirrored_to_c": []}
+{"event_id": "E2365", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f2"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2365", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f3"], "c_ids": ["f1", "f2", "f3", "f5"], "b_only": ["f4"], "rumor_facts": ["f1", "f2"], "mirrored_to_c": ["f1"]}
+{"event_id": "E2367", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f4"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2367", "branch": "rumor", "split": "train", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f2"], "b_only": ["f2"], "rumor_facts": ["f5"], "mirrored_to_c": ["f5"]}
+{"event_id": "E2368", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f3"], "c_ids": ["f1", "f2", "f3", "f5"], "b_only": ["f5"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2368", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f3"], "c_ids": ["f1", "f2", "f3", "f5"], "b_only": ["f5"], "rumor_facts": ["f1"], "mirrored_to_c": []}
+{"event_id": "E2369", "branch": "dup", "split": "train", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f2"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2369", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f3"], "b_only": ["f4"], "rumor_facts": ["f1", "f2"], "mirrored_to_c": ["f1"]}
+{"event_id": "E2371", "branch": "dup", "split": "train", "a_ids": ["f1", "f4", "f5", "f6"], "c_ids": ["f1", "f4", "f5", "f6", "f2"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2371", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f4", "f6"], "c_ids": ["f1", "f3", "f4", "f6", "f5"], "b_only": ["f2"], "rumor_facts": ["f1", "f3"], "mirrored_to_c": ["f1", "f3"]}
+{"event_id": "E2372", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f3"], "c_ids": ["f1", "f2", "f3", "f4"], "b_only": ["f5"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2372", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f3"], "b_only": ["f4"], "rumor_facts": ["f2", "f5"], "mirrored_to_c": ["f2"]}
+{"event_id": "E2373", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f4"], "b_only": ["f4"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2373", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f2"], "b_only": ["f2"], "rumor_facts": ["f3"], "mirrored_to_c": []}
+{"event_id": "E2374", "branch": "dup", "split": "train", "a_ids": ["f1", "f4", "f5", "f6"], "c_ids": ["f1", "f4", "f5", "f6", "f2"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2374", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f5", "f6"], "c_ids": ["f1", "f3", "f5", "f6", "f2"], "b_only": ["f4"], "rumor_facts": ["f3", "f5"], "mirrored_to_c": []}
+{"event_id": "E2375", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f5"], "b_only": ["f5"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2375", "branch": "rumor", "split": "train", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f2"], "b_only": ["f2"], "rumor_facts": ["f1", "f5"], "mirrored_to_c": []}
+{"event_id": "E2376", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f3", "f4"], "c_ids": ["f1", "f2", "f3", "f4", "f6"], "b_only": ["f6"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2376", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f4", "f6"], "c_ids": ["f1", "f3", "f4", "f6", "f2"], "b_only": ["f5"], "rumor_facts": ["f1", "f6"], "mirrored_to_c": ["f6"]}
+{"event_id": "E2377", "branch": "dup", "split": "val", "a_ids": ["f1", "f3", "f4", "f6"], "c_ids": ["f1", "f3", "f4", "f6", "f2"], "b_only": ["f5"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2377", "branch": "rumor", "split": "val", "a_ids": ["f1", "f2", "f3", "f4"], "c_ids": ["f1", "f2", "f3", "f4", "f5"], "b_only": ["f6"], "rumor_facts": ["f4"], "mirrored_to_c": []}
+{"event_id": "E2379", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f3", "f6"], "c_ids": ["f1", "f2", "f3", "f6", "f4"], "b_only": ["f4"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2379", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f3", "f5"], "c_ids": ["f1", "f2", "f3", "f5", "f6"], "b_only": ["f4"], "rumor_facts": ["f5"], "mirrored_to_c": ["f5"]}
+{"event_id": "E2380", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f4"], "c_ids": ["f1", "f2", "f4", "f5"], "b_only": ["f5"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2380", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f3"], "b_only": ["f3"], "rumor_facts": ["f1", "f5"], "mirrored_to_c": []}
+{"event_id": "E2381", "branch": "dup", "split": "val", "a_ids": ["f1", "f2", "f3"], "c_ids": ["f1", "f2", "f3", "f5"], "b_only": ["f4"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2382", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f2"], "b_only": ["f5"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2382", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f4"], "c_ids": ["f1", "f2", "f4", "f5"], "b_only": ["f3"], "rumor_facts": ["f1", "f4"], "mirrored_to_c": []}
+{"event_id": "E2383", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f2"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2383", "branch": "rumor", "split": "train", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f2"], "b_only": ["f3"], "rumor_facts": ["f1"], "mirrored_to_c": ["f1"]}
+{"event_id": "E2384", "branch": "dup", "split": "train", "a_ids": ["f1", "f4", "f5", "f6"], "c_ids": ["f1", "f4", "f5", "f6", "f3"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2384", "branch": "rumor", "split": "train", "a_ids": ["f1", "f4", "f5", "f6"], "c_ids": ["f1", "f4", "f5", "f6", "f2"], "b_only": ["f2"], "rumor_facts": ["f4", "f5"], "mirrored_to_c": ["f4", "f5"]}
+{"event_id": "E2385", "branch": "dup", "split": "train", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f3"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2385", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f4"], "b_only": ["f3"], "rumor_facts": ["f1", "f5"], "mirrored_to_c": []}
+{"event_id": "E2387", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f4"], "c_ids": ["f1", "f2", "f4", "f3"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2387", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f5"], "b_only": ["f2"], "rumor_facts": ["f3", "f4"], "mirrored_to_c": ["f3", "f4"]}
+{"event_id": "E2388", "branch": "dup", "split": "val", "a_ids": ["f1", "f4", "f5"], "c_ids": ["f1", "f4", "f5", "f2"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2388", "branch": "rumor", "split": "val", "a_ids": ["f1", "f2", "f3"], "c_ids": ["f1", "f2", "f3", "f4"], "b_only": ["f4"], "rumor_facts": ["f1", "f2"], "mirrored_to_c": ["f1", "f2"]}
+{"event_id": "E2390", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f4", "f6"], "c_ids": ["f1", "f2", "f4", "f6", "f3"], "b_only": ["f5"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2390", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f5", "f6"], "c_ids": ["f1", "f2", "f5", "f6", "f4"], "b_only": ["f3"], "rumor_facts": ["f5", "f6"], "mirrored_to_c": []}
+{"event_id": "E2391", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f4", "f6"], "c_ids": ["f1", "f3", "f4", "f6", "f5"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2391", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f3", "f6"], "c_ids": ["f1", "f2", "f3", "f6", "f4"], "b_only": ["f5"], "rumor_facts": ["f3", "f6"], "mirrored_to_c": []}
+{"event_id": "E2392", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f4", "f6"], "c_ids": ["f1", "f2", "f4", "f6", "f5"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2392", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f4", "f6"], "c_ids": ["f1", "f2", "f4", "f6", "f5"], "b_only": ["f3"], "rumor_facts": ["f2", "f4"], "mirrored_to_c": []}
+{"event_id": "E2393", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f5"], "c_ids": ["f1", "f2", "f5", "f4"], "b_only": ["f4"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2393", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f2"], "b_only": ["f2"], "rumor_facts": ["f1"], "mirrored_to_c": ["f1"]}
+{"event_id": "E2394", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f4"], "c_ids": ["f1", "f3", "f4", "f5"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2394", "branch": "rumor", "split": "train", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f2"], "b_only": ["f4"], "rumor_facts": ["f1", "f5"], "mirrored_to_c": ["f1", "f5"]}
+{"event_id": "E2395", "branch": "dup", "split": "train", "a_ids": ["f1", "f2", "f4", "f5"], "c_ids": ["f1", "f2", "f4", "f5", "f6"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2395", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f4", "f5"], "c_ids": ["f1", "f2", "f4", "f5", "f3"], "b_only": ["f3"], "rumor_facts": ["f2"], "mirrored_to_c": ["f2"]}
+{"event_id": "E2396", "branch": "dup", "split": "val", "a_ids": ["f1", "f2", "f4"], "c_ids": ["f1", "f2", "f4", "f3"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2398", "branch": "dup", "split": "val", "a_ids": ["f1", "f2", "f5", "f6"], "c_ids": ["f1", "f2", "f5", "f6", "f3"], "b_only": ["f3"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2400", "branch": "dup", "split": "train", "a_ids": ["f1", "f3", "f5"], "c_ids": ["f1", "f3", "f5", "f4"], "b_only": ["f2"], "rumor_facts": [], "mirrored_to_c": []}
+{"event_id": "E2400", "branch": "rumor", "split": "train", "a_ids": ["f1", "f2", "f4"], "c_ids": ["f1", "f2", "f4", "f3"], "b_only": ["f5"], "rumor_facts": ["f2"], "mirrored_to_c": []}

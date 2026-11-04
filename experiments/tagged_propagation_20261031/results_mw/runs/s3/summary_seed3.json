@@ -1,0 +1,35 @@
+{
+ "best_val_score": -0.2807694695657119,
+ "best_epoch": 2,
+ "thr": [
+  0.37499999999999994,
+  0.5
+ ],
+ "test": {},
+ "args": {
+  "data": "mw_train/pairs",
+  "model": "/mnt/hdd4/models/research/NEWS-COPY-wire-clustering-na",
+  "out": "/mnt/hdd4/dujddx/tagged_pairce_mw_antib0.3_s3_20261104",
+  "init": "newscopy",
+  "freeze": 4,
+  "epochs": 10,
+  "patience": 3,
+  "select": "val_loss",
+  "w_same0": 5.0,
+  "w_dim2": 5.0,
+  "min_epochs": 3,
+  "batch": 8,
+  "lr_enc": 2e-05,
+  "lr_head": 0.0001,
+  "wd": 0.01,
+  "seed": 3,
+  "limit": 0,
+  "rel": true,
+  "lex": false,
+  "w_rank": 0.0,
+  "w_anti": 0.0,
+  "w_anti_b": 0.3,
+  "init_ckpt": null
+ },
+ "seconds": 787.7
+}

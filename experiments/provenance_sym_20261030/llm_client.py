@@ -26,9 +26,16 @@ UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
 _THINK = re.compile(r"<think\b[^>]*>.*?</think\s*>", re.S | re.I)
 
 
+# 推理型写手（gpt-oss 等）的可选设置，默认不生效：
+#   TI_TEMPLATE_KWARGS  JSON，并入 chat_template_kwargs，如 {"reasoning_effort": "low"}
+#   TI_MIN_MAX_TOKENS   max_tokens 的下限；推理 token 也计入 max_tokens，正文另放 content
+TEMPLATE_KWARGS = json.loads(os.environ.get("TI_TEMPLATE_KWARGS", "{}"))
+MIN_MAX_TOKENS = int(os.environ.get("TI_MIN_MAX_TOKENS", "0"))
+
+
 def _local(prompt, max_tokens, temperature, timeout, seed=None):
-    body = {"model": MODEL, "max_tokens": max_tokens, "temperature": temperature,
-            "chat_template_kwargs": {"enable_thinking": False},
+    body = {"model": MODEL, "max_tokens": max(max_tokens, MIN_MAX_TOKENS), "temperature": temperature,
+            "chat_template_kwargs": {"enable_thinking": False, **TEMPLATE_KWARGS},
             "messages": [{"role": "user", "content": prompt}]}
     if seed is not None:
         body["seed"] = seed
